@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "herbalist_node_1",
+        "herbalist_node_2"
+      ],
+      [
+        "herbalist_node_2",
+        "herbalist_node_3"
+      ],
+      [
+        "herbalist_node_3",
+        "herbalist_node_4"
+      ],
+      [
+        "herbalist_node_4",
+        "herbalist_node_5"
+      ],
+      [
+        "herbalist_node_5",
+        "herbalist_node_6"
+      ],
+      [
+        "herbalist_node_6",
+        "herbalist_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MHM",
+    " T "
+  ],
+  "key": {
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "M": {
+      "item": "f_rank_days:refined_mana_stone"
+    },
+    "T": {
+      "item": "f_rank_days:tempering_stone"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:high_tempering_core",
+    "count": 2
+  }
+}

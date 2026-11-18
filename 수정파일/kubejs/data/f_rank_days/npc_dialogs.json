@@ -1,0 +1,744 @@
+{
+  "schema_version": 7,
+  "ui_theme": {
+    "base_style": "guild_parchment_fantasy_rpg",
+    "parchment_hex": "#F2E4C4",
+    "dark_wood_hex": "#3A2416",
+    "gold_trim_hex": "#D4AF55",
+    "burgundy_point_hex": "#6E221C",
+    "supported_gui_scales": [
+      2,
+      3,
+      4
+    ]
+  },
+  "npcs": {
+    "roman": {
+      "npc_id": "roman",
+      "name": "로만",
+      "job_grade_badge": "B급 연금술사",
+      "affiliation": "로만의 연금술 물약상 (동쪽 상업 지구)",
+      "subtitle": "혼자 힘으로 물약상을 일군 고양이 수인 연금술사",
+      "portrait": "f_rank_days:textures/npc/roman_portrait.png",
+      "portrait_is_placeholder": false,
+      "theme": {
+        "primary": "#5B3B73",
+        "accent": "#B98CE0",
+        "badge": "#432859"
+      },
+      "greetings": {
+        "default": "필요한 물약이 있으면 말해. 구경만 할 거면 방해하지 말고.",
+        "rapport": "또 왔네. 약병 깨뜨리지만 않으면 잠깐 구경하는 정도는 봐줄게.",
+        "trust": "...네가 가져오는 약초는 손질이 깔끔해서 쓸 만해. 오늘 용건은 뭐야?",
+        "resolved": "약재 배합이 막히면 네 의견도 들어 볼 생각은 있어. ...그냥 그렇다고."
+      },
+      "talk_pages": [
+        "로만은 보라빛 시약병을 눈높이에 비춰 보며 침전물을 확인하고 있다.\n\"연금술은 요행이 아니야. 온도 1도, 뿌리 손질 하나로 약이 되기도 하고 독이 되기도 해.\"",
+        "\"A급 승급 시험 준비는 순조롭냐고? ...쓸데없는 참견은 넣어 둬. 내 실력으로 끝낼 거니까.\""
+      ],
+      "quest_ids": [
+        "1000000000000001",
+        "roman_starter_herb",
+        "pquest_roman_tier1"
+      ],
+      "shop_id": "shop_roman_alchemy",
+      "preferred_gifts": [
+        "minecraft:amethyst_shard",
+        "minecraft:glow_berries",
+        "minecraft:allium",
+        "minecraft:dandelion"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "물약 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "연금술 의뢰",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "연금술 입문",
+          "icon": "special",
+          "action": "SPECIAL_ALCHEMIST_INTRO",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_alchemist.png"
+    },
+    "darim": {
+      "npc_id": "darim",
+      "name": "다림",
+      "job_grade_badge": "C급 농부",
+      "affiliation": "브리온 마을 농장 · 실습장 (남쪽 농업 지구)",
+      "subtitle": "다정한 손길로 밀밭을 가꾸는 여우 수인 농부",
+      "portrait": "f_rank_days:textures/npc/darim_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#4A6B34",
+        "accent": "#8FBF5A",
+        "badge": "#375225"
+      },
+      "greetings": {
+        "default": "오늘 농장 일이 조금 많은데, 혹시 도와줄 수 있어?",
+        "rapport": "어서 와! 오늘 바람이 참 선선하지? 밭고랑 흙도 아주 촉촉해.",
+        "trust": "네가 자주 들러 주니까 농장이 훨씬 활기차졌어. 언제든 편하게 쉬어 가!",
+        "resolved": "밀밭도, 지난날의 기억도 이제 두렵지 않아. 함께 고민해 줘서 정말 고마워."
+      },
+      "talk_pages": [
+        "다림은 흙 묻은 장갑을 털며 환하게 미소 지었다.\n\"씨앗은 거짓말을 안 해. 물길을 터 주고 정성껏 돌보면 반드시 이삭으로 보답하거든.\"",
+        "\"농부 자격시험을 준비 중이라면 농장 남쪽 실습 밭을 자유롭게 써도 좋아!\""
+      ],
+      "quest_ids": [
+        "darim_wheat_delivery",
+        "pquest_darim_tier1"
+      ],
+      "shop_id": "shop_darim_crops",
+      "preferred_gifts": [
+        "minecraft:wheat",
+        "minecraft:sweet_berries",
+        "minecraft:golden_carrot",
+        "minecraft:apple"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "농작물 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "농사 의뢰",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "농업 배우기",
+          "icon": "special",
+          "action": "SPECIAL_FARMING_LESSON",
+          "enabled": true
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_farmer.png"
+    },
+    "hess": {
+      "npc_id": "hess",
+      "name": "헤스",
+      "job_grade_badge": "통합 길드 접수원",
+      "affiliation": "아르베른 통합 길드 브리온 지부 (북쪽 지구)",
+      "subtitle": "정중하고 빈틈없는 브리온 지부 행정 책임 접수원",
+      "portrait": "f_rank_days:textures/npc/hess_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#2E4566",
+        "accent": "#7CA4D9",
+        "badge": "#22344D"
+      },
+      "greetings": {
+        "default": "안녕하십니까. 아르베른 통합 길드 브리온 지부 접수원 헤스입니다. 어떤 업무를 도와드릴까요?",
+        "rapport": "찾아주셨군요. 오늘도 서류가 산더미지만... 귀하의 용건부터 정확히 처리해 드리겠습니다.",
+        "trust": "창구 앞에 서 계신 걸 보니 한결 마음이 놓입니다. 필요한 행정 절차를 말씀해 주십시오.",
+        "resolved": "공식 절차로 위험 등급 재분류가 시작되었습니다. 함께 기록을 바로잡아 주셔서 깊이 감사드립니다."
+      },
+      "talk_pages": [
+        "헤스는 피로한 기색을 감춘 채 반듯한 자세로 접수 장부를 정리하고 있다.\n\"아르베른 제국에서는 모든 직업의 자격이 독립적으로 기록됩니다. 농사를 지으며 검술이나 연금술 자격을 함께 취득하실 수도 있습니다.\"",
+        "\"아직 주민 등록을 마치지 않으셨다면 [직업 등록]에서 F급 특성과 첫 직업을 고르신 뒤, [길드 업무]에서 《길드 등록증》에 성명을 서명해 주십시오.\""
+      ],
+      "quest_ids": [
+        "1000000000000003",
+        "1000000000000004",
+        "1000000000000005",
+        "1000000000000006",
+        "pquest_hess_tier1"
+      ],
+      "shop_id": null,
+      "preferred_gifts": [
+        "minecraft:milk_bucket",
+        "minecraft:honey_bottle",
+        "minecraft:book",
+        "minecraft:cookie"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "guild_work",
+          "label": "길드 등록",
+          "icon": "special",
+          "action": "SPECIAL_GUILD_WORK",
+          "enabled": true
+        },
+        {
+          "id": "job_reg",
+          "label": "직업 선택",
+          "icon": "shop",
+          "action": "OPEN_JOB_MENU",
+          "enabled": true
+        },
+        {
+          "id": "exam",
+          "label": "자격시험",
+          "icon": "special",
+          "action": "OPEN_EXAM_MENU",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "퀘스트",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_guild.png"
+    },
+    "nau": {
+      "npc_id": "nau",
+      "name": "나우",
+      "job_grade_badge": "B급 대장장이",
+      "affiliation": "나우의 대장간 (동쪽 상업·공방 지구)",
+      "subtitle": "말투는 무뚝뚝해도 쇳물보다 속이 따뜻한 장인",
+      "portrait": "f_rank_days:textures/npc/nau_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#7A3E26",
+        "accent": "#E08250",
+        "badge": "#592B19"
+      },
+      "greetings": {
+        "default": "불티 튀니까 모루 가까이 붙지 마라. 연장 수리할 끼가, 아님 새로 맞출 끼가?",
+        "rapport": "왔나. 손에 물집 안 잡혔나 모르겠네. 연장 날 무뎌졌으믄 이리 내봐라.",
+        "trust": "니가 쓰는 연장은 내 이름 걸고 벼려 준다. 험한 데 갈 때는 장비부터 단디 챙기라."
+      },
+      "talk_pages": [
+        "나우는 달궈진 쇠를 담금질하며 묵직한 한숨을 내쉬었다.\n\"내가 말주변이 영 없어가 수습 애들이 무섭다 카고 나가뿌는데... 속으론 다 잘되라꼬 한 소린데 참 어렵데이.\""
+      ],
+      "quest_ids": [
+        "nau_smithy_training"
+      ],
+      "shop_id": "shop_nau_smithy",
+      "preferred_gifts": [
+        "minecraft:coal",
+        "minecraft:raw_iron",
+        "minecraft:iron_ingot",
+        "minecraft:baked_potato"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "장비 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "대장간 일거리",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "연장 수리",
+          "icon": "special",
+          "action": "SPECIAL_NAU_REPAIR",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_blacksmith.png"
+    },
+    "gori": {
+      "npc_id": "gori",
+      "name": "고리",
+      "job_grade_badge": "브리온 여관 주인",
+      "affiliation": "브리온 화톳불 여관 (서쪽 지구)",
+      "subtitle": "누구에게나 따뜻하지만 분명한 선을 지키는 페럿 수인 여관주",
+      "portrait": "f_rank_days:textures/npc/gori_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#8C5828",
+        "accent": "#E8A85A",
+        "badge": "#663E1B"
+      },
+      "greetings": {
+        "default": "어서 오세요! 브리온 화톳불 여관은 예의 바른 손님이라면 누구에게나 열려 있답니다.",
+        "rapport": "오늘도 수고 많으셨죠? 막 구운 감자랑 따뜻한 수프가 준비되어 있어요!",
+        "trust": "당신이 여관에 들러 주실 때마다 홀 분위기가 참 편안해져요. 편히 쉬다 가세요."
+      },
+      "talk_pages": [
+        "고리는 깨끗한 행주로 참나무 테이블을 닦으며 미소 지었다.\n\"2층 객실 침대는 정착민분들도 언제든 쉬어 가실 수 있게 비워 두었어요. 밤길은 위험하니 무리하지 마세요.\""
+      ],
+      "quest_ids": [
+        "gori_village_greeting"
+      ],
+      "shop_id": "shop_gori_inn",
+      "preferred_gifts": [
+        "minecraft:sweet_berries",
+        "minecraft:honey_bottle",
+        "minecraft:bread",
+        "minecraft:cornflower"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "식사 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "마을 소식",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "객실 안내",
+          "icon": "special",
+          "action": "SPECIAL_GORI_ROOM",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_innkeeper.png"
+    },
+    "hwiyeon": {
+      "npc_id": "hwiyeon",
+      "name": "휘연",
+      "job_grade_badge": "A급 힐러",
+      "affiliation": "브리온 개인 의료소 (북서쪽 지구)",
+      "subtitle": "차분히 마을의 상처를 돌보는 고위 치유사 (고유 말투 미확정)",
+      "portrait": "f_rank_days:textures/npc/hwiyeon_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#2F6E62",
+        "accent": "#76C7B7",
+        "badge": "#204F46"
+      },
+      "greetings": {
+        "default": "(정돈된 약재 선반 사이로 휘연이 조용히 고개를 끄덕이며 다친 곳이 없는지 살핀다.)",
+        "rapport": "(익숙한 발소리에 휘연이 차분한 눈빛으로 맞으며 따뜻한 약차를 권한다.)",
+        "trust": "(잠시 미세하게 떨리던 손끝을 갈무리한 휘연이 온화한 기색으로 진료석을 가리킨다.)"
+      },
+      "talk_pages": [
+        "(휘연의 고유 말투는 기획 미확정 상태이므로 중립 서술로 표시됩니다.)\n의료소 책상 위에는 초보 모험가들을 위한 지혈 붕대 감는 법과 응급 약초 분류표가 단정하게 정리되어 있다."
+      ],
+      "quest_ids": [
+        "hwiyeon_healer_intro"
+      ],
+      "shop_id": "shop_hwiyeon_clinic",
+      "preferred_gifts": [
+        "minecraft:oxeye_daisy",
+        "minecraft:apple",
+        "minecraft:glow_berries",
+        "minecraft:white_wool"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "의료품 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "진료 보조",
+          "icon": "quest",
+          "action": "QUEST_ACTION",
+          "enabled": true
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "응급 처치",
+          "icon": "special",
+          "action": "SPECIAL_HWIYEON_HEAL",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_healer.png"
+    },
+    "ski": {
+      "npc_id": "ski",
+      "name": "스키",
+      "job_grade_badge": "A급 검술 교관",
+      "affiliation": "길드 검술·전술 훈련장 (북동쪽 지구)",
+      "subtitle": "천부적인 재능을 자랑하는 여우 수인 A급 교관",
+      "portrait": "f_rank_days:textures/npc/ski_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#8A3333",
+        "accent": "#E67365",
+        "badge": "#632222"
+      },
+      "greetings": {
+        "default": "오호, 이 천재 A급 교관 스키 님의 검술 지도를 받으러 왔다고? 눈썰미 하나는 훌륭하군!",
+        "rapport": "자세 봐라, 처음보단 제법 태가 나는데? 물론 이 몸의 완벽한 검선에는 아직 멀었지만!",
+        "trust": "...가끔은 검 말고 다른 걸 쥐어 보고 싶을 때도 있어. 아, 방금 말은 못 들은 걸로 해!"
+      },
+      "talk_pages": [
+        "스키는 목검을 가볍게 돌리며 여유만만한 표정을 지었다.\n\"힘으로만 휘두르면 삼류야! 호흡과 발놀림이 먼저라고. 검사 자격시험을 치를 거면 내 기초 훈련부터 통과해!\""
+      ],
+      "quest_ids": [
+        "ski_sword_training"
+      ],
+      "shop_id": "shop_ski_training",
+      "preferred_gifts": [
+        "minecraft:apple",
+        "minecraft:cooked_beef",
+        "minecraft:feather"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "훈련구 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "개인 서사(준비중)",
+          "icon": "quest",
+          "action": "DISABLED_INFO",
+          "enabled": false,
+          "disabled_reason": "2순위 개인 서사 「천재 검사의 진짜 꿈」은 추후 업데이트 예정입니다."
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "검술 기초훈련",
+          "icon": "special",
+          "action": "SPECIAL_SKI_TRAINING",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_swordsman.png"
+    },
+    "hyeophap": {
+      "npc_id": "hyeophap",
+      "name": "협합",
+      "job_grade_badge": "B급 유물 연구자",
+      "affiliation": "유물 감정 별관 · 비축 창고 (동쪽 지구)",
+      "subtitle": "자존심 높고 박식한 고양이 수인 유물 학자",
+      "portrait": "f_rank_days:textures/npc/hyeophap_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#4B3F72",
+        "accent": "#9E8FD9",
+        "badge": "#352C54"
+      },
+      "greetings": {
+        "default": "흠! 이 위대한 유물 연구자 협합 님께 감정을 의뢰하러 왔나? 세르딘 비석 탁본이라면 제대로 찾아왔지!",
+        "rapport": "오, 또 왔군! 유적을 함부로 훼손하지 않고 탁본을 떠 오는 자세만큼은 칭찬해 주지.",
+        "trust": "크흠, 저기 구석 상자에 든 건 연구용 고대 파충류 모형이지 절대 귀여워서 모으는 인형이 아니다!"
+      },
+      "talk_pages": [
+        "협합은 돋보기를 고쳐 쓰며 고대 문양 지도를 짚었다.\n\"세르딘 숲 깊은 곳의 조각된 석재 벽돌 비석에 종이를 대고 탁본을 떠 오면 유물 연구자 실기 심사에 큰 도움이 될 거다!\""
+      ],
+      "quest_ids": [
+        "hyeophap_relic_intro"
+      ],
+      "shop_id": "shop_hyeophap_relic",
+      "preferred_gifts": [
+        "minecraft:paper",
+        "minecraft:amethyst_shard",
+        "minecraft:bone"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "탐사품 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "개인 서사(준비중)",
+          "icon": "quest",
+          "action": "DISABLED_INFO",
+          "enabled": false,
+          "disabled_reason": "2순위 개인 서사 「박물관의 비밀 수집품」은 추후 업데이트 예정입니다."
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "유물학 브리핑",
+          "icon": "special",
+          "action": "SPECIAL_HYEOPHAP_TRAINING",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_relic.png"
+    },
+    "bambam": {
+      "npc_id": "bambam",
+      "name": "밤밤",
+      "job_grade_badge": "C급 떠돌이 상인",
+      "affiliation": "브리온 상설 시장 행상 좌판 (동쪽 지구)",
+      "subtitle": "여러 지역을 유랑하며 진귀한 물품을 파는 소악마 행상인",
+      "portrait": "f_rank_days:textures/npc/bambam_portrait.png",
+      "portrait_is_placeholder": true,
+      "theme": {
+        "primary": "#6E3554",
+        "accent": "#D982B2",
+        "badge": "#4F243B"
+      },
+      "greetings": {
+        "default": "자자, 먼 길 돌아 브리온 시장에 들른 밤밤 상점이에요! 편견 없이 구경만 하셔도 환영합니다!",
+        "rapport": "반가워요! 브리온 마을 분들은 시선이 한결 온화해서 좌판 펴기가 참 다행이에요.",
+        "trust": "어디로 떠나든 이렇게 반갑게 맞아 주는 분이 한 사람쯤 있다는 건... 꽤 든든한 일이네요."
+      },
+      "talk_pages": [
+        "밤밤은 정갈하게 정돈된 보따리에서 각지의 잡화를 꺼내 보였다.\n\"벨마르 교역로나 황도 쪽 소식도 종종 주워듣곤 해요. 여행에 필요한 물자가 있으면 언제든 말씀하세요!\""
+      ],
+      "quest_ids": [],
+      "shop_id": "shop_bambam_caravan",
+      "preferred_gifts": [
+        "minecraft:emerald",
+        "minecraft:golden_apple",
+        "minecraft:Glowstone_dust",
+        "minecraft:lilac"
+      ],
+      "buttons": [
+        {
+          "id": "talk",
+          "label": "대화하기",
+          "icon": "talk",
+          "action": "TALK",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "행상 물품 구매",
+          "icon": "shop",
+          "action": "OPEN_SHOP",
+          "enabled": true
+        },
+        {
+          "id": "quest",
+          "label": "개인 서사(준비중)",
+          "icon": "quest",
+          "action": "DISABLED_INFO",
+          "enabled": false,
+          "disabled_reason": "2순위 개인 서사 「돌아갈 곳 없는 상인」은 추후 업데이트 예정입니다."
+        },
+        {
+          "id": "gift",
+          "label": "선물하기",
+          "icon": "gift",
+          "action": "GIVE_GIFT",
+          "enabled": true
+        },
+        {
+          "id": "special",
+          "label": "제국 가도 소문",
+          "icon": "special",
+          "action": "SPECIAL_BAMBAM_RUMOR",
+          "enabled": true
+        },
+        {
+          "id": "close",
+          "label": "닫기",
+          "icon": "close",
+          "action": "CLOSE",
+          "enabled": true
+        }
+      ],
+      "job_icon": "f_rank_days:textures/gui/npc_dialog/job_merchant.png"
+    }
+  },
+  "undetermined_npcs": {
+    "harin": {
+      "npc_id": "harin",
+      "name": "하린",
+      "status": "undetermined"
+    },
+    "sia": {
+      "npc_id": "sia",
+      "name": "시아",
+      "status": "undetermined"
+    },
+    "omeu": {
+      "npc_id": "omeu",
+      "name": "오므",
+      "status": "undetermined"
+    },
+    "jokjebi": {
+      "npc_id": "jokjebi",
+      "name": "족제비",
+      "status": "undetermined"
+    }
+  }
+}

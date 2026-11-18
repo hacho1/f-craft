@@ -1,0 +1,107 @@
+{
+  "schema_version": "8.0.0",
+  "balance_status": "TEST_DEFAULT_UNFINALIZED (실제 게임 밸런스 미확정 — 테스트용 조절 가능 기본값)",
+  "hard_rules": {
+    "min_level": 0,
+    "max_level": 99,
+    "on_success_delta": 1,
+    "on_failure_delta": -1,
+    "destroy_on_failure": false,
+    "inheritance_divisor": 3,
+    "inheritance_rounding": "floor",
+    "inheritance_same_family_only": true,
+    "inheritance_target_must_be_plus_zero": true,
+    "inheritance_consumes_source_weapon": true
+  },
+  "probability_and_cost_brackets": [
+    {
+      "min_lv": 0,
+      "max_lv": 9,
+      "success_rate": 0.9,
+      "emerald_cost": 1,
+      "materials": [
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 1
+        }
+      ],
+      "dmg_per_lv": 0.2,
+      "spd_per_lv": 0.002
+    },
+    {
+      "min_lv": 10,
+      "max_lv": 19,
+      "success_rate": 0.78,
+      "emerald_cost": 1,
+      "materials": [
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 2
+        }
+      ],
+      "dmg_per_lv": 0.18,
+      "spd_per_lv": 0.002
+    },
+    {
+      "min_lv": 20,
+      "max_lv": 39,
+      "success_rate": 0.62,
+      "emerald_cost": 2,
+      "materials": [
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "count": 1
+        }
+      ],
+      "dmg_per_lv": 0.15,
+      "spd_per_lv": 0.0015
+    },
+    {
+      "min_lv": 40,
+      "max_lv": 59,
+      "success_rate": 0.48,
+      "emerald_cost": 3,
+      "materials": [
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 1
+        }
+      ],
+      "dmg_per_lv": 0.12,
+      "spd_per_lv": 0.001
+    },
+    {
+      "min_lv": 60,
+      "max_lv": 79,
+      "success_rate": 0.35,
+      "emerald_cost": 4,
+      "materials": [
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 2
+        }
+      ],
+      "dmg_per_lv": 0.1,
+      "spd_per_lv": 0.001
+    },
+    {
+      "min_lv": 80,
+      "max_lv": 98,
+      "success_rate": 0.22,
+      "emerald_cost": 5,
+      "materials": [
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 3
+        }
+      ],
+      "dmg_per_lv": 0.08,
+      "spd_per_lv": 0.001
+    }
+  ],
+  "plus_99_capstone_bonus_damage": 1.2
+}

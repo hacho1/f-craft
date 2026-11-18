@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "categories": [
+    "farmer",
+    "swordsman",
+    "alchemist",
+    "blacksmith",
+    "healer",
+    "relic_researcher",
+    "ranger",
+    "mage",
+    "herbalist",
+    "angler",
+    "chef",
+    "prospector",
+    "pathfinder",
+    "berserker"
+  ]
+}

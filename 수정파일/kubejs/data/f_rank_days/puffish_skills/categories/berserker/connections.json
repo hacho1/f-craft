@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "berserker_node_1",
+        "berserker_node_2"
+      ],
+      [
+        "berserker_node_2",
+        "berserker_node_3"
+      ],
+      [
+        "berserker_node_3",
+        "berserker_node_4"
+      ],
+      [
+        "berserker_node_4",
+        "berserker_node_5"
+      ],
+      [
+        "berserker_node_5",
+        "berserker_node_6"
+      ],
+      [
+        "berserker_node_6",
+        "berserker_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

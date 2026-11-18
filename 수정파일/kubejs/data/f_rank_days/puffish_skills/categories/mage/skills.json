@@ -1,0 +1,8 @@
+{
+  "mage_node_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "mage_foundation",
+    "root": true
+  }
+}

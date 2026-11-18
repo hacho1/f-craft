@@ -1,0 +1,56 @@
+{
+  "version": "10.4",
+  "enabled": true,
+  "overworld": {
+    "dimension": "minecraft:overworld",
+    "floor": {
+      "x": -312,
+      "y": 116,
+      "z": -1880
+    },
+    "pedestal": {
+      "x": -312,
+      "y": 117,
+      "z": -1878
+    },
+    "portalBounds": {
+      "minX": -313,
+      "minY": 117,
+      "minZ": -1882,
+      "maxX": -310,
+      "maxY": 122,
+      "maxZ": -1881
+    },
+    "returnPosition": {
+      "x": -311.5,
+      "y": 117,
+      "z": -1875.5,
+      "yaw": 180
+    }
+  },
+  "sanctum": {
+    "dimension": "f_rank_days:guardian_sanctum",
+    "arrival": {
+      "x": 0.5,
+      "y": 81,
+      "z": 16.5,
+      "yaw": 180,
+      "pitch": -12
+    },
+    "voidRescue": {
+      "x": 0.5,
+      "y": 81,
+      "z": 15.5
+    },
+    "escapeCrystal": {
+      "x": 0,
+      "y": 81,
+      "z": 18
+    },
+    "returnPortal": {
+      "x": 0,
+      "y": 81,
+      "z": 0
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "ranger_foundation": {
+    "title": "1. 가벼운 발걸음",
+    "description": "이동 속도 +4%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_1",
+          "lock_command": "tag @s remove frank_phase4_ranger_1"
+        }
+      }
+    ]
+  },
+  "ranger_passive_2": {
+    "title": "2. 시위 조율",
+    "description": "활 피해 +8%",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_2",
+          "lock_command": "tag @s remove frank_phase4_ranger_2"
+        }
+      }
+    ]
+  },
+  "ranger_passive_3": {
+    "title": "3. 화살 회수",
+    "description": "화살 25% 비소모",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_3",
+          "lock_command": "tag @s remove frank_phase4_ranger_3"
+        }
+      }
+    ]
+  },
+  "ranger_passive_4": {
+    "title": "4. 표식 사냥",
+    "description": "발광 표식 대상에게 추가 피해",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_4",
+          "lock_command": "tag @s remove frank_phase4_ranger_4"
+        }
+      }
+    ]
+  },
+  "ranger_passive_5": {
+    "title": "5. 관통 사격",
+    "description": "원거리 공격 방어 관통 25%",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_5",
+          "lock_command": "tag @s remove frank_phase4_ranger_5"
+        }
+      }
+    ]
+  },
+  "ranger_passive_6": {
+    "title": "6. 연속 조준",
+    "description": "명중 후 가속 · 화살 비소모 확률 50%",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_6",
+          "lock_command": "tag @s remove frank_phase4_ranger_6"
+        }
+      }
+    ]
+  },
+  "ranger_passive_7": {
+    "title": "7. 바람의 사수",
+    "description": "15m 이상 장거리 피해 +30% · 칼날 바람 폭발",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_ranger_7",
+          "lock_command": "tag @s remove frank_phase4_ranger_7"
+        }
+      }
+    ]
+  }
+}

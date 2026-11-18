@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "f_rank_days:item/weapons_v8/iron_dagger_t6_mythic99"
+  }
+}

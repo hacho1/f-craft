@@ -1,0 +1,5 @@
+saves/
+logs/
+__pycache__/
+*.pyc
+*.class

@@ -1,0 +1,50 @@
+{
+  "implemented_in_v8_0": [
+    {
+      "id": "mana_stone",
+      "ko_name": "마력석 (임시)",
+      "y_range": [
+        -48,
+        56
+      ],
+      "min_pickaxe": "stone",
+      "uses": [
+        "정제된 마력석 제련",
+        "+20 이상 무기 강화",
+        "마력석 단검·보양 스튜·재도전 공명패 제작"
+      ]
+    },
+    {
+      "id": "hardened_ore",
+      "ko_name": "경화광 (임시)",
+      "y_range": [
+        -60,
+        40
+      ],
+      "min_pickaxe": "iron",
+      "uses": [
+        "경화 강괴 제련",
+        "무기 단련석(+0~+39 강화)",
+        "고순도 마력 단련핵(+40~+99 강화)",
+        "경화광 전투망치·합성 장궁 제작"
+      ]
+    }
+  ],
+  "planned_provisional_ores_not_yet_spawned": [
+    {
+      "id": "azure_gleam_ore",
+      "ko_name": "청휘석 (임시)",
+      "intended_use": "고급 무기 강화와 특수 제작 (차기 지역 확장 시 배치)"
+    },
+    {
+      "id": "abyss_stone_ore",
+      "ko_name": "심연석 (임시)",
+      "intended_use": "위험 심층 지역에서 획득하는 희귀 강화·방어구 재료"
+    },
+    {
+      "id": "relic_crystal_ore",
+      "ko_name": "유물 결정 (임시)",
+      "intended_use": "고대 유물·상위 보스 관련 제작 재료"
+    }
+  ]
+}

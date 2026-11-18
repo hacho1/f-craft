@@ -1,0 +1,186 @@
+{
+  "actualMinecraft": false,
+  "professionalCC0Textures": 4,
+  "records": [
+    {
+      "collisionRecommendation": [
+        3,
+        0,
+        3,
+        13,
+        15,
+        13
+      ],
+      "id": "f_rank_days:trophy_serdin_banner",
+      "label": "세르딘 전초 제압 군기",
+      "losslessCrop": [
+        0,
+        1,
+        32,
+        33
+      ],
+      "meaning": "Professional gold victory emblem on vanilla red wool banner",
+      "mesh": "Minecraft JSON cuboids/cutout planes; original professional emblem UV, no drawn raster art",
+      "modelUV": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "resultDimensions": [
+        32,
+        32
+      ],
+      "sourceAlphaBounds": [
+        3,
+        1,
+        31,
+        33
+      ],
+      "sourceDimensions": [
+        34,
+        34
+      ],
+      "sourceMember": "Ac_Medal01.png",
+      "sourcePNG_SHA256": "49084bf84a86de7bf63169a2a13e45d73e02d519962a8ff86af5f57c440e8e48",
+      "texture": "f_rank_days:block/trophy_serdin_banner",
+      "textureSHA256": "ea55b65fcea2340d6202f8bb8db4d58c8c94ee9b43c4d61586da6a5d5fcdbd6a"
+    },
+    {
+      "collisionRecommendation": [
+        3,
+        0,
+        3,
+        13,
+        15,
+        13
+      ],
+      "id": "f_rank_days:trophy_elven_tablet",
+      "label": "고대 엘프 비문 석판",
+      "losslessCrop": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "meaning": "Professional rune-carved slab motif on stone",
+      "mesh": "Minecraft JSON cuboids/cutout planes; original professional emblem UV, no drawn raster art",
+      "modelUV": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "resultDimensions": [
+        32,
+        32
+      ],
+      "sourceAlphaBounds": [
+        6,
+        2,
+        28,
+        31
+      ],
+      "sourceDimensions": [
+        34,
+        34
+      ],
+      "sourceMember": "W_Book03.png",
+      "sourcePNG_SHA256": "ad3a04997e99f134771689e398ab5dbe63d39cd08a3495c582c5627b02b9ab62",
+      "texture": "f_rank_days:block/trophy_elven_tablet",
+      "textureSHA256": "e6d8347347f77bd92a212bdd6048b897b4e8d748a1c7cb8ffcb2ffb2ab168a4c"
+    },
+    {
+      "collisionRecommendation": [
+        3,
+        0,
+        3,
+        13,
+        15,
+        13
+      ],
+      "id": "f_rank_days:trophy_compendium_plaque",
+      "label": "브리온 박물학 동판",
+      "losslessCrop": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "meaning": "Professional gold-framed book emblem on copper",
+      "mesh": "Minecraft JSON cuboids/cutout planes; original professional emblem UV, no drawn raster art",
+      "modelUV": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "resultDimensions": [
+        32,
+        32
+      ],
+      "sourceAlphaBounds": [
+        5,
+        2,
+        29,
+        32
+      ],
+      "sourceDimensions": [
+        34,
+        34
+      ],
+      "sourceMember": "W_Book02.png",
+      "sourcePNG_SHA256": "83ef4e6be2d79538c951f34288214a02c232917ea2a1c85082359a8e39899e77",
+      "texture": "f_rank_days:block/trophy_compendium_plaque",
+      "textureSHA256": "a1d9594a72eefb54ec3e43ea4775c12f26dc0d1b47b12192cf9a76941c4c706d"
+    },
+    {
+      "collisionRecommendation": [
+        3,
+        0,
+        3,
+        13,
+        15,
+        13
+      ],
+      "id": "f_rank_days:trophy_wrought_helm",
+      "label": "강철 수호자의 격파 투구",
+      "losslessCrop": [
+        0,
+        1,
+        32,
+        33
+      ],
+      "meaning": "Professional closed steel helm with gold band",
+      "mesh": "Minecraft JSON cuboids/cutout planes; original professional emblem UV, no drawn raster art",
+      "modelUV": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "resultDimensions": [
+        32,
+        32
+      ],
+      "sourceAlphaBounds": [
+        1,
+        1,
+        32,
+        33
+      ],
+      "sourceDimensions": [
+        34,
+        34
+      ],
+      "sourceMember": "C_Elm04.png",
+      "sourcePNG_SHA256": "e2b6f7029920c6738550b51dab58e4986b99ced22fb7dc11298d6b34b1c0b677",
+      "texture": "f_rank_days:block/trophy_wrought_helm",
+      "textureSHA256": "d5355ea4af395cdaaa55f61677bb4bdc2fa47a575074ea57d109ec11630a85df"
+    }
+  ],
+  "source": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg",
+  "sourceArchiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+  "vanillaBaseReferencesOnly": true,
+  "version": 10
+}

@@ -1,0 +1,514 @@
+{
+  "author": "Henrique Lazarini (7Soul1)",
+  "source": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg",
+  "license": "CC0-1.0",
+  "sourceArchiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+  "iconsCopiedByteForByte": 24,
+  "backgrounds": "12 original F-Craft procedural pixel backgrounds, dedicated CC0-1.0; reproducible source tools/build_ui_assets_phase4.py",
+  "files": [
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_swordsman_1.png",
+      "kind": "skill_icon",
+      "job": "swordsman",
+      "slot": 1,
+      "sourceEntry": "S_Sword01.png",
+      "sourceSHA256": "b52989e798b23ea7e759a43db3716879c23e1b716eb21a8925874b0d4f412a35",
+      "sha256": "b52989e798b23ea7e759a43db3716879c23e1b716eb21a8925874b0d4f412a35",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_swordsman_2.png",
+      "kind": "skill_icon",
+      "job": "swordsman",
+      "slot": 2,
+      "sourceEntry": "S_Sword02.png",
+      "sourceSHA256": "77004dd8aa2ba8939b74963f109d8b8df0dc5da97a99c31255e79e80ab7ebf9a",
+      "sha256": "77004dd8aa2ba8939b74963f109d8b8df0dc5da97a99c31255e79e80ab7ebf9a",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_swordsman.png",
+      "kind": "skill_background",
+      "job": "swordsman",
+      "sha256": "cab712b1be3ccb3a7a2c9107cf1f53d76506ae592553f3878834ebf74fb53ebf",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_berserker_1.png",
+      "kind": "skill_icon",
+      "job": "berserker",
+      "slot": 1,
+      "sourceEntry": "S_Earth03.png",
+      "sourceSHA256": "61b2f3e926d2374b39f44dca1d2397f6560a7c399ad870dc898f1d1beab86853",
+      "sha256": "61b2f3e926d2374b39f44dca1d2397f6560a7c399ad870dc898f1d1beab86853",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_berserker_2.png",
+      "kind": "skill_icon",
+      "job": "berserker",
+      "slot": 2,
+      "sourceEntry": "S_Wind04.png",
+      "sourceSHA256": "0cdedada0a3006508adb3a225aff654b49540d034ba1715d351c32b349b40438",
+      "sha256": "0cdedada0a3006508adb3a225aff654b49540d034ba1715d351c32b349b40438",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_berserker.png",
+      "kind": "skill_background",
+      "job": "berserker",
+      "sha256": "4d42941d57ffe83c856ef8c3a15a0ce30e569f403a136d92076db2d18f1ff4b3",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_ranger_1.png",
+      "kind": "skill_icon",
+      "job": "ranger",
+      "slot": 1,
+      "sourceEntry": "S_Bow11.png",
+      "sourceSHA256": "3d2b7cca46aada3696e6d23791696a4645c3c078f7e3227fdb10937ea74661e0",
+      "sha256": "3d2b7cca46aada3696e6d23791696a4645c3c078f7e3227fdb10937ea74661e0",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_ranger_2.png",
+      "kind": "skill_icon",
+      "job": "ranger",
+      "slot": 2,
+      "sourceEntry": "S_Bow06.png",
+      "sourceSHA256": "9f9f3325484a5383b6c6bcaa1d35c6762d85d84210a29c09ac6e16865a5554c6",
+      "sha256": "9f9f3325484a5383b6c6bcaa1d35c6762d85d84210a29c09ac6e16865a5554c6",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_ranger.png",
+      "kind": "skill_background",
+      "job": "ranger",
+      "sha256": "e5502602812fcb664135478ae82b764cd8f92f229a698c1569cd5ee77c4590b5",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_healer_1.png",
+      "kind": "skill_icon",
+      "job": "healer",
+      "slot": 1,
+      "sourceEntry": "S_Holy01.png",
+      "sourceSHA256": "d7004f68bf94dd056969c2163e02b36b4bc45c8ee43a18d2d9907bb02b41cdda",
+      "sha256": "d7004f68bf94dd056969c2163e02b36b4bc45c8ee43a18d2d9907bb02b41cdda",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_healer_2.png",
+      "kind": "skill_icon",
+      "job": "healer",
+      "slot": 2,
+      "sourceEntry": "S_Holy08.png",
+      "sourceSHA256": "c75f4f37f88c4aacdc18290538575e784300606ee84a05f0fa86f0f3cb1e2ccd",
+      "sha256": "c75f4f37f88c4aacdc18290538575e784300606ee84a05f0fa86f0f3cb1e2ccd",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_healer.png",
+      "kind": "skill_background",
+      "job": "healer",
+      "sha256": "30ab5e2212dd84e57e438066fd77c04bc5df90fdad80f99136f41406012d5e2a",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_farmer_1.png",
+      "kind": "skill_icon",
+      "job": "farmer",
+      "slot": 1,
+      "sourceEntry": "S_Sword03.png",
+      "sourceSHA256": "73fb07f42dcf1fab20b2e4ac72fd59344200e17d08d51c432dd1299ffb6164ee",
+      "sha256": "73fb07f42dcf1fab20b2e4ac72fd59344200e17d08d51c432dd1299ffb6164ee",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_farmer_2.png",
+      "kind": "skill_icon",
+      "job": "farmer",
+      "slot": 2,
+      "sourceEntry": "S_Poison02.png",
+      "sourceSHA256": "8c4f33c6f0b097527f8514cc6ff2ffd69854a301bd5671e4d91352519853a589",
+      "sha256": "8c4f33c6f0b097527f8514cc6ff2ffd69854a301bd5671e4d91352519853a589",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_farmer.png",
+      "kind": "skill_background",
+      "job": "farmer",
+      "sha256": "b9b9f1a98727606d3a966734f2c0f37e81bb8efd0ae2387813925e46b219e872",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_herbalist_1.png",
+      "kind": "skill_icon",
+      "job": "herbalist",
+      "slot": 1,
+      "sourceEntry": "S_Poison03.png",
+      "sourceSHA256": "fd6bc999876596ce9cdcc3e0d00d69df65eb60fadf6b055cac53a63599a4a1b3",
+      "sha256": "fd6bc999876596ce9cdcc3e0d00d69df65eb60fadf6b055cac53a63599a4a1b3",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_herbalist_2.png",
+      "kind": "skill_icon",
+      "job": "herbalist",
+      "slot": 2,
+      "sourceEntry": "S_Buff11.png",
+      "sourceSHA256": "1384e2226981a7f117642e96aecc83d0fe031cf26404a9dafeb95c3c22457a0a",
+      "sha256": "1384e2226981a7f117642e96aecc83d0fe031cf26404a9dafeb95c3c22457a0a",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_herbalist.png",
+      "kind": "skill_background",
+      "job": "herbalist",
+      "sha256": "342b09e41ead14013a2c756db22e386e2d8ef3d1aca5e1073730dc6b681f53a8",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_angler_1.png",
+      "kind": "skill_icon",
+      "job": "angler",
+      "slot": 1,
+      "sourceEntry": "S_Water03.png",
+      "sourceSHA256": "74e4ad9d07d53801ae0cea4d59bc4d8047ef9d1ccab01cef346b94a3fbf8ef0c",
+      "sha256": "74e4ad9d07d53801ae0cea4d59bc4d8047ef9d1ccab01cef346b94a3fbf8ef0c",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_angler_2.png",
+      "kind": "skill_icon",
+      "job": "angler",
+      "slot": 2,
+      "sourceEntry": "S_Water06.png",
+      "sourceSHA256": "7372195a55234ddd77397ee64100d802d9674468bb7f5373384fe3e6f4041df5",
+      "sha256": "7372195a55234ddd77397ee64100d802d9674468bb7f5373384fe3e6f4041df5",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_angler.png",
+      "kind": "skill_background",
+      "job": "angler",
+      "sha256": "c442b25b458c75fc9557b4919f1fdff299f81d41a3c7843dd6be21e99f41a416",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_chef_1.png",
+      "kind": "skill_icon",
+      "job": "chef",
+      "slot": 1,
+      "sourceEntry": "S_Fire04.png",
+      "sourceSHA256": "b7e47726bca224d62093c8475273211cfd8ad10818bf221b4c21f5cb2250d033",
+      "sha256": "b7e47726bca224d62093c8475273211cfd8ad10818bf221b4c21f5cb2250d033",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_chef_2.png",
+      "kind": "skill_icon",
+      "job": "chef",
+      "slot": 2,
+      "sourceEntry": "S_Holy04.png",
+      "sourceSHA256": "3613a6daadc951a91615296c39c4597d8435937dc724e58bffad91607faa0dad",
+      "sha256": "3613a6daadc951a91615296c39c4597d8435937dc724e58bffad91607faa0dad",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_chef.png",
+      "kind": "skill_background",
+      "job": "chef",
+      "sha256": "7e67efe2dc8fe3c06331a4fc0ae3a071dedd975501f56d5e2e5a98972a54f4be",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_blacksmith_1.png",
+      "kind": "skill_icon",
+      "job": "blacksmith",
+      "slot": 1,
+      "sourceEntry": "S_Fire07.png",
+      "sourceSHA256": "82ccd5a201d226a4cb2d670f79d3bf3a7ac6ffeb16e13362e63804b01d598750",
+      "sha256": "82ccd5a201d226a4cb2d670f79d3bf3a7ac6ffeb16e13362e63804b01d598750",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_blacksmith_2.png",
+      "kind": "skill_icon",
+      "job": "blacksmith",
+      "slot": 2,
+      "sourceEntry": "S_Magic10.png",
+      "sourceSHA256": "bca4d5f365accc07934c43745ed6d5150b18fcf90e2d632a0c7b24f86950eeda",
+      "sha256": "bca4d5f365accc07934c43745ed6d5150b18fcf90e2d632a0c7b24f86950eeda",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_blacksmith.png",
+      "kind": "skill_background",
+      "job": "blacksmith",
+      "sha256": "9f6f6d8987846fe0b0ca26ba872d0de79b5c22f3054453d53b304abbe3bcd0d3",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_relic_researcher_1.png",
+      "kind": "skill_icon",
+      "job": "relic_researcher",
+      "slot": 1,
+      "sourceEntry": "S_Light03.png",
+      "sourceSHA256": "6f06fa7c62df2690f7d580bb3c3629777e2fbd6bfa71ef0db01cc774a61051c4",
+      "sha256": "6f06fa7c62df2690f7d580bb3c3629777e2fbd6bfa71ef0db01cc774a61051c4",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_relic_researcher_2.png",
+      "kind": "skill_icon",
+      "job": "relic_researcher",
+      "slot": 2,
+      "sourceEntry": "S_Magic09.png",
+      "sourceSHA256": "c57dc2f43908e4ca7f034a9a5c5186baf92adbacc7cd8d4540edf5edac6753f7",
+      "sha256": "c57dc2f43908e4ca7f034a9a5c5186baf92adbacc7cd8d4540edf5edac6753f7",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_relic_researcher.png",
+      "kind": "skill_background",
+      "job": "relic_researcher",
+      "sha256": "8683e4c5a4eec84e675a9d716d7b29d391ae186c2688886903d05b09f224bd24",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_prospector_1.png",
+      "kind": "skill_icon",
+      "job": "prospector",
+      "slot": 1,
+      "sourceEntry": "S_Ice01.png",
+      "sourceSHA256": "a89638ad22a13d698f0b04c8b234a801cbeddddf9cea62165310d3c0275abfa6",
+      "sha256": "a89638ad22a13d698f0b04c8b234a801cbeddddf9cea62165310d3c0275abfa6",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_prospector_2.png",
+      "kind": "skill_icon",
+      "job": "prospector",
+      "slot": 2,
+      "sourceEntry": "S_Buff03.png",
+      "sourceSHA256": "93b91947d12d5684a48d8391988365c378c982313af9506a939d57ed0036e6c6",
+      "sha256": "93b91947d12d5684a48d8391988365c378c982313af9506a939d57ed0036e6c6",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_prospector.png",
+      "kind": "skill_background",
+      "job": "prospector",
+      "sha256": "7d05a05baf6f0c6ebbb39aa5614587c23d79d6028844b668e63c30ec033dc25e",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_pathfinder_1.png",
+      "kind": "skill_icon",
+      "job": "pathfinder",
+      "slot": 1,
+      "sourceEntry": "S_Dagger04.png",
+      "sourceSHA256": "556ef39ff01e268d75a47b92b968d94553e871992501bd739671498513ad5888",
+      "sha256": "556ef39ff01e268d75a47b92b968d94553e871992501bd739671498513ad5888",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/skills/skill_pathfinder_2.png",
+      "kind": "skill_icon",
+      "job": "pathfinder",
+      "slot": 2,
+      "sourceEntry": "S_Shadow06.png",
+      "sourceSHA256": "5a5d926ee1d9654ae72be05f9eec003e617f56bd3985cf5f30403d6a03881613",
+      "sha256": "5a5d926ee1d9654ae72be05f9eec003e617f56bd3985cf5f30403d6a03881613",
+      "size": [
+        34,
+        34
+      ],
+      "license": "CC0-1.0",
+      "sourceCopiedByteForByte": true
+    },
+    {
+      "path": "kubejs/assets/f_rank_days/textures/gui/v8_2/skill_bg_pathfinder.png",
+      "kind": "skill_background",
+      "job": "pathfinder",
+      "sha256": "88ca1930203633d14f2c998cdde7cac927d1d5eea006848d37b886b209384fcb",
+      "size": [
+        512,
+        512
+      ],
+      "license": "CC0-1.0",
+      "source": "Original F-Craft procedural pixel UI art; source in this script"
+    }
+  ]
+}

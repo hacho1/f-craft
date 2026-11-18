@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "f_rank_days:item/angler_license_d"
+  }
+}

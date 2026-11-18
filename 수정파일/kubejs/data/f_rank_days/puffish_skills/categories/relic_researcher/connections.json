@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "relic_researcher_node_1",
+        "relic_researcher_node_2"
+      ],
+      [
+        "relic_researcher_node_2",
+        "relic_researcher_node_3"
+      ],
+      [
+        "relic_researcher_node_3",
+        "relic_researcher_node_4"
+      ],
+      [
+        "relic_researcher_node_4",
+        "relic_researcher_node_5"
+      ],
+      [
+        "relic_researcher_node_5",
+        "relic_researcher_node_6"
+      ],
+      [
+        "relic_researcher_node_6",
+        "relic_researcher_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

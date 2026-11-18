@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 1,
+  "total": 80,
+  "gift_page_size": 20,
+  "entries": [
+    {
+      "id": "i_wheat",
+      "tab": 1,
+      "kind": "item",
+      "name": "밀",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:wheat"
+    },
+    {
+      "id": "i_potato",
+      "tab": 1,
+      "kind": "item",
+      "name": "감자",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:potato"
+    },
+    {
+      "id": "i_carrot",
+      "tab": 1,
+      "kind": "item",
+      "name": "당근",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:carrot"
+    },
+    {
+      "id": "i_beetroot",
+      "tab": 1,
+      "kind": "item",
+      "name": "사탕무",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:beetroot"
+    },
+    {
+      "id": "i_sweet_berries",
+      "tab": 1,
+      "kind": "item",
+      "name": "달콤한 열매",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:sweet_berries"
+    },
+    {
+      "id": "i_glow_berries",
+      "tab": 1,
+      "kind": "item",
+      "name": "발광 열매",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:glow_berries"
+    },
+    {
+      "id": "i_sugar_cane",
+      "tab": 1,
+      "kind": "item",
+      "name": "사탕수수",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:sugar_cane"
+    },
+    {
+      "id": "i_pumpkin",
+      "tab": 1,
+      "kind": "item",
+      "name": "호박",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:pumpkin"
+    },
+    {
+      "id": "i_melon_slice",
+      "tab": 1,
+      "kind": "item",
+      "name": "수박 조각",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:melon_slice"
+    },
+    {
+      "id": "i_dandelion",
+      "tab": 1,
+      "kind": "item",
+      "name": "민들레",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:dandelion"
+    },
+    {
+      "id": "i_allium",
+      "tab": 1,
+      "kind": "item",
+      "name": "파꽃",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:allium"
+    },
+    {
+      "id": "i_blue_orchid",
+      "tab": 1,
+      "kind": "item",
+      "name": "푸른 난초",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:blue_orchid"
+    },
+    {
+      "id": "i_brown_mushroom",
+      "tab": 1,
+      "kind": "item",
+      "name": "갈색 버섯",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:brown_mushroom"
+    },
+    {
+      "id": "i_red_mushroom",
+      "tab": 1,
+      "kind": "item",
+      "name": "빨간 버섯",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "재배·채집 또는 물품 입수로 기록합니다.",
+      "region": "농경지 · 약초 채집지 · 재배",
+      "item_id": "minecraft:red_mushroom"
+    },
+    {
+      "id": "i_cabbage",
+      "tab": 1,
+      "kind": "item",
+      "name": "양배추",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "Farmer's Delight 작물입니다. 모드가 없으면 같은 논리 항목에 대체 표본을 사용합니다.",
+      "region": "농경지 · 재배",
+      "item_id": "farmersdelight:cabbage",
+      "fallback_item_id": "minecraft:apple"
+    },
+    {
+      "id": "i_tomato",
+      "tab": 1,
+      "kind": "item",
+      "name": "토마토",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "Farmer's Delight 작물입니다. 모드가 없으면 같은 논리 항목에 대체 표본을 사용합니다.",
+      "region": "농경지 · 재배",
+      "item_id": "farmersdelight:tomato",
+      "fallback_item_id": "minecraft:cocoa_beans"
+    },
+    {
+      "id": "i_onion",
+      "tab": 1,
+      "kind": "item",
+      "name": "양파",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "Farmer's Delight 작물입니다. 모드가 없으면 같은 논리 항목에 대체 표본을 사용합니다.",
+      "region": "농경지 · 재배",
+      "item_id": "farmersdelight:onion",
+      "fallback_item_id": "minecraft:cactus"
+    },
+    {
+      "id": "i_rice",
+      "tab": 1,
+      "kind": "item",
+      "name": "쌀",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "Farmer's Delight 작물입니다. 모드가 없으면 같은 논리 항목에 대체 표본을 사용합니다.",
+      "region": "농경지 · 재배",
+      "item_id": "farmersdelight:rice",
+      "fallback_item_id": "minecraft:bamboo"
+    },
+    {
+      "id": "i_cod",
+      "tab": 2,
+      "kind": "item",
+      "name": "대구",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "낚시·입수한 물고기 표본입니다.",
+      "region": "강 · 호수 · 낚시",
+      "item_id": "minecraft:cod"
+    },
+    {
+      "id": "i_salmon",
+      "tab": 2,
+      "kind": "item",
+      "name": "연어",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "낚시·입수한 물고기 표본입니다.",
+      "region": "강 · 호수 · 낚시",
+      "item_id": "minecraft:salmon"
+    },
+    {
+      "id": "i_tropical_fish",
+      "tab": 2,
+      "kind": "item",
+      "name": "열대어",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "낚시·입수한 물고기 표본입니다.",
+      "region": "강 · 호수 · 낚시",
+      "item_id": "minecraft:tropical_fish"
+    },
+    {
+      "id": "i_pufferfish",
+      "tab": 2,
+      "kind": "item",
+      "name": "복어",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "낚시·입수한 물고기 표본입니다.",
+      "region": "강 · 호수 · 낚시",
+      "item_id": "minecraft:pufferfish"
+    },
+    {
+      "id": "i_brion_barley_bread",
+      "tab": 2,
+      "kind": "item",
+      "name": "브리온 보리빵",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "브리온의 기본 특식입니다. 실제 음식 효과는 아이템 설명을 확인하세요.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:brion_barley_bread"
+    },
+    {
+      "id": "i_hearth_potato_soup",
+      "tab": 2,
+      "kind": "item",
+      "name": "화톳불 감자 수프",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "고리 여관의 특식입니다. 제작·섭취·입수로 기록합니다.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:hearth_potato_soup"
+    },
+    {
+      "id": "i_serdin_herb_ration",
+      "tab": 2,
+      "kind": "item",
+      "name": "세르딘 약초 휴대식",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "숲 탐험에 쓰는 특식입니다. 실제 음식 효과는 아이템 설명을 확인하세요.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:serdin_herb_ration"
+    },
+    {
+      "id": "i_golden_wheat_stew",
+      "tab": 2,
+      "kind": "item",
+      "name": "황금 밀 스튜",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "등록된 황금 밀 특식입니다. 직업 음식 특전과 함께 사용할 수 있습니다.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:golden_wheat_stew"
+    },
+    {
+      "id": "i_harvest_berry_tart",
+      "tab": 2,
+      "kind": "item",
+      "name": "수확 열매 타르트",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "수확을 기념하는 특식입니다. 제작·섭취·입수로 기록합니다.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:harvest_berry_tart"
+    },
+    {
+      "id": "i_alchemist_clear_tea",
+      "tab": 2,
+      "kind": "item",
+      "name": "맑은 약초차",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "마나45 회복 ·20초 재생2배. 약초채집가 특전은 실제 서버 규칙을 따릅니다.",
+      "region": "고리 여관 · 요리 · 연금 조제",
+      "item_id": "f_rank_days:alchemist_clear_tea"
+    },
+    {
+      "id": "i_cooked_cod",
+      "tab": 2,
+      "kind": "item",
+      "name": "구운 대구",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "minecraft:cooked_cod"
+    },
+    {
+      "id": "i_cooked_salmon",
+      "tab": 2,
+      "kind": "item",
+      "name": "구운 연어",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "minecraft:cooked_salmon"
+    },
+    {
+      "id": "i_pumpkin_pie",
+      "tab": 2,
+      "kind": "item",
+      "name": "호박 파이",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "minecraft:pumpkin_pie"
+    },
+    {
+      "id": "i_golden_carrot",
+      "tab": 2,
+      "kind": "item",
+      "name": "황금 당근",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "minecraft:golden_carrot"
+    },
+    {
+      "id": "i_beef_stew",
+      "tab": 2,
+      "kind": "item",
+      "name": "소고기 스튜",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "farmersdelight:beef_stew"
+    },
+    {
+      "id": "i_fruit_salad",
+      "tab": 2,
+      "kind": "item",
+      "name": "과일 샐러드",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "조리식 표본입니다. 회복량은 현재 아이템의 실제 음식 설명을 따릅니다.",
+      "region": "조리 · 제작 · 고리 여관",
+      "item_id": "farmersdelight:fruit_salad"
+    },
+    {
+      "id": "i_coal",
+      "tab": 3,
+      "kind": "item",
+      "name": "석탄",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:coal"
+    },
+    {
+      "id": "i_raw_iron",
+      "tab": 3,
+      "kind": "item",
+      "name": "철 원석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:raw_iron"
+    },
+    {
+      "id": "i_iron_ingot",
+      "tab": 3,
+      "kind": "item",
+      "name": "철 주괴",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:iron_ingot"
+    },
+    {
+      "id": "i_raw_copper",
+      "tab": 3,
+      "kind": "item",
+      "name": "구리 원석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:raw_copper"
+    },
+    {
+      "id": "i_copper_ingot",
+      "tab": 3,
+      "kind": "item",
+      "name": "구리 주괴",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:copper_ingot"
+    },
+    {
+      "id": "i_raw_gold",
+      "tab": 3,
+      "kind": "item",
+      "name": "금 원석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:raw_gold"
+    },
+    {
+      "id": "i_gold_ingot",
+      "tab": 3,
+      "kind": "item",
+      "name": "금 주괴",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:gold_ingot"
+    },
+    {
+      "id": "i_amethyst_shard",
+      "tab": 3,
+      "kind": "item",
+      "name": "자수정 조각",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:amethyst_shard"
+    },
+    {
+      "id": "i_lapis_lazuli",
+      "tab": 3,
+      "kind": "item",
+      "name": "청금석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:lapis_lazuli"
+    },
+    {
+      "id": "i_diamond",
+      "tab": 3,
+      "kind": "item",
+      "name": "다이아몬드",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:diamond"
+    },
+    {
+      "id": "i_netherite_ingot",
+      "tab": 3,
+      "kind": "item",
+      "name": "네더라이트 주괴",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "채굴·제련·입수로 기록하는 광물 표본입니다.",
+      "region": "채광 · 제련 · 탐험",
+      "item_id": "minecraft:netherite_ingot"
+    },
+    {
+      "id": "i_raw_mana_crystal",
+      "tab": 3,
+      "kind": "item",
+      "name": "마력 원석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "마력석 가공에 사용하는 원석입니다.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:raw_mana_crystal"
+    },
+    {
+      "id": "i_refined_mana_stone",
+      "tab": 3,
+      "kind": "item",
+      "name": "정제 마력석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "오른손 사용 시 마나35 회복 ·15초 재사용 대기시간.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:refined_mana_stone"
+    },
+    {
+      "id": "i_raw_hardened_ore",
+      "tab": 3,
+      "kind": "item",
+      "name": "경화광 원석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "경화광 연장 제작에 쓰는 원석입니다.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:raw_hardened_ore"
+    },
+    {
+      "id": "i_hardened_ingot",
+      "tab": 3,
+      "kind": "item",
+      "name": "경화광 주괴",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "경화광 장비 제작에 쓰는 주괴입니다.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:hardened_ingot"
+    },
+    {
+      "id": "i_tempering_stone",
+      "tab": 3,
+      "kind": "item",
+      "name": "무기 단련석",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "초·중반 무기 강화 재료입니다. 실제 강화 표를 확인하세요.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:tempering_stone"
+    },
+    {
+      "id": "i_ancient_rubbing_sheet",
+      "tab": 3,
+      "kind": "item",
+      "name": "고대 비석 탁본",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "지정 고대 비석에서 조사한 기록입니다. 승급 자격과 별도로 도감에 기록합니다.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:ancient_rubbing_sheet"
+    },
+    {
+      "id": "i_wrought_relic_shard",
+      "tab": 3,
+      "kind": "item",
+      "name": "수호자의 유물 파편",
+      "hint": "직접 입수하여 기록하세요.",
+      "description": "강철 수호자 전리품 계열의 유물 표본입니다.",
+      "region": "채광 · 고대 비석 · 보스 전리품",
+      "item_id": "f_rank_days:wrought_relic_shard"
+    },
+    {
+      "id": "m_zombie",
+      "tab": 4,
+      "kind": "monster",
+      "name": "좀비",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:zombie",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_zombie.png",
+      "drops": [
+        "minecraft:carrot",
+        "minecraft:iron_ingot",
+        "minecraft:potato",
+        "minecraft:rotten_flesh"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "언데드: 치유사의 치유의 물결 추가타 대상입니다.",
+      "native_drops": [
+        "minecraft:carrot",
+        "minecraft:iron_ingot",
+        "minecraft:potato",
+        "minecraft:rotten_flesh"
+      ]
+    },
+    {
+      "id": "m_skeleton",
+      "tab": 4,
+      "kind": "monster",
+      "name": "스켈레톤",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:skeleton",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_skeleton.png",
+      "drops": [
+        "minecraft:arrow",
+        "minecraft:bone"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "언데드: 치유사의 치유의 물결 추가타 대상입니다.",
+      "native_drops": [
+        "minecraft:arrow",
+        "minecraft:bone"
+      ]
+    },
+    {
+      "id": "m_spider",
+      "tab": 4,
+      "kind": "monster",
+      "name": "거미",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:spider",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_spider.png",
+      "drops": [
+        "minecraft:spider_eye",
+        "minecraft:string"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": [
+        "minecraft:spider_eye",
+        "minecraft:string"
+      ]
+    },
+    {
+      "id": "m_pillager",
+      "tab": 4,
+      "kind": "monster",
+      "name": "약탈자",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:pillager",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_pillager.png",
+      "drops": [
+        "minecraft:crossbow"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": []
+    },
+    {
+      "id": "m_vindicator",
+      "tab": 4,
+      "kind": "monster",
+      "name": "변명자",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:vindicator",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_vindicator.png",
+      "drops": [
+        "minecraft:emerald",
+        "minecraft:iron_axe"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": [
+        "minecraft:emerald"
+      ]
+    },
+    {
+      "id": "m_slime",
+      "tab": 4,
+      "kind": "monster",
+      "name": "슬라임",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:slime",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_slime.png",
+      "drops": [
+        "minecraft:slime_ball"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": [
+        "minecraft:slime_ball"
+      ]
+    },
+    {
+      "id": "m_enderman",
+      "tab": 4,
+      "kind": "monster",
+      "name": "엔더맨",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:enderman",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_enderman.png",
+      "drops": [
+        "minecraft:ender_pearl"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": [
+        "minecraft:ender_pearl"
+      ]
+    },
+    {
+      "id": "m_blaze",
+      "tab": 4,
+      "kind": "monster",
+      "name": "블레이즈",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:blaze",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_blaze.png",
+      "drops": [
+        "minecraft:blaze_rod"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": [
+        "minecraft:blaze_rod"
+      ]
+    },
+    {
+      "id": "m_wither_skeleton",
+      "tab": 4,
+      "kind": "monster",
+      "name": "위더 스켈레톤",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:wither_skeleton",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_wither_skeleton.png",
+      "drops": [
+        "minecraft:bone",
+        "minecraft:coal",
+        "minecraft:wither_skeleton_skull"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "언데드: 치유사의 치유의 물결 추가타 대상입니다.",
+      "native_drops": [
+        "minecraft:bone",
+        "minecraft:coal",
+        "minecraft:wither_skeleton_skull"
+      ]
+    },
+    {
+      "id": "m_piglin_brute",
+      "tab": 4,
+      "kind": "monster",
+      "name": "피글린 야수",
+      "hint": "직접 토벌하여 관찰 기록을 남기세요.",
+      "description": "개인 토벌3회로 약점·전리품 기록이 완전히 열립니다.",
+      "region": "해당 마물의 서식 지역",
+      "entity_id": "minecraft:piglin_brute",
+      "boss": false,
+      "required_kills": 3,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_piglin_brute.png",
+      "drops": [
+        "minecraft:golden_axe"
+      ],
+      "drop_note": "설치1.20.1 루트표의 조건부 전리품입니다. 장비 드롭·불타는 감자의 조리 변환·크기·약탈·플레이어 처치 조건은 별도입니다.",
+      "weakness": "치유사의 언데드 추가타 대상이 아닙니다. 서식지와 고유 공격을 관찰하세요.",
+      "native_drops": []
+    },
+    {
+      "id": "m_ferrous_wroughtnaut",
+      "tab": 4,
+      "kind": "monster",
+      "name": "강철 수호자",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "세르딘 지정 시련 제단",
+      "entity_id": "mowziesmobs:ferrous_wroughtnaut",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png",
+      "drops": [
+        "f_rank_days:high_tempering_core",
+        "mowziesmobs:wrought_axe",
+        "mowziesmobs:wrought_helmet"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "mowziesmobs:wrought_axe",
+        "mowziesmobs:wrought_helmet"
+      ],
+      "server_first_rewards": [
+        "f_rank_days:high_tempering_core"
+      ]
+    },
+    {
+      "id": "m_frostmaw",
+      "tab": 4,
+      "kind": "monster",
+      "name": "서리송곳니",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "본토 설원 성소",
+      "entity_id": "mowziesmobs:frostmaw",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png",
+      "drops": [
+        "f_rank_days:tempering_stone",
+        "mowziesmobs:ice_crystal",
+        "mowziesmobs:music_disc_petiole"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "mowziesmobs:ice_crystal",
+        "mowziesmobs:music_disc_petiole"
+      ],
+      "server_first_rewards": [
+        "mowziesmobs:ice_crystal",
+        "f_rank_days:tempering_stone"
+      ]
+    },
+    {
+      "id": "m_umvuthi",
+      "tab": 4,
+      "kind": "monster",
+      "name": "태양조 움부티",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "본토 사바나 부락",
+      "entity_id": "mowziesmobs:umvuthi",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png",
+      "drops": [
+        "f_rank_days:solar_blessing_token",
+        "f_rank_days:tempering_stone",
+        "minecraft:feather",
+        "mowziesmobs:sol_visage"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "minecraft:feather",
+        "mowziesmobs:sol_visage"
+      ],
+      "server_first_rewards": [
+        "f_rank_days:solar_blessing_token",
+        "f_rank_days:tempering_stone"
+      ]
+    },
+    {
+      "id": "m_sculptor",
+      "tab": 4,
+      "kind": "monster",
+      "name": "조각가 통비",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "본토 고산 수도원",
+      "entity_id": "mowziesmobs:sculptor",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png",
+      "drops": [
+        "f_rank_days:earth_trial_token",
+        "mowziesmobs:geomancer_beads",
+        "mowziesmobs:geomancer_belt",
+        "mowziesmobs:geomancer_robe",
+        "mowziesmobs:geomancer_sandals",
+        "mowziesmobs:sculptor_staff"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "mowziesmobs:geomancer_beads",
+        "mowziesmobs:geomancer_belt",
+        "mowziesmobs:geomancer_robe",
+        "mowziesmobs:geomancer_sandals",
+        "mowziesmobs:sculptor_staff"
+      ],
+      "server_first_rewards": [
+        "f_rank_days:earth_trial_token"
+      ]
+    },
+    {
+      "id": "m_void_blossom",
+      "tab": 4,
+      "kind": "monster",
+      "name": "공허의 꽃",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "본토 심층 대공동",
+      "entity_id": "bosses_of_mass_destruction:void_blossom",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_void_blossom.png",
+      "drops": [
+        "bosses_of_mass_destruction:crystal_fruit",
+        "bosses_of_mass_destruction:void_thorn",
+        "f_rank_days:high_tempering_core"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "bosses_of_mass_destruction:crystal_fruit",
+        "bosses_of_mass_destruction:void_thorn"
+      ],
+      "server_first_rewards": [
+        "bosses_of_mass_destruction:void_thorn",
+        "f_rank_days:high_tempering_core"
+      ]
+    },
+    {
+      "id": "m_lich",
+      "tab": 4,
+      "kind": "monster",
+      "name": "밤의 리치",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "본토 한랭지 리치 탑",
+      "entity_id": "bosses_of_mass_destruction:lich",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png",
+      "drops": [
+        "bosses_of_mass_destruction:ancient_anima",
+        "f_rank_days:high_tempering_core",
+        "minecraft:bone",
+        "minecraft:book",
+        "minecraft:diamond"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [
+        "bosses_of_mass_destruction:ancient_anima",
+        "minecraft:bone",
+        "minecraft:book",
+        "minecraft:diamond"
+      ],
+      "server_first_rewards": [
+        "bosses_of_mass_destruction:ancient_anima",
+        "f_rank_days:high_tempering_core"
+      ]
+    },
+    {
+      "id": "m_gauntlet",
+      "tab": 4,
+      "kind": "monster",
+      "name": "네더 건틀릿",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "네더 투기장",
+      "entity_id": "bosses_of_mass_destruction:gauntlet",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png",
+      "drops": [
+        "bosses_of_mass_destruction:blazing_eye"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [],
+      "server_first_rewards": [
+        "bosses_of_mass_destruction:blazing_eye"
+      ]
+    },
+    {
+      "id": "m_obsidilith",
+      "tab": 4,
+      "kind": "monster",
+      "name": "옵시딜리스",
+      "hint": "실제 보스 토벌 개인 영수증을 받으세요.",
+      "description": "같은 차원36블록 안의 실제 토벌자 또는 같은 팀의 신규 개인 영수증만 도감에 반영합니다.",
+      "region": "엔드 외곽 요새",
+      "entity_id": "bosses_of_mass_destruction:obsidilith",
+      "boss": true,
+      "required_kills": 1,
+      "icon": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png",
+      "drops": [
+        "bosses_of_mass_destruction:obsidian_heart"
+      ],
+      "drop_note": "아이콘: 설치 모드 엔티티 루트표의 조건부 전리품 + 기존 서버 최초 토벌 재료. 장비·패턴·개인 영수증 보상은 별도 조건입니다.",
+      "weakness": "절대 무적과 고유 단계는 관통하지 않습니다. 고유 패턴을 확인한 뒤 유효한 공격 기회를 노리세요.",
+      "native_drops": [],
+      "server_first_rewards": [
+        "bosses_of_mass_destruction:obsidian_heart"
+      ]
+    },
+    {
+      "id": "n_hess",
+      "tab": 5,
+      "kind": "npc",
+      "name": "헤스",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "통합 길드",
+      "npc_id": "hess",
+      "portrait": "f_rank_days:textures/npc/user_20261116/hess_portrait.png"
+    },
+    {
+      "id": "n_darim",
+      "tab": 5,
+      "kind": "npc",
+      "name": "다림",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "농장",
+      "npc_id": "darim",
+      "portrait": "f_rank_days:textures/npc/darim_portrait.png"
+    },
+    {
+      "id": "n_roman",
+      "tab": 5,
+      "kind": "npc",
+      "name": "로만",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "물약가게",
+      "npc_id": "roman",
+      "portrait": "f_rank_days:textures/npc/user_20261116/roman_portrait.png"
+    },
+    {
+      "id": "n_gori",
+      "tab": 5,
+      "kind": "npc",
+      "name": "고리",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "여관",
+      "npc_id": "gori",
+      "portrait": "f_rank_days:textures/npc/user_20261116/gori_portrait.png"
+    },
+    {
+      "id": "n_nau",
+      "tab": 5,
+      "kind": "npc",
+      "name": "나우",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "대장간",
+      "npc_id": "nau",
+      "portrait": "f_rank_days:textures/npc/user_20261116/nau_portrait.png"
+    },
+    {
+      "id": "n_hwiyeon",
+      "tab": 5,
+      "kind": "npc",
+      "name": "휘연",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "의료소",
+      "npc_id": "hwiyeon",
+      "portrait": "f_rank_days:textures/npc/user_20261116/hwiyeon_portrait.png"
+    },
+    {
+      "id": "n_ski",
+      "tab": 5,
+      "kind": "npc",
+      "name": "스키",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "북쪽 훈련 구역",
+      "npc_id": "ski",
+      "portrait": "f_rank_days:textures/npc/user_20261116/ski_portrait.png"
+    },
+    {
+      "id": "n_harin",
+      "tab": 5,
+      "kind": "npc",
+      "name": "하린",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "세르딘 감시 거점",
+      "npc_id": "harin",
+      "portrait": "f_rank_days:textures/npc/user_20261116/harin_portrait.png",
+      "portrait_placeholder": false
+    },
+    {
+      "id": "n_hyeophap",
+      "tab": 5,
+      "kind": "npc",
+      "name": "협합",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "시장 · 유물 보관소",
+      "npc_id": "hyeophap",
+      "portrait": "f_rank_days:textures/npc/user_20261116/hyeophap_portrait.png"
+    },
+    {
+      "id": "n_bambam",
+      "tab": 5,
+      "kind": "npc",
+      "name": "밤밤",
+      "hint": "직접 찾아가 대화를 나누세요.",
+      "description": "수락한 선물의 실제 반응을 개인 메모에 남깁니다.",
+      "region": "상점",
+      "npc_id": "bambam",
+      "portrait": "f_rank_days:textures/npc/user_20261116/bambam_portrait.png"
+    }
+  ],
+  "milestones": [
+    {
+      "threshold": 8,
+      "title": "초보 기록가",
+      "copper": 150,
+      "items": [
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 2
+        }
+      ],
+      "bonus_max_mp": 5,
+      "speed": 0,
+      "luck": 0,
+      "health": 0
+    },
+    {
+      "threshold": 20,
+      "title": "세르딘 박물학자",
+      "copper": 350,
+      "items": [
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "count": 2
+        }
+      ],
+      "bonus_max_mp": 5,
+      "speed": 0.03,
+      "luck": 0,
+      "health": 0
+    },
+    {
+      "threshold": 40,
+      "title": "왕립 도감 편찬위원",
+      "copper": 800,
+      "items": [
+        {
+          "id": "f_rank_days:enhancement_hammer",
+          "count": 1
+        }
+      ],
+      "bonus_max_mp": 10,
+      "speed": 0.03,
+      "luck": 0.5,
+      "health": 0
+    },
+    {
+      "threshold": 60,
+      "title": "대륙 비경 답사가",
+      "copper": 1500,
+      "items": [
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 2
+        }
+      ],
+      "bonus_max_mp": 10,
+      "speed": 0.03,
+      "luck": 1,
+      "health": 2
+    },
+    {
+      "threshold": 80,
+      "title": "만물을 기록한 자",
+      "copper": 3000,
+      "items": [
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 3
+        }
+      ],
+      "bonus_max_mp": 20,
+      "speed": 0.03,
+      "luck": 1,
+      "health": 2
+    }
+  ],
+  "reactions": {
+    "loved": 5,
+    "liked": 3,
+    "neutral": 1,
+    "disliked": -3,
+    "hated": -6
+  },
+  "gifts": {
+    "hess": {
+      "loved": [
+        "minecraft:book"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "darim": {
+      "loved": [
+        "minecraft:golden_carrot"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:rotten_flesh",
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "roman": {
+      "loved": [
+        "minecraft:amethyst_shard"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:rotten_flesh"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "gori": {
+      "loved": [
+        "f_rank_days:harvest_berry_tart"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "nau": {
+      "loved": [
+        "f_rank_days:hardened_ingot"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:dead_bush"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "hwiyeon": {
+      "loved": [
+        "f_rank_days:herb_bandage"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "ski": {
+      "loved": [
+        "minecraft:iron_sword"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "harin": {
+      "loved": [
+        "minecraft:cooked_beef"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt",
+        "minecraft:fire_charge"
+      ],
+      "neutral_default": true
+    },
+    "hyeophap": {
+      "loved": [
+        "f_rank_days:ancient_rubbing_sheet"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    },
+    "bambam": {
+      "loved": [
+        "minecraft:emerald"
+      ],
+      "liked_from_existing_preferred": true,
+      "liked": [],
+      "disliked": [
+        "minecraft:poisonous_potato"
+      ],
+      "hated": [
+        "minecraft:tnt"
+      ],
+      "neutral_default": true
+    }
+  },
+  "sale_additions": {
+    "darim": {
+      "minecraft:sugar_cane": 1,
+      "minecraft:pumpkin": 6,
+      "minecraft:melon_slice": 1,
+      "farmersdelight:onion": 3,
+      "farmersdelight:rice": 3
+    },
+    "roman": {
+      "minecraft:blue_orchid": 3
+    },
+    "gori": {
+      "minecraft:pufferfish": 4,
+      "minecraft:pumpkin_pie": 6,
+      "minecraft:golden_carrot": 8,
+      "farmersdelight:fruit_salad": 6
+    },
+    "nau": {
+      "minecraft:diamond": 80,
+      "minecraft:netherite_ingot": 400,
+      "f_rank_days:refined_mana_stone": 8,
+      "f_rank_days:hardened_ingot": 12,
+      "f_rank_days:tempering_stone": 4
+    },
+    "hyeophap": {
+      "f_rank_days:wrought_relic_shard": 15
+    }
+  },
+  "policy": "Phase5 explicit new balance choices; existing preferred items become liked unless explicitly loved/disliked/hated. Existing merchant prices are never overwritten. No historical inventory, relationship or boss import."
+}

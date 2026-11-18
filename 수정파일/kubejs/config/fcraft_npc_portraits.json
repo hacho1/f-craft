@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "portraits": {
+    "ski": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/ski_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "hyeophap": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/hyeophap_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "nau": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/nau_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "bambam": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/bambam_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "gori": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/gori_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "hess": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/hess_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "hwiyeon": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/hwiyeon_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "harin": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/harin_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "sia": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/sia_portrait.png",
+      "portrait_aspect_ratio": 0.7470703125,
+      "portrait_is_placeholder": false
+    },
+    "omeu": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/omeu_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "byoring": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/byoring_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "jokjebi": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/jokjebi_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    },
+    "roman": {
+      "portrait": "f_rank_days:textures/npc/user_20261116/roman_portrait.png",
+      "portrait_aspect_ratio": 0.78,
+      "portrait_is_placeholder": false
+    }
+  },
+  "aliases": {
+    "omu": "omeu"
+  }
+}

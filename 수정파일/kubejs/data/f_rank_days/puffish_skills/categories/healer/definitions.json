@@ -1,0 +1,198 @@
+{
+  "healer_foundation": {
+    "title": "1. 생명의 기초",
+    "description": "최대 체력 +2 HP",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_1",
+          "lock_command": "tag @s remove frank_phase4_healer_1"
+        }
+      }
+    ]
+  },
+  "healer_passive_2": {
+    "title": "2. 정갈한 붕대",
+    "description": "붕대 회복 +2 HP",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_2",
+          "lock_command": "tag @s remove frank_phase4_healer_2"
+        }
+      }
+    ]
+  },
+  "healer_passive_3": {
+    "title": "3. 자기 돌봄",
+    "description": "자가 회복 +20%",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_3",
+          "lock_command": "tag @s remove frank_phase4_healer_3"
+        }
+      }
+    ]
+  },
+  "healer_passive_4": {
+    "title": "4. 치유의 메아리",
+    "description": "붕대 회복을 주변 아군에게 전파",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_4",
+          "lock_command": "tag @s remove frank_phase4_healer_4"
+        }
+      }
+    ]
+  },
+  "healer_passive_5": {
+    "title": "5. 정화의 손길",
+    "description": "붕대 치료 시 해로운 효과 1개 제거",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_5",
+          "lock_command": "tag @s remove frank_phase4_healer_5"
+        }
+      }
+    ]
+  },
+  "healer_passive_6": {
+    "title": "6. 회복의 축복",
+    "description": "치유한 대상에게 저항 · 재생 부여",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_6",
+          "lock_command": "tag @s remove frank_phase4_healer_6"
+        }
+      }
+    ]
+  },
+  "healer_passive_7": {
+    "title": "7. 생명의 서약",
+    "description": "180초마다 주변 파티원 치명상 구원",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_healer_7",
+          "lock_command": "tag @s remove frank_phase4_healer_7"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "worldValidationId": "fcraft_v9_medieval_town_verified_01",
+  "geometryReport": "검증/arena_preimage_approval_v104.json",
+  "offsetPolicy": "Latest user prefers actual western sea island gateway; Wrought combat is solely guardian_sanctum. Former west forest colosseum cancelled.",
+  "preservePerimeterTrees": true,
+  "arenas": [
+    {
+      "id": "krag",
+      "nominalOffset": {
+        "dx": -12,
+        "dz": -376
+      },
+      "center": {
+        "x": 73,
+        "y": 161,
+        "z": -1319,
+        "dimension": "minecraft:overworld"
+      },
+      "altar": {
+        "x": 73,
+        "y": 161,
+        "z": -1319
+      },
+      "spawn": {
+        "x": 76.5,
+        "y": 161,
+        "z": -1318.5,
+        "dimension": "minecraft:overworld"
+      },
+      "arenaRadius": 18,
+      "verified": true,
+      "verificationScope": "v10.4 authoritative native builder DONE required; Wrought is portal-only in guardian_sanctum.",
+      "allowPlace": false,
+      "replaceBlock": "minecraft:air",
+      "floorY": 160,
+      "flatRadius": 12,
+      "bindings": {
+        "ore": [
+          {
+            "id": "ore_west",
+            "x": 65,
+            "y": 161,
+            "z": -1319,
+            "hitBlock": {
+              "x": 65,
+              "y": 160,
+              "z": -1319,
+              "block": "minecraft:amethyst_block"
+            }
+          },
+          {
+            "id": "ore_east",
+            "x": 81,
+            "y": 161,
+            "z": -1319,
+            "hitBlock": {
+              "x": 81,
+              "y": 160,
+              "z": -1319,
+              "block": "minecraft:amethyst_block"
+            }
+          }
+        ],
+        "bud": [],
+        "magnetic": []
+      },
+      "sanctuaryTiles": [],
+      "entrances": [
+        {
+          "id": "krag_north",
+          "name": "north",
+          "x": 0,
+          "z": -1,
+          "offset": 0,
+          "groundY": 161,
+          "steps": 2,
+          "drop": -1
+        },
+        {
+          "id": "krag_south",
+          "name": "south",
+          "x": 0,
+          "z": 1,
+          "offset": 0,
+          "groundY": 160,
+          "steps": 2,
+          "drop": 0
+        },
+        {
+          "id": "krag_east",
+          "name": "east",
+          "x": 1,
+          "z": 0,
+          "offset": 0,
+          "groundY": 161,
+          "steps": 2,
+          "drop": -1
+        },
+        {
+          "id": "krag_west",
+          "name": "west",
+          "x": -1,
+          "z": 0,
+          "offset": -1,
+          "groundY": 161,
+          "steps": 2,
+          "drop": -1
+        }
+      ],
+      "constructionRequired": true
+    },
+    {
+      "id": "blossom",
+      "nominalOffset": {
+        "dx": -92,
+        "dz": -556
+      },
+      "center": {
+        "x": -121,
+        "y": 138,
+        "z": -1529,
+        "dimension": "minecraft:overworld"
+      },
+      "altar": {
+        "x": -121,
+        "y": 138,
+        "z": -1529
+      },
+      "spawn": {
+        "x": -114.5,
+        "y": 138.001,
+        "z": -1528.5,
+        "dimension": "minecraft:overworld"
+      },
+      "arenaRadius": 22,
+      "verified": true,
+      "verificationScope": "v10.4 authoritative native builder DONE required; Wrought is portal-only in guardian_sanctum.",
+      "allowPlace": false,
+      "replaceBlock": "minecraft:air",
+      "floorY": 137,
+      "flatRadius": 15,
+      "bindings": {
+        "ore": [],
+        "bud": [
+          {
+            "id": "bud_-6_-6",
+            "x": -127,
+            "y": 138,
+            "z": -1535,
+            "hitBlock": {
+              "x": -127,
+              "y": 137,
+              "z": -1535,
+              "block": "minecraft:chiseled_quartz_block"
+            }
+          },
+          {
+            "id": "bud_-6_6",
+            "x": -127,
+            "y": 138,
+            "z": -1523,
+            "hitBlock": {
+              "x": -127,
+              "y": 137,
+              "z": -1523,
+              "block": "minecraft:chiseled_quartz_block"
+            }
+          },
+          {
+            "id": "bud_6_-6",
+            "x": -115,
+            "y": 138,
+            "z": -1535,
+            "hitBlock": {
+              "x": -115,
+              "y": 137,
+              "z": -1535,
+              "block": "minecraft:chiseled_quartz_block"
+            }
+          },
+          {
+            "id": "bud_6_6",
+            "x": -115,
+            "y": 138,
+            "z": -1523,
+            "hitBlock": {
+              "x": -115,
+              "y": 137,
+              "z": -1523,
+              "block": "minecraft:chiseled_quartz_block"
+            }
+          }
+        ],
+        "magnetic": []
+      },
+      "sanctuaryTiles": [
+        {
+          "id": "sanctuary_north",
+          "x": -121,
+          "y": 138,
+          "z": -1541,
+          "radius": 2,
+          "blockCenter": {
+            "x": -121,
+            "y": 137,
+            "z": -1541,
+            "block": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "id": "sanctuary_south",
+          "x": -121,
+          "y": 138,
+          "z": -1517,
+          "radius": 2,
+          "blockCenter": {
+            "x": -121,
+            "y": 137,
+            "z": -1517,
+            "block": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "id": "sanctuary_east",
+          "x": -109,
+          "y": 138,
+          "z": -1529,
+          "radius": 2,
+          "blockCenter": {
+            "x": -109,
+            "y": 137,
+            "z": -1529,
+            "block": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "id": "sanctuary_west",
+          "x": -133,
+          "y": 138,
+          "z": -1529,
+          "radius": 2,
+          "blockCenter": {
+            "x": -133,
+            "y": 137,
+            "z": -1529,
+            "block": "minecraft:sea_lantern"
+          }
+        }
+      ],
+      "entrances": [
+        {
+          "id": "blossom_north",
+          "name": "north",
+          "x": 0,
+          "z": -1,
+          "offset": 4,
+          "groundY": 137,
+          "steps": 2,
+          "drop": 0
+        },
+        {
+          "id": "blossom_south",
+          "name": "south",
+          "x": 0,
+          "z": 1,
+          "offset": 6,
+          "groundY": 139,
+          "steps": 2,
+          "drop": -2
+        },
+        {
+          "id": "blossom_east",
+          "name": "east",
+          "x": 1,
+          "z": 0,
+          "offset": 0,
+          "groundY": 138,
+          "steps": 2,
+          "drop": -1
+        },
+        {
+          "id": "blossom_west",
+          "name": "west",
+          "x": -1,
+          "z": 0,
+          "offset": 0,
+          "groundY": 136,
+          "steps": 2,
+          "drop": 1
+        }
+      ],
+      "constructionRequired": true,
+      "spawnVerification": "Installed BOMD void_blossom width8,height10; Cerbons CompoundOrientedBox SAT includes touching faces. Initial spawn is 0.001 blocks above the verified floor so face contact is not an obstruction. Full native compound-shape collision guard remains mandatory."
+    },
+    {
+      "id": "wrought",
+      "nominalOffset": {
+        "dx": -186,
+        "dz": -388
+      },
+      "center": {
+        "x": 0.5,
+        "y": 81,
+        "z": 0.5,
+        "dimension": "f_rank_days:guardian_sanctum"
+      },
+      "altar": {
+        "x": 0,
+        "y": 81,
+        "z": 0
+      },
+      "spawn": {
+        "x": 0.5,
+        "y": 81,
+        "z": 0.5,
+        "dimension": "f_rank_days:guardian_sanctum"
+      },
+      "arenaRadius": 20,
+      "verified": true,
+      "verificationScope": "v10.4 authoritative native builder DONE required; Wrought is portal-only in guardian_sanctum.",
+      "allowPlace": false,
+      "replaceBlock": "minecraft:air",
+      "floorY": 80,
+      "flatRadius": 20,
+      "bindings": {
+        "ore": [],
+        "bud": [],
+        "magnetic": [
+          {
+            "id": "magnetic_-10_-10",
+            "x": -9.5,
+            "y": 82,
+            "z": -9.5,
+            "hitBlock": {
+              "x": -10,
+              "y": 82,
+              "z": -10,
+              "block": "minecraft:crying_obsidian"
+            }
+          },
+          {
+            "id": "magnetic_-10_10",
+            "x": -9.5,
+            "y": 82,
+            "z": 10.5,
+            "hitBlock": {
+              "x": -10,
+              "y": 82,
+              "z": 10,
+              "block": "minecraft:crying_obsidian"
+            }
+          },
+          {
+            "id": "magnetic_10_-10",
+            "x": 10.5,
+            "y": 82,
+            "z": -9.5,
+            "hitBlock": {
+              "x": 10,
+              "y": 82,
+              "z": -10,
+              "block": "minecraft:crying_obsidian"
+            }
+          },
+          {
+            "id": "magnetic_10_10",
+            "x": 10.5,
+            "y": 82,
+            "z": 10.5,
+            "hitBlock": {
+              "x": 10,
+              "y": 82,
+              "z": 10,
+              "block": "minecraft:crying_obsidian"
+            }
+          }
+        ]
+      },
+      "sanctuaryTiles": [],
+      "entrances": [
+        {
+          "id": "wrought_north",
+          "name": "north",
+          "x": 0,
+          "z": -1,
+          "offset": 3,
+          "groundY": 134,
+          "steps": 2,
+          "drop": -2
+        },
+        {
+          "id": "wrought_south",
+          "name": "south",
+          "x": 0,
+          "z": 1,
+          "offset": 3,
+          "groundY": 135,
+          "steps": 3,
+          "drop": -3
+        },
+        {
+          "id": "wrought_east",
+          "name": "east",
+          "x": 1,
+          "z": 0,
+          "offset": 1,
+          "groundY": 135,
+          "steps": 3,
+          "drop": -3
+        },
+        {
+          "id": "wrought_west",
+          "name": "west",
+          "x": -1,
+          "z": 0,
+          "offset": -1,
+          "groundY": 129,
+          "steps": 3,
+          "drop": 3
+        }
+      ],
+      "constructionRequired": true,
+      "arrival": {
+        "x": 0.5,
+        "y": 81,
+        "z": 16.5,
+        "yaw": 180,
+        "dimension": "f_rank_days:guardian_sanctum"
+      },
+      "escapeCrystal": {
+        "x": 0,
+        "y": 81,
+        "z": 18
+      },
+      "returnDais": {
+        "x": 0,
+        "y": 81,
+        "z": 0
+      }
+    }
+  ],
+  "constructionVersion": "10.4"
+}

@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "farmer_node_1_basic",
+        "farmer_node_2_soil"
+      ],
+      [
+        "farmer_node_2_soil",
+        "farmer_node_3_research"
+      ],
+      [
+        "farmer_node_3_research",
+        "farmer_node_4_advanced"
+      ],
+      [
+        "farmer_node_4_advanced",
+        "farmer_node_5_expert"
+      ],
+      [
+        "farmer_node_5_expert",
+        "farmer_node_6"
+      ],
+      [
+        "farmer_node_6",
+        "farmer_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

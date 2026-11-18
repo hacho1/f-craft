@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fcraft.promotion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "PersonalQuestVisibilityMixin",
+    "PersonalTeamProgressMixin",
+    "PersonalQuestButtonMixin",
+    "ClientBackgroundTextureThreadMixin",
+    "PersonalQuestPanelBoundsMixin",
+    "PersonalMainlandChapterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

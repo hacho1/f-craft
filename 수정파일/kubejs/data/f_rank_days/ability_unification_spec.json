@@ -1,0 +1,162 @@
+{
+  "schema_version": 2,
+  "purpose": "초기 기획안의 F급 고유 능력 15종 전체 후보군과 현재 KubeJS에 실제 구현된 4종의 차이를 투명하게 기록하고, 향후 나머지 11종을 추가하더라도 기존 플레이어 저장 데이터(f_rank_days_state_v1)가 절대 깨지지 않도록 보장하는 호환 명세",
+  "system_separation_rule": "F급 고유 능력(KubeJS 개인 저장) ≠ 직업 자격 등급(길드 자격시험 승급) ≠ 직업 스킬 트리(Pufferfish's Skills 숙련 해금). 특히 F급 능력 '흙내음 감각(seed_sense)'과 농부 스킬 트리의 '토양 관리/작물 연구'가 무한 중첩되지 않도록 추가 종자 회수 확률 상한(최대 20%)을 둔다.",
+  "migration_safety_plan": [
+    "저장 포맷은 영문 스네이크 케이스 문자열 ID(ability_id)를 유지하므로 신규 능력을 implemented: true로 전환해도 기존 유저의 기선택 능력은 변형되지 않는다.",
+    "implemented: false 상태인 11종의 후보는 헤스 등록 대화 및 /frank ability 선택지에서 자동으로 비노출 처리하여 '이름만 있고 효과가 없는 능력'을 유저가 고르는 문제를 차단한다.",
+    "추후 11종 중 일부를 신규 구현할 때에도 기존 유저의 능력을 강제 초기화하지 않으며, 관리자 승인형 1회 재감정권(별도 선택 기능)으로만 변경을 허용한다."
+  ],
+  "abilities": [
+    {
+      "index": 1,
+      "id": "seed_sense",
+      "name": "흙내음 감각",
+      "grade": "F",
+      "category": "농사·생육 감각",
+      "implemented": true,
+      "selectable_in_game": true,
+      "in_game_mechanic": "웅크린 채 작물·경작지 우클릭 시 성장 단계·수분도를 진단하며, 완숙 작물 수확 시 15% 확률로 씨앗 1개를 추가 회수한다(농부 스킬과 합산 시 최대 20% 상한 적용)."
+    },
+    {
+      "index": 2,
+      "id": "steady_breath",
+      "name": "고른 숨결",
+      "grade": "F",
+      "category": "기초 체력·호흡 갈무리",
+      "implemented": true,
+      "selectable_in_game": true,
+      "in_game_mechanic": "/frank breathe 실행 시 60초 쿨타임으로 짧은 재생 I(4초) 효과를 얻어 장거리 보행·훈련 피로를 가다듬는다."
+    },
+    {
+      "index": 3,
+      "id": "keen_appraisal",
+      "name": "잔금 읽기",
+      "grade": "F",
+      "category": "채광·채집 눈썰미",
+      "implemented": true,
+      "selectable_in_game": true,
+      "in_game_mechanic": "광석·돌·자갈 채굴 시 8% 확률로 놓치기 쉬운 철 조각(iron_nugget) 또는 부싯돌(flint)을 1개 추가 발견한다."
+    },
+    {
+      "index": 4,
+      "id": "warm_palm",
+      "name": "미온의 손바닥",
+      "grade": "F",
+      "category": "생활 온기·응급 안정",
+      "implemented": true,
+      "selectable_in_game": true,
+      "in_game_mechanic": "따뜻한 식사 직후 또는 /frank warm_hands 실행 시 90초 쿨타임으로 흡수 I(30초) 보호 온기를 얻는다."
+    },
+    {
+      "index": 5,
+      "id": "animal_affinity",
+      "name": "작은 말벗",
+      "grade": "F",
+      "category": "목축·동물 교감",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 초식 동물 및 Alex's Mobs 소형 동물에게 먹이를 줄 때 친밀도·교배 쿨타임 소폭 완화 구상."
+    },
+    {
+      "index": 6,
+      "id": "faint_night_eye",
+      "name": "어스름 눈",
+      "grade": "F",
+      "category": "야간 보행 보조",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 횃불을 손에 들었을 때 발밑 시인성을 미세하게 보조하는 구상(Oculus 다이나믹 라이트와 중복 검토 필요)."
+    },
+    {
+      "index": 7,
+      "id": "herb_scent",
+      "name": "풀잎 코끝",
+      "grade": "F",
+      "category": "약초·채집 감각",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 반경 8블록 내 희귀 야생 약초가 있을 때 미세한 풀내음 알림을 띄우는 구상."
+    },
+    {
+      "index": 8,
+      "id": "light_footstep",
+      "name": "가벼운 발걸음",
+      "grade": "F",
+      "category": "이동·탐색",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 다진 흙길(dirt_path) 위를 걸을 때 배고픔 소모를 미세하게 줄이는 생활 보행 구상."
+    },
+    {
+      "index": 9,
+      "id": "weather_intuition",
+      "name": "비구름 예감",
+      "grade": "F",
+      "category": "기상 감각",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 비나 뇌우가 시작되기 전 하늘 기류 변화를 먼저 감지하는 생활 감각 구상."
+    },
+    {
+      "index": 10,
+      "id": "steady_hand",
+      "name": "흔들림 없는 손끝",
+      "grade": "F",
+      "category": "세공·탁본 보조",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 비석 탁본이나 유리병 세척 시 재료 파손률을 소폭 낮추는 구상."
+    },
+    {
+      "index": 11,
+      "id": "bargain_sense",
+      "name": "장터 눈치",
+      "grade": "F",
+      "category": "상업·교역",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 떠돌이 상인이나 마을 가판대의 오늘의 추천 납품 품목을 미리 파악하는 구상."
+    },
+    {
+      "index": 12,
+      "id": "campfire_cook",
+      "name": "모닥불 손맛",
+      "grade": "F",
+      "category": "야영·요리",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 모닥불에서 구운 감자·고기를 꺼낼 때 가끔 노릇하게 잘 구워진 추가 포만감 보너스를 주는 구상."
+    },
+    {
+      "index": 13,
+      "id": "pack_organizer",
+      "name": "단단한 배낭 매듭",
+      "grade": "F",
+      "category": "수납·정리",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 무거운 광물·농작물 운반 중 점프 피로도를 미세하게 줄이는 구상."
+    },
+    {
+      "index": 14,
+      "id": "well_dowsing",
+      "name": "물맥 더듬기",
+      "grade": "F",
+      "category": "개간·탐사",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 지하 수맥이나 동굴 물웅덩이 방향을 막대기로 어림짐작하는 구상."
+    },
+    {
+      "index": 15,
+      "id": "mend_stitch",
+      "name": "꼼꼼한 바느질",
+      "grade": "F",
+      "category": "의복·가죽 수선",
+      "implemented": false,
+      "selectable_in_game": false,
+      "in_game_mechanic": "[기획 후보·미구현] 가죽·천 장비를 실과 가죽으로 수선할 때 내구도 회복량이 소폭 증가하는 구상."
+    }
+  ]
+}

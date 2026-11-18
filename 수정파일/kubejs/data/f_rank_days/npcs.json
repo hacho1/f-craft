@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "design_notes": {
+    "mbti_policy": "MBTI는 내부 연기 톤 및 반응 경향 참고용 지표일 뿐이며, 대사를 MBTI 스테레오타입으로 정형화하지 않는다.",
+    "separation_policy": "confirmed_settings(사용자 확정 설정)와 proposed_narrative(개인 서사 확장안·임시 제안)를 엄격히 분리한다.",
+    "undetermined_npc_policy": "상세 설정 미수령 NPC 4인(하린, 시아, 오므, 족제비)은 이름과 미정 상태만 유지하며 임의의 종족·성격·사연을 부여하지 않는다."
+  },
+  "npcs": [
+    {
+      "id": "roman",
+      "display_name": "로만",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "연금술사",
+        "job_grade": "B",
+        "workplace": "자신이 차린 물약가게",
+        "role": "물약 판매·제조 의뢰·연금술 입문 및 하위 등급 실기 지도",
+        "mbti_reference": "ISTJ",
+        "race": "고양이 수인",
+        "speech_style": "무관심하고 사무적인 비즈니스 말투",
+        "backstory": "7살에 부모에게 버림받은 뒤 혼자 고난을 겪으며 연금술을 배워 직접 물약가게를 차렸다. 과거의 상처로 성격이 날카롭고 타인을 쉽게 신뢰하지 않는다. 현재 B급 연금술사로 A급 승급을 목표로 하며, 겉으로는 누구의 도움도 필요 없는 척 행동하지만 내면 한편에는 누군가에게 기대고 싶은 욕구가 있다.",
+        "confirmed_appearance": {
+          "hair": "연보라빛 실버 화이트(라벤더 실버), 중앙 검은 미니 리본, 양옆 흰색 실핀 2개씩, 왼쪽 어깨 앞으로 묶어 넘긴 사이드 포니테일(검은 리본 매듭)",
+          "eyes": "보라색 홍채에 황금빛 고양이 세로 동공",
+          "race_and_headgear": "검은색 챙 넓은 마녀·연금술사 고깔모자(안감 보라회색) 위로 나온 회색·분홍 고양이 귀 한 쌍과 양쪽 귀 아래 금색 방울 장식",
+          "outfit": "크림 아이보리 프릴 하이넥 블라우스와 검은 리본 타이, 은회색 더블 단추의 차콜 블랙 트렌치형 연금술 코트(안감 슬레이트 블루), 검은 쇼츠",
+          "accessories_and_legs": "오른쪽 허리 가죽 약재 가방(양피지 태그), 왼쪽 허리 3색 시험관 물약(분홍·민트·파랑) 및 금테 푸른 펜던트, 다크 브라운-차콜 오버니 스타킹 및 왼쪽 허벅지 가죽 스트랩 홀스터 파우치"
+        }
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "혼자서는 완성할 수 없는 물약",
+        "core_themes": [
+          "독립",
+          "신뢰",
+          "협력"
+        ],
+        "summary": "A급 연금술사 자격시험 과제인 고난도 복합 회복약 연구에서 반복 실패하며 타 분야 지식과 협력이 필요함에도 독자 해결을 고집한다. 플레이어는 약초·연구 재료 조달과 실험 보조로 참여하되 시험을 대신 통과해 주지 않으며, 로만이 타인의 조력을 받아들이고 자신의 실력으로 한계를 돌파하도록 돕는다.",
+        "guardrails": [
+          "플레이어가 로만의 A급 시험을 대리 통과하는 전개 금지",
+          "로만 스스로 도움을 수용하고 자기 실력으로 완성해야 함"
+        ]
+      },
+      "skin_asset": {
+        "status": "official_illustration_matched_skin",
+        "reference_illustration_provided": true,
+        "illustrations": {
+          "transparent_bg": "f_rank_days:textures/gui/portraits/roman_illustration_transparent.png",
+          "white_bg": "f_rank_days:textures/gui/portraits/roman_illustration_white_bg.png"
+        },
+        "texture_path": "customnpcs:textures/entity/custom/roman_skin_64x64.png",
+        "slim_texture_path": "customnpcs:textures/entity/custom/roman_skin_slim_64x64.png",
+        "legacy_alias_path": "customnpcs:textures/entity/custom/roman_temp_skin_64x64.png",
+        "notes": "제공된 로만 공식 기준 일러스트에 맞춰 제작된 64x64 정식 스킨(Classic 4px 기본 및 Slim 3px 동봉, 구 경로 호환 유지)"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "darim",
+      "display_name": "다림",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "농부",
+        "job_grade": "C",
+        "workplace": "브리온 마을 농장 및 작물 거래 가판대",
+        "role": "농작물 판매·구매, 초급 농업 훈련",
+        "mbti_reference": "INFP",
+        "race": "여우 수인",
+        "speech_style": "친절하고 다정함",
+        "backstory": "원래 검사가 꿈이었으며 친한 친구와 함께 검술을 수련하고 여러 의뢰를 수행했다. 그러나 위험한 의뢰를 무리하게 진행하다 친구를 잃고 자신도 왼쪽 눈 부근에 흉터를 입었다. 이후 검사의 꿈을 접고 농부가 되었으나 지금도 죽은 친구가 나오는 악몽을 꾸며, 마음 한편에 검사가 되고 싶은 미련이 남아 있다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "녹슨 검과 밀밭",
+        "core_themes": [
+          "상실",
+          "트라우마",
+          "꿈",
+          "선택"
+        ],
+        "summary": "플레이어가 다림의 오래된 검을 우연히 발견하며 과거사가 드러난다. 검술 자체를 증오하는 것이 아니라 비극의 반복을 두려워한다는 내면을 마주하며, 농부로 살아갈지, 다시 검을 잡을지, 두 삶을 병행할지 스스로 선택한다.",
+        "guardrails": [
+          "검사 복귀만을 유일한 해피엔딩·정답으로 취급하지 않음",
+          "농부 전념, 검사 재도전, 농부·호위 병행 모두 동등한 성장 결말로 존중"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": true,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_fox_farmer.png",
+        "portrait_texture_path": "f_rank_days:textures/npc/darim_portrait.png",
+        "portrait_note": "User-provided original illustration; white background and original pixels preserved. Minecraft skin remains the existing placeholder."
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "hess",
+      "display_name": "헤스",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "길드 접수원",
+        "job_grade": null,
+        "grade_note": "등급 없음",
+        "workplace": "통합 길드 건물",
+        "role": "길드 등록·의뢰 접수·직업별 자격시험 안내 및 응시 처리",
+        "mbti_reference": "INTJ",
+        "race": "인간",
+        "speech_style": "정중하고 사무적인 길드 접수원 말투",
+        "backstory": "과도한 업무량과 하루에도 수없이 몰리는 진상 고객 응대로 깊은 피로가 누적되어 휴식이 절실한 상태다. 그러나 타인에게는 괜찮은 척하며 흔들리지 않는 강한 모습을 유지하려 한다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "접수창구 너머의 진실",
+        "core_themes": [
+          "책임",
+          "과로",
+          "제도 개선"
+        ],
+        "summary": "일부 모험가 의뢰의 위험 등급이 실제보다 낮게 축소 기록되어 초보 모험가들이 위험에 노출되는 정황을 포착한다. 길드 내부 구조 문제로 단독 시정이 어렵지만, 플레이어의 현장 기록 조사를 바탕으로 혼자 떠안는 대신 공식 절차를 통해 문제를 제기하고 분류 제도를 개선한다.",
+        "guardrails": [
+          "이전에 제안되었던 마왕 설정은 미확정이므로 자동 적용 절대 금지",
+          "현재 확정 정체성은 인간 길드 접수원임"
+        ]
+      },
+      "legacy_unconfirmed_flags": {
+        "demon_king_hypothesis_applied": false,
+        "note": "과거 아이디어 단계의 마왕 설정은 확정되지 않았으므로 게임 내 대사·데이터·복선에 자동 반영하지 않음"
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "ski",
+      "display_name": "스키",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "검술 교관",
+        "job_grade": "A",
+        "workplace": "검술 훈련장",
+        "role": "검사 훈련과 관리, 검술 자격시험 지도·심사 연계",
+        "mbti_reference": "ENTP",
+        "race": "여우 수인",
+        "speech_style": "자뻑이 매우 심하고 자신만만함",
+        "backstory": "실제로는 검술을 그다지 좋아하지 않는다. 어린 시절 부모의 권유와 압박에 떠밀려 검술을 시작했고, 천부적인 재능 덕에 A급까지 올랐으나 현재까지도 부모의 기대와 압박에 시달리고 있다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "천재 검사의 진짜 꿈",
+        "core_themes": [
+          "재능",
+          "타인의 기대",
+          "자율성"
+        ],
+        "summary": "플레이어에게 검술을 가르치며 끊임없이 자기 실력을 과시하지만 정작 검술을 진심으로 좋아하는지에는 답하지 못한다. 가문의 요구와 마주하는 사건을 계기로 부모의 기대와 자신의 주체적 선택 사이에서 갈등하며 진짜 원하는 삶의 방식을 찾아간다.",
+        "guardrails": [
+          "자신만만한 겉모습 뒤에 있는 자율성 결핍을 다루되 캐릭터 특유의 유쾌한 화법을 잃지 않게 유지"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "hyeophap",
+      "display_name": "협합",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "유물 연구자",
+        "job_grade": "B",
+        "workplace": "박물관 형태의 유물 연구 시설",
+        "role": "유물 감정·전시·유적 조사 의뢰",
+        "mbti_reference": "ESTP",
+        "race": "고양이 수인",
+        "speech_style": "매우 심한 자뻑",
+        "backstory": "남몰래 공룡 인형을 매우 좋아하지만, 과거에 자신의 취향을 타인에게 솔직히 말했다가 놀림받은 상처가 있어 이후로는 이 취향을 쉽게 드러내지 못한다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "박물관의 비밀 수집품",
+        "core_themes": [
+          "자존심",
+          "정직",
+          "자기표현"
+        ],
+        "summary": "뛰어난 연구 실력과 강한 자존심을 지닌 협합이 과거 자신이 감정·발표했던 유물의 해석에 오류가 있었음을 발견한다. 명성을 위해 침묵할지 학자로서 정정 발표를 할지 갈등하며 플레이어와 재조사를 진행한다. 높은 친밀도에서는 숨겨 온 공룡 인형 수집 취향을 공유하는 개인 이벤트가 이어진다.",
+        "guardrails": [
+          "공룡 인형 취향은 조롱거리가 아닌 높은 신뢰 단계의 진솔한 자기표현 이벤트로 다룸"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/roman_temp_skin_64x64.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "nau",
+      "display_name": "나우",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "대장장이",
+        "job_grade": "B",
+        "workplace": "대장간",
+        "role": "장비 제작·수리·강화, 광물 수집 의뢰, 대장장이 교육",
+        "mbti_reference": "ENTJ",
+        "race": "인간",
+        "speech_style": "사투리를 사용하며 무관심하고 무뚝뚝하지만 속은 따뜻함",
+        "backstory": "속마음은 따뜻하지만 특유의 무심하고 툭 던지는 사투리 말투가 다른 사람들에게 차갑고 무섭게 느껴질까 봐 남몰래 고민하고 있다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "말보다 뜨거운 쇳물",
+        "core_themes": [
+          "소통",
+          "교육",
+          "표현"
+        ],
+        "summary": "실력은 출중하나 말로 풀어서 가르치는 데 서툴러 수습 제자들이 대장간을 잇달아 떠나면서 교육 방식의 한계를 자각한다. 플레이어가 대장간 일손을 도우며 작업 지침서 정리와 진심 전달 방식을 함께 모색한다.",
+        "guardrails": [
+          "퀘스트 완료 후에도 나우 고유의 사투리와 무뚝뚝한 성격을 완전히 딴사람처럼 바꾸지 않음",
+          "성격 개조가 아닌 나우다운 방식으로 진심을 전하는 소통법 확립"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_blacksmith.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "bambam",
+      "display_name": "밤밤",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "떠돌이 상인",
+        "job_grade": "C",
+        "workplace": "전 지역 순회 행상 (고정 점포 없음)",
+        "role": "여러 지역 순회 일반 상품 및 비정기 희귀 상품 판매",
+        "mbti_reference": "INFJ",
+        "race": "소악마",
+        "speech_style": "활기참과 차분함이 공존함",
+        "backstory": "아르베른 제국 내 일부 지역에 남아 있는 마족 차별로 인해 한곳에 정착하지 못하고 계속 유랑한다. 길 위의 물리적 위험보다 사람들의 차가운 시선과 배척하는 태도를 더 두려워한다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "돌아갈 곳 없는 상인",
+        "core_themes": [
+          "차별",
+          "소속",
+          "자유"
+        ],
+        "summary": "특정 도시·마을에서 마족이라는 이유로 정식 좌판 허가가 반려되는 사건을 겪는다. 누군가와 깊이 정들었다가 다시 상처 입고 떠나야 하는 상황을 두려워하던 밤밤이 플레이어와의 교류 속에서 정착과 자유로운 유랑 중 자신이 진정 원하는 삶의 형태를 성찰한다.",
+        "guardrails": [
+          "정착만을 유일한 좋은 결말로 취급하지 않음",
+          "안정적 거점 확보, 자랑스러운 순회 교역상 지속, 마을 간 순환 체류 등 밤밤의 자율적 선택 존중"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "gori",
+      "display_name": "고리",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "여관 주인",
+        "job_grade": null,
+        "grade_note": "별도 설정 없음",
+        "workplace": "브리온 마을 여관",
+        "role": "숙박 제공, 주민 소문 공유, 마을 행사 안내·주최",
+        "mbti_reference": "ESFJ",
+        "race": "페럿 수인",
+        "speech_style": "다정하고 따뜻함",
+        "backstory": "일부 남성 손님들의 도를 넘은 접근 때문에 지속적인 스트레스를 받고 있다. 자신을 지켜 줄 든든한 사람이 곁에 있었으면 하는 마음은 있으나, 현재로서는 결혼할 생각이 없는 듯하다."
+      },
+      "proposed_narrative": {
+        "status": "proposed_expansion",
+        "questline_title": "누구에게나 열린 여관",
+        "core_themes": [
+          "독립",
+          "관계의 경계",
+          "안전한 공간"
+        ],
+        "summary": "누구나 편히 쉬어 가는 여관을 꾸리고 싶지만 무례한 손님들의 치근덕거림과 무리한 요구로 운영에 고충을 겪는다. 플레이어가 여관 운영과 소동 수습을 돕는 과정에서, 타인에게 보호받기만 하는 대신 여관 규칙·길드 협약·단호한 응대 원칙을 세워 스스로의 공간과 관계의 경계를 지켜낸다.",
+        "guardrails": [
+          "플레이어가 일방적 보호자로 군림하여 결혼으로 귀결시키는 클리셰 지양",
+          "고리 스스로 경계를 세우고 주체적인 여관 주인으로 서는 변화 강조"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "hwiyeon",
+      "display_name": "휘연",
+      "status": "active",
+      "confirmed_settings": {
+        "job_title": "힐러",
+        "job_grade": "A",
+        "workplace": "마을의 개인 의료소",
+        "role": "환자 치료, 의료 관련 교육 및 시험 연계",
+        "mbti_reference": "ISFJ",
+        "race": "인간",
+        "speech_style": "undetermined",
+        "speech_style_note": "말투 아직 미정 (확정 전까지 중립적이고 차분한 임시 문체만 사용하며 고유 말투를 임의 확정하지 않음)"
+      },
+      "proposed_narrative": {
+        "status": "proposed_basic_and_quest_draft",
+        "backstory_draft_title": "치유되지 않는 상처",
+        "backstory_draft": "뛰어난 치유 능력으로 A급 힐러가 되었으나 과거 치명상을 입은 환자를 살리기 위해 마력을 무리하게 소모했다. 환자는 생존했지만 휘연 본인에게는 일반 치유 마법으로 회복되지 않는 마력 역류 후유증이 남았다. 이를 숨긴 채 개인 의료소를 운영 중이며, 고위 치유 마법 사용 시 급격한 피로와 손 떨림, 마력 제어 난조가 발생한다.",
+        "questline_stages": [
+          {
+            "step": 1,
+            "title": "마을의 치유사",
+            "summary": "개인 의료소에서 휘연과 처음 만나 기초 치료·약재 정리를 접함"
+          },
+          {
+            "step": 2,
+            "title": "떨리는 손끝",
+            "summary": "치료 직후 휘연이 숨기던 손 떨림과 급격한 피로 증상을 우연히 목격"
+          },
+          {
+            "step": 3,
+            "title": "오래된 진료 기록",
+            "summary": "과거 치명상 환자 구조 사건과 회복 불가능한 마력 후유증의 진실 확인"
+          },
+          {
+            "step": 4,
+            "title": "치유사의 한계",
+            "summary": "다수 또는 중증 긴급 환자 발생 상황에서 단독 고위 치유의 한계 직면"
+          },
+          {
+            "step": 5,
+            "title": "함께 지키는 의료소",
+            "summary": "응급 처치 분담·연금술 물약 병행·보조 인력 체계 등 지속 가능한 의료소 운영안 마련"
+          }
+        ],
+        "core_themes": [
+          "치유",
+          "책임",
+          "자신의 한계"
+        ],
+        "guardrails": [
+          "기적의 영약 등으로 후유증이 갑자기 완치되는 결말만을 정답으로 만들지 않음",
+          "자신의 신체적·마력적 한계를 수용하고 분업과 지속 가능한 의료 체계를 세우는 성장 지향"
+        ]
+      },
+      "skin_asset": {
+        "status": "placeholder_pending_illustration",
+        "reference_illustration_provided": false,
+        "texture_path": "customnpcs:textures/entity/custom/placeholder_healer.png"
+      },
+      "romance_eligible": "undetermined"
+    },
+    {
+      "id": "harin",
+      "display_name": "하린",
+      "status": "undetermined",
+      "confirmed_settings": null,
+      "proposed_narrative": null,
+      "notes": "상세 설정 미수령 상태. 이름과 내부 식별자만 예약 유지하며 종족·직업·성격·사연을 임의로 확정하지 않음."
+    },
+    {
+      "id": "sia",
+      "display_name": "시아",
+      "status": "undetermined",
+      "confirmed_settings": null,
+      "proposed_narrative": null,
+      "notes": "상세 설정 미수령 상태. 이름과 내부 식별자만 예약 유지하며 타 프로젝트 설정이나 임의의 종족·성격·사연을 자동 적용하지 않음."
+    },
+    {
+      "id": "omeu",
+      "display_name": "오므",
+      "status": "undetermined",
+      "confirmed_settings": null,
+      "proposed_narrative": null,
+      "notes": "상세 설정 미수령 상태. 이름과 내부 식별자만 예약 유지하며 타 프로젝트 설정이나 임의의 종족·성격·사연을 자동 적용하지 않음."
+    },
+    {
+      "id": "jokjebi",
+      "display_name": "족제비",
+      "status": "undetermined",
+      "confirmed_settings": null,
+      "proposed_narrative": null,
+      "notes": "상세 설정 미수령 상태. 이름과 내부 식별자만 예약 유지하며 임의의 종족·직업·성격·사연을 확정하지 않음."
+    }
+  ]
+}

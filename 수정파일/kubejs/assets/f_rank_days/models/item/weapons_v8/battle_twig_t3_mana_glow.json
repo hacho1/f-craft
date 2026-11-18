@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "f_rank_days:item/weapons_v8/battle_twig_t3_mana_glow"
+  }
+}

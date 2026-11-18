@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "angler_node_1",
+        "angler_node_2"
+      ],
+      [
+        "angler_node_2",
+        "angler_node_3"
+      ],
+      [
+        "angler_node_3",
+        "angler_node_4"
+      ],
+      [
+        "angler_node_4",
+        "angler_node_5"
+      ],
+      [
+        "angler_node_5",
+        "angler_node_6"
+      ],
+      [
+        "angler_node_6",
+        "angler_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

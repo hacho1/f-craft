@@ -1,0 +1,198 @@
+{
+  "pathfinder_foundation": {
+    "title": "1. 길잡이의 걸음",
+    "description": "이동 속도 +6%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_1",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_1"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_2": {
+    "title": "2. 낙법",
+    "description": "낙하 피해 -25%",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_2",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_2"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_3": {
+    "title": "3. 단차 기동",
+    "description": "보폭 +0.5",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_3",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_3"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_4": {
+    "title": "4. 숨은 길 탐지",
+    "description": "나침반 우클릭으로 16m 미개봉 은닉처 감지",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_4",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_4"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_5": {
+    "title": "5. 지치지 않는 여정",
+    "description": "질주 피로도 -25%",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_5",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_5"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_6": {
+    "title": "6. 야영의 아침",
+    "description": "야영 후 기상 시 신속 · 재생",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_6",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_6"
+        }
+      }
+    ]
+  },
+  "pathfinder_passive_7": {
+    "title": "7. 대륙의 발자취",
+    "description": "이동 속도 총 +12% · 낙하 -50% · 답사 은화 2배",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_pathfinder_7",
+          "lock_command": "tag @s remove frank_phase4_pathfinder_7"
+        }
+      }
+    ]
+  }
+}

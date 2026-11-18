@@ -1,0 +1,44 @@
+{
+  "ranger_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "ranger_foundation",
+    "root": true
+  },
+  "ranger_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "ranger_passive_2",
+    "root": false
+  },
+  "ranger_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "ranger_passive_3",
+    "root": false
+  },
+  "ranger_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "ranger_passive_4",
+    "root": false
+  },
+  "ranger_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "ranger_passive_5",
+    "root": false
+  },
+  "ranger_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "ranger_passive_6",
+    "root": false
+  },
+  "ranger_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "ranger_passive_7",
+    "root": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " HS",
+    "B S",
+    " HS"
+  ],
+  "key": {
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:composite_longbow",
+    "count": 1
+  }
+}

@@ -1,0 +1,6251 @@
+{
+  "id": "3000000000000000",
+  "filename": "02_my_job_promotions",
+  "order_index": 1,
+  "title": "제2장. 내 직종 승급 시험",
+  "icon": {
+    "id": "ftbquests:custom_icon",
+    "Count": 1,
+    "tag": {
+      "Icon": "f_rank_days:textures/gui/quests/tab_02_job_promotion.png"
+    }
+  },
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "7D04010100000001",
+      "title": "[검사] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "훈련장 허수아비 6타",
+        "동물·일반몹 사냥 5마리",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_e",
+      "x": 0,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:swordsman_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04010200000001",
+      "title": "[검사] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "동물·일반몹 사냥 10마리",
+        "점프 치명타 또는 패링 2회",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_d",
+      "x": 3,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04010100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:swordsman_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04010300000001",
+      "title": "[검사] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "동물·일반몹 15마리 또는 1보스 크래그 토벌",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_c",
+      "x": 6,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04010200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:swordsman_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04010400000001",
+      "title": "[검사] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "공허의 꽃 / 조각가 통비 접수 후 토벌 참여",
+        "패링 성공 25 (누적)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_b",
+      "x": 9,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04010300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:swordsman_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04010500000001",
+      "title": "[검사] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "네더 건틀릿 접수 후 토벌 참여",
+        "무기 직접 +15강 달성·실물 확인",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_a",
+      "x": 12,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04010400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:swordsman_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04010600000001",
+      "title": "[검사] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "옵시딜리스 접수 후 토벌 참여",
+        "패링 성공 60 (누적)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_s",
+      "x": 15,
+      "y": 2,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04010500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04010600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:swordsman_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04010600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:swordsman_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "swordsman",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020100000001",
+      "title": "[도끼전사] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "훈련장 허수아비 6타",
+        "도끼로 동물·일반몹 5마리",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_e",
+      "x": 0,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:berserker_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020200000001",
+      "title": "[도끼전사] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "도끼로 동물·일반몹 10마리",
+        "나무 원목 8개 벌목",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_d",
+      "x": 3,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04020100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:berserker_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020300000001",
+      "title": "[도끼전사] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "도끼로 동물·일반몹 15마리 또는 1보스 크래그 토벌",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_c",
+      "x": 6,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04020200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:berserker_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020400000001",
+      "title": "[도끼전사] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "공허의 꽃 / 조각가 통비 접수 후 토벌 참여",
+        "대지 분쇄 찍기 적중 30 (누적)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_b",
+      "x": 9,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04020300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:berserker_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020500000001",
+      "title": "[도끼전사] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "네더 건틀릿 접수 후 토벌 참여",
+        "도끼 직접 +15강 달성·실물 확인",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_a",
+      "x": 12,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04020400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:berserker_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04020600000001",
+      "title": "[도끼전사] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "옵시딜리스 접수 후 토벌 참여",
+        "회전 도끼 폭풍 처치 50 (누적)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_s",
+      "x": 15,
+      "y": 4,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04020500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04020600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:berserker_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04020600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:berserker_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "berserker",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030100000001",
+      "title": "[레인저] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "활·쇠뇌 명중 8회",
+        "동물·일반몹 사냥 5마리",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_e",
+      "x": 0,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000003"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:ranger_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030200000001",
+      "title": "[레인저] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "활·쇠뇌로 동물·일반몹 10마리",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_d",
+      "x": 3,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04030100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:ranger_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030300000001",
+      "title": "[레인저] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "활·쇠뇌로 동물·일반몹 15마리 또는 크래그·공허의 꽃 토벌",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_c",
+      "x": 6,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04030200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:ranger_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030400000001",
+      "title": "[레인저] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "밤의 리치 접수 후 토벌 참여",
+        "15m 이상 원거리 명중 40 (누적)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_b",
+      "x": 9,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04030300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:ranger_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030500000001",
+      "title": "[레인저] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "네더 건틀릿 접수 후 토벌 참여",
+        "(가죽 16개 납품 + 깃털 32개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_a",
+      "x": 12,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04030400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:ranger_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04030600000001",
+      "title": "[레인저] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "옵시딜리스 접수 후 토벌 참여",
+        "서로 다른 패턴 보스 6종 개인 토벌 기록",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_s",
+      "x": 15,
+      "y": 6,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04030500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04030600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:ranger_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04030600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:ranger_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "ranger",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040100000001",
+      "title": "[치유사] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "야생 꽃·약초 5송이 채집",
+        "붕대·음식 회복 2회",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_e",
+      "x": 0,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000004"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:healer_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040200000001",
+      "title": "[치유사] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "조리 음식 2개 납품",
+        "동물·일반몹 정화·처치 6마리",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_d",
+      "x": 3,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04040100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:healer_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040300000001",
+      "title": "[치유사] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "치유의 물결(X) 8회 시전",
+        "회복 물약·음식 4회",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_c",
+      "x": 6,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04040200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:healer_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040400000001",
+      "title": "[치유사] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(황금밀 보양 스튜 6개 납품 + 반짝이는 수박 8개 납품)",
+        "공허의 꽃 / 조각가 통비 접수 후 토벌 참여",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_b",
+      "x": 9,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04040300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:healer_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040500000001",
+      "title": "[치유사] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(조건에 맞는 물약 3개 납품 + 약초 붕대 16개 납품)",
+        "네더 건틀릿 접수 후 토벌 참여",
+        "실제 치유 HP 100 (누적)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_a",
+      "x": 12,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04040400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:healer_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04040600000001",
+      "title": "[치유사] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "옵시딜리스 접수 후 토벌 참여",
+        "황금 사과 8개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_s",
+      "x": 15,
+      "y": 8,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04040500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04040600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:healer_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04040600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:healer_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "healer",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050100000001",
+      "title": "[농부] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "경작 5회",
+        "파종 5회",
+        "완숙 작물 수확 5회",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_e",
+      "x": 0,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:farmer_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050200000001",
+      "title": "[농부] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "완숙 작물 16회 수확",
+        "보리빵 또는 빵 3개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_d",
+      "x": 3,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04050100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:farmer_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050300000001",
+      "title": "[농부] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "완숙 작물 30회 수확",
+        "산딸기 타르트 2개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_c",
+      "x": 6,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04050200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:farmer_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050400000001",
+      "title": "[농부] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(건초 더미 16개 납품 + 황금 당근 16개 납품 + 양배추 32개 납품 + 토마토 32개 납품)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_b",
+      "x": 9,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04050300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:farmer_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050500000001",
+      "title": "[농부] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "답사: 황금들판 교역 초소",
+        "완숙 작물 직접 수확 400 (누적)",
+        "(밀 32개 납품 + 당근 16개 납품 + 감자 16개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_a",
+      "x": 12,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04050400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:farmer_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04050600000001",
+      "title": "[농부] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "완숙 작물 직접 수확 800 (누적)",
+        "(호박 파이 32개 납품 + 산딸기 타르트 32개 납품 + 브리온 보리빵 32개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_s",
+      "x": 15,
+      "y": 10,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04050500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04050600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:farmer_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04050600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:farmer_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "farmer",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060100000001",
+      "title": "[약초채집가] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "야생 약초·꽃·버섯 8송이 채집",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_e",
+      "x": 0,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000006"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:herbalist_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060200000001",
+      "title": "[약초채집가] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "맑은 약초차 2잔 납품",
+        "발광 열매·버섯 6개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_d",
+      "x": 3,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04060100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:herbalist_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060300000001",
+      "title": "[약초채집가] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "정제 마력석 2개 납품",
+        "맹독 포자(X) 10회 시전",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_c",
+      "x": 6,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04060200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:herbalist_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060400000001",
+      "title": "[약초채집가] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "고대 각성의 공명향 직접 제작 3 (접수 후)",
+        "(고대 각성의 공명향 3개 납품 + 푸른 난초 12개 납품 + 은방울꽃 12개 납품)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_b",
+      "x": 9,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04060300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:herbalist_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060500000001",
+      "title": "[약초채집가] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(네더 사마귀 32개 납품 + 블레이즈 가루 12개 납품)",
+        "상급 물약 직접 조제 6 (접수 후)",
+        "조건에 맞는 물약 6개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_a",
+      "x": 12,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04060400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:herbalist_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04060600000001",
+      "title": "[약초채집가] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(유황 넥타르 4개 납품 + 고대 각성의 공명향 6개 납품)",
+        "서로 다른 야생 꽃·버섯 8종 각 8개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_s",
+      "x": 15,
+      "y": 12,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04060500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04060600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:herbalist_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04060600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:herbalist_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "herbalist",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070100000001",
+      "title": "[낚시꾼] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 낚시꾼 시아 (부재 시 고리)",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 해안 선착장&r (X:+14.5, Z:-78.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "물고기 4마리 직접 낚시",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav sia\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_e",
+      "x": 0,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000007"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:angler_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 낚시꾼 시아 · 북문 해안 선착장 (부재 시 고리)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070200000001",
+      "title": "[낚시꾼] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 낚시꾼 시아 (부재 시 고리)",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 해안 선착장&r (X:+14.5, Z:-78.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "물고기 누적 10마리 직접 낚시",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav sia\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_d",
+      "x": 3,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04070100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:angler_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 낚시꾼 시아 · 북문 해안 선착장 (부재 시 고리)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070300000001",
+      "title": "[낚시꾼] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 낚시꾼 시아 (부재 시 고리)",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 해안 선착장&r (X:+14.5, Z:-78.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "물고기 누적 20마리 직접 낚시",
+        "구운 생선 4개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav sia\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_c",
+      "x": 6,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04070200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:angler_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 낚시꾼 시아 · 북문 해안 선착장 (부재 시 고리)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070400000001",
+      "title": "[낚시꾼] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "직접 낚시 130 (누적)",
+        "(앵무조개 껍데기 3개 납품 또는 이름표 3개 납품 또는 안장 3개 납품)",
+        "보물 직접 낚시 3 (접수 후)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_b",
+      "x": 9,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04070300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:angler_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070500000001",
+      "title": "[낚시꾼] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "프리즈머린 조각 16개 납품",
+        "우천 낚시 20 (접수 후)",
+        "생대구 / 생연어 / 열대어 / 복어 64개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_a",
+      "x": 12,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04070400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:angler_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04070600000001",
+      "title": "[낚시꾼] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "직접 낚시 250 (누적)",
+        "(바다의 심장 1개 납품 또는 앵무조개 껍데기 8개 납품)",
+        "어부의 생선 스튜 8개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_s",
+      "x": 15,
+      "y": 14,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04070500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04070600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:angler_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04070600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:angler_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "angler",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080100000001",
+      "title": "[요리사] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "기본 조리 음식 3개 직접 제작·제련",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_e",
+      "x": 0,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000008"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:chef_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080200000001",
+      "title": "[요리사] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "수프·스튜 3그릇 직접 조리",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_d",
+      "x": 3,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04080100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:chef_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080300000001",
+      "title": "[요리사] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "황금밀 보양 스튜 2그릇 납품",
+        "타르트 1개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_c",
+      "x": 6,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04080200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:chef_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080400000001",
+      "title": "[요리사] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "황금밀 보양 스튜 12개 납품",
+        "스테이크와 감자 8개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_b",
+      "x": 9,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04080300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:chef_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080500000001",
+      "title": "[요리사] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "로스트 치킨 만찬 직접 제작 1 (접수 후)",
+        "속을 채운 호박 만찬 직접 제작 1 (접수 후)",
+        "꿀 햄 만찬 직접 제작 1 (접수 후)",
+        "(로스트 치킨 만찬 1개 납품 + 속을 채운 호박 만찬 1개 납품 + 꿀 햄 만찬 1개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_a",
+      "x": 12,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04080400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:chef_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04080600000001",
+      "title": "[요리사] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "황금 사과 8개 납품",
+        "로스트 치킨 만찬 / 속을 채운 호박 만찬 / 꿀 햄 만찬 6개 납품",
+        "황금밀 보양 스튜 24개 납품",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_s",
+      "x": 15,
+      "y": 16,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04080500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04080600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:chef_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04080600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:chef_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "chef",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090100000001",
+      "title": "[대장장이] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "광석 6회 직접 채광",
+        "철 주괴 3개 직접 제련",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_e",
+      "x": 0,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E11000000000009"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:blacksmith_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090200000001",
+      "title": "[대장장이] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "경화광 또는 철 주괴 6개 납품",
+        "무기 직접 +3강 달성·실물 확인",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_d",
+      "x": 3,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04090100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:blacksmith_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090300000001",
+      "title": "[대장장이] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "무기 직접 +7강 달성·실물 확인",
+        "단련석 3개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_c",
+      "x": 6,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04090200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:blacksmith_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090400000001",
+      "title": "[대장장이] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(경화광 전투망치 직접 제작 1 (접수 후) 또는 경화광 전투도끼 직접 제작 1 (접수 후))",
+        "무기 직접 +22강 달성·실물 확인",
+        "철 블록 8개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_b",
+      "x": 9,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04090300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:blacksmith_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090500000001",
+      "title": "[대장장이] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "네더라이트 주괴 직접 제작 2 (접수 후)",
+        "무기 직접 +35강 달성·실물 확인",
+        "고순도 마력 단련핵 직접 제작 4 (접수 후)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_a",
+      "x": 12,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04090400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:blacksmith_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D04090600000001",
+      "title": "[대장장이] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "무기 직접 +50강 달성·실물 확인",
+        "네더라이트 무구 단조 1 (접수 후)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_s",
+      "x": 15,
+      "y": 18,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D04090500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D04090600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:blacksmith_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D04090600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:blacksmith_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "blacksmith",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0100000001",
+      "title": "[유적연구원] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "고대 비석 탁본 2장 채록",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_e",
+      "x": 0,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E1100000000000A"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:relic_researcher_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0200000001",
+      "title": "[유적연구원] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "세르딘 상자 거점 3곳 발견",
+        "마력석 원석 4개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_d",
+      "x": 3,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040A0100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:relic_researcher_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0300000001",
+      "title": "[유적연구원] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "상자 거점 누적 6곳 발견",
+        "고대 비석 탁본 3장 채록",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_c",
+      "x": 6,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040A0200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:relic_researcher_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0400000001",
+      "title": "[유적연구원] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "답사: 가라앉은 고대 아성",
+        "답사: 잿빛 성좌의 마탑",
+        "도자기 조각 / 도자기 조각 / 도자기 조각 / 도자기 조각 / 도자기 조각 / 고대 철기 유물 파편 6개 납품",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_b",
+      "x": 9,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040A0300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:relic_researcher_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0500000001",
+      "title": "[유적연구원] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(반향 조각 4개 납품 또는 (답사: 네더 요새 + 네더 사마귀 16개 납품))",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_a",
+      "x": 12,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040A0400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:relic_researcher_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040A0600000001",
+      "title": "[유적연구원] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(서로 다른 세르딘 은닉처 24곳 또는 겉날개 1개 보유 확인 또는 드래곤 머리 1개 보유 확인)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_s",
+      "x": 15,
+      "y": 20,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040A0500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040A0600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:relic_researcher_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040A0600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:relic_researcher_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "relic_researcher",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0100000001",
+      "title": "[광부] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "석탄·철·구리 원석 8회 채굴",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_e",
+      "x": 0,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E1100000000000B"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:prospector_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0200000001",
+      "title": "[광부] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "마력석·경화광·철 원석 10회 채굴",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_d",
+      "x": 3,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040B0100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:prospector_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0300000001",
+      "title": "[광부] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "정제 마력석 3개 납품",
+        "누적 원석 25회 채굴",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_c",
+      "x": 6,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040B0200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:prospector_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0400000001",
+      "title": "[광부] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(에메랄드 12개 납품 + 자수정 조각 24개 납품 + 경화광 주괴 16개 납품)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_b",
+      "x": 9,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040B0300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:prospector_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0500000001",
+      "title": "[광부] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "고대 잔해 직접 채굴 6 (접수 후)",
+        "네더 석영 직접 채굴 64 (접수 후)",
+        "(고대 잔해 6개 납품 + 네더 석영 64개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_a",
+      "x": 12,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040B0400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:prospector_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040B0600000001",
+      "title": "[광부] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "(다이아몬드 블록 4개 납품 + 네더라이트 주괴 3개 납품 + 정제 마력석 64개 납품)",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_s",
+      "x": 15,
+      "y": 22,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040B0500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040B0600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:prospector_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040B0600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:prospector_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "prospector",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0100000001",
+      "title": "[정찰가] E급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "세르딘 초입 삼거리 방문",
+        "동물·일반몹 4마리 처치",
+        "공인 봉랍 자격증 · 패시브 1p · 10실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_e",
+      "x": 0,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7E1100000000000C"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0100000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_e"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0100000003",
+          "type": "custom",
+          "title": "E급 승급 · 10실버",
+          "icon": "f_rank_days:pathfinder_license_e",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "E"
+      ],
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0200000001",
+      "title": "[정찰가] D급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "세르딘 거점 3곳 발견",
+        "동물·허수아비·일반몹 배후 타격 5회",
+        "공인 봉랍 자격증 · 패시브 2p · 25실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_d",
+      "x": 3,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040C0100000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0200000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_d"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0200000003",
+          "type": "custom",
+          "title": "D급 승급 · 25실버",
+          "icon": "f_rank_days:pathfinder_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "D"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0300000001",
+      "title": "[정찰가] C급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "은폐 상자 2곳 발견",
+        "동물·허수아비·일반몹 배후 타격 10회",
+        "공인 봉랍 자격증 · 패시브 2p · 50실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_c",
+      "x": 6,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040C0200000001"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0300000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_c"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0300000003",
+          "type": "custom",
+          "title": "C급 승급 · 50실버",
+          "icon": "f_rank_days:pathfinder_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "C"
+      ],
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0400000001",
+      "title": "[정찰가] B급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "서로 다른 바이옴 15종 (자연의 나침반 소지)",
+        "공인 봉랍 자격증 · 패시브 2p · 90실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_b",
+      "x": 9,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040C0300000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0400000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_b"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0400000003",
+          "type": "custom",
+          "title": "B급 승급 · 90실버",
+          "icon": "f_rank_days:pathfinder_license_b",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "B"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0500000001",
+      "title": "[정찰가] A급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "서로 다른 네더 바이옴 4종",
+        "답사: 본토 중심 3,000블록 밖",
+        "공인 봉랍 자격증 · 패시브 3p · 150실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_a",
+      "x": 12,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040C0400000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0500000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_a"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0500000003",
+          "type": "custom",
+          "title": "A급 승급 · 150실버",
+          "icon": "f_rank_days:pathfinder_license_a",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "A"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7D040C0600000001",
+      "title": "[정찰가] S급 승급 · 무료 실기",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 스승 우클릭 → 상단 [5. 🎖 승급 시험] → 실기 진행 / 승급 심사 완료",
+        "",
+        "서로 다른 바이옴 30종",
+        "서로 다른 보스 성소 6곳 발견",
+        "공인 봉랍 자격증 · 패시브 3p · 300실버",
+        "E급 [X] 주력기 / C급 [C] 전술기 해금. 필기·선행 교육·접수비 없음.",
+        "실기를 마친 뒤 담당 스승의 [5. 🎖 승급 시험]에서 심사 완료하거나 봉랍 보상을 수령하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_s",
+      "x": 15,
+      "y": 24,
+      "progression_mode": "linear",
+      "dependencies": [
+        "7D040C0500000001",
+        "7E100000000000FE"
+      ],
+      "tasks": [
+        {
+          "id": "7D040C0600000002",
+          "type": "custom",
+          "title": "개인 실기 완료 확인",
+          "icon": "f_rank_days:pathfinder_license_s"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D040C0600000003",
+          "type": "custom",
+          "title": "S급 승급 · 300실버",
+          "icon": "f_rank_days:pathfinder_license_s",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "hide_dependency_lines": true,
+      "tags": [
+        "fcraft_promotion_v106",
+        "pathfinder",
+        "S"
+      ],
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7E14010100000001",
+      "title": "검사 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 0,
+      "tasks": [
+        {
+          "id": "7E13010100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14010200000001",
+      "title": "검사 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 1,
+      "tasks": [
+        {
+          "id": "7E13010200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14010300000001",
+      "title": "검사 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 2,
+      "tasks": [
+        {
+          "id": "7E13010300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14010400000001",
+      "title": "검사 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 3,
+      "tasks": [
+        {
+          "id": "7E13010400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14010500000001",
+      "title": "검사 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 4,
+      "tasks": [
+        {
+          "id": "7E13010500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14010600000001",
+      "title": "검사 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 5,
+      "tasks": [
+        {
+          "id": "7E13010600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15010600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E14020100000001",
+      "title": "도끼전사 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 6,
+      "tasks": [
+        {
+          "id": "7E13020100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14020200000001",
+      "title": "도끼전사 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 7,
+      "tasks": [
+        {
+          "id": "7E13020200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14020300000001",
+      "title": "도끼전사 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 8,
+      "tasks": [
+        {
+          "id": "7E13020300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14020400000001",
+      "title": "도끼전사 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 9,
+      "tasks": [
+        {
+          "id": "7E13020400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14020500000001",
+      "title": "도끼전사 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 10,
+      "tasks": [
+        {
+          "id": "7E13020500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14020600000001",
+      "title": "도끼전사 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 11,
+      "tasks": [
+        {
+          "id": "7E13020600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15020600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14030100000001",
+      "title": "레인저 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 12,
+      "tasks": [
+        {
+          "id": "7E13030100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14030200000001",
+      "title": "레인저 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 13,
+      "tasks": [
+        {
+          "id": "7E13030200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14030300000001",
+      "title": "레인저 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 14,
+      "tasks": [
+        {
+          "id": "7E13030300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14030400000001",
+      "title": "레인저 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 15,
+      "tasks": [
+        {
+          "id": "7E13030400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14030500000001",
+      "title": "레인저 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 16,
+      "tasks": [
+        {
+          "id": "7E13030500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14030600000001",
+      "title": "레인저 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 17,
+      "tasks": [
+        {
+          "id": "7E13030600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15030600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E14040100000001",
+      "title": "치유사 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 18,
+      "tasks": [
+        {
+          "id": "7E13040100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14040200000001",
+      "title": "치유사 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 19,
+      "tasks": [
+        {
+          "id": "7E13040200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14040300000001",
+      "title": "치유사 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 20,
+      "tasks": [
+        {
+          "id": "7E13040300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14040400000001",
+      "title": "치유사 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 21,
+      "tasks": [
+        {
+          "id": "7E13040400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14040500000001",
+      "title": "치유사 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 22,
+      "tasks": [
+        {
+          "id": "7E13040500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14040600000001",
+      "title": "치유사 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 23,
+      "tasks": [
+        {
+          "id": "7E13040600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15040600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E14050100000001",
+      "title": "농부 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 24,
+      "tasks": [
+        {
+          "id": "7E13050100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14050200000001",
+      "title": "농부 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 25,
+      "tasks": [
+        {
+          "id": "7E13050200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14050300000001",
+      "title": "농부 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 26,
+      "tasks": [
+        {
+          "id": "7E13050300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14050400000001",
+      "title": "농부 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 27,
+      "tasks": [
+        {
+          "id": "7E13050400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14050500000001",
+      "title": "농부 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 28,
+      "tasks": [
+        {
+          "id": "7E13050500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14050600000001",
+      "title": "농부 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 29,
+      "tasks": [
+        {
+          "id": "7E13050600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15050600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E14060100000001",
+      "title": "약초채집가 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 30,
+      "tasks": [
+        {
+          "id": "7E13060100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14060200000001",
+      "title": "약초채집가 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 31,
+      "tasks": [
+        {
+          "id": "7E13060200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14060300000001",
+      "title": "약초채집가 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 32,
+      "tasks": [
+        {
+          "id": "7E13060300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14060400000001",
+      "title": "약초채집가 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 33,
+      "tasks": [
+        {
+          "id": "7E13060400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14060500000001",
+      "title": "약초채집가 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 34,
+      "tasks": [
+        {
+          "id": "7E13060500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14060600000001",
+      "title": "약초채집가 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 35,
+      "tasks": [
+        {
+          "id": "7E13060600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15060600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E14070100000001",
+      "title": "낚시꾼 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 36,
+      "tasks": [
+        {
+          "id": "7E13070100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14070200000001",
+      "title": "낚시꾼 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 37,
+      "tasks": [
+        {
+          "id": "7E13070200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14070300000001",
+      "title": "낚시꾼 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 38,
+      "tasks": [
+        {
+          "id": "7E13070300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14070400000001",
+      "title": "낚시꾼 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 39,
+      "tasks": [
+        {
+          "id": "7E13070400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14070500000001",
+      "title": "낚시꾼 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 40,
+      "tasks": [
+        {
+          "id": "7E13070500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14070600000001",
+      "title": "낚시꾼 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 41,
+      "tasks": [
+        {
+          "id": "7E13070600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15070600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080100000001",
+      "title": "요리사 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 42,
+      "tasks": [
+        {
+          "id": "7E13080100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080200000001",
+      "title": "요리사 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 43,
+      "tasks": [
+        {
+          "id": "7E13080200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080300000001",
+      "title": "요리사 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 44,
+      "tasks": [
+        {
+          "id": "7E13080300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080400000001",
+      "title": "요리사 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 45,
+      "tasks": [
+        {
+          "id": "7E13080400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080500000001",
+      "title": "요리사 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 46,
+      "tasks": [
+        {
+          "id": "7E13080500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14080600000001",
+      "title": "요리사 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 47,
+      "tasks": [
+        {
+          "id": "7E13080600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15080600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E14090100000001",
+      "title": "대장장이 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 48,
+      "tasks": [
+        {
+          "id": "7E13090100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14090200000001",
+      "title": "대장장이 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 49,
+      "tasks": [
+        {
+          "id": "7E13090200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14090300000001",
+      "title": "대장장이 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 50,
+      "tasks": [
+        {
+          "id": "7E13090300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14090400000001",
+      "title": "대장장이 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 51,
+      "tasks": [
+        {
+          "id": "7E13090400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14090500000001",
+      "title": "대장장이 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 52,
+      "tasks": [
+        {
+          "id": "7E13090500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E14090600000001",
+      "title": "대장장이 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 53,
+      "tasks": [
+        {
+          "id": "7E13090600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E15090600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0100000001",
+      "title": "유적연구원 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 54,
+      "tasks": [
+        {
+          "id": "7E130A0100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0200000001",
+      "title": "유적연구원 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 55,
+      "tasks": [
+        {
+          "id": "7E130A0200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0300000001",
+      "title": "유적연구원 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 56,
+      "tasks": [
+        {
+          "id": "7E130A0300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0400000001",
+      "title": "유적연구원 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 57,
+      "tasks": [
+        {
+          "id": "7E130A0400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0500000001",
+      "title": "유적연구원 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 58,
+      "tasks": [
+        {
+          "id": "7E130A0500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140A0600000001",
+      "title": "유적연구원 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 59,
+      "tasks": [
+        {
+          "id": "7E130A0600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150A0600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0100000001",
+      "title": "광부 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 60,
+      "tasks": [
+        {
+          "id": "7E130B0100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0200000001",
+      "title": "광부 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 61,
+      "tasks": [
+        {
+          "id": "7E130B0200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0300000001",
+      "title": "광부 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 62,
+      "tasks": [
+        {
+          "id": "7E130B0300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0400000001",
+      "title": "광부 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 63,
+      "tasks": [
+        {
+          "id": "7E130B0400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0500000001",
+      "title": "광부 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 64,
+      "tasks": [
+        {
+          "id": "7E130B0500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140B0600000001",
+      "title": "광부 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 65,
+      "tasks": [
+        {
+          "id": "7E130B0600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150B0600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0100000001",
+      "title": "정찰가 E급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 66,
+      "tasks": [
+        {
+          "id": "7E130C0100000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0100000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0200000001",
+      "title": "정찰가 D급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 67,
+      "tasks": [
+        {
+          "id": "7E130C0200000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0200000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0300000001",
+      "title": "정찰가 C급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 68,
+      "tasks": [
+        {
+          "id": "7E130C0300000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0300000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0400000001",
+      "title": "정찰가 B급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 69,
+      "tasks": [
+        {
+          "id": "7E130C0400000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0400000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0500000001",
+      "title": "정찰가 A급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 70,
+      "tasks": [
+        {
+          "id": "7E130C0500000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0500000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E140C0600000001",
+      "title": "정찰가 S급 접수 기록",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -20,
+      "y": 71,
+      "tasks": [
+        {
+          "id": "7E130C0600000001",
+          "type": "custom",
+          "title": "개인 실기 접수 확인"
+        },
+        {
+          "id": "7E150C0600000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000001",
+      "title": "gate_swordsman_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 1,
+      "tasks": [
+        {
+          "id": "7E11000000000001",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000001",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000002",
+      "title": "gate_berserker_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 2,
+      "tasks": [
+        {
+          "id": "7E11000000000002",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000002",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000003",
+      "title": "gate_ranger_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 3,
+      "tasks": [
+        {
+          "id": "7E11000000000003",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000003",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000004",
+      "title": "gate_healer_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 4,
+      "tasks": [
+        {
+          "id": "7E11000000000004",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000004",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000005",
+      "title": "gate_farmer_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 5,
+      "tasks": [
+        {
+          "id": "7E11000000000005",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000005",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000006",
+      "title": "gate_herbalist_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 6,
+      "tasks": [
+        {
+          "id": "7E11000000000006",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000006",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000007",
+      "title": "gate_angler_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 7,
+      "tasks": [
+        {
+          "id": "7E11000000000007",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000007",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000008",
+      "title": "gate_chef_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 8,
+      "tasks": [
+        {
+          "id": "7E11000000000008",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000008",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ]
+    },
+    {
+      "id": "7E10000000000009",
+      "title": "gate_blacksmith_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 9,
+      "tasks": [
+        {
+          "id": "7E11000000000009",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E12000000000009",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E1000000000000A",
+      "title": "gate_relic_researcher_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 10,
+      "tasks": [
+        {
+          "id": "7E1100000000000A",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E1200000000000A",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ]
+    },
+    {
+      "id": "7E1000000000000B",
+      "title": "gate_prospector_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 11,
+      "tasks": [
+        {
+          "id": "7E1100000000000B",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E1200000000000B",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ]
+    },
+    {
+      "id": "7E1000000000000C",
+      "title": "gate_pathfinder_registered",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "x": -24,
+      "y": 12,
+      "tasks": [
+        {
+          "id": "7E1100000000000C",
+          "type": "custom",
+          "title": "직종 등록 확인"
+        },
+        {
+          "id": "7E1200000000000C",
+          "type": "custom",
+          "title": "내부 표시 제어"
+        }
+      ],
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ]
+    },
+    {
+      "id": "7E100000000000FE",
+      "title": "본토 해금 확인",
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "tasks": [
+        {
+          "id": "7E110000000000FE",
+          "type": "custom",
+          "title": "본토 도항 원부 확인"
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ]
+    }
+  ]
+}

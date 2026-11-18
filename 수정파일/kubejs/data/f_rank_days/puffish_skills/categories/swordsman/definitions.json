@@ -1,0 +1,198 @@
+{
+  "swordsman_foundation": {
+    "title": "1. 검술의 기초",
+    "description": "근접 피해 +5%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_1",
+          "lock_command": "tag @s remove frank_phase4_swordsman_1"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_2": {
+    "title": "2. 흐름 읽기",
+    "description": "패링 판정창 +0.12초",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_2",
+          "lock_command": "tag @s remove frank_phase4_swordsman_2"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_3": {
+    "title": "3. 단단한 보법",
+    "description": "최대 체력 +2 HP · 무기 내구 보호",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_3",
+          "lock_command": "tag @s remove frank_phase4_swordsman_3"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_4": {
+    "title": "4. 반격의 파문",
+    "description": "패링 성공 시 전방 물리 충격파",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_4",
+          "lock_command": "tag @s remove frank_phase4_swordsman_4"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_5": {
+    "title": "5. 회피 일격",
+    "description": "구르기 후 첫 타격 치명타 +25%",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_5",
+          "lock_command": "tag @s remove frank_phase4_swordsman_5"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_6": {
+    "title": "6. 승전의 호흡",
+    "description": "처치 시 6초간 공격 속도 +15% · 2 HP 회복",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_6",
+          "lock_command": "tag @s remove frank_phase4_swordsman_6"
+        }
+      }
+    ]
+  },
+  "swordsman_passive_7": {
+    "title": "7. 검의 경지",
+    "description": "패링 대기시간 -30% · X/C 마나 -20% · 보스 피해 +15%",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_swordsman_7",
+          "lock_command": "tag @s remove frank_phase4_swordsman_7"
+        }
+      }
+    ]
+  }
+}

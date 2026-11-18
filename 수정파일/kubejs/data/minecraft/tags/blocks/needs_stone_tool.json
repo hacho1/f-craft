@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "f_rank_days:mana_stone_ore",
+    "f_rank_days:deepslate_mana_stone_ore"
+  ]
+}

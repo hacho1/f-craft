@@ -1,0 +1,837 @@
+{
+  "version": "8.3",
+  "base_terrain_world": {
+    "selected_map": "Medieval Town Map Pack — tmp_town.schematic (Gazamo)",
+    "source_archive": "downloads/Medieval_Map_Pack.rar",
+    "original_url": "https://www.planetminecraft.com/project/medieval-town-map-pack/",
+    "dimensions_schem": [
+      339,
+      87,
+      406
+    ],
+    "non_air_blocks": 3646496,
+    "clean_copy_world_path": "saves/Gazamo_Natural_Base_Terrain_1_20_1_Copy",
+    "production_world_path": "saves/Brion_Official_Starter_World",
+    "new_world_template_path": "trilcera-template",
+    "minecraft_version": "1.20.1 Forge (DataVersion 3465)",
+    "zone_elevations": {
+      "CENTRAL": 68,
+      "NORTH": 68,
+      "NORTH_GATE": 70,
+      "EAST": 68,
+      "WEST": 68,
+      "SOUTH": 68,
+      "SOUTH_LOWER": 65
+    }
+  },
+  "central_plaza_spawn": {
+    "x": 0.5,
+    "y": 69,
+    "z": 9.5,
+    "yaw": 180.0
+  },
+  "structures": [
+    {
+      "short_id": "brion_v7_central_plaza",
+      "id": "f_rank_days:brion_v7_central_plaza",
+      "schem_file": "brion_central_plaza.schem",
+      "role": "중앙 광장 · 시계탑 · 시장 노점 (최초 스폰)",
+      "zone": "CENTRAL",
+      "dx": -16,
+      "dy": 0,
+      "dz": -16,
+      "ground_y": 68,
+      "world_origin": [
+        -16,
+        68,
+        -16
+      ],
+      "w": 33,
+      "h": 36,
+      "l": 33,
+      "rotation": 0,
+      "entrance": [
+        0,
+        1,
+        0
+      ],
+      "npc_ids": [],
+      "source_pack": "Medieval Town Map Pack (Gazamo) + 17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/medieval-town-map-pack/",
+      "original_asset": "Central Fountain Plaza + Clocktower + tmp_stall",
+      "non_air_blocks": 2251,
+      "schem_bytes": 3576
+    },
+    {
+      "short_id": "brion_v7_guild_hall",
+      "id": "f_rank_days:brion_v7_guild_hall",
+      "schem_file": "brion_guild_hall.schem",
+      "role": "아르베른 통합 길드 브리온 지부 (1순위 · 3층 종루 대길드홀)",
+      "zone": "NORTH",
+      "dx": -11,
+      "dy": 0,
+      "dz": -38,
+      "ground_y": 68,
+      "world_origin": [
+        -11,
+        68,
+        -38
+      ],
+      "w": 22,
+      "h": 30,
+      "l": 15,
+      "rotation": 0,
+      "entrance": [
+        0,
+        1,
+        -31
+      ],
+      "npc_ids": [
+        "hess"
+      ],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B02 3-Story Stepped Bell-Spire Guildhall (실내 1·2층 완비)",
+      "non_air_blocks": 2647,
+      "schem_bytes": 3863
+    },
+    {
+      "short_id": "brion_v7_training_grounds",
+      "id": "f_rank_days:brion_v7_training_grounds",
+      "schem_file": "brion_training_watchtower.schem",
+      "role": "북문 검술 수련장 및 경비 망루",
+      "zone": "NORTH",
+      "dx": 16,
+      "dy": -1,
+      "dz": -44,
+      "ground_y": 68,
+      "world_origin": [
+        16,
+        67,
+        -44
+      ],
+      "w": 13,
+      "h": 33,
+      "l": 13,
+      "rotation": 0,
+      "entrance": [
+        22,
+        1,
+        -38
+      ],
+      "npc_ids": [
+        "ski"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Watchtower (X:124..136, Z:-228..-216)",
+      "non_air_blocks": 1261,
+      "schem_bytes": 2376
+    },
+    {
+      "short_id": "brion_v7_north_forest_gate",
+      "id": "f_rank_days:brion_v7_north_forest_gate",
+      "schem_file": "brion_north_gate.schem",
+      "role": "북쪽 세르딘 숲 출입 성문 (10순위)",
+      "zone": "NORTH_GATE",
+      "dx": -13,
+      "dy": 0,
+      "dz": -72,
+      "ground_y": 70,
+      "world_origin": [
+        -13,
+        70,
+        -72
+      ],
+      "w": 27,
+      "h": 28,
+      "l": 11,
+      "rotation": 0,
+      "entrance": [
+        0,
+        1,
+        -67
+      ],
+      "npc_ids": [],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B07 Twin Tall-Spire Gatehouse",
+      "non_air_blocks": 2006,
+      "schem_bytes": 2193
+    },
+    {
+      "short_id": "brion_v7_stone_bridge",
+      "id": "f_rank_days:brion_v7_stone_bridge",
+      "schem_file": "brion_stone_bridge.schem",
+      "role": "북쪽 세르딘 계곡 아치형 중세 돌다리",
+      "zone": "NORTH_GATE",
+      "dx": -3,
+      "dy": -3,
+      "dz": -102,
+      "ground_y": 68,
+      "world_origin": [
+        -3,
+        65,
+        -102
+      ],
+      "w": 7,
+      "h": 9,
+      "l": 25,
+      "rotation": 0,
+      "entrance": [
+        0,
+        1,
+        -90
+      ],
+      "npc_ids": [],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B17 Medieval Stone Arch Bridge",
+      "non_air_blocks": 380,
+      "schem_bytes": 699
+    },
+    {
+      "short_id": "brion_v7_potion_shop",
+      "id": "f_rank_days:brion_v7_potion_shop",
+      "schem_file": "brion_roman_potion_shop.schem",
+      "role": "로만의 연금술 물약상 (2순위)",
+      "zone": "EAST",
+      "dx": 22,
+      "dy": -1,
+      "dz": -17,
+      "ground_y": 68,
+      "world_origin": [
+        22,
+        67,
+        -17
+      ],
+      "w": 14,
+      "h": 19,
+      "l": 13,
+      "rotation": 0,
+      "entrance": [
+        29,
+        1,
+        -11
+      ],
+      "npc_ids": [
+        "roman"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Alchemy Store (X:251..264, Z:-133..-121)",
+      "non_air_blocks": 1145,
+      "schem_bytes": 2794
+    },
+    {
+      "short_id": "brion_v7_specialty_shop",
+      "id": "f_rank_days:brion_v7_specialty_shop",
+      "schem_file": "brion_alchemist_tower.schem",
+      "role": "동북쪽 연금술 연구 첨탑",
+      "zone": "EAST",
+      "dx": 34,
+      "dy": 0,
+      "dz": -35,
+      "ground_y": 68,
+      "world_origin": [
+        34,
+        68,
+        -35
+      ],
+      "w": 10,
+      "h": 28,
+      "l": 13,
+      "rotation": 0,
+      "entrance": [
+        39,
+        1,
+        -29
+      ],
+      "npc_ids": [],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B12 Slender Alchemist Tower",
+      "non_air_blocks": 891,
+      "schem_bytes": 1844
+    },
+    {
+      "short_id": "brion_v7_blacksmith",
+      "id": "f_rank_days:brion_v7_blacksmith",
+      "schem_file": "brion_nau_blacksmith.schem",
+      "role": "나우의 대장간 · 무기 단련소 (5순위)",
+      "zone": "EAST",
+      "dx": 42,
+      "dy": -1,
+      "dz": -17,
+      "ground_y": 68,
+      "world_origin": [
+        42,
+        67,
+        -17
+      ],
+      "w": 14,
+      "h": 13,
+      "l": 15,
+      "rotation": 0,
+      "entrance": [
+        49,
+        1,
+        -10
+      ],
+      "npc_ids": [
+        "nau"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Blacksmith (X:251..264, Z:-182..-168, 180도 회전)",
+      "non_air_blocks": 1199,
+      "schem_bytes": 2638
+    },
+    {
+      "short_id": "brion_v7_market_general_store",
+      "id": "f_rank_days:brion_v7_market_general_store",
+      "schem_file": "brion_general_store.schem",
+      "role": "밤밤의 잡화·제과 상점 (6순위)",
+      "zone": "EAST",
+      "dx": 22,
+      "dy": -1,
+      "dz": 4,
+      "ground_y": 68,
+      "world_origin": [
+        22,
+        67,
+        4
+      ],
+      "w": 14,
+      "h": 17,
+      "l": 21,
+      "rotation": 0,
+      "entrance": [
+        29,
+        1,
+        14
+      ],
+      "npc_ids": [
+        "bambam"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Bakery & General Store (X:210..223, Z:-212..-192)",
+      "non_air_blocks": 1847,
+      "schem_bytes": 3237
+    },
+    {
+      "short_id": "brion_v7_warehouse",
+      "id": "f_rank_days:brion_v7_warehouse",
+      "schem_file": "brion_warehouse.schem",
+      "role": "협합의 유물·보급 창고 (9순위)",
+      "zone": "EAST",
+      "dx": 42,
+      "dy": -1,
+      "dz": 4,
+      "ground_y": 68,
+      "world_origin": [
+        42,
+        67,
+        4
+      ],
+      "w": 19,
+      "h": 18,
+      "l": 18,
+      "rotation": 0,
+      "entrance": [
+        51,
+        1,
+        13
+      ],
+      "npc_ids": [
+        "hyeophap"
+      ],
+      "source_pack": "Medieval Town Map Pack (Gazamo)",
+      "source_url": "https://www.planetminecraft.com/project/medieval-town-map-pack/",
+      "original_asset": "tmp_store2.schematic (팔레트 통일본)",
+      "non_air_blocks": 2259,
+      "schem_bytes": 2177
+    },
+    {
+      "short_id": "brion_v7_inn",
+      "id": "f_rank_days:brion_v7_inn",
+      "schem_file": "brion_medieval_inn.schem",
+      "role": "고리의 중세 여관 (4순위)",
+      "zone": "WEST",
+      "dx": -38,
+      "dy": -1,
+      "dz": -18,
+      "ground_y": 68,
+      "world_origin": [
+        -38,
+        67,
+        -18
+      ],
+      "w": 17,
+      "h": 18,
+      "l": 21,
+      "rotation": 0,
+      "entrance": [
+        -30,
+        1,
+        -8
+      ],
+      "npc_ids": [
+        "gori"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Tavern Or Inn (X:166..182, Z:-151..-131)",
+      "non_air_blocks": 2668,
+      "schem_bytes": 3789
+    },
+    {
+      "short_id": "brion_v7_clinic",
+      "id": "f_rank_days:brion_v7_clinic",
+      "schem_file": "brion_clinic_house.schem",
+      "role": "휘연의 브리온 의료소",
+      "zone": "WEST",
+      "dx": -40,
+      "dy": -1,
+      "dz": -45,
+      "ground_y": 68,
+      "world_origin": [
+        -40,
+        67,
+        -45
+      ],
+      "w": 19,
+      "h": 16,
+      "l": 23,
+      "rotation": 0,
+      "entrance": [
+        -31,
+        1,
+        -34
+      ],
+      "npc_ids": [
+        "hwiyeon"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Upgraded Family Home 02 (의료 병상 개조)",
+      "non_air_blocks": 2721,
+      "schem_bytes": 5263
+    },
+    {
+      "short_id": "brion_v7_resident_houses",
+      "id": "f_rank_days:brion_v7_resident_houses",
+      "schem_file": "brion_resident_manor_w1.schem",
+      "role": "서쪽 주민 타운하우스 1 (7순위)",
+      "zone": "WEST",
+      "dx": -63,
+      "dy": 0,
+      "dz": -18,
+      "ground_y": 68,
+      "world_origin": [
+        -63,
+        68,
+        -18
+      ],
+      "w": 19,
+      "h": 21,
+      "l": 19,
+      "rotation": 0,
+      "entrance": [
+        -54,
+        1,
+        -9
+      ],
+      "npc_ids": [],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B04 Cross Townhouse",
+      "non_air_blocks": 2074,
+      "schem_bytes": 2273
+    },
+    {
+      "short_id": "brion_v7_player_cottage",
+      "id": "f_rank_days:brion_v7_player_cottage",
+      "schem_file": "brion_resident_house_w2.schem",
+      "role": "서남쪽 정착민 주택 2 (7순위)",
+      "zone": "WEST",
+      "dx": -40,
+      "dy": -1,
+      "dz": 8,
+      "ground_y": 68,
+      "world_origin": [
+        -40,
+        67,
+        8
+      ],
+      "w": 19,
+      "h": 23,
+      "l": 20,
+      "rotation": 0,
+      "entrance": [
+        -31,
+        1,
+        18
+      ],
+      "npc_ids": [],
+      "source_pack": "Medieval Town Map Pack (Gazamo)",
+      "source_url": "https://www.planetminecraft.com/project/medieval-town-map-pack/",
+      "original_asset": "tmp_smallhouse1.schematic (90도 회전 · 팔레트 통일)",
+      "non_air_blocks": 2980,
+      "schem_bytes": 2444
+    },
+    {
+      "short_id": "brion_v7_resident_house2",
+      "id": "f_rank_days:brion_v7_resident_house2",
+      "schem_file": "brion_resident_house_w3.schem",
+      "role": "서북쪽 주민 주택 3 (7순위)",
+      "zone": "WEST",
+      "dx": -60,
+      "dy": -1,
+      "dz": -44,
+      "ground_y": 68,
+      "world_origin": [
+        -60,
+        67,
+        -44
+      ],
+      "w": 14,
+      "h": 15,
+      "l": 19,
+      "rotation": 0,
+      "entrance": [
+        -53,
+        1,
+        -35
+      ],
+      "npc_ids": [],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Family Home 01 (X:251..264, Z:-161..-143)",
+      "non_air_blocks": 1869,
+      "schem_bytes": 3861
+    },
+    {
+      "short_id": "brion_v7_darim_farmhouse",
+      "id": "f_rank_days:brion_v7_darim_farmhouse",
+      "schem_file": "brion_darim_farmhouse.schem",
+      "role": "다림의 농가 (3순위)",
+      "zone": "SOUTH",
+      "dx": -27,
+      "dy": -1,
+      "dz": 34,
+      "ground_y": 68,
+      "world_origin": [
+        -27,
+        67,
+        34
+      ],
+      "w": 16,
+      "h": 12,
+      "l": 20,
+      "rotation": 0,
+      "entrance": [
+        -19,
+        1,
+        44
+      ],
+      "npc_ids": [
+        "darim"
+      ],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Farmers House (X:208..223, Z:-185..-166)",
+      "non_air_blocks": 1597,
+      "schem_bytes": 3179
+    },
+    {
+      "short_id": "brion_v7_darim_crop_field",
+      "id": "f_rank_days:brion_v7_darim_crop_field",
+      "schem_file": "brion_darim_crop_field.schem",
+      "role": "다림의 관개 농업 실습장 (3순위)",
+      "zone": "SOUTH",
+      "dx": -8,
+      "dy": -1,
+      "dz": 34,
+      "ground_y": 68,
+      "world_origin": [
+        -8,
+        67,
+        34
+      ],
+      "w": 24,
+      "h": 7,
+      "l": 22,
+      "rotation": 0,
+      "entrance": [
+        4,
+        1,
+        45
+      ],
+      "npc_ids": [],
+      "source_pack": "Medieval Town Map Pack (Gazamo)",
+      "source_url": "https://www.planetminecraft.com/project/medieval-town-map-pack/",
+      "original_asset": "tmp_farm1.schematic (성숙 밀·작물 활성화)",
+      "non_air_blocks": 800,
+      "schem_bytes": 1063
+    },
+    {
+      "short_id": "brion_v7_windmill_and_stables",
+      "id": "f_rank_days:brion_v7_windmill_and_stables",
+      "schem_file": "brion_windmill.schem",
+      "role": "남부 농장 대형 풍차 (9순위)",
+      "zone": "SOUTH_LOWER",
+      "dx": 19,
+      "dy": -1,
+      "dz": 34,
+      "ground_y": 65,
+      "world_origin": [
+        19,
+        64,
+        34
+      ],
+      "w": 16,
+      "h": 33,
+      "l": 23,
+      "rotation": 0,
+      "entrance": [
+        27,
+        1,
+        45
+      ],
+      "npc_ids": [],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Windmill (X:121..136, Z:-159..-137)",
+      "non_air_blocks": 2819,
+      "schem_bytes": 3585
+    },
+    {
+      "short_id": "brion_v7_barn_stable",
+      "id": "f_rank_days:brion_v7_barn_stable",
+      "schem_file": "brion_barn_stable.schem",
+      "role": "남부 목초지 외양간·헛간 (9순위)",
+      "zone": "SOUTH_LOWER",
+      "dx": 39,
+      "dy": -1,
+      "dz": 36,
+      "ground_y": 65,
+      "world_origin": [
+        39,
+        64,
+        36
+      ],
+      "w": 19,
+      "h": 13,
+      "l": 17,
+      "rotation": 0,
+      "entrance": [
+        48,
+        1,
+        44
+      ],
+      "npc_ids": [],
+      "source_pack": "17 Medieval Builds (JayLythical)",
+      "source_url": "https://www.planetminecraft.com/project/17-medieval-builds-repository/",
+      "original_asset": "Barn Or Stable (X:205..223, Z:-158..-142)",
+      "non_air_blocks": 1930,
+      "schem_bytes": 2244
+    },
+    {
+      "short_id": "brion_v7_south_gate",
+      "id": "f_rank_days:brion_v7_south_gate",
+      "schem_file": "brion_south_gate.schem",
+      "role": "남쪽 해안 나루터 출입 성문 (10순위)",
+      "zone": "SOUTH_LOWER",
+      "dx": -13,
+      "dy": 0,
+      "dz": 62,
+      "ground_y": 65,
+      "world_origin": [
+        -13,
+        65,
+        62
+      ],
+      "w": 27,
+      "h": 28,
+      "l": 11,
+      "rotation": 0,
+      "entrance": [
+        0,
+        1,
+        67
+      ],
+      "npc_ids": [],
+      "source_pack": "RebirthBuilds Medieval Fantasy Pack",
+      "source_url": "https://www.planetminecraft.com/project/medieval-fantasy-pack-free-download/",
+      "original_asset": "RB_B07 Twin Tall-Spire Gatehouse",
+      "non_air_blocks": 2006,
+      "schem_bytes": 2193
+    }
+  ],
+  "npcs": [
+    {
+      "id": "hess",
+      "tag": "npc_hess",
+      "zone": "NORTH",
+      "label": "헤스 [통합 길드 접수원]",
+      "building_id": "brion_v7_guild_hall",
+      "dx": 1.5,
+      "dy": 1,
+      "dz": -33.5,
+      "world_coords": [
+        1.5,
+        69,
+        -33.5
+      ],
+      "yaw": 0,
+      "profession": "minecraft:librarian",
+      "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+    },
+    {
+      "id": "ski",
+      "tag": "npc_ski",
+      "zone": "NORTH",
+      "label": "스키 [A급 검술 교관]",
+      "building_id": "brion_v7_training_grounds",
+      "dx": 22.5,
+      "dy": 1,
+      "dz": -38.5,
+      "world_coords": [
+        22.5,
+        69,
+        -38.5
+      ],
+      "yaw": 0,
+      "profession": "minecraft:weaponsmith",
+      "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+    },
+    {
+      "id": "roman",
+      "tag": "npc_roman",
+      "zone": "EAST",
+      "label": "로만 [B급 연금술사 · 물약상]",
+      "building_id": "brion_v7_potion_shop",
+      "dx": 29.5,
+      "dy": 1,
+      "dz": -10.5,
+      "world_coords": [
+        29.5,
+        69,
+        -10.5
+      ],
+      "yaw": 90,
+      "profession": "minecraft:cleric",
+      "skin": "customnpcs:textures/entity/custom/roman_skin_64x64.png"
+    },
+    {
+      "id": "nau",
+      "tag": "npc_nau",
+      "zone": "EAST",
+      "label": "나우 [B급 대장장이]",
+      "building_id": "brion_v7_blacksmith",
+      "dx": 46.5,
+      "dy": 1,
+      "dz": -7.5,
+      "world_coords": [
+        46.5,
+        69,
+        -7.5
+      ],
+      "yaw": 90,
+      "profession": "minecraft:weaponsmith",
+      "skin": "customnpcs:textures/entity/custom/placeholder_blacksmith.png"
+    },
+    {
+      "id": "bambam",
+      "tag": "npc_bambam",
+      "zone": "EAST",
+      "label": "밤밤 [C급 잡화 상인]",
+      "building_id": "brion_v7_market_general_store",
+      "dx": 30.5,
+      "dy": 1,
+      "dz": 14.5,
+      "world_coords": [
+        30.5,
+        69,
+        14.5
+      ],
+      "yaw": 90,
+      "profession": "minecraft:mason",
+      "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+    },
+    {
+      "id": "hyeophap",
+      "tag": "npc_hyeophap",
+      "zone": "EAST",
+      "label": "협합 [B급 유물·창고 관리인]",
+      "building_id": "brion_v7_warehouse",
+      "dx": 51.5,
+      "dy": 2,
+      "dz": 13.5,
+      "world_coords": [
+        51.5,
+        70,
+        13.5
+      ],
+      "yaw": 90,
+      "profession": "minecraft:cartographer",
+      "skin": "customnpcs:textures/entity/custom/roman_temp_skin_64x64.png"
+    },
+    {
+      "id": "gori",
+      "tag": "npc_gori",
+      "zone": "WEST",
+      "label": "고리 [브리온 여관 주인]",
+      "building_id": "brion_v7_inn",
+      "dx": -30.5,
+      "dy": 1,
+      "dz": -5.5,
+      "world_coords": [
+        -30.5,
+        69,
+        -5.5
+      ],
+      "yaw": -90,
+      "profession": "minecraft:butcher",
+      "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+    },
+    {
+      "id": "hwiyeon",
+      "tag": "npc_hwiyeon",
+      "zone": "WEST",
+      "label": "휘연 [A급 힐러 · 의료소]",
+      "building_id": "brion_v7_clinic",
+      "dx": -31.5,
+      "dy": 1,
+      "dz": -28.5,
+      "world_coords": [
+        -31.5,
+        69,
+        -28.5
+      ],
+      "yaw": -90,
+      "profession": "minecraft:cleric",
+      "skin": "customnpcs:textures/entity/custom/placeholder_healer.png"
+    },
+    {
+      "id": "darim",
+      "tag": "npc_darim",
+      "zone": "SOUTH",
+      "label": "다림 [C급 농부 · 실습농장]",
+      "building_id": "brion_v7_darim_farmhouse",
+      "dx": -19.5,
+      "dy": 1,
+      "dz": 44.5,
+      "world_coords": [
+        -19.5,
+        69,
+        44.5
+      ],
+      "yaw": 180,
+      "profession": "minecraft:farmer",
+      "skin": "customnpcs:textures/entity/custom/placeholder_fox_farmer.png"
+    }
+  ]
+}

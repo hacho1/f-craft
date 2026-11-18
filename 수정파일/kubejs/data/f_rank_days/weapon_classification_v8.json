@@ -1,0 +1,1195 @@
+{
+  "schema_version": "8.0.0",
+  "note": "아이템 표시 이름(Display Name)이 아닌 정확한 Minecraft 레지스트리 ID만을 기준으로 무기 계열을 분류합니다.",
+  "special_stick_conversion": {
+    "raw_input_id": "minecraft:stick",
+    "safe_weapon_id": "f_rank_days:battle_twig",
+    "family": "blunt",
+    "reason": "강화된 나뭇가지가 일반 막대기 스택과 합쳐지거나 횃불·도구 제작 재료로 소멸하는 문제를 원천 방지하기 위해 maxStackSize=1 전용 둔기 아이템으로 안전 변환합니다."
+  },
+  "excluded_item_categories": [
+    "음식(food)",
+    "물약(potion)",
+    "길드 등록증(f_rank_days:guild_citizen_card)",
+    "직업 자격증(*_license_*)",
+    "가방·보관함",
+    "신문(f_rank_days:brion_daily_newspaper)",
+    "일반 블록·광석"
+  ],
+  "families": {
+    "sword": {
+      "ko_label": "검·장검 계열",
+      "bettercombat_preset": "bettercombat:sword"
+    },
+    "spear": {
+      "ko_label": "창·장병기 계열",
+      "bettercombat_preset": "bettercombat:spear"
+    },
+    "axe": {
+      "ko_label": "도끼·전투도끼 계열",
+      "bettercombat_preset": "bettercombat:axe"
+    },
+    "blunt": {
+      "ko_label": "둔기(나뭇가지·몽둥이·철퇴·망치) 계열",
+      "bettercombat_preset": "bettercombat:mace"
+    },
+    "dagger": {
+      "ko_label": "단검 계열",
+      "bettercombat_preset": "bettercombat:dagger"
+    },
+    "bow": {
+      "ko_label": "활·장궁 계열",
+      "bettercombat_preset": null
+    }
+  },
+  "visual_tiers": [
+    {
+      "tier": 0,
+      "min": 0,
+      "max": 9,
+      "cmd": 0,
+      "suffix": "t0_base",
+      "label": "기본 외형"
+    },
+    {
+      "tier": 1,
+      "min": 10,
+      "max": 19,
+      "cmd": 8010,
+      "suffix": "t1_etched",
+      "label": "문양·손잡이 장식"
+    },
+    {
+      "tier": 2,
+      "min": 20,
+      "max": 39,
+      "cmd": 8020,
+      "suffix": "t2_tempered",
+      "label": "강화 재질·금속 장식"
+    },
+    {
+      "tier": 3,
+      "min": 40,
+      "max": 59,
+      "cmd": 8040,
+      "suffix": "t3_mana_glow",
+      "label": "약한 마력 에너지"
+    },
+    {
+      "tier": 4,
+      "min": 60,
+      "max": 79,
+      "cmd": 8060,
+      "suffix": "t4_special",
+      "label": "특수 무기 외형"
+    },
+    {
+      "tier": 5,
+      "min": 80,
+      "max": 98,
+      "cmd": 8080,
+      "suffix": "t5_legend",
+      "label": "전설급 무기 외형"
+    },
+    {
+      "tier": 6,
+      "min": 99,
+      "max": 99,
+      "cmd": 8099,
+      "suffix": "t6_mythic99",
+      "label": "+99 최종 초월 외형"
+    }
+  ],
+  "weapons": {
+    "minecraft:wooden_sword": {
+      "family": "sword",
+      "base_attack_damage": 4.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 59,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "minecraft:stone_sword": {
+      "family": "sword",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 131,
+      "material_group": "stone",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "minecraft:iron_sword": {
+      "family": "sword",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "minecraft:golden_sword": {
+      "family": "sword",
+      "base_attack_damage": 4.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 32,
+      "material_group": "gold",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "minecraft:diamond_sword": {
+      "family": "sword",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "minecraft:netherite_sword": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "f_rank_days:rusty_companion_sword": {
+      "family": "sword",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 2.6,
+      "max_durability": 120,
+      "material_group": "iron",
+      "visual_model_mode": "base_only",
+      "material_profile": "mid"
+    },
+    "minecraft:wooden_axe": {
+      "family": "axe",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.5,
+      "max_durability": 59,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "minecraft:stone_axe": {
+      "family": "axe",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.5,
+      "max_durability": 131,
+      "material_group": "stone",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "minecraft:iron_axe": {
+      "family": "axe",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.5,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "minecraft:golden_axe": {
+      "family": "axe",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -3.0,
+      "attack_range": 2.5,
+      "max_durability": 32,
+      "material_group": "gold",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "minecraft:diamond_axe": {
+      "family": "axe",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -3.0,
+      "attack_range": 2.5,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "minecraft:netherite_axe": {
+      "family": "axe",
+      "base_attack_damage": 10.0,
+      "base_attack_speed": -3.0,
+      "attack_range": 2.5,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "minecraft:trident": {
+      "family": "spear",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.5,
+      "max_durability": 250,
+      "material_group": "diamond",
+      "visual_model_mode": "vanilla_3d_trident",
+      "material_profile": "high"
+    },
+    "minecraft:bow": {
+      "family": "bow",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -2.0,
+      "attack_range": 4.0,
+      "max_durability": 384,
+      "material_group": "wood",
+      "visual_model_mode": "vanilla_bow",
+      "material_profile": "low"
+    },
+    "minecraft:crossbow": {
+      "family": "bow",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 4.0,
+      "max_durability": 465,
+      "material_group": "iron",
+      "visual_model_mode": "vanilla_bow",
+      "material_profile": "mid"
+    },
+    "f_rank_days:battle_twig": {
+      "family": "blunt",
+      "base_attack_damage": 3.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.5,
+      "max_durability": 120,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:oak_club": {
+      "family": "blunt",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -2.6,
+      "attack_range": 2.5,
+      "max_durability": 180,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:iron_mace": {
+      "family": "blunt",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.7,
+      "attack_range": 2.6,
+      "max_durability": 320,
+      "material_group": "iron",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "f_rank_days:hardened_warhammer": {
+      "family": "blunt",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 2.8,
+      "max_durability": 580,
+      "material_group": "stone",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:wooden_spear": {
+      "family": "spear",
+      "base_attack_damage": 4.0,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.5,
+      "max_durability": 150,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:stone_spear": {
+      "family": "spear",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.5,
+      "max_durability": 220,
+      "material_group": "stone",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:iron_spear": {
+      "family": "spear",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.6,
+      "max_durability": 360,
+      "material_group": "iron",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "f_rank_days:diamond_spear": {
+      "family": "spear",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.7,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "f_rank_days:flint_dagger": {
+      "family": "dagger",
+      "base_attack_damage": 3.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 160,
+      "material_group": "stone",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "f_rank_days:iron_dagger": {
+      "family": "dagger",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 280,
+      "material_group": "iron",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "mid"
+    },
+    "f_rank_days:mana_dagger": {
+      "family": "dagger",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.2,
+      "max_durability": 480,
+      "material_group": "mana",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "high"
+    },
+    "f_rank_days:composite_longbow": {
+      "family": "bow",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.0,
+      "attack_range": 4.0,
+      "max_durability": 460,
+      "material_group": "wood",
+      "visual_model_mode": "cmd_2d",
+      "material_profile": "low"
+    },
+    "simplyswords:iron_longsword": {
+      "family": "sword",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.0,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_claymore": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.8,
+      "attack_range": 3.2,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_katana": {
+      "family": "sword",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.8,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_rapier": {
+      "family": "sword",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.9,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_cutlass": {
+      "family": "sword",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.3,
+      "attack_range": 2.6,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_twinblade": {
+      "family": "sword",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.7,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_spear": {
+      "family": "spear",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.6,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_glaive": {
+      "family": "spear",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.6,
+      "attack_range": 3.6,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_halberd": {
+      "family": "spear",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.7,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_warglaive": {
+      "family": "spear",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.3,
+      "attack_range": 3.2,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_greataxe": {
+      "family": "axe",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.9,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_scythe": {
+      "family": "axe",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.7,
+      "attack_range": 3.2,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_greathammer": {
+      "family": "blunt",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.8,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_sai": {
+      "family": "dagger",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.1,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:iron_chakram": {
+      "family": "dagger",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -1.9,
+      "attack_range": 2.3,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_longsword": {
+      "family": "sword",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.0,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_claymore": {
+      "family": "sword",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.8,
+      "attack_range": 3.2,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_katana": {
+      "family": "sword",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.8,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_rapier": {
+      "family": "sword",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.9,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_cutlass": {
+      "family": "sword",
+      "base_attack_damage": 5.0,
+      "base_attack_speed": -2.3,
+      "attack_range": 2.6,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_twinblade": {
+      "family": "sword",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.7,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_spear": {
+      "family": "spear",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.6,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_glaive": {
+      "family": "spear",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.6,
+      "attack_range": 3.6,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_halberd": {
+      "family": "spear",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.7,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_warglaive": {
+      "family": "spear",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -2.3,
+      "attack_range": 3.2,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_greataxe": {
+      "family": "axe",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.9,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_scythe": {
+      "family": "axe",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -2.7,
+      "attack_range": 3.2,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_greathammer": {
+      "family": "blunt",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.8,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_sai": {
+      "family": "dagger",
+      "base_attack_damage": 3.5,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.1,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:gold_chakram": {
+      "family": "dagger",
+      "base_attack_damage": 4.0,
+      "base_attack_speed": -1.9,
+      "attack_range": 2.3,
+      "max_durability": 64,
+      "material_group": "gold",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "mid"
+    },
+    "simplyswords:diamond_longsword": {
+      "family": "sword",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.0,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_claymore": {
+      "family": "sword",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.8,
+      "attack_range": 3.2,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_katana": {
+      "family": "sword",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.8,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_rapier": {
+      "family": "sword",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.9,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_cutlass": {
+      "family": "sword",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -2.3,
+      "attack_range": 2.6,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_twinblade": {
+      "family": "sword",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.7,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_spear": {
+      "family": "spear",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.6,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_glaive": {
+      "family": "spear",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.6,
+      "attack_range": 3.6,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_halberd": {
+      "family": "spear",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.7,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_warglaive": {
+      "family": "spear",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.3,
+      "attack_range": 3.2,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_greataxe": {
+      "family": "axe",
+      "base_attack_damage": 9.5,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.9,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_scythe": {
+      "family": "axe",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.7,
+      "attack_range": 3.2,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_greathammer": {
+      "family": "blunt",
+      "base_attack_damage": 10.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.8,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_sai": {
+      "family": "dagger",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.1,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:diamond_chakram": {
+      "family": "dagger",
+      "base_attack_damage": 6.0,
+      "base_attack_speed": -1.9,
+      "attack_range": 2.3,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_longsword": {
+      "family": "sword",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.0,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_claymore": {
+      "family": "sword",
+      "base_attack_damage": 10.0,
+      "base_attack_speed": -2.8,
+      "attack_range": 3.2,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_katana": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.8,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_rapier": {
+      "family": "sword",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.9,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_cutlass": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.3,
+      "attack_range": 2.6,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_twinblade": {
+      "family": "sword",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.7,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_spear": {
+      "family": "spear",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.6,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_glaive": {
+      "family": "spear",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.6,
+      "attack_range": 3.6,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_halberd": {
+      "family": "spear",
+      "base_attack_damage": 10.0,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.7,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_warglaive": {
+      "family": "spear",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -2.3,
+      "attack_range": 3.2,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_greataxe": {
+      "family": "axe",
+      "base_attack_damage": 10.5,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.9,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_scythe": {
+      "family": "axe",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.7,
+      "attack_range": 3.2,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_greathammer": {
+      "family": "blunt",
+      "base_attack_damage": 11.0,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.8,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_sai": {
+      "family": "dagger",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.1,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:netherite_chakram": {
+      "family": "dagger",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -1.9,
+      "attack_range": 2.3,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_longsword": {
+      "family": "sword",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.4,
+      "attack_range": 3.0,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_claymore": {
+      "family": "sword",
+      "base_attack_damage": 10.5,
+      "base_attack_speed": -2.8,
+      "attack_range": 3.2,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_katana": {
+      "family": "sword",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -2.2,
+      "attack_range": 2.8,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_rapier": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.9,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_cutlass": {
+      "family": "sword",
+      "base_attack_damage": 8.5,
+      "base_attack_speed": -2.3,
+      "attack_range": 2.6,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_twinblade": {
+      "family": "sword",
+      "base_attack_damage": 8.0,
+      "base_attack_speed": -2.0,
+      "attack_range": 2.7,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_spear": {
+      "family": "spear",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.5,
+      "attack_range": 3.6,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_glaive": {
+      "family": "spear",
+      "base_attack_damage": 9.5,
+      "base_attack_speed": -2.6,
+      "attack_range": 3.6,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_halberd": {
+      "family": "spear",
+      "base_attack_damage": 10.5,
+      "base_attack_speed": -2.9,
+      "attack_range": 3.7,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_warglaive": {
+      "family": "spear",
+      "base_attack_damage": 9.0,
+      "base_attack_speed": -2.3,
+      "attack_range": 3.2,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_greataxe": {
+      "family": "axe",
+      "base_attack_damage": 11.0,
+      "base_attack_speed": -3.1,
+      "attack_range": 2.9,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_scythe": {
+      "family": "axe",
+      "base_attack_damage": 9.5,
+      "base_attack_speed": -2.7,
+      "attack_range": 3.2,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_greathammer": {
+      "family": "blunt",
+      "base_attack_damage": 11.5,
+      "base_attack_speed": -3.2,
+      "attack_range": 2.8,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_sai": {
+      "family": "dagger",
+      "base_attack_damage": 7.0,
+      "base_attack_speed": -1.7,
+      "attack_range": 2.1,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "simplyswords:runic_chakram": {
+      "family": "dagger",
+      "base_attack_damage": 7.5,
+      "base_attack_speed": -1.9,
+      "attack_range": 2.3,
+      "max_durability": 2400,
+      "material_group": "runic",
+      "visual_model_mode": "simplyswords_2d",
+      "material_profile": "high"
+    },
+    "farmersdelight:flint_knife": {
+      "family": "dagger",
+      "base_attack_damage": 3.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 131,
+      "material_group": "flint",
+      "visual_model_mode": "mod_2d",
+      "material_profile": "mid"
+    },
+    "farmersdelight:iron_knife": {
+      "family": "dagger",
+      "base_attack_damage": 4.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 250,
+      "material_group": "iron",
+      "visual_model_mode": "mod_2d",
+      "material_profile": "mid"
+    },
+    "farmersdelight:golden_knife": {
+      "family": "dagger",
+      "base_attack_damage": 3.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 32,
+      "material_group": "golden",
+      "visual_model_mode": "mod_2d",
+      "material_profile": "mid"
+    },
+    "farmersdelight:diamond_knife": {
+      "family": "dagger",
+      "base_attack_damage": 5.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 1561,
+      "material_group": "diamond",
+      "visual_model_mode": "mod_2d",
+      "material_profile": "high"
+    },
+    "farmersdelight:netherite_knife": {
+      "family": "dagger",
+      "base_attack_damage": 6.5,
+      "base_attack_speed": -1.8,
+      "attack_range": 2.1,
+      "max_durability": 2031,
+      "material_group": "netherite",
+      "visual_model_mode": "mod_2d",
+      "material_profile": "high"
+    },
+    "mowziesmobs:wrought_axe": {
+      "family": "axe",
+      "base_attack_damage": 10.0,
+      "base_attack_speed": -3.1,
+      "attack_range": 3.0,
+      "max_durability": 9999,
+      "material_group": "netherite",
+      "visual_model_mode": "geckolib_3d_preserved",
+      "material_profile": "high"
+    }
+  }
+}

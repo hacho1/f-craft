@@ -1,0 +1,233 @@
+// Disposable native server-player regression. No production method is replaced.
+// LAB inputs: old cohort/visit record + existing registration, native game modes,
+// stationary invulnerable actor and frozen-AI owned wave mobs. Not a natural fight.
+global.FCraftPhase6Native = global.FCraftPhase6Native || {};
+(function (N) {
+  var F = global.FRankDays;
+  var UUID = Java.loadClass('java.util.UUID');
+  var GameType = Java.loadClass('net.minecraft.world.level.GameType');
+  var ChunkPos = Java.loadClass('net.minecraft.world.level.ChunkPos');
+  var BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
+  var API = Java.loadClass('dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.FTBQuestsKubeJSWrapper').INSTANCE;
+  function copy(x) { return JSON.parse(JSON.stringify(x)); }
+  function same(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
+  function inventory(p) { var a = []; for (var i = 0; i < p.inventory.getContainerSize(); i++) a.push(String(p.inventory.getItem(i))); return a; }
+  function money(p) { return Number(F.getPlayerBalanceSummaryV8(p).wallet_copper); }
+  function coreSnapshot(p) {
+    var s = F.loadPlayerState(p);
+    return { inventory: inventory(p), wallet: money(p), ability: s.special_ability.ability_id,
+      licenses: copy(s.job_licenses), issued: s.guild_card.issued, serial: s.guild_card.serial_number,
+      cardName: s.guild_card.registered_display_name, extra: copy(s.hotfix_qa_preserved || {}),
+      position: { x: Number(p.x), y: Number(p.y), z: Number(p.z), dimension: String(p.level.dimension) } };
+  }
+  function setMode(p, mode) { p.setGameMode(mode); return String(p.gameMode.getGameModeForPlayer().getName()); }
+  function observedUuid(input) {
+    var found = /UUID:\[I;([-0-9,]+)\]/.exec(input); if (!found) return '';
+    var a = found[1].split(','), hex = ''; if (a.length !== 4) return '';
+    for (var i = 0; i < 4; i++) { var n = Number(a[i]); hex += ('00000000' + (n < 0 ? n + 4294967296 : n).toString(16)).slice(-8); }
+    return hex.slice(0, 8) + '-' + hex.slice(8, 12) + '-' + hex.slice(12, 16) + '-' + hex.slice(16, 20) + '-' + hex.slice(20);
+  }
+  // Same transparent observers as native87; startup98 already dispatches them.
+  // No command argument, permission, result, cancellation or entity is changed.
+  N.onOutpostCommandEvidence = function (event) {
+    var probe = N.outpostProbe; if (!probe || !probe.active) return;
+    var parse = event.getParseResults(), input = String(parse.getReader().getString());
+    if (input.indexOf('fcraft_outpost_v94') < 0 || input.indexOf('fc94_site_serdin_west_bandit_camp') < 0 || probe.data.commands.length >= 16) return;
+    var type = /run summon ([a-z0-9_:]+)/.exec(input), reader = parse.getReader();
+    var row = { uuid: observedUuid(input), entityType: type ? type[1] : '', gameTick: Number(probe.server.overworld().getTime()), inputLength: input.length, readerCursor: Number(reader.getCursor()), parseExceptions: String(parse.getExceptions()).slice(0, 500), canceled: !!event.isCanceled(), results: [] };
+    probe.data.commands.push(row); if (event.isCanceled()) return;
+    var Result = Java.loadClass('com.mojang.brigadier.ResultConsumer'), Merger = Java.loadClass('java.util.function.BinaryOperator'), context = parse.getContext(), source = context.getSource();
+    var observation = new Result({ onCommandComplete: function (ctx, success, result) { try { if (row.results.length < 4) row.results.push({ success: !!success, result: Number(result) }); } catch (ignore) {} } });
+    var merged = source.withCallback(observation, new Merger({ apply: function (original, extra) { return new Result({ onCommandComplete: function (ctx, success, result) { if (original) original.onCommandComplete(ctx, success, result); extra.onCommandComplete(ctx, success, result); } }); } }));
+    context.withSource(merged);
+  };
+  N.onOutpostJoinEvidence = function (stage, event) {
+    var probe = N.outpostProbe; if (!probe || !probe.active) return;
+    var entity = event.getEntity();
+    if (!F.hasEntityTag(entity, 'fcraft_outpost_v94') || !F.hasEntityTag(entity, 'fc94_site_serdin_west_bandit_camp') || probe.data.joins.length >= 32) return;
+    var id = String(entity.uuid), row = { stage: stage, uuid: id, type: String(entity.type), canceled: !!event.isCanceled(), tags: String(entity.tags), gameTick: Number(probe.server.overworld().getTime()), visibleImmediately: !!probe.server.overworld().getEntity(UUID.fromString(id)) };
+    probe.data.joins.push(row);
+    if (stage === 'lowest') {
+      probe.entities.push(entity); probe.server.scheduleInTicks(1, function () { try { row.visibleNextTick = !!probe.server.overworld().getEntity(UUID.fromString(id)); row.removedNextTick = !!entity.isRemoved(); row.addedToWorldNextTick = !!entity.isAddedToWorld(); row.removalReason = String(entity.getRemovalReason()); } catch (error) { row.observerError = String(error); } });
+    }
+  };
+  N.runHotfix = function (server, done) {
+    var actors = [], questActor = null, arenaActor = null, engine = null, site = null;
+    var siteId = 'serdin_west_bandit_camp', forced = [], ended = false, waveStarted = false;
+    var oldOutpost = String(server.persistentData.getString('fcraft_outposts_v94') || '');
+    var priorProbe = N.outpostProbe;
+    var evidence = { actualMinecraft: true, humanPlay: false, connectedClient: false,
+      forcedFtbProgressWrites: 0, productionMethodOverrides: 0, quest: {}, outpost: {},
+      syntheticPrerequisites: ['new disposable native ServerPlayer UUIDs with normal PlayerList login',
+        'old saved cohort/plaza/guild visit fixture and pre-existing valid registration/ability',
+        'LAB player invulnerable and NoGravity; owned wave mobs NoAI only to isolate presence timer',
+        'LAB actual site chunks force-loaded; only newly added forced chunks are removed'] };
+    N.report.hotfixEvidence = evidence;
+    function check(name, value, detail) { N.check('hotfix ' + name, !!value, detail); }
+    function remove(p) { if (!p) return; N.removePlayer(p); var i = actors.indexOf(p); if (i >= 0) actors.splice(i, 1); }
+    function finish() {
+      if (ended) return; ended = true;
+      try {
+        if (engine && site) { engine.reset(siteId, true, 0); engine.tickSite(siteId); }
+      } catch (e) { check('owned encounter cleanup', false, String(e)); }
+      try {
+        if (oldOutpost) server.persistentData.putString('fcraft_outposts_v94', oldOutpost);
+        else server.persistentData.remove('fcraft_outposts_v94');
+        for (var i = 0; i < forced.length; i++) {
+          server.runCommandSilent('execute in minecraft:overworld run forceload remove ' + forced[i].x + ' ' + forced[i].z);
+        }
+      } catch (e2) { check('LAB state and chunk cleanup', false, String(e2)); }
+      var owned = actors.slice();
+      for (var k = 0; k < owned.length; k++) try { remove(owned[k]); } catch (e3) { check('owned player cleanup', false, String(e3)); }
+      N.outpostProbe = priorProbe;
+      done();
+    }
+    function later(ticks, fn) {
+      if (typeof fn !== 'function') throw Error('Native LAB schedule requires a function, received ' + typeof fn + ' at delay ' + ticks);
+      server.scheduleInTicks(ticks, function () { if (ended) return; try { fn(); } catch (e) { check('native fixture exception', false, String(e) + ' ' + String(e.stack || '')); finish(); } });
+    }
+    function make(name, pos) {
+      var p = N.makePlayer(server, null, name, pos); actors.push(p); N.resetPlayerState(p);
+      var s = F.loadPlayerState(p), choices = Object.keys(F.STARTER_ABILITIES || {});
+      s.guild_card.issued = true; s.guild_card.ui_open = false; s.guild_card.awaiting_name_input = false;
+      s.guild_card.initial_job_id = 'farmer'; s.guild_card.serial_number = 'LAB-HOTFIX-' + String(p.uuid);
+      s.guild_card.registered_display_name = name;
+      s.starter_onboarding.first_registration_completed = true;
+      s.starter_onboarding.quests.q01_first_day.talked_hess = true;
+      s.starter_onboarding.quests.q03_first_job.registered_any_job = true;
+      s.job_licenses.farmer.grade = 'F'; s.special_ability.ability_id = choices[0] || '';
+      s.economy = F.ensurePlayerEconomyStateV8(s); s.economy.wallet_copper = 731;
+      s.economy.migrated_v8_1_starter = true; s.hotfix_qa_preserved = { sentinel: 37, prior: 'retain' };
+      F.savePlayerState(p, s); N.addOnlinePlayer(p); p.setInvulnerable(true); p.setNoGravity(true);
+      return p;
+    }
+    function addChunks(binding) {
+      var level = server.overworld(), points = [binding, binding.chest].concat(binding.spawnPoints), seen = {};
+      for (var i = 0; i < points.length; i++) {
+        var cx = Math.floor(points[i].x / 16), cz = Math.floor(points[i].z / 16), key = cx + ',' + cz;
+        if (seen[key]) continue; seen[key] = true;
+        var cp = new ChunkPos(cx, cz), x = cx * 16, z = cz * 16;
+        if (!level.getForcedChunks().contains(cp.toLong())) {
+          server.runCommandSilent('execute in minecraft:overworld run forceload add ' + x + ' ' + z); forced.push({ x: x, z: z });
+        }
+        level.getChunk(cx, cz);
+      }
+    }
+    function nativeMembers(st) {
+      var out = [], level = server.overworld();
+      for (var id in st.members || {}) {
+        var e = level.getEntity(UUID.fromString(String(id)));
+        out.push({ uuid: id, recordedStatus: st.members[id].status, exists: !!e,
+          alive: !!(e && e.isAlive()), type: e ? String(e.type) : '', noAi: e && e.isNoAi ? !!e.isNoAi() : null });
+      }
+      return out;
+    }
+    function nativeChunkEvidence(binding) {
+      var level = server.overworld(), points = [binding.chest].concat(binding.spawnPoints), rows = [], ready = true;
+      for (var i = 0; i < points.length; i++) {
+        var p = points[i], pos = new BlockPos(Math.floor(p.x), Math.floor(p.y), Math.floor(p.z)), key = new ChunkPos(pos).toLong();
+        var row = { point: i === 0 ? 'chest' : 'spawn_' + (i - 1), x: Math.floor(p.x), y: Math.floor(p.y), z: Math.floor(p.z) };
+        try {
+          row.blockChunkLoaded = !!level.hasChunkAt(pos); row.entitiesLoaded = !!level.areEntitiesLoaded(key);
+          row.chunkSourceTicking = !!level.getChunkSource().isPositionTicking(key); row.positionEntityTicking = !!level.isPositionEntityTicking(pos);
+        } catch (error) { row.error = String(error); }
+        if (row.error || !row.blockChunkLoaded || !row.entitiesLoaded || !row.chunkSourceTicking || !row.positionEntityTicking) ready = false;
+        rows.push(row);
+      }
+      return { ready: ready, checkedPoints: rows.length, expectedPoints: 1 + binding.spawnPoints.length, rows: rows };
+    }
+    function beginArena() {
+      engine = F.getOutpostEngineV94(server); if (!engine || !engine.modern) throw Error('Verified modern outpost engine required');
+      site = engine.sites[siteId]; if (!site) throw Error('West outpost binding missing'); addChunks(site);
+      var polls = 0;
+      var waitForEntityTicking = function () {
+        var flags = nativeChunkEvidence(site); evidence.outpost.nativeChunkReadiness = { polls: ++polls, flags: flags };
+        if (!flags.ready) {
+          if (polls >= 100) { check('native arena chest and all spawn points are entity-ticking before interaction', false, flags); throw Error('LAB arena entity-ticking readiness timeout'); }
+          later(2, waitForEntityTicking); return;
+        }
+        check('native arena chest and all spawn points are entity-ticking before interaction', flags.checkedPoints === flags.expectedPoints, flags);
+        runArenaCases();
+      };
+      later(2, waitForEntityTicking);
+    }
+    function runArenaCases() {
+      engine.reset(siteId, true, 0); engine.tickSite(siteId); engine.tickSite(siteId);
+      var initial = engine.status(siteId); check('actual prepared west site is SEALED with no members', initial.phase === 'SEALED' && Object.keys(initial.members).length === 0, { phase: initial.phase, generation: initial.generation });
+      if (initial.phase !== 'SEALED') throw Error('Disposable source site could not enter SEALED');
+      var c = site.chest, pos = { x: c.x + .5, y: c.y + .5, z: c.z + .5 };
+      arenaActor = make('FC7Outpost', pos); arenaActor.inventory.clearContent();
+      var where = { dimension: site.dimension, x: c.x, y: c.y, z: c.z };
+      evidence.outpost.site = { id: siteId, chest: copy(c), center: { x: site.x, y: site.y, z: site.z }, modern: engine.modern };
+      var modes = [{ type: GameType.CREATIVE, name: 'creative', reason: 'challenger_creative' }, { type: GameType.SPECTATOR, name: 'spectator', reason: 'challenger_spectator' }];
+      evidence.outpost.rejected = [];
+      for (var i = 0; i < modes.length; i++) {
+        var mode = modes[i], actualMode = setMode(arenaActor, mode.type), before = engine.status(siteId), serialized = String(server.persistentData.getString('fcraft_outposts_v94'));
+        var result = F.handleOutpostInteractV94(arenaActor, where), after = engine.status(siteId), mobs = nativeMembers(after);
+        var unchanged = serialized === String(server.persistentData.getString('fcraft_outposts_v94'));
+        var row = { mode: actualMode, result: result, before: { phase: before.phase, generation: before.generation }, after: { phase: after.phase, generation: after.generation }, savedStateUnchanged: unchanged, members: mobs };
+        evidence.outpost.rejected.push(row);
+        check('native ' + mode.name + ' is refused before generation or mob mutation', actualMode === mode.name && result.matched && !result.ok && result.reason === mode.reason && unchanged && same(before, after) && mobs.length === 0, row);
+      }
+      check('native actor is actually SURVIVAL before positive case', setMode(arenaActor, GameType.SURVIVAL) === 'survival');
+      arenaActor.setInvulnerable(true); arenaActor.setNoGravity(true);
+      var baseline = coreSnapshot(arenaActor), ready = engine.ports.ready(site);
+      check('positive case uses actual surveyed chunks and unchanged production readiness', ready && ready.ok, ready);
+      N.outpostProbe = { active: true, server: server, data: { commands: [], joins: [], observerErrors: [] }, entities: [] };
+      evidence.outpost.nativeSpawnProbe = N.outpostProbe.data;
+      var beforeStart = engine.status(siteId), start = F.handleOutpostInteractV94(arenaActor, where), running = engine.status(siteId);
+      waveStarted = running.phase === 'WAVE_1';
+      var members = nativeMembers(running);
+      check('native survival interaction starts real wave1 once', start.matched && start.reason === 'wave_started' && running.phase === 'WAVE_1' && running.generation === beforeStart.generation + 1 && members.length > 0 && members.every(function (m) { return m.exists && m.alive; }), { result: start, phase: running.phase, generation: running.generation, lastError: running.lastError, members: members, nativeSpawnProbe: N.outpostProbe.data });
+      if (!waveStarted) throw Error('Survival fixture wave did not start');
+      for (var id in running.members) { var e = server.overworld().getEntity(UUID.fromString(String(id))); if (e && e.setNoAi) e.setNoAi(true); }
+      arenaActor.setPosition(site.x, site.y + 1, site.z); baseline.position = coreSnapshot(arenaActor).position;
+      evidence.outpost.survival = { start: start, generation: running.generation, initialMembers: members, labFrozenAi: true, samples: [] };
+      var startWall = Date.now(), waitedTicks = 0, expectedGeneration = running.generation;
+      var poll = function () {
+        waitedTicks += 10; arenaActor.setPosition(site.x, site.y + 1, site.z);
+        F.tickOutpostsV94(server);
+        var st = engine.status(siteId), elapsed = Date.now() - startWall, snapshot = { waitedTicks: waitedTicks, elapsedMs: elapsed, phase: st.phase, generation: st.generation, presence: copy(st.presence), playerAlive: arenaActor.isAlive(), members: nativeMembers(st) };
+        if (waitedTicks % 40 === 0) evidence.outpost.survival.samples.push(snapshot);
+        if (waitedTicks < 240 || elapsed < 11000) { if (waitedTicks >= 1000) throw Error('Presence wall-time wait exceeded LAB bound'); later(10, poll); return; }
+        check('survival actor is in canonical native arena player list after more than10seconds', F.getArenaPlayersV97(server).some(function (a) { return a.uuid === String(arenaActor.uuid) && a.alive && !a.creative && !a.spectator; }), snapshot);
+        check('real active survival wave1 does not empty-reset after240ticks and11seconds', st.phase === 'WAVE_1' && st.generation === expectedGeneration && Number(st.presence.count) >= 1 && st.presence.emptySince === null && snapshot.members.length > 0 && snapshot.members.every(function (m) { return m.exists && m.alive; }), snapshot);
+        var finalCore = coreSnapshot(arenaActor);
+        check('sealed start and timer do not issue victory reward or consume player inventory', same(baseline, finalCore), { before: baseline, after: finalCore });
+        finish();
+      };
+      later(10, poll);
+    }
+    try {
+      var base = { x: 38120.5, y: 210, z: 38120.5 };
+      questActor = make('FC7QuestOld', base); questActor.inventory.clearContent();
+      questActor.inventory.setItem(8, Item.of('minecraft:paper', 7, { HotfixSentinel: 'old-save' }));
+      var regions = F.FCRAFT_REGION_CORE.fresh(); regions.visitedRoles = { central_square: true, guild_interior: true };
+      questActor.persistentData.putString('fcraft_v9_cohort', F.FCRAFT_CONFIG.worldValidationId);
+      F.saveFcraftRegionState(questActor, regions);
+      var questUuid = String(questActor.uuid); server.runCommandSilent('save-all flush'); remove(questActor);
+      questActor = N.makePlayer(server, questUuid, 'FC7QuestOld', base); actors.push(questActor); N.addOnlinePlayer(questActor);
+      questActor.setInvulnerable(true); questActor.setNoGravity(true);
+      var loaded = F.readFcraftRegionState(questActor), beforeQuest = coreSnapshot(questActor);
+      check('old missing-arrival fixture actually round-trips native save and same UUID load', String(questActor.uuid) === questUuid && F.isFcraftV9Cohort(questActor) && loaded.visitedRoles.central_square === true && loaded.visitedRoles.guild_interior === true && loaded.visitedRoles.town_entrance !== true, { uuid: questUuid, roles: copy(loaded.visitedRoles), savePath: 'save-all flush -> PlayerList.remove -> PlayerList.load same UUID', coldRestart: false });
+      evidence.quest.before = { roles: copy(loaded.visitedRoles), player: beforeQuest };
+      F.tickFcraftRegions(questActor, Date.now());
+      var repaired = F.readFcraftRegionState(questActor), ids = ['fcraft_v9_ch1_entrance', 'fcraft_v9_ch1_square', 'fcraft_v9_ch1_guild'];
+      check('native region tick repairs only the missing arrival prerequisite', repaired.visitedRoles.town_entrance === true && repaired.visitedRoles.central_square === true && repaired.visitedRoles.guild_interior === true, copy(repaired.visitedRoles));
+      check('native KubeJS stages receive entrance plaza and guild without forced FTB progress', ids.every(function (id) { return questActor.stages.has(id); }), ids.map(function (id) { return { id: id, present: !!questActor.stages.has(id) }; }));
+      check('arrival recovery preserves position inventory money ability and registration', same(beforeQuest, coreSnapshot(questActor)), { before: beforeQuest, after: coreSnapshot(questActor) });
+      var attempts = 0;
+      var waitFtb = function () {
+        F.notifyFtbQuestsStageCheck(questActor);
+        var data = API.getData(N.raw(questActor)), task = API.getObject(questActor.level, '7910000000000002'), quest = API.getObject(questActor.level, '7900000000000002');
+        if (!data || !task || !quest) throw Error('Installed FTB TeamData or real chapter1 task unavailable');
+        var progress = Number(data.getProgress(task)), completed = !!data.isCompleted(quest);
+        if ((!completed || progress < 1) && attempts++ < 50) { later(2, waitFtb); return; }
+        evidence.quest.ftb = { task: '7910000000000002', quest: '7900000000000002', teamId: String(data.getTeamId()), taskProgress: progress, questCompleted: completed, retries: attempts, forcedProgressWrites: 0 };
+        check('actual FTB chapter1-2 task and quest complete through native StageTask check', completed && progress >= 1, evidence.quest.ftb);
+        remove(questActor); questActor = null; beginArena();
+      };
+      later(2, waitFtb);
+    } catch (error) { check('native setup exception', false, String(error) + ' ' + String(error.stack || '')); finish(); }
+  };
+})(global.FCraftPhase6Native);

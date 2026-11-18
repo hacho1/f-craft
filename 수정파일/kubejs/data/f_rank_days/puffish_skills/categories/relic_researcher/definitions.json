@@ -1,0 +1,198 @@
+{
+  "relic_researcher_foundation": {
+    "title": "1. 탐구자의 눈",
+    "description": "이동 속도 +3% · 어두운 곳 암적응",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_1",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_1"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_2": {
+    "title": "2. 정밀 탁본",
+    "description": "탁본 종이 25% 절약",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_2",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_2"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_3": {
+    "title": "3. 끈질긴 탐구",
+    "description": "최대 체력 +2 HP",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_3",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_3"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_4": {
+    "title": "4. 추가 발굴",
+    "description": "비석 · 은닉처에서 고대 파편 추가 발굴",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_4",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_4"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_5": {
+    "title": "5. 유적의 가호",
+    "description": "던전에서 받는 피해 -12%",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_5",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_5"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_6": {
+    "title": "6. 유물 감정",
+    "description": "유물 판매가 +25%",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_6",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_6"
+        }
+      }
+    ]
+  },
+  "relic_researcher_passive_7": {
+    "title": "7. 고대의 결실",
+    "description": "은닉처 최초 개봉 시 25% 단련핵 발굴",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brush"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_relic_researcher_7",
+          "lock_command": "tag @s remove frank_phase4_relic_researcher_7"
+        }
+      }
+    ]
+  }
+}

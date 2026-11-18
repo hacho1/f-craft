@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false,
+  "title": "낚시꾼 · 7단 특전",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "f_rank_days:angler_license_f"
+    }
+  },
+  "background": "f_rank_days:textures/gui/v8_2/skill_bg_angler.png"
+}

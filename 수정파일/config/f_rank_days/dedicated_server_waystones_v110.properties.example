@@ -1,0 +1,5 @@
+# Dedicated Forge server only. This example does not replace server.properties.
+# Stop the dedicated server, back up its existing server.properties, and merge
+# exactly the following key. Keep all other settings and authentication values.
+# Minecraft's vanilla spawn protection must not block official Waystone menus.
+spawn-protection=0

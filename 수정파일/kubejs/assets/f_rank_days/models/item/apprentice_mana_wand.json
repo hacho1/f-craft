@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "f_rank_days:item/apprentice_mana_wand"
+  }
+}

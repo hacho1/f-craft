@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "exams": [
+    {
+      "job": "farmer",
+      "label": "농부",
+      "npc": "darim",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00010100000001",
+      "gateTask": "7A10010100000001",
+      "quest": "7A00010100000002",
+      "reward": "7A20010100000001",
+      "stage": "fcraft_mid_farmer_d_accepted",
+      "personalStage": "fcraft_mid_farmer_d_practical",
+      "deliveries": [
+        {
+          "id": "minecraft:wheat",
+          "label": "밀",
+          "count": 24
+        },
+        {
+          "id": "f_rank_days:brion_barley_bread",
+          "label": "브리온 보리빵",
+          "count": 4
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:golden_wheat_stew",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "farmer",
+      "label": "농부",
+      "npc": "darim",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00010200000001",
+      "gateTask": "7A10010200000001",
+      "quest": "7A00010200000002",
+      "reward": "7A20010200000001",
+      "stage": "fcraft_mid_farmer_c_accepted",
+      "personalStage": "fcraft_mid_farmer_c_practical",
+      "deliveries": [
+        {
+          "id": "minecraft:hay_block",
+          "label": "건초 더미",
+          "count": 8
+        },
+        {
+          "id": "f_rank_days:harvest_berry_tart",
+          "label": "산딸기 타르트",
+          "count": 4
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:golden_wheat_stew",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "swordsman",
+      "label": "검사",
+      "npc": "ski",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00020100000001",
+      "gateTask": "7A10020100000001",
+      "quest": "7A00020100000002",
+      "reward": "7A20020100000001",
+      "stage": "fcraft_mid_swordsman_d_accepted",
+      "personalStage": "fcraft_mid_swordsman_d_practical",
+      "deliveries": [],
+      "kills": {
+        "minecraft:zombie": 6,
+        "minecraft:skeleton": 4,
+        "minecraft:spider": 3
+      },
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "job": "swordsman",
+      "label": "검사",
+      "npc": "ski",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00020200000001",
+      "gateTask": "7A10020200000001",
+      "quest": "7A00020200000002",
+      "reward": "7A20020200000001",
+      "stage": "fcraft_mid_swordsman_c_accepted",
+      "personalStage": "fcraft_mid_swordsman_c_practical",
+      "deliveries": [],
+      "kills": {
+        "minecraft:zombie": 12,
+        "minecraft:skeleton": 8,
+        "minecraft:spider": 6
+      },
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:tempering_stone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "job": "alchemist",
+      "label": "연금술사",
+      "npc": "roman",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00030100000001",
+      "gateTask": "7A10030100000001",
+      "quest": "7A00030100000002",
+      "reward": "7A20030100000001",
+      "stage": "fcraft_mid_alchemist_d_accepted",
+      "personalStage": "fcraft_mid_alchemist_d_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:alchemist_clear_tea",
+          "label": "맑은 약초차",
+          "count": 4
+        },
+        {
+          "id": "minecraft:dandelion",
+          "label": "민들레",
+          "count": 12
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "alchemist",
+      "label": "연금술사",
+      "npc": "roman",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00030200000001",
+      "gateTask": "7A10030200000001",
+      "quest": "7A00030200000002",
+      "reward": "7A20030200000001",
+      "stage": "fcraft_mid_alchemist_c_accepted",
+      "personalStage": "fcraft_mid_alchemist_c_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "label": "정제 마력석",
+          "count": 6
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "label": "블레이즈 가루",
+          "count": 8
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "blacksmith",
+      "label": "대장장이",
+      "npc": "nau",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00040100000001",
+      "gateTask": "7A10040100000001",
+      "quest": "7A00040100000002",
+      "reward": "7A20040100000001",
+      "stage": "fcraft_mid_blacksmith_d_accepted",
+      "personalStage": "fcraft_mid_blacksmith_d_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:hardened_ingot",
+          "label": "경화 강괴",
+          "count": 4
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 4,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "job": "blacksmith",
+      "label": "대장장이",
+      "npc": "nau",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00040200000001",
+      "gateTask": "7A10040200000001",
+      "quest": "7A00040200000002",
+      "reward": "7A20040200000001",
+      "stage": "fcraft_mid_blacksmith_c_accepted",
+      "personalStage": "fcraft_mid_blacksmith_c_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:tempering_stone",
+          "label": "단련석",
+          "count": 8
+        },
+        {
+          "id": "f_rank_days:hardened_warhammer",
+          "label": "경화광 전투망치",
+          "count": 1,
+          "unmodifiedOnly": true
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:high_tempering_core",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "job": "healer",
+      "label": "힐러",
+      "npc": "hwiyeon",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00050100000001",
+      "gateTask": "7A10050100000001",
+      "quest": "7A00050100000002",
+      "reward": "7A20050100000001",
+      "stage": "fcraft_mid_healer_d_accepted",
+      "personalStage": "fcraft_mid_healer_d_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:hearth_potato_soup",
+          "label": "감자 수프",
+          "count": 4
+        },
+        {
+          "id": "minecraft:white_wool",
+          "label": "흰색 양털",
+          "count": 12
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "healer",
+      "label": "힐러",
+      "npc": "hwiyeon",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00050200000001",
+      "gateTask": "7A10050200000001",
+      "quest": "7A00050200000002",
+      "reward": "7A20050200000001",
+      "stage": "fcraft_mid_healer_c_accepted",
+      "personalStage": "fcraft_mid_healer_c_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:golden_wheat_stew",
+          "label": "황금밀 보양 스튜",
+          "count": 4
+        },
+        {
+          "id": "minecraft:glistering_melon_slice",
+          "label": "반짝이는 수박 조각",
+          "count": 6
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "job": "relic_researcher",
+      "label": "유물 연구자",
+      "npc": "hyeophap",
+      "grade": "D",
+      "requiredGrade": "E",
+      "gateQuest": "7A00060100000001",
+      "gateTask": "7A10060100000001",
+      "quest": "7A00060100000002",
+      "reward": "7A20060100000001",
+      "stage": "fcraft_mid_relic_researcher_d_accepted",
+      "personalStage": "fcraft_mid_relic_researcher_d_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:ancient_rubbing_sheet",
+          "label": "세르딘 비석 탁본지",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:raw_mana_crystal",
+          "label": "원시 마력 결정",
+          "count": 4
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:silver_coin",
+          "count": 6
+        },
+        {
+          "id": "f_rank_days:wrought_challenge_sigil",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "job": "relic_researcher",
+      "label": "유물 연구자",
+      "npc": "hyeophap",
+      "grade": "C",
+      "requiredGrade": "D",
+      "gateQuest": "7A00060200000001",
+      "gateTask": "7A10060200000001",
+      "quest": "7A00060200000002",
+      "reward": "7A20060200000001",
+      "stage": "fcraft_mid_relic_researcher_c_accepted",
+      "personalStage": "fcraft_mid_relic_researcher_c_practical",
+      "deliveries": [
+        {
+          "id": "f_rank_days:ancient_rubbing_sheet",
+          "label": "세르딘 비석 탁본지",
+          "count": 12
+        },
+        {
+          "id": "f_rank_days:refined_mana_stone",
+          "label": "정제 마력석",
+          "count": 8
+        }
+      ],
+      "kills": {},
+      "killLabels": {
+        "minecraft:zombie": "좀비",
+        "minecraft:skeleton": "스켈레톤",
+        "minecraft:spider": "거미"
+      },
+      "smeltCount": 0,
+      "rewards": [
+        {
+          "id": "f_rank_days:gold_coin",
+          "count": 2
+        },
+        {
+          "id": "f_rank_days:wrought_challenge_sigil",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "f_rank_days:raw_mana_crystal"
+  },
+  "result": "f_rank_days:refined_mana_stone",
+  "experience": 0.7,
+  "cookingtime": 100
+}

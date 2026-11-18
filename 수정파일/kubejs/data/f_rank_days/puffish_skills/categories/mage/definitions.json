@@ -1,0 +1,28 @@
+{
+  "mage_foundation": {
+    "title": "마법사 기초 수련",
+    "description": "기초 이론과 실기 기록을 정리하는 첫 수련입니다. 승급으로 얻은 포인트를 수련 기록에 사용합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "f_rank_days:mage_license_f"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_skill_mage_1_foundation",
+          "lock_command": "tag @s remove frank_skill_mage_1_foundation"
+        }
+      }
+    ]
+  }
+}

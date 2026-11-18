@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": false,
+  "starting_points": 1,
+  "exclusive_root": false,
+  "title": "마법사",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "f_rank_days:mage_license_f"
+    }
+  },
+  "background": "f_rank_days:textures/gui/v8_2/skill_bg_alchemist.png"
+}

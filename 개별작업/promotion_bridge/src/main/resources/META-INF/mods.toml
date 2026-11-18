@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="fcraft_promotion_bridge"
+version="1.0.0"
+displayName="F-Craft Personal Promotion Bridge"
+description="Personal job quest filtering and progress projection over FTB team data."
+[[dependencies.fcraft_promotion_bridge]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.28,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fcraft_promotion_bridge]]
+modId="ftbquests"
+mandatory=true
+versionRange="[2001.4.18,)"
+ordering="AFTER"
+side="BOTH"

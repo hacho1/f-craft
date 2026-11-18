@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "worldValidationId": "fcraft_v9_medieval_town_verified_01",
+  "worldMarkerKey": "fcraft_world_v9_validated",
+  "terrainVerification": "v9.4 original Water World town retained; measured original north river; newly constructed sea crossing/lake/island explicitly recorded in per-world layout.",
+  "spawn": {
+    "x": -129.5,
+    "y": 141,
+    "z": -1359.5,
+    "yaw": 0
+  },
+  "anchor": {
+    "x": -103,
+    "y": 108,
+    "z": -945
+  },
+  "worldFingerprint": [
+    {
+      "x": -163,
+      "y": 112,
+      "z": -943,
+      "block": "minecraft:anvil"
+    },
+    {
+      "x": -95,
+      "y": 112,
+      "z": -1092,
+      "block": "minecraft:water_cauldron"
+    },
+    {
+      "x": -108,
+      "y": 108,
+      "z": -954,
+      "block": "minecraft:quartz_slab"
+    }
+  ],
+  "entryDwellMs": 500,
+  "exitHysteresisBlocks": 3,
+  "showTitleOnReentry": true,
+  "reentryCooldownMs": 60000,
+  "regions": [
+    {
+      "id": "brion_starter_forest",
+      "name": "브리온 외곽 작은 숲",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 100,
+      "bounds": {
+        "minX": -165,
+        "maxX": -55,
+        "minY": 100,
+        "maxY": 190,
+        "minZ": -1385,
+        "maxZ": -1121
+      },
+      "showTitle": false,
+      "safeStart": true,
+      "questRole": "starter_forest",
+      "testPoint": {
+        "x": -129.5,
+        "y": 141,
+        "z": -1359.5
+      },
+      "protectTerrain": true
+    },
+    {
+      "id": "brion",
+      "name": "브리온 마을",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 20,
+      "bounds": {
+        "minX": -200,
+        "maxX": 125,
+        "minY": 100,
+        "maxY": 190,
+        "minZ": -1102,
+        "maxZ": -730
+      },
+      "showTitle": true,
+      "safeStart": true,
+      "displayRegionId": "brion",
+      "protectTerrain": true
+    },
+    {
+      "id": "brion_north_entrance",
+      "name": "브리온 북쪽 입구",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 60,
+      "bounds": {
+        "minX": -95,
+        "maxX": -86,
+        "minY": 110,
+        "maxY": 116,
+        "minZ": -1102,
+        "maxZ": -1093
+      },
+      "showTitle": true,
+      "safeStart": true,
+      "questRole": "town_entrance",
+      "displayRegionId": "brion",
+      "testPoint": {
+        "x": -90.5,
+        "y": 112.5,
+        "z": -1098.5
+      },
+      "protectTerrain": true
+    },
+    {
+      "id": "brion_central_square",
+      "name": "중앙 광장",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 70,
+      "bounds": {
+        "minX": -122,
+        "maxX": -82,
+        "minY": 107,
+        "maxY": 118,
+        "minZ": -966,
+        "maxZ": -928
+      },
+      "showTitle": false,
+      "safeStart": true,
+      "questRole": "central_square",
+      "displayRegionId": "brion",
+      "testPoint": {
+        "x": -107.5,
+        "y": 109,
+        "z": -953.5
+      },
+      "protectTerrain": true,
+      "landmarkTitle": true,
+      "landmarkName": "중앙 광장"
+    },
+    {
+      "id": "brion_guild_interior",
+      "name": "통합 길드",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 80,
+      "bounds": {
+        "minX": -73,
+        "maxX": -60,
+        "minY": 110,
+        "maxY": 118,
+        "minZ": -955,
+        "maxZ": -935
+      },
+      "showTitle": false,
+      "safeStart": true,
+      "questRole": "guild_interior",
+      "displayRegionId": "brion",
+      "testPoint": {
+        "x": -68.5,
+        "y": 110,
+        "z": -945.5
+      },
+      "protectTerrain": true,
+      "landmarkTitle": true,
+      "landmarkName": "통합 길드"
+    },
+    {
+      "id": "brion_farm",
+      "name": "다림의 농장",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 40,
+      "bounds": {
+        "minX": -5,
+        "maxX": 115,
+        "minY": 105,
+        "maxY": 125,
+        "minZ": -915,
+        "maxZ": -770
+      },
+      "showTitle": false,
+      "safeStart": true,
+      "displayRegionId": "brion",
+      "protectTerrain": true,
+      "landmarkTitle": true,
+      "landmarkName": "다림 농장"
+    },
+    {
+      "id": "serdin_outer",
+      "name": "세르딘 외곽 숲 서쪽",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 10,
+      "bounds": {
+        "minX": -420,
+        "maxX": -166,
+        "minY": 90,
+        "maxY": 250,
+        "minZ": -1752,
+        "maxZ": -1153
+      },
+      "showTitle": true,
+      "safeStart": false,
+      "questRole": "serdin_outer",
+      "displayRegionId": "serdin",
+      "spawnPolicy": "outer"
+    },
+    {
+      "id": "serdin_outer_east",
+      "name": "세르딘 외곽 숲 동쪽",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 10,
+      "bounds": {
+        "minX": -54,
+        "maxX": 200,
+        "minY": 90,
+        "maxY": 250,
+        "minZ": -1752,
+        "maxZ": -1153
+      },
+      "showTitle": true,
+      "safeStart": false,
+      "questRole": "serdin_outer",
+      "displayRegionId": "serdin",
+      "spawnPolicy": "outer"
+    },
+    {
+      "id": "serdin_outer_north",
+      "name": "세르딘 외곽 숲 북쪽",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 10,
+      "bounds": {
+        "minX": -165,
+        "maxX": -55,
+        "minY": 90,
+        "maxY": 250,
+        "minZ": -1752,
+        "maxZ": -1386
+      },
+      "showTitle": true,
+      "safeStart": false,
+      "questRole": "serdin_outer",
+      "displayRegionId": "serdin",
+      "spawnPolicy": "outer"
+    },
+    {
+      "id": "serdin_deep",
+      "name": "세르딘 깊은 숲",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 10,
+      "bounds": {
+        "minX": -700,
+        "maxX": 450,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -2440,
+        "maxZ": -1753
+      },
+      "showTitle": true,
+      "safeStart": false,
+      "displayRegionId": "serdin",
+      "spawnPolicy": "deep"
+    },
+    {
+      "id": "serdin_elf_ruins",
+      "name": "옛 엘프 거주지",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 30,
+      "bounds": {
+        "minX": -480,
+        "maxX": -230,
+        "minY": 95,
+        "maxY": 190,
+        "minZ": -2440,
+        "maxZ": -2290
+      },
+      "showTitle": false,
+      "safeStart": false,
+      "displayRegionId": "serdin",
+      "spawnPolicy": "deep"
+    },
+    {
+      "id": "harin_watch_clearing",
+      "name": "하린의 감시 거점",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 40,
+      "bounds": {
+        "minX": -204,
+        "maxX": -155,
+        "minY": 135,
+        "maxY": 175,
+        "minZ": -1474,
+        "maxZ": -1425
+      },
+      "showTitle": false,
+      "safeStart": true,
+      "displayRegionId": "serdin",
+      "protectTerrain": true
+    },
+    {
+      "id": "brion_roman_workshop",
+      "name": "로만 연금 공방",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 85,
+      "showTitle": false,
+      "bounds": {
+        "minX": -172,
+        "maxX": -150,
+        "minY": 109,
+        "maxY": 136,
+        "minZ": -971,
+        "maxZ": -949
+      },
+      "landmarkTitle": true,
+      "landmarkName": "로만 연금 공방"
+    },
+    {
+      "id": "brion_nau_forge",
+      "name": "나우 대장간",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 85,
+      "showTitle": false,
+      "bounds": {
+        "minX": -170,
+        "maxX": -138,
+        "minY": 106,
+        "maxY": 126,
+        "minZ": -948,
+        "maxZ": -929
+      },
+      "landmarkTitle": true,
+      "landmarkName": "나우 대장간"
+    },
+    {
+      "id": "brion_east_market",
+      "name": "시장·유물 보관소",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 85,
+      "showTitle": false,
+      "bounds": {
+        "minX": -155,
+        "maxX": -130,
+        "minY": 105,
+        "maxY": 125,
+        "minZ": -907,
+        "maxZ": -886
+      },
+      "landmarkTitle": true,
+      "landmarkName": "시장·유물 보관소"
+    },
+    {
+      "id": "brion_gori_inn",
+      "name": "고리 여관",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 85,
+      "showTitle": false,
+      "bounds": {
+        "minX": -126,
+        "maxX": -107,
+        "minY": 106,
+        "maxY": 134,
+        "minZ": -921,
+        "maxZ": -900
+      },
+      "landmarkTitle": true,
+      "landmarkName": "고리 여관"
+    },
+    {
+      "id": "brion_hwiyeon_clinic",
+      "name": "휘연 의료소",
+      "subtitle": "",
+      "dimension": "minecraft:overworld",
+      "priority": 85,
+      "showTitle": false,
+      "bounds": {
+        "minX": -140,
+        "maxX": -118,
+        "minY": 110,
+        "maxY": 137,
+        "minZ": -1036,
+        "maxZ": -1016
+      },
+      "landmarkTitle": true,
+      "landmarkName": "휘연 의료소"
+    },
+    {
+      "id": "brion_north_safe_approach",
+      "name": "브리온 북쪽 안전 진입로",
+      "dimension": "minecraft:overworld",
+      "priority": 5,
+      "showTitle": false,
+      "safeStart": true,
+      "protectTerrain": true,
+      "bounds": {
+        "minX": -112,
+        "maxX": -80,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -1125,
+        "maxZ": -1090
+      }
+    },
+    {
+      "id": "brion_sea_causeway",
+      "name": "브리온 북문 대교",
+      "subtitle": "아르베른 변경 해협 · 세르딘 연결 교량",
+      "landmarkName": "브리온 북문 대교",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 90,
+      "bounds": {
+        "minX": -125,
+        "maxX": -85,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -1230,
+        "maxZ": -1113
+      },
+      "safeStart": true
+    },
+    {
+      "id": "serdin_south_entrance",
+      "name": "세르딘 경계 숲 · 남부 초입림",
+      "subtitle": "약초 군락 · 여행자 폐야영지 · 위험도 ★☆☆☆☆",
+      "landmarkName": "세르딘 경계 숲 · 남부 초입림",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 80,
+      "bounds": {
+        "minX": -145,
+        "maxX": -95,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -1290,
+        "maxZ": -1231
+      },
+      "safeStart": true,
+      "spawnPolicy": "outer"
+    },
+    {
+      "id": "serdin_east_stelae",
+      "name": "세르딘 동부 암반 · 고대 비석지",
+      "subtitle": "초급 고대 비문 탁본 조사 구역 · 위험도 ★☆☆☆☆",
+      "landmarkName": "세르딘 동부 암반 · 고대 비석지",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 80,
+      "bounds": {
+        "minX": 64,
+        "maxX": 144,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -1446,
+        "maxZ": -1366
+      },
+      "spawnPolicy": "outer"
+    },
+    {
+      "id": "serdin_central_deep",
+      "name": "세르딘 중부 심층림",
+      "subtitle": "중앙 수로 북단 · 전초기지 토벌 · 위험도 ★★★☆☆",
+      "landmarkName": "세르딘 중부 심층림",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 55,
+      "bounds": {
+        "minX": -250,
+        "maxX": 330,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -2140,
+        "maxZ": -1848
+      },
+      "spawnPolicy": "deep"
+    },
+    {
+      "id": "serdin_existing_trial_altar",
+      "name": "강철 수호자의 호숫가 시련 제단",
+      "subtitle": "서쪽 내해 섬 · 반경24m 소프트 결계",
+      "landmarkName": "강철 수호자의 호숫가 시련 제단",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 100,
+      "bounds": {
+        "minX": -340,
+        "maxX": -284,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -1908,
+        "maxZ": -1852
+      },
+      "safeStart": true,
+      "spawnPolicy": "boss"
+    },
+    {
+      "id": "serdin_north_sealed",
+      "name": "세르딘 북방 봉인도",
+      "subtitle": "고대 결계 봉인 구역 · 추후 개방 예정지",
+      "landmarkName": "세르딘 북방 봉인도",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 100,
+      "bounds": {
+        "minX": -148,
+        "maxX": -52,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -2628,
+        "maxZ": -2532
+      },
+      "safeStart": true,
+      "spawnPolicy": "sealed"
+    },
+    {
+      "id": "serdin_elven_pilgrim_causeway",
+      "name": "옛 엘프 순례교",
+      "subtitle": "새 보행교 · 북방 봉인도 연결 없음",
+      "landmarkName": "브리온 북문 대교",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 90,
+      "bounds": {
+        "minX": -263,
+        "maxX": -142,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -2280,
+        "maxZ": -2150
+      },
+      "safeStart": true
+    },
+    {
+      "id": "serdin_north_monolith",
+      "name": "북해협의 고대 모놀리스",
+      "subtitle": "Dannypan · 침묵의 룬",
+      "landmarkName": "브리온 북문 대교",
+      "landmarkTitle": true,
+      "showTitle": false,
+      "dimension": "minecraft:overworld",
+      "priority": 90,
+      "bounds": {
+        "minX": -121,
+        "maxX": -79,
+        "minY": -64,
+        "maxY": 319,
+        "minZ": -2105,
+        "maxZ": -2063
+      },
+      "safeStart": true
+    }
+  ],
+  "npcs": [
+    {
+      "id": "hess",
+      "x": -68.5,
+      "y": 110,
+      "z": -945.5,
+      "yaw": 0
+    },
+    {
+      "id": "roman",
+      "x": -160.5,
+      "y": 113,
+      "z": -959.5,
+      "yaw": 0
+    },
+    {
+      "id": "nau",
+      "x": -147.5,
+      "y": 109,
+      "z": -938.5,
+      "yaw": 0
+    },
+    {
+      "id": "gori",
+      "x": -117.5,
+      "y": 110,
+      "z": -910.5,
+      "yaw": 0
+    },
+    {
+      "id": "hwiyeon",
+      "x": -128.5,
+      "y": 113,
+      "z": -1025.5,
+      "yaw": 0
+    },
+    {
+      "id": "darim",
+      "x": 52.5,
+      "y": 107,
+      "z": -816.5,
+      "yaw": 0
+    },
+    {
+      "id": "harin",
+      "x": -179.5,
+      "y": 145,
+      "z": -1449.5,
+      "yaw": 160,
+      "profession": "A급 레인저",
+      "race": "엘프",
+      "personality": "INTJ"
+    },
+    {
+      "id": "ski",
+      "x": -107.5,
+      "y": 112,
+      "z": -1043.5,
+      "yaw": 90
+    },
+    {
+      "id": "bambam",
+      "x": -64.5,
+      "y": 106,
+      "z": -818.5,
+      "yaw": 180
+    },
+    {
+      "id": "hyeophap",
+      "x": -143.5,
+      "y": 109,
+      "z": -897.5,
+      "yaw": 90
+    }
+  ],
+  "worldPlan": {
+    "plannedWidth": 12288,
+    "plannedLength": 12288,
+    "enforceWorldBorder": false,
+    "pregenerateWholeContinent": false,
+    "names": {
+      "empire": "아르베른 제국",
+      "brion": "브리온 마을",
+      "serdin": "세르딘 숲",
+      "trade_city": "벨마르 교역도시",
+      "capital": "황도 루센트",
+      "frontier": "카르덴 변경"
+    }
+  },
+  "titleGroups": {
+    "brion": {
+      "name": "〈 브리온 마을 〉",
+      "subtitle": "아르베른 제국 · 변방 정착촌"
+    },
+    "serdin": {
+      "name": "〈 세르딘 숲 〉",
+      "subtitle": "아르베른 제국 · 오래된 엘프의 숲"
+    }
+  },
+  "existingBossAltar": {
+    "enabled": true,
+    "x": -312,
+    "y": 117,
+    "z": -1880,
+    "originalContent": true,
+    "clearanceVerified": true
+  },
+  "landmarkReentryCooldownMs": 45000,
+  "landmarkEntryDwellMs": 700,
+  "landmarkCoordinateNotes": {
+    "version": "v9.3",
+    "authority": "Current original-terrain world and relocated NPC/altar config, not v8 flat-world coordinates.",
+    "roman": "Workshop at actual Roman location; no claim of a new alchemy tower.",
+    "market": "Current Hyeophap archive location; directional east-market wording from old layout omitted.",
+    "inscriptionSite": "Existing copied elf shelter at -430..-411,114..140,-2363..-2341. Named old inscription site; no assertion that original terrain contains a readable stone tablet.",
+    "altar": "Existing verified altar -312,117,-1880; not described as lakeside."
+  },
+  "layoutVersion": "9.4",
+  "serdinLayoutVersion": "9.7",
+  "titleTextYOffset": -34
+}

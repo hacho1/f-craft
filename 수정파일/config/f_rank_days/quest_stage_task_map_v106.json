@@ -1,0 +1,390 @@
+{
+  "fcraft_legacy_tutorial": [
+    "7F10000000000001"
+  ],
+  "fcraft_v9_tutorial": [
+    "7F10000000000002"
+  ],
+  "fcraft_v9_ch1_entrance": [
+    "7910000000000001"
+  ],
+  "fcraft_v9_ch1_square": [
+    "7910000000000002"
+  ],
+  "fcraft_v9_ch1_guild": [
+    "7910000000000003"
+  ],
+  "fcraft_v9_ch1_registered": [
+    "7910000000000004"
+  ],
+  "fcraft_v9_ch1_signed_card": [
+    "7910000000000005"
+  ],
+  "fcraft_v9_ch1_freedom": [
+    "7910000000000006"
+  ],
+  "frank_ch1_reached_square": [
+    "1100000000000001"
+  ],
+  "frank_ch1_found_guild": [
+    "1100000000000002"
+  ],
+  "frank_ch1_talked_hess": [
+    "1100000000000003"
+  ],
+  "frank_ch1_first_job": [
+    "1100000000000005"
+  ],
+  "frank_ch3_serdin_visited": [
+    "3100000000000003"
+  ],
+  "frank_ch3_monster_survey": [
+    "3100000000000005"
+  ],
+  "frank_ch5_other_e_license": [
+    "5100000000000004"
+  ],
+  "frank_v98_berserker_registered": [
+    "7C98120000000001"
+  ],
+  "frank_ch2_darim_intro": [
+    "2100000000000001"
+  ],
+  "frank_ch2_animal_care": [
+    "2100000000000004"
+  ],
+  "frank_v97_serdin_pois_14": [
+    "7C97100000000001"
+  ],
+  "frank_v97_serdin_chests_24": [
+    "7C97100000000002"
+  ],
+  "frank_ch4_greeted_three": [
+    "4100000000000001"
+  ],
+  "frank_ch4_rapport_any": [
+    "4100000000000002"
+  ],
+  "frank_ch4_personal_resolved": [
+    "4100000000000003"
+  ],
+  "frank_v96_bond_hess_met": [
+    "7B05000100000001"
+  ],
+  "frank_v96_bond_hess_20": [
+    "7B05000100000002"
+  ],
+  "frank_v96_bond_hess_45": [
+    "7B05000100000003"
+  ],
+  "frank_v96_bond_hess_story": [
+    "7B05000100000004"
+  ],
+  "frank_v96_bond_hess_choice": [
+    "7B05000100000005"
+  ],
+  "frank_v96_bond_darim_met": [
+    "7B05000100000006"
+  ],
+  "frank_v96_bond_darim_20": [
+    "7B05000100000007"
+  ],
+  "frank_v96_bond_darim_45": [
+    "7B05000100000008"
+  ],
+  "frank_v96_bond_darim_story": [
+    "7B05000100000009"
+  ],
+  "frank_v96_bond_darim_choice": [
+    "7B0500010000000A"
+  ],
+  "frank_v96_bond_roman_met": [
+    "7B0500010000000B"
+  ],
+  "frank_v96_bond_roman_20": [
+    "7B0500010000000C"
+  ],
+  "frank_v96_bond_roman_45": [
+    "7B0500010000000D"
+  ],
+  "frank_v96_bond_roman_story": [
+    "7B0500010000000E"
+  ],
+  "frank_v96_bond_roman_choice": [
+    "7B0500010000000F"
+  ],
+  "frank_v96_bond_gori_met": [
+    "7B05000100000010"
+  ],
+  "frank_v96_bond_gori_20": [
+    "7B05000100000011"
+  ],
+  "frank_v96_bond_gori_45": [
+    "7B05000100000012"
+  ],
+  "frank_v96_bond_gori_story": [
+    "7B05000100000013"
+  ],
+  "frank_v96_bond_gori_choice": [
+    "7B05000100000014"
+  ],
+  "frank_v96_bond_nau_met": [
+    "7B05000100000015"
+  ],
+  "frank_v96_bond_nau_20": [
+    "7B05000100000016"
+  ],
+  "frank_v96_bond_nau_45": [
+    "7B05000100000017"
+  ],
+  "frank_v96_bond_nau_story": [
+    "7B05000100000018"
+  ],
+  "frank_v96_bond_nau_choice": [
+    "7B05000100000019"
+  ],
+  "frank_v96_bond_hwiyeon_met": [
+    "7B0500010000001A"
+  ],
+  "frank_v96_bond_hwiyeon_20": [
+    "7B0500010000001B"
+  ],
+  "frank_v96_bond_hwiyeon_45": [
+    "7B0500010000001C"
+  ],
+  "frank_v96_bond_hwiyeon_story": [
+    "7B0500010000001D"
+  ],
+  "frank_v96_bond_hwiyeon_choice": [
+    "7B0500010000001E"
+  ],
+  "frank_v96_bond_ski_met": [
+    "7B0500010000001F"
+  ],
+  "frank_v96_bond_ski_20": [
+    "7B05000100000020"
+  ],
+  "frank_v96_bond_ski_45": [
+    "7B05000100000021"
+  ],
+  "frank_v96_bond_ski_story": [
+    "7B05000100000022"
+  ],
+  "frank_v96_bond_ski_choice": [
+    "7B05000100000023"
+  ],
+  "frank_v96_bond_harin_met": [
+    "7B05000100000024"
+  ],
+  "frank_v96_bond_harin_20": [
+    "7B05000100000025"
+  ],
+  "frank_v96_bond_harin_45": [
+    "7B05000100000026"
+  ],
+  "frank_v96_bond_harin_story": [
+    "7B05000100000027"
+  ],
+  "frank_v96_bond_harin_choice": [
+    "7B05000100000028"
+  ],
+  "frank_v96_bond_hyeophap_met": [
+    "7B05000100000029"
+  ],
+  "frank_v96_bond_hyeophap_20": [
+    "7B0500010000002A"
+  ],
+  "frank_v96_bond_hyeophap_45": [
+    "7B0500010000002B"
+  ],
+  "frank_v96_bond_hyeophap_story": [
+    "7B0500010000002C"
+  ],
+  "frank_v96_bond_hyeophap_choice": [
+    "7B0500010000002D"
+  ],
+  "frank_v96_bond_bambam_met": [
+    "7B0500010000002E"
+  ],
+  "frank_v96_bond_bambam_20": [
+    "7B0500010000002F"
+  ],
+  "frank_v96_bond_bambam_45": [
+    "7B05000100000030"
+  ],
+  "frank_v96_bond_bambam_story": [
+    "7B05000100000031"
+  ],
+  "frank_v96_bond_bambam_choice": [
+    "7B05000100000032"
+  ],
+  "frank_v96_camp_unlocked": [
+    "7C06000100000003"
+  ],
+  "frank_v96_mainland_permit": [
+    "7C06000100000004"
+  ],
+  "frank_v96_mainland_arrived": [
+    "7C06000100000005"
+  ],
+  "frank_v96_mainland_first_build": [
+    "7C99000100000003",
+    "7C06000100000006"
+  ],
+  "frank_v96_mainland_four_visits": [
+    "7C06000100000007"
+  ],
+  "frank_v99_c_bosses_complete": [
+    "7C99000100000005"
+  ],
+  "frank_v99_b_bosses_complete": [
+    "7C99000100000006"
+  ],
+  "frank_v99_a_bosses_complete": [
+    "7C99000100000007"
+  ],
+  "frank_v99_s_bosses_complete": [
+    "7C99000100000008"
+  ],
+  "fcraft_mid_swordsman_d_accepted": [
+    "7A10020100000001"
+  ],
+  "fcraft_mid_swordsman_d_practical": [
+    "7A30020100000004"
+  ],
+  "fcraft_mid_swordsman_c_accepted": [
+    "7A10020200000001"
+  ],
+  "fcraft_mid_swordsman_c_practical": [
+    "7A30020200000004"
+  ],
+  "fcraft_mid_healer_d_accepted": [
+    "7A10050100000001"
+  ],
+  "fcraft_mid_healer_c_accepted": [
+    "7A10050200000001"
+  ],
+  "frank_v96_ranger_e": [
+    "7B02000100000001"
+  ],
+  "frank_v96_ranger_d": [
+    "7B02000100000002"
+  ],
+  "frank_v96_ranger_c": [
+    "7B02000100000003"
+  ],
+  "frank_v96_mage_e": [
+    "7B02000100000004"
+  ],
+  "frank_v96_mage_d": [
+    "7B02000100000005"
+  ],
+  "frank_v96_mage_c": [
+    "7B02000100000006"
+  ],
+  "fcraft_mid_farmer_d_accepted": [
+    "7A10010100000001"
+  ],
+  "fcraft_mid_farmer_c_accepted": [
+    "7A10010200000001"
+  ],
+  "fcraft_mid_alchemist_d_accepted": [
+    "7A10030100000001"
+  ],
+  "fcraft_mid_alchemist_c_accepted": [
+    "7A10030200000001"
+  ],
+  "fcraft_mid_blacksmith_d_accepted": [
+    "7A10040100000001"
+  ],
+  "fcraft_mid_blacksmith_d_practical": [
+    "7A30040100000002"
+  ],
+  "fcraft_mid_blacksmith_c_accepted": [
+    "7A10040200000001"
+  ],
+  "frank_v96_herbalist_e": [
+    "7B03000100000001"
+  ],
+  "frank_v96_herbalist_d": [
+    "7B03000100000002"
+  ],
+  "frank_v96_herbalist_c": [
+    "7B03000100000003"
+  ],
+  "frank_v96_angler_e": [
+    "7B03000100000004"
+  ],
+  "frank_v96_angler_d": [
+    "7B03000100000005"
+  ],
+  "frank_v96_angler_c": [
+    "7B03000100000006"
+  ],
+  "frank_v96_chef_e": [
+    "7B03000100000007"
+  ],
+  "frank_v96_chef_d": [
+    "7B03000100000008"
+  ],
+  "frank_v96_chef_c": [
+    "7B03000100000009"
+  ],
+  "frank_v96_first_harvest": [
+    "7B0300010000000A"
+  ],
+  "frank_v96_first_herb": [
+    "7B0300010000000B"
+  ],
+  "frank_v96_first_fish": [
+    "7B0300010000000C"
+  ],
+  "frank_v96_first_cook": [
+    "7B0300010000000D"
+  ],
+  "frank_v96_first_smelt": [
+    "7B0300010000000E"
+  ],
+  "frank_v96_first_sale": [
+    "7B0300010000000F"
+  ],
+  "fcraft_mid_relic_researcher_d_accepted": [
+    "7A10060100000001"
+  ],
+  "fcraft_mid_relic_researcher_c_accepted": [
+    "7A10060200000001"
+  ],
+  "frank_v96_prospector_e": [
+    "7B04000100000001"
+  ],
+  "frank_v96_prospector_d": [
+    "7B04000100000002"
+  ],
+  "frank_v96_prospector_c": [
+    "7B04000100000003"
+  ],
+  "frank_v96_pathfinder_e": [
+    "7B04000100000004"
+  ],
+  "frank_v96_pathfinder_d": [
+    "7B04000100000005"
+  ],
+  "frank_v96_pathfinder_c": [
+    "7B04000100000006"
+  ],
+  "frank_v96_caches_5": [
+    "7B04000100000007"
+  ],
+  "frank_v96_caches_12": [
+    "7B04000100000008"
+  ],
+  "frank_v96_caches_24": [
+    "7B04000100000009"
+  ],
+  "frank_v96_mainland_boss_route": [
+    "7C06000100000001"
+  ],
+  "frank_v96_mainland_civil_route": [
+    "7C06000100000002"
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "id": "7900000000000000",
+  "filename": "01_ch1_arrival_and_guild",
+  "order_index": 0,
+  "title": "제1장. 브리온 정착과 첫 등록",
+  "icon": {
+    "id": "ftbquests:custom_icon",
+    "Count": 1,
+    "tag": {
+      "Icon": "f_rank_days:textures/gui/quests/tab_01_guild_arrival.png"
+    }
+  },
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "7F00000000000001",
+      "tasks": [
+        {
+          "id": "7F10000000000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "x": -12.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ]
+    },
+    {
+      "id": "7F00000000000002",
+      "tasks": [
+        {
+          "id": "7F10000000000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "x": -12.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ]
+    },
+    {
+      "id": "7900000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "title": "1-1. 여긴 무슨 마을이지?",
+      "dependencies": [
+        "7F10000000000002"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "낯선 숲에서 눈을 떴다. 나무 사이로 작은 길이 이어져 있다. 길 끝에는 무엇이 있을까?",
+        "숲길을 따라 브리온 마을 입구에 직접 도착하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_forest_start.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_forest_start.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7900000000000002",
+      "x": 2.0,
+      "y": 0.0,
+      "title": "1-2. 처음 보는 거리",
+      "dependencies": [
+        "7900000000000001"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "중앙 광장에 도착한 뒤 인벤토리 상단의 지갑과 브리온 일보 버튼을 확인하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_brion_plaza.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_brion_plaza.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7900000000000003",
+      "x": 4.0,
+      "y": 0.0,
+      "title": "1-3. 길드라는 곳",
+      "dependencies": [
+        "7900000000000002"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "광장에서 통합 길드의 입구를 찾아 건물 안으로 들어가세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7900000000000004",
+      "x": 4.0,
+      "y": 3.0,
+      "title": "1-4. 처음 뵙는 얼굴이네요",
+      "dependencies": [
+        "7900000000000003"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "헤스의 초면 인사에서 등록을 시작하세요. 전체화면 첫 직업 선택 → F급 특기와 결함 선택 → 등록증 서명의 순서입니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7900000000000005",
+      "x": 2.0,
+      "y": 3.0,
+      "title": "1-5. 나의 첫 번째 신분증",
+      "dependencies": [
+        "7900000000000004"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "전용 등록증 GUI에 성명을 서명하세요. 선택한 첫 직업 기본 도구와 초기 정착금15실버(150동화)는 등록 완료 시 한 번만 지급됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7900000000000006",
+      "x": 0.0,
+      "y": 3.0,
+      "title": "1-6. 내 직종 담당 스승 찾아가기",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "등록한 직종의 스승을 찾아가 [5. 🎖 승급 시험]에서 자동 접수된 E급 실기를 확인하세요.",
+        "등록 직종만 제2장에 표시됩니다. 나우는 대장장이·도끼전사·광부를 함께 지도합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7910000000000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "1000000000000001",
+      "dependencies": [
+        "7F00000000000001"
+      ],
+      "x": -12.0,
+      "y": 27.0,
+      "title": "1-1. 변방 브리온 마을에서의 첫 아침",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "아르베른 제국의 변방 정착촌, 브리온 마을의 중앙 분수대 광장(X:0.5, Y:69, Z:9.5)에 도착했습니다.",
+        "",
+        "인벤토리에 지급된 《브리온 마을 정착 안내서》와 광장 이정표를 확인하세요. 중앙 광장에 안전하게 도착하면 자동으로 달성되며 바로 북쪽 길드 찾기로 이어집니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:oak_sign",
+      "tasks": [
+        {
+          "id": "1100000000000001",
+          "type": "custom",
+          "title": "브리온 마을 중앙 광장 도착 확인"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1200000000000001",
+          "type": "xp",
+          "xp": 5
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "1000000000000002",
+      "x": -12.0,
+      "y": 30.0,
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "title": "1-2. 마을 광장과 통합 길드 찾기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "중앙 광장 분수대 바로 북쪽 석재 대로를 따라 3층 종루 첨탑 건물인 [아르베른 통합 길드 브리온 지부](입구 X:0.5, Y:69, Z:-25 / 본관 Z:-38~-24)에 입장하세요.",
+        "길 안내가 필요하면 언제든 `/frank map`을 입력할 수 있습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:lantern",
+      "tasks": [
+        {
+          "id": "1100000000000002",
+          "type": "custom",
+          "title": "통합 길드 지부 도착 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "1000000000000003",
+      "x": -12.0,
+      "y": 33.0,
+      "dependencies": [
+        "1000000000000002"
+      ],
+      "title": "1-3. 접수원 헤스와 첫 대화",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "통합 길드 1층 접수 창구(X:1.5, Y:69, Z:-33.5)의 [헤스]를 우클릭하여 RPG 대화창을 열고 [대화하기] 또는 [길드 업무]를 진행하세요.",
+        "(길드 건물에 들어온 것만으로는 완료되지 않으며, 헤스와 직접 면담해야 완료됩니다.)",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:writable_book",
+      "tasks": [
+        {
+          "id": "1100000000000003",
+          "type": "custom",
+          "title": "헤스에게 초기 주민 등록 안내 받기"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "1000000000000004",
+      "x": -12.0,
+      "y": 36.0,
+      "dependencies": [
+        "1000000000000003"
+      ],
+      "title": "1-4. 작은 F급 고유 능력 선택",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "헤스의 RPG 대화창 [직업 등록] 메뉴 또는 `/frank ability <ID>`로 구현 검증된 4종의 F급 고유 능력(`seed_sense`, `steady_breath`, `keen_appraisal`, `warm_palm`) 중 하나를 선택하세요.",
+        "어떤 능력을 골라도 농사·전투·장인·연애 중 어떤 길이든 막히지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:f_ability_token",
+      "tasks": [
+        {
+          "id": "1100000000000004",
+          "type": "item",
+          "item": "f_rank_days:f_ability_token",
+          "consume_items": false
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "1000000000000005",
+      "x": -12.0,
+      "y": 39.0,
+      "dependencies": [
+        "1000000000000004"
+      ],
+      "title": "1-5. 최초 직업 무료 등록",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "헤스의 RPG 대화창 [직업 등록] 버튼 또는 `/frank register_job <farmer|swordsman|alchemist|blacksmith|healer|relic_researcher>` 명령어로 첫 직업을 등록하세요.",
+        "추후 다른 직업도 제한 없이 복수 등록하여 독립된 등급을 올릴 수 있습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_f",
+      "tasks": [
+        {
+          "id": "1100000000000005",
+          "type": "custom",
+          "title": "첫 직업 F급 기초 등록 완료"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "1000000000000006",
+      "x": -12.0,
+      "y": 42.0,
+      "shape": "rsquare",
+      "size": 1.3,
+      "dependencies": [
+        "1000000000000005"
+      ],
+      "title": "1-6. 길드 정식 등록증 이름 서명 및 발급",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "능력과 최초 직업을 고르면 채팅창 없이 전용 《길드 등록증》 작성 GUI가 열립니다. 성명 입력칸에 한글/영문 이름(2~16자)을 직접 입력해 공인 등록증을 발급받으세요!",
+        "",
+        "※ 위조 방지 안내: 아이템을 모루나 명령어로 변조·복사하더라도 서버 공식 등록 원부(`f_rank_days_state_v1`)와 대조하여 진위를 판정합니다.",
+        "※ 이 단계를 마치면 제2장(생활)·제3장(모험)·제4장(인연)·제5장(자격)을 원하는 순서대로 자유롭게 병행할 수 있습니다!",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:guild_citizen_card",
+      "tasks": [
+        {
+          "id": "1100000000000006",
+          "type": "item",
+          "item": "f_rank_days:guild_citizen_card",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1200000000000006",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    }
+  ]
+}

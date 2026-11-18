@@ -1,0 +1,44 @@
+{
+  "blacksmith_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "blacksmith_foundation",
+    "root": true
+  },
+  "blacksmith_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "blacksmith_passive_2",
+    "root": false
+  },
+  "blacksmith_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "blacksmith_passive_3",
+    "root": false
+  },
+  "blacksmith_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "blacksmith_passive_4",
+    "root": false
+  },
+  "blacksmith_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "blacksmith_passive_5",
+    "root": false
+  },
+  "blacksmith_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "blacksmith_passive_6",
+    "root": false
+  },
+  "blacksmith_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "blacksmith_passive_7",
+    "root": false
+  }
+}

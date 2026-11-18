@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8010
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t1_etched"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8020
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t2_tempered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8040
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t3_mana_glow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8060
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t4_special"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8080
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t5_legend"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8099
+      },
+      "model": "f_rank_days:item/weapons_v8/wooden_axe_t6_mythic99"
+    }
+  ]
+}

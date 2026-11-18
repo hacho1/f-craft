@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "HIH",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "f_rank_days:refined_mana_stone"
+    },
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:wrought_challenge_sigil",
+    "count": 1
+  }
+}

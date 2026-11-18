@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "prospector_node_1",
+        "prospector_node_2"
+      ],
+      [
+        "prospector_node_2",
+        "prospector_node_3"
+      ],
+      [
+        "prospector_node_3",
+        "prospector_node_4"
+      ],
+      [
+        "prospector_node_4",
+        "prospector_node_5"
+      ],
+      [
+        "prospector_node_5",
+        "prospector_node_6"
+      ],
+      [
+        "prospector_node_6",
+        "prospector_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

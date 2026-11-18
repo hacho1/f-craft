@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "healer_node_1",
+        "healer_node_2"
+      ],
+      [
+        "healer_node_2",
+        "healer_node_3"
+      ],
+      [
+        "healer_node_3",
+        "healer_node_4"
+      ],
+      [
+        "healer_node_4",
+        "healer_node_5"
+      ],
+      [
+        "healer_node_5",
+        "healer_node_6"
+      ],
+      [
+        "healer_node_6",
+        "healer_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

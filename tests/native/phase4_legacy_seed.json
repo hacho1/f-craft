@@ -1,0 +1,75 @@
+{
+  "labOnly": true,
+  "actors": [
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b1",
+      "name": "FC4LegacyFarmer",
+      "case": "farmer_cost_reduction",
+      "grades": {"farmer": "B"},
+      "expected": {"job": "farmer", "total": 9, "spent": 8, "left": 1, "sources": {"f_rank_days:phase4_cost_import": -1}, "migration": {"oldSpent": 9, "oldAvailable": 1}},
+      "categories": {
+        "farmer": {
+          "unlocked": true,
+          "nodes": ["farmer_node_1_basic", "farmer_node_2_soil", "farmer_node_3_research", "farmer_node_4_advanced", "farmer_node_5_expert"],
+          "points": {"puffish_skills:starting": 1, "puffish_skills:commands": 9}
+        }
+      }
+    },
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b2",
+      "name": "FC4LegacyBonus",
+      "case": "historical_legal_bonuses",
+      "grades": {"relic_researcher": "S"},
+      "expected": {"job": "relic_researcher", "total": 21, "spent": 0, "left": 21, "sources": {"f_rank_days:boss_sculptor_v99": 1, "f_rank_days:mainland_pilgrimage_v96": 2, "f_rank_days:legacy_mage_unspent_v98": 4}},
+      "categories": {
+        "relic_researcher": {
+          "unlocked": true,
+          "nodes": [],
+          "points": {"puffish_skills:starting": 1, "puffish_skills:commands": 13, "f_rank_days:boss_sculptor_v99": 1, "f_rank_days:mainland_pilgrimage_v96": 2, "f_rank_days:legacy_mage_unspent_v98": 4}
+        }
+      }
+    },
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b3",
+      "name": "FC4MageImported",
+      "case": "A_already_migrated_mage_s",
+      "grades": {"mage": "S", "relic_researcher": "S"},
+      "statePrerequisites": {"compatibility_v98": {"version": 1, "jobs": {}, "original_licenses": {}, "mage_skill_points_copied": true, "mage_point_transfer": {"original_available": 13, "original_spent": 1, "target_available_before": 1, "transferred": 12}}},
+      "categories": {
+        "relic_researcher": {"unlocked": true, "nodes": [], "points": {"puffish_skills:starting": 1, "f_rank_days:legacy_mage_unspent_v98": 12}},
+        "mage": {"unlocked": true, "nodes": ["mage_node_1"], "points": {"puffish_skills:starting": 1, "puffish_skills:commands": 13}}
+      },
+      "expected": {"job": "relic_researcher", "total": 13, "spent": 0, "left": 13, "sources": {"f_rank_days:legacy_mage_unspent_v98": 12, "f_rank_days:phase4_legacy_grade_completion": 0}, "migration": {"retainedMageSpendForEntitlement": 1, "missingOldEntitlement": 0}, "legacy": {"job": "mage", "total": 14, "spent": 1, "left": 13}}
+    },
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b4",
+      "name": "FC4MageFirstS",
+      "case": "B_first_mage_s_full_entitlement",
+      "grades": {"mage": "S"},
+      "statePrerequisites": {"compatibility_v98": {"version": 1, "jobs": {}, "original_licenses": {}, "mage_skill_points_copied": false}},
+      "targetAbsentBeforeLogin": true,
+      "categories": {"mage": {"unlocked": true, "nodes": ["mage_node_1"], "points": {"puffish_skills:starting": 1, "puffish_skills:commands": 13}}},
+      "expected": {"job": "relic_researcher", "total": 13, "spent": 0, "left": 13, "sources": {"f_rank_days:legacy_mage_unspent_v98": 13, "f_rank_days:phase4_legacy_grade_completion": 0}, "migration": {"sourceCategory": "mage", "oldSpent": 1, "startingImported": 0, "missingOldEntitlement": 0}, "legacy": {"job": "mage", "total": 14, "spent": 1, "left": 13}}
+    },
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b5",
+      "name": "FC4MageFirstGap",
+      "case": "C_first_mage_s_missing_entitlement",
+      "grades": {"mage": "S"},
+      "statePrerequisites": {"compatibility_v98": {"version": 1, "jobs": {}, "original_licenses": {}, "mage_skill_points_copied": false}},
+      "targetAbsentBeforeLogin": true,
+      "categories": {"mage": {"unlocked": true, "nodes": ["mage_node_1"], "points": {"puffish_skills:starting": 1, "puffish_skills:commands": 9}}},
+      "expected": {"job": "relic_researcher", "total": 13, "spent": 0, "left": 13, "sources": {"f_rank_days:legacy_mage_unspent_v98": 9, "f_rank_days:phase4_legacy_grade_completion": 4}, "migration": {"sourceCategory": "mage", "oldSpent": 1, "startingImported": 0, "missingOldEntitlement": 4}, "legacy": {"job": "mage", "total": 10, "spent": 1, "left": 9}}
+    },
+    {
+      "uuid": "4fc40000-0000-4000-8000-0000000081b6",
+      "name": "FC4AlchemistD",
+      "case": "D_first_alchemist_d",
+      "grades": {"alchemist": "D"},
+      "statePrerequisites": {"migrations_v96": {"alchemist_skills": false}},
+      "targetAbsentBeforeLogin": true,
+      "categories": {"alchemist": {"unlocked": true, "nodes": ["alchemist_node_1"], "points": {"puffish_skills:starting": 1, "f_rank_days:mid_tier_exam_e": 2, "f_rank_days:mid_tier_exam_d": 2}}},
+      "expected": {"job": "herbalist", "total": 5, "spent": 1, "left": 4, "sources": {"f_rank_days:mid_tier_exam_e": 2, "f_rank_days:mid_tier_exam_d": 2, "f_rank_days:phase4_legacy_grade_completion": 0}, "migration": {"sourceCategory": "alchemist", "oldSpent": 1, "newSpent": 1, "missingOldEntitlement": 0}, "legacy": {"job": "alchemist", "total": 5, "spent": 1, "left": 4}}
+    }
+  ]
+}

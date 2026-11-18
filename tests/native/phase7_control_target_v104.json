@@ -1,0 +1,11 @@
+{
+  "sourceTime": 4431,
+  "targetTime": 5016,
+  "tickDelta": 585,
+  "sourceGameRules": {
+    "randomTickSpeed": "3",
+    "doMobSpawning": "true",
+    "mobGriefing": "true"
+  },
+  "referenceNativeResult": "검증/native/arena_v104_06/result.json"
+}

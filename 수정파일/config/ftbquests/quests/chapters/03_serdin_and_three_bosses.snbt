@@ -1,0 +1,654 @@
+{
+  "id": "6000000000000000",
+  "filename": "03_serdin_and_three_bosses",
+  "order_index": 2,
+  "title": "제3장. 세르딘 탐험과 3단 보스",
+  "icon": {
+    "id": "ftbquests:custom_icon",
+    "Count": 1,
+    "tag": {
+      "Icon": "f_rank_days:textures/gui/quests/tab_03_serdin_bosses.png"
+    }
+  },
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "3000000000000001",
+      "x": 0.992,
+      "y": 2.5,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "2-1. 검사 연습 · 기본 무기와 방패 준비",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "마을 외곽으로 나가기 전 돌검 이상의 무기와 방패를 준비하세요.",
+        "(Better Combat 설정에서 작물 오타격 방지 `swingThruGrass=false`가 기본 적용되어 있습니다.)",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "3100000000000001",
+          "type": "item",
+          "item": "minecraft:stone_sword",
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        },
+        {
+          "id": "3100000000000002",
+          "type": "item",
+          "item": "minecraft:shield",
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "3000000000000002",
+      "x": 2.496,
+      "y": 2.5,
+      "dependencies": [
+        "3000000000000001"
+      ],
+      "title": "2-2. 세르딘 숲 초입 조사",
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "브리온 마을 서쪽 관문을 지나 세르딘 숲 초입과 야생 약초 군락지를 답사하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_forest_start.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "3100000000000003",
+          "type": "custom",
+          "title": "세르딘 숲 입구 도달",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_forest_start.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "3000000000000003",
+      "x": 4.0,
+      "y": 2.5,
+      "dependencies": [
+        "3000000000000001"
+      ],
+      "title": "2-3. 검술 기초 안전 훈련과 초급 마물 토벌",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "`/frank training swordsman`으로 기초 검술·안전 수칙을 익히고, 마을 외곽에서 초급 마물(좀비 `minecraft:zombie`) 3마리를 직접 토벌해 보세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "3100000000000004",
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 3,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "3000000000000004",
+      "x": 5.504,
+      "y": 2.5,
+      "dependencies": [
+        "3000000000000002",
+        "3000000000000003"
+      ],
+      "title": "2-4. 숲속 위장 식충 식물과 폐야영지 경계 조사",
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "세르딘 숲 깊은 곳이나 밀림 지대에는 일반 수풀로 위장한 식충 마물 폴리아스(`mowziesmobs:foliaath`) 등 특수 개체가 서식할 수 있습니다.",
+        "폐야영지의 경고 흔적을 살펴보거나 외곽 위협 개체 도감을 1회 이상 기록해 보세요 (`/frank codex`).",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_outpost_raid.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "3100000000000005",
+          "type": "custom",
+          "title": "외곽 마물 도감 기록 또는 폐야영지 위험 조사",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_outpost_raid.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "5000000000000004",
+      "x": 12.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "5-4. 다중 전문 직종 E급 자격 도전",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "농부 외에도 원하는 직업을 자유롭게 병행 등록하고 `/frank exam_start <직업ID>`로 각 분야 E급 공인 자격증을 취득할 수 있습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_e",
+      "tasks": [
+        {
+          "id": "5100000000000004",
+          "type": "custom",
+          "title": "타 직종 E급 자격증 1종 이상 추가 취득"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7C98020000000001",
+      "title": "도끼전사 F급 · 첫 전투 도끼",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "첫 직업으로 도끼전사를 선택하고 서명을 완료하면 전투 도끼·방어구와 정착 지원금을 한 번 받습니다. 추가 직업 등록에는 중복 지급하지 않습니다.",
+        "나우·스키가 담당 스승입니다. X·C 마나 기술로 묵직한 도끼 전투를 익히세요. 세부 승급 실기는 후속 설계에서 확장합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:berserker_license_f",
+      "x": 12.0,
+      "y": 6.0,
+      "dependencies": [
+        "7900000000000005",
+        "7F00000000000001"
+      ],
+      "dependency_requirement": "one_completed",
+      "progression_mode": "linear",
+      "tasks": [
+        {
+          "id": "7C98120000000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "6000000000000001",
+      "x": 7.008,
+      "y": 2.5,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "6-1. 세르딘 숲 심층의 고대 비석 조사",
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "세르딘 숲 깊은 곳에 숨겨진 고대 비석 유적에서 종이(`minecraft:paper`)로 비문 탁본지를 떠내어 변방의 잊힌 역사를 조사하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "6100000000000001",
+          "type": "item",
+          "item": "f_rank_days:ancient_rubbing_sheet",
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "6000000000000002",
+      "x": -12.0,
+      "y": 6.0,
+      "dependencies": [
+        "6000000000000001"
+      ],
+      "title": "6-2. 변경 지하 수호자와 미지의 거대 위협 (확장 로드맵)",
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "충분한 자격과 장비를 갖춘 뒤 지하 방의 강철 수호자(`mowziesmobs:ferrous_wroughtnaut`)나 설원 변경의 서리 괴수(`mowziesmobs:frostmaw`) 같은 고난도 존재를 조사하게 됩니다.",
+        "(초반 마을은 안전 구역으로 보호되며, 고위 보스 무기는 검사 자격 수련 후 온전히 다룰 수 있습니다.)",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "6100000000000002",
+          "type": "checkmark",
+          "title": "아르베른 제국 광역 탐사 서막 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7C97000000000001",
+      "title": "세르딘 탐험 도감 · 거점 14곳",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "대표 상자로 조사하는 구조물 8곳과 비경 6곳, 총 개인 상자 24개를 탐험하세요. 실제 Lootr 개인 상자가 열린 뒤에만 기록합니다. 재방문·재접속·다른 플레이어와 기록이 중복되지 않습니다. 이전 은닉처 도감 진행도 유지됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C97100000000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B04000000000007"
+      ],
+      "x": 3.248,
+      "y": 5,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C97000000000002",
+      "title": "세르딘 탐험 도감 · 개인 상자 24개",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "대표 상자로 조사하는 구조물 8곳과 비경 6곳, 총 개인 상자 24개를 탐험하세요. 실제 Lootr 개인 상자가 열린 뒤에만 기록합니다. 재방문·재접속·다른 플레이어와 기록이 중복되지 않습니다. 이전 은닉처 도감 진행도 유지됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C97100000000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C97000000000001"
+      ],
+      "x": 4.752,
+      "y": 5,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7E20000000000001",
+      "title": "3-1. 북문 대교와 초입 삼거리",
+      "x": 0.24,
+      "y": 0,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "북문 대교를 건너 세르딘 초입 삼거리를 발견하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000001",
+          "type": "custom",
+          "title": "3-1. 북문 대교와 초입 삼거리",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E20000000000002",
+      "title": "3-2. 전초기지 두 곳과 보물 거점",
+      "x": 1.744,
+      "y": 0,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "서부 도적 야영지와 동부 망자 초소를 제압하고 보물 거점을 탐색하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000002",
+          "type": "custom",
+          "title": "3-2. 전초기지 두 곳과 보물 거점",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_outpost_raid.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_outpost_raid.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E20000000000003",
+      "title": "3-3. 우측 첫 보스 · 크래그",
+      "x": 3.248,
+      "y": 0,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "세르딘 우측 성소의 크래그를 소환하고 토벌하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000003",
+          "type": "custom",
+          "title": "3-3. 우측 첫 보스 · 크래그",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_1_crag.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_1_crag.png"
+        }
+      },
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7E20000000000004",
+      "title": "3-4. 상단 두 번째 보스 · 공허의 꽃",
+      "x": 4.752,
+      "y": 0,
+      "dependencies": [
+        "7E20000000000003"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "크래그의 고대 심재 핵으로 상단 공허의 꽃을 깨우고 정화하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000004",
+          "type": "custom",
+          "title": "3-4. 상단 두 번째 보스 · 공허의 꽃",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_2_blossom.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_2_blossom.png"
+        }
+      },
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7E20000000000005",
+      "title": "3-5. 좌측 섬과 심연의 부유 성소",
+      "x": 6.256,
+      "y": 0,
+      "dependencies": [
+        "7E20000000000004"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "좌측 섬 포탈에 공명패를 사용해 심연의 부유 성소에 진입하고 강철 수호자를 토벌하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000005",
+          "type": "custom",
+          "title": "3-5. 좌측 섬과 심연의 부유 성소",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+        }
+      },
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7E20000000000006",
+      "title": "3-6. 나우의 12직종 수호자 무구 단조",
+      "x": 7.76,
+      "y": 0,
+      "dependencies": [
+        "7E20000000000005"
+      ],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "강철 수호자의 심장과 경화광을 나우에게 가져가 자기 직종의 수호자 무구를 단조하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000006",
+          "type": "custom",
+          "title": "3-6. 나우의 12직종 수호자 무구 단조",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "shape": "rsquare",
+      "size": 1.35
+    }
+  ]
+}

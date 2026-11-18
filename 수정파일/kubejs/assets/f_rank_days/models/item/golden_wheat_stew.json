@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "f_rank_days:item/golden_wheat_stew"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.35,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/golden_wheat_stew_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.7,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/golden_wheat_stew_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.9,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/golden_wheat_stew_2"
+    }
+  ]
+}

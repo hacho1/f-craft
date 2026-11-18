@@ -1,0 +1,198 @@
+{
+  "angler_foundation": {
+    "title": "1. 물결 보법",
+    "description": "수중 이동 속도 +20%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_1",
+          "lock_command": "tag @s remove frank_phase4_angler_1"
+        }
+      }
+    ]
+  },
+  "angler_passive_2": {
+    "title": "2. 낚시의 집중",
+    "description": "직접 어획 경험치 +50%",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_2",
+          "lock_command": "tag @s remove frank_phase4_angler_2"
+        }
+      }
+    ]
+  },
+  "angler_passive_3": {
+    "title": "3. 낚싯줄 관리",
+    "description": "낚싯대 내구 보호",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_3",
+          "lock_command": "tag @s remove frank_phase4_angler_3"
+        }
+      }
+    ]
+  },
+  "angler_passive_4": {
+    "title": "4. 쌍걸이",
+    "description": "25% 확률 추가 어획",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_4",
+          "lock_command": "tag @s remove frank_phase4_angler_4"
+        }
+      }
+    ]
+  },
+  "angler_passive_5": {
+    "title": "5. 물가의 행운",
+    "description": "어획 후 30초 행운",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_5",
+          "lock_command": "tag @s remove frank_phase4_angler_5"
+        }
+      }
+    ]
+  },
+  "angler_passive_6": {
+    "title": "6. 깊은 인양",
+    "description": "은화 · 보석 추가 인양",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_6",
+          "lock_command": "tag @s remove frank_phase4_angler_6"
+        }
+      }
+    ]
+  },
+  "angler_passive_7": {
+    "title": "7. 폭풍의 어부",
+    "description": "쌍걸이 45% · 우천 시 단련핵 인양",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_angler_7",
+          "lock_command": "tag @s remove frank_phase4_angler_7"
+        }
+      }
+    ]
+  }
+}

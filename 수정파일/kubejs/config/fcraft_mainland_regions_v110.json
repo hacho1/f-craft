@@ -1,0 +1,67 @@
+{
+  "version": 110,
+  "preserveExistingMeasuredSites": true,
+  "legacyArchitectureNeverRebuilt": true,
+  "regions": [
+    {
+      "id": "arvern_port_keep",
+      "name": "아르베른 전초 항구령",
+      "theme": "해안 대평원 · 정착 허브",
+      "x": 0,
+      "z": 0,
+      "radius": 120,
+      "bosses": []
+    },
+    {
+      "id": "caleon_citadel",
+      "name": "칼레온 만년설 성채령",
+      "theme": "설원 · 빙하 산맥",
+      "x": 0,
+      "z": -1200,
+      "radius": 140,
+      "bosses": [
+        "mowziesmobs:frostmaw",
+        "bosses_of_mass_destruction:lich"
+      ]
+    },
+    {
+      "id": "goldenvale_outpost",
+      "name": "황금들판 대교역 초소령",
+      "theme": "사바나 · 황금 곡창",
+      "x": 1100,
+      "z": 250,
+      "radius": 96,
+      "bosses": [
+        "mowziesmobs:umvuthi"
+      ]
+    },
+    {
+      "id": "ashen_mage_spire",
+      "name": "잿빛 성좌의 고원 마탑령",
+      "theme": "고산 봉우리 · 비전 유적",
+      "x": -1100,
+      "z": -300,
+      "radius": 96,
+      "bosses": [
+        "mowziesmobs:sculptor"
+      ]
+    },
+    {
+      "id": "sunken_ancient_keep",
+      "name": "가라앉은 고대 아성 심연령",
+      "theme": "수몰 성채 · 차원 균열",
+      "x": 0,
+      "z": 1350,
+      "radius": 110,
+      "bosses": [
+        "bosses_of_mass_destruction:gauntlet",
+        "bosses_of_mass_destruction:obsidilith"
+      ],
+      "bossDimensions": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "extraPrerequisite": "minecraft:ender_dragon"
+    }
+  ]
+}

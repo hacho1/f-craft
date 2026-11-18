@@ -1,0 +1,9 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": []
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

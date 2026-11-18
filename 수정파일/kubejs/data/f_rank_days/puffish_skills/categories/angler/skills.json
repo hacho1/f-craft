@@ -1,0 +1,44 @@
+{
+  "angler_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "angler_foundation",
+    "root": true
+  },
+  "angler_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "angler_passive_2",
+    "root": false
+  },
+  "angler_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "angler_passive_3",
+    "root": false
+  },
+  "angler_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "angler_passive_4",
+    "root": false
+  },
+  "angler_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "angler_passive_5",
+    "root": false
+  },
+  "angler_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "angler_passive_6",
+    "root": false
+  },
+  "angler_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "angler_passive_7",
+    "root": false
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "accessories": {
+    "entryFrame": {
+      "border": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "contentInset": 2,
+      "height": 36,
+      "nativeNineSliceAllowed": true,
+      "texture": "f_rank_days:textures/gui/compendium/entry_frame.png",
+      "width": 36
+    },
+    "navArrow": {
+      "height": 13,
+      "leftUsesNativePoseMirror": true,
+      "texture": "f_rank_days:textures/gui/compendium/nav_arrow.png",
+      "width": 16
+    },
+    "npcPlaceholder": {
+      "height": 32,
+      "license": "CC0-1.0",
+      "texture": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "width": 32
+    },
+    "rewardSeal": {
+      "height": 32,
+      "texture": "f_rank_days:textures/gui/compendium/reward_seal.png",
+      "width": 32
+    }
+  },
+  "book": {
+    "bodyRect": {
+      "height": 264,
+      "width": 420,
+      "x": 0,
+      "y": 20
+    },
+    "canvasHeight": 301,
+    "canvasWidth": 420,
+    "frames": [
+      "f_rank_days:textures/gui/compendium/book_flip_0.png",
+      "f_rank_days:textures/gui/compendium/book_flip_1.png",
+      "f_rank_days:textures/gui/compendium/book_flip_2.png",
+      "f_rank_days:textures/gui/compendium/book_flip_3.png",
+      "f_rank_days:textures/gui/compendium/book_flip_4.png"
+    ],
+    "leftContentRect": {
+      "height": 232,
+      "width": 178,
+      "x": 16,
+      "y": 36
+    },
+    "motionBottom": 17,
+    "motionTop": 20,
+    "preserveAspectRatio": true,
+    "rightContentRect": {
+      "height": 232,
+      "width": 178,
+      "x": 226,
+      "y": 36
+    },
+    "sourceCropXYXY": [
+      36,
+      16,
+      456,
+      317
+    ],
+    "sourceIndices": [
+      0,
+      3,
+      6,
+      9,
+      11
+    ],
+    "spineX": 210,
+    "staticEqualsSettledFrame": 4,
+    "texture": "f_rank_days:textures/gui/compendium/compendium_open_spread.png"
+  },
+  "gameComponentOnly": true,
+  "generatedItemPNGs": 0,
+  "hud": {
+    "badge": "f_rank_days:textures/gui/hud/icon_hud_badge_gold.png",
+    "badgeSize": 6,
+    "closed": "f_rank_days:textures/gui/hud/icon_hud_codex_closed.png",
+    "iconSize": 24,
+    "open": "f_rank_days:textures/gui/hud/icon_hud_codex_open.png"
+  },
+  "monsters": {
+    "blaze": "f_rank_days:textures/gui/compendium/monsters/mob_blaze.png",
+    "enderman": "f_rank_days:textures/gui/compendium/monsters/mob_enderman.png",
+    "ferrous_wroughtnaut": "f_rank_days:textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png",
+    "frostmaw": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png",
+    "gauntlet": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png",
+    "lich": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png",
+    "obsidilith": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png",
+    "piglin_brute": "f_rank_days:textures/gui/compendium/monsters/mob_piglin_brute.png",
+    "pillager": "f_rank_days:textures/gui/compendium/monsters/mob_pillager.png",
+    "sculptor": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png",
+    "skeleton": "f_rank_days:textures/gui/compendium/monsters/mob_skeleton.png",
+    "slime": "f_rank_days:textures/gui/compendium/monsters/mob_slime.png",
+    "spider": "f_rank_days:textures/gui/compendium/monsters/mob_spider.png",
+    "umvuthi": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png",
+    "vindicator": "f_rank_days:textures/gui/compendium/monsters/mob_vindicator.png",
+    "void_blossom": "f_rank_days:textures/gui/compendium/monsters/mob_void_blossom.png",
+    "wither_skeleton": "f_rank_days:textures/gui/compendium/monsters/mob_wither_skeleton.png",
+    "zombie": "f_rank_days:textures/gui/compendium/monsters/mob_zombie.png"
+  },
+  "nativeItemIconCount": 52,
+  "npcPortraits": {
+    "bambam": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/bambam_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "darim": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": false,
+      "configuredResource": "f_rank_days:textures/npc/darim_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "gori": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/gori_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "harin": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hess_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hess": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hess_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hwiyeon": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hwiyeon_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hyeophap": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hyeophap_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "nau": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/nau_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "roman": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": false,
+      "configuredResource": "f_rank_days:textures/npc/roman_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "ski": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/ski_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    }
+  },
+  "schemaVersion": 1,
+  "standaloneAssetPackRedistributionAllowed": false,
+  "tabs": [
+    {
+      "bookmarkAtlasHeight": 24,
+      "bookmarkAtlasWidth": 120,
+      "bookmarkTexture": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "bookmarkUV": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "icon": "f_rank_days:textures/gui/compendium/tabs/tab_icon_1.png",
+      "iconSize": 16,
+      "id": 1
+    },
+    {
+      "bookmarkAtlasHeight": 24,
+      "bookmarkAtlasWidth": 120,
+      "bookmarkTexture": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "bookmarkUV": [
+        24,
+        0,
+        24,
+        24
+      ],
+      "icon": "f_rank_days:textures/gui/compendium/tabs/tab_icon_2.png",
+      "iconSize": 16,
+      "id": 2
+    },
+    {
+      "bookmarkAtlasHeight": 24,
+      "bookmarkAtlasWidth": 120,
+      "bookmarkTexture": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "bookmarkUV": [
+        48,
+        0,
+        24,
+        24
+      ],
+      "icon": "f_rank_days:textures/gui/compendium/tabs/tab_icon_3.png",
+      "iconSize": 16,
+      "id": 3
+    },
+    {
+      "bookmarkAtlasHeight": 24,
+      "bookmarkAtlasWidth": 120,
+      "bookmarkTexture": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "bookmarkUV": [
+        72,
+        0,
+        24,
+        24
+      ],
+      "icon": "f_rank_days:textures/gui/compendium/tabs/tab_icon_4.png",
+      "iconSize": 16,
+      "id": 4
+    },
+    {
+      "bookmarkAtlasHeight": 24,
+      "bookmarkAtlasWidth": 120,
+      "bookmarkTexture": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "bookmarkUV": [
+        96,
+        0,
+        24,
+        24
+      ],
+      "icon": "f_rank_days:textures/gui/compendium/tabs/tab_icon_5.png",
+      "iconSize": 16,
+      "id": 5
+    }
+  ],
+  "textures": {
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_0.png": "f_rank_days:textures/gui/compendium/book_flip_0.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_1.png": "f_rank_days:textures/gui/compendium/book_flip_1.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_2.png": "f_rank_days:textures/gui/compendium/book_flip_2.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_3.png": "f_rank_days:textures/gui/compendium/book_flip_3.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_4.png": "f_rank_days:textures/gui/compendium/book_flip_4.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/bookmark_tabs.png": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/compendium_open_spread.png": "f_rank_days:textures/gui/compendium/compendium_open_spread.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/entry_frame.png": "f_rank_days:textures/gui/compendium/entry_frame.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_blaze.png": "f_rank_days:textures/gui/compendium/monsters/mob_blaze.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_enderman.png": "f_rank_days:textures/gui/compendium/monsters/mob_enderman.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png": "f_rank_days:textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_frostmaw.png": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_gauntlet.png": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_lich.png": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_obsidilith.png": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_piglin_brute.png": "f_rank_days:textures/gui/compendium/monsters/mob_piglin_brute.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_pillager.png": "f_rank_days:textures/gui/compendium/monsters/mob_pillager.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_sculptor.png": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_skeleton.png": "f_rank_days:textures/gui/compendium/monsters/mob_skeleton.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_slime.png": "f_rank_days:textures/gui/compendium/monsters/mob_slime.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_spider.png": "f_rank_days:textures/gui/compendium/monsters/mob_spider.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_umvuthi.png": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_vindicator.png": "f_rank_days:textures/gui/compendium/monsters/mob_vindicator.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_void_blossom.png": "f_rank_days:textures/gui/compendium/monsters/mob_void_blossom.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_wither_skeleton.png": "f_rank_days:textures/gui/compendium/monsters/mob_wither_skeleton.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_zombie.png": "f_rank_days:textures/gui/compendium/monsters/mob_zombie.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/nav_arrow.png": "f_rank_days:textures/gui/compendium/nav_arrow.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/npc_placeholder.png": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/reward_seal.png": "f_rank_days:textures/gui/compendium/reward_seal.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_1.png": "f_rank_days:textures/gui/compendium/tabs/tab_icon_1.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_2.png": "f_rank_days:textures/gui/compendium/tabs/tab_icon_2.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_3.png": "f_rank_days:textures/gui/compendium/tabs/tab_icon_3.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_4.png": "f_rank_days:textures/gui/compendium/tabs/tab_icon_4.png",
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_5.png": "f_rank_days:textures/gui/compendium/tabs/tab_icon_5.png",
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_badge_gold.png": "f_rank_days:textures/gui/hud/icon_hud_badge_gold.png",
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_codex_closed.png": "f_rank_days:textures/gui/hud/icon_hud_codex_closed.png",
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_codex_open.png": "f_rank_days:textures/gui/hud/icon_hud_codex_open.png"
+  },
+  "version": "compendium_v5"
+}

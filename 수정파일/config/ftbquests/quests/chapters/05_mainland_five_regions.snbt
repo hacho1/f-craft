@@ -1,0 +1,572 @@
+{
+  "id": "5A10000000000000",
+  "filename": "05_mainland_five_regions",
+  "order_index": 4,
+  "title": "제5장. 무한 대륙과 5대 성채",
+  "icon": {
+    "id": "ftbquests:custom_icon",
+    "Count": 1,
+    "tag": {
+      "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+    }
+  },
+  "default_quest_shape": "circle",
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "5A11000000000001",
+      "title": "본토 도항 허가",
+      "description": [
+        "&e[📍 담당 거점]&r 헤스 · 통합 길드",
+        "&e[🏛 위치·좌표]&r 브리온 통합 길드 · 본토 도항 창구",
+        "&e[🖱 진행 방법]&r 헤스 또는 마르코 우클릭 → 도항 안내",
+        "",
+        "강철 수호자 토벌 또는 D급 생활·탐험 공납으로 도항 허가를 받으세요.",
+        "개인 도항 원장이 해금되면 이 탭이 나타납니다. 허가증만 양도받아서는 해금되지 않습니다.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+        }
+      },
+      "x": 0.81,
+      "y": 0.125,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "5A11100000000001",
+          "type": "custom",
+          "title": "개인 도항 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 헤스 · 통합 길드"
+    },
+    {
+      "id": "5A11000000000002",
+      "title": "아르베른 전초 항구령",
+      "description": [
+        "&e[📍 담당 거점]&r [제1지역] 공용 Waystone",
+        "&e[🏛 위치·좌표]&r 본토 (0, 0) 인근 · 보호 반경 120m",
+        "&e[🖱 진행 방법]&r 길 안내로 거점 방문 · 비석 우클릭으로 개인 활성화",
+        "",
+        "마르코의 정기선으로 본토에 첫발을 디디세요.",
+        "비석을 직접 활성화하면 방문한 거점끼리 무료로 이동할 수 있습니다.",
+        "성문 밖 자유 야생에서는 집·농장과 개인 비석을 만들 수 있습니다.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_port\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+        }
+      },
+      "x": 2.45,
+      "y": 0.125,
+      "dependencies": [
+        "5A11000000000001"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000002",
+          "type": "custom",
+          "title": "개인 방문 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 [제1지역] 공용 Waystone"
+    },
+    {
+      "id": "5A11000000000003",
+      "title": "칼레온 만년설 성채령",
+      "description": [
+        "&e[📍 담당 거점]&r [제2지역] 공용 Waystone",
+        "&e[🏛 위치·좌표]&r 본토 (0, -1200) 인근 · 보호 반경 140m",
+        "&e[🖱 진행 방법]&r 길 안내로 거점 방문 · 비석 우클릭으로 개인 활성화",
+        "",
+        "북방 성채를 찾아 서리송곳니와 밤의 리치의 권역을 확인하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_north\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+        }
+      },
+      "x": 4.09,
+      "y": -1.375,
+      "dependencies": [
+        "5A11000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000003",
+          "type": "custom",
+          "title": "개인 방문 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 [제2지역] 공용 Waystone"
+    },
+    {
+      "id": "5A11000000000004",
+      "title": "황금들판 대교역 초소령",
+      "description": [
+        "&e[📍 담당 거점]&r [제3지역] 공용 Waystone",
+        "&e[🏛 위치·좌표]&r 본토 (+1100, +250) 인근 · 보호 반경 96m",
+        "&e[🖱 진행 방법]&r 길 안내로 거점 방문 · 비석 우클릭으로 개인 활성화",
+        "",
+        "교역 초소와 왕립 마구간을 찾아보세요.",
+        "호각 또는 F8로 개인 군마를 호출합니다. 현재 가장 높은 직종 등급에 따라 진화합니다.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_east\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_mount_whistle.png"
+        }
+      },
+      "x": 4.09,
+      "y": 0.125,
+      "dependencies": [
+        "5A11000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000004",
+          "type": "custom",
+          "title": "개인 방문 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_mount_whistle.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 [제3지역] 공용 Waystone"
+    },
+    {
+      "id": "5A11000000000005",
+      "title": "잿빛 성좌의 고원 마탑령",
+      "description": [
+        "&e[📍 담당 거점]&r [제4지역] 공용 Waystone",
+        "&e[🏛 위치·좌표]&r 본토 (-1100, -300) 인근 · 보호 반경 96m",
+        "&e[🖱 진행 방법]&r 길 안내로 거점 방문 · 비석 우클릭으로 개인 활성화",
+        "",
+        "고원 마탑과 선대 마탑주의 기록, 조각가의 권역을 찾아보세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_west\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+        }
+      },
+      "x": 4.09,
+      "y": 1.625,
+      "dependencies": [
+        "5A11000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000005",
+          "type": "custom",
+          "title": "개인 방문 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 [제4지역] 공용 Waystone"
+    },
+    {
+      "id": "5A11000000000006",
+      "title": "가라앉은 고대 아성 심연령",
+      "description": [
+        "&e[📍 담당 거점]&r [제5지역] 공용 Waystone",
+        "&e[🏛 위치·좌표]&r 본토 (0, +1350) 인근 · 보호 반경 110m",
+        "&e[🖱 진행 방법]&r 길 안내로 거점 방문 · 비석 우클릭으로 개인 활성화",
+        "",
+        "고대 아성과 네더·엔드 원정 관문을 찾으세요.",
+        "제도에서는 네더 포탈을 점화할 수 없습니다. 본토의 정식 관문이나 자유 야생에서 개척하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_south\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+        }
+      },
+      "x": 4.09,
+      "y": 3.125,
+      "dependencies": [
+        "5A11000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000006",
+          "type": "custom",
+          "title": "개인 방문 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/tab_05_mainland_regions.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 [제5지역] 공용 Waystone"
+    },
+    {
+      "id": "5A11000000000007",
+      "title": "서리송곳니",
+      "description": [
+        "&e[📍 담당 거점]&r 북방 성채 원정 거점",
+        "&e[🏛 위치·좌표]&r 칼레온 만년설 성채령 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "서리송곳니를 토벌하세요. 기존에 기록한 개인 토벌도 인정합니다.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_north\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png"
+        }
+      },
+      "x": 6.55,
+      "y": -2.125,
+      "dependencies": [
+        "5A11000000000003"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000007",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 북방 성채 원정 거점"
+    },
+    {
+      "id": "5A11000000000008",
+      "title": "태양조 움부티",
+      "description": [
+        "&e[📍 담당 거점]&r 동부 교역 초소 원정 거점",
+        "&e[🏛 위치·좌표]&r 황금들판 대교역 초소령 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "태양조 움부티를 토벌하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_east\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png"
+        }
+      },
+      "x": 6.55,
+      "y": 0.125,
+      "dependencies": [
+        "5A11000000000004"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000008",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 동부 교역 초소 원정 거점"
+    },
+    {
+      "id": "5A11000000000009",
+      "title": "밤의 리치",
+      "description": [
+        "&e[📍 담당 거점]&r 북방 성채 원정 거점",
+        "&e[🏛 위치·좌표]&r 칼레온 만년설 성채령 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "밤의 리치를 토벌하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_north\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png"
+        }
+      },
+      "x": 8.19,
+      "y": -2.125,
+      "dependencies": [
+        "5A11000000000003"
+      ],
+      "tasks": [
+        {
+          "id": "5A11100000000009",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 북방 성채 원정 거점"
+    },
+    {
+      "id": "5A1100000000000A",
+      "title": "조각가 통비",
+      "description": [
+        "&e[📍 담당 거점]&r 서부 마탑 원정 거점",
+        "&e[🏛 위치·좌표]&r 잿빛 성좌의 고원 마탑령 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "조각가 통비를 토벌하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_west\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png"
+        }
+      },
+      "x": 6.55,
+      "y": 1.625,
+      "dependencies": [
+        "5A11000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "5A1110000000000A",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 서부 마탑 원정 거점"
+    },
+    {
+      "id": "5A1100000000000B",
+      "title": "네더 건틀릿",
+      "description": [
+        "&e[📍 담당 거점]&r 심연령 네더 원정 관문",
+        "&e[🏛 위치·좌표]&r 네더 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "본토에서 네더로 원정하여 건틀릿을 토벌하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_south\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png"
+        }
+      },
+      "x": 6.55,
+      "y": 3.125,
+      "dependencies": [
+        "5A11000000000006"
+      ],
+      "tasks": [
+        {
+          "id": "5A1110000000000B",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 심연령 네더 원정 관문"
+    },
+    {
+      "id": "5A1100000000000C",
+      "title": "옵시딜리스와 드래곤",
+      "description": [
+        "&e[📍 담당 거점]&r 심연령 엔드 원정 관문",
+        "&e[🏛 위치·좌표]&r 엔드 · 개인 토벌 기록",
+        "&e[🖱 진행 방법]&r 원정 거점에서 실제 보스 토벌 · 개인 원장 자동 확인",
+        "",
+        "엔더 드래곤과 옵시딜리스를 모두 토벌하세요.",
+        "{\"text\":\"🧭 실측 거점 길 안내 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav mainland_south\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png"
+        }
+      },
+      "x": 8.19,
+      "y": 3.125,
+      "dependencies": [
+        "5A11000000000006"
+      ],
+      "tasks": [
+        {
+          "id": "5A1110000000000C",
+          "type": "custom",
+          "title": "개인 토벌 원장 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png"
+            }
+          }
+        }
+      ],
+      "rewards": [],
+      "shape": "rsquare",
+      "size": 1.35,
+      "hide_until_deps_complete": false,
+      "tags": [
+        "fcraft_mainland_personal_v110"
+      ],
+      "subtitle": "📍 심연령 엔드 원정 관문"
+    }
+  ]
+}

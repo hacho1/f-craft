@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "f_rank_days:item/hearth_potato_soup"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.35,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/hearth_potato_soup_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.7,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/hearth_potato_soup_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.9,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/hearth_potato_soup_2"
+    }
+  ]
+}

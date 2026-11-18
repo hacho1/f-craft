@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HMH",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "M": {
+      "item": "f_rank_days:refined_mana_stone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:enhancement_hammer",
+    "count": 1
+  }
+}

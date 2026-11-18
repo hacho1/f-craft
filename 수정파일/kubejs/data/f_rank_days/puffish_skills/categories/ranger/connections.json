@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "ranger_node_1",
+        "ranger_node_2"
+      ],
+      [
+        "ranger_node_2",
+        "ranger_node_3"
+      ],
+      [
+        "ranger_node_3",
+        "ranger_node_4"
+      ],
+      [
+        "ranger_node_4",
+        "ranger_node_5"
+      ],
+      [
+        "ranger_node_5",
+        "ranger_node_6"
+      ],
+      [
+        "ranger_node_6",
+        "ranger_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

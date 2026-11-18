@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "recipe_book_tab": "meals",
+        "ingredients": [
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "item": "minecraft:golden_carrot"
+          },
+          {
+            "item": "minecraft:cooked_beef"
+          },
+          {
+            "item": "f_rank_days:refined_mana_stone"
+          }
+        ],
+        "result": {
+          "item": "f_rank_days:golden_wheat_stew",
+          "count": 1
+        },
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "experience": 2.0,
+        "cookingtime": 300
+      }
+    }
+  ]
+}

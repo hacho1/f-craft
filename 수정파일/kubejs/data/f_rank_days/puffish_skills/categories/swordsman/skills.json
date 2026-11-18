@@ -1,0 +1,44 @@
+{
+  "swordsman_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "swordsman_foundation",
+    "root": true
+  },
+  "swordsman_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "swordsman_passive_2",
+    "root": false
+  },
+  "swordsman_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "swordsman_passive_3",
+    "root": false
+  },
+  "swordsman_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "swordsman_passive_4",
+    "root": false
+  },
+  "swordsman_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "swordsman_passive_5",
+    "root": false
+  },
+  "swordsman_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "swordsman_passive_6",
+    "root": false
+  },
+  "swordsman_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "swordsman_passive_7",
+    "root": false
+  }
+}

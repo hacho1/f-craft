@@ -1,0 +1,1667 @@
+{
+  "gameComponentOnly": true,
+  "generatedItemPNGs": 0,
+  "generatorSHA256": "ec7d1749df9e594c19ce4699c395bb20b0dc95603d6f671614da849eb32cbf97",
+  "npcPortraits": {
+    "bambam": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/bambam_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "darim": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": false,
+      "configuredResource": "f_rank_days:textures/npc/darim_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "gori": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/gori_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "harin": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hess_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hess": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hess_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hwiyeon": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hwiyeon_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "hyeophap": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/hyeophap_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "nau": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/nau_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "roman": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": false,
+      "configuredResource": "f_rank_days:textures/npc/roman_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    },
+    "ski": {
+      "activePayloadArtworkExists": false,
+      "configuredPlaceholder": true,
+      "configuredResource": "f_rank_days:textures/npc/ski_portrait.png",
+      "fallback": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "localArtworkAuditPerformed": false,
+      "localArtworkExists": null,
+      "publicArtworkImported": false,
+      "redistributionPermissionConfirmed": false
+    }
+  },
+  "outputs": {
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_0.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "e00f639466c97b8ef40db496064d95a61c91c36527d35726a1d41096d9b67050",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_00.png",
+        "memberSHA256": "ca67a3b581c490e582f3cc2ca5bca2aa54f8e0262fd9a0220cd8a1ff53412ddc",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "실제 서로 다른 원본 프레임 0",
+      "resource": "f_rank_days:textures/gui/compendium/book_flip_0.png",
+      "sha256": "e2e9e9ccf55d0abef564856b2ee436adb9e4269adc7aedad8f74f81e397dc944",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_1.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "5ab56c98f10ad1871745795d37c1fb97e057f40f8f688200344d5aefcb0546dd",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_03.png",
+        "memberSHA256": "3172a4c6759ca3415f3b473e0183e47c3ebc3872851ca6f71d7fed62b940a9da",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "실제 서로 다른 원본 프레임 3",
+      "resource": "f_rank_days:textures/gui/compendium/book_flip_1.png",
+      "sha256": "e3a48bf6ce3e7cf27761d948eaa4f5fe2220b4a36e1ae0fa1fb3f54e1529dfcf",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_2.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "427e095d5d30214199db1e7e370d54e3da1699ed7a9203ada1ed7375d55874f6",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_06.png",
+        "memberSHA256": "592b34b73112809d5be97ed4ebe6590c940f9b28447a6cc531fb825eb5e729a4",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "실제 서로 다른 원본 프레임 6",
+      "resource": "f_rank_days:textures/gui/compendium/book_flip_2.png",
+      "sha256": "b4e695fb1b5ded4f94774da68c0a7bc705c6d8983fe79aef4326566700b73db8",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_3.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "981b10ef3232aba28e9597d2491c62a89a5ab8dd5aeacc41f085ef9571dab021",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_09.png",
+        "memberSHA256": "5d63271f512f922d08461bf5b731460d9aedb9f2edb4d9f9cc1136ea0eeb01fe",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "실제 서로 다른 원본 프레임 9",
+      "resource": "f_rank_days:textures/gui/compendium/book_flip_3.png",
+      "sha256": "dfc8777f67db86c1dfc5550dee5da081800470acac393f763ab874a72b0ff535",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/book_flip_4.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "6b2d77ce6c25dfc83892b391f022f92928d82b8e34487622a25956b76389751d",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_11.png",
+        "memberSHA256": "65c8273bde38be02d9b86780df18434219e1d9fe58b696446713f04d11bb4cc0",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "실제 서로 다른 원본 프레임 11",
+      "resource": "f_rank_days:textures/gui/compendium/book_flip_4.png",
+      "sha256": "dfdf81e83c2e94ae4f89f4c523cb015d5fef9752691c9837e981dbe09a676e6f",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/bookmark_tabs.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "1917b8d25424975ae351248d3cbdffde306a4c4725ea7ee2365afb05378378d0",
+      "provenance": {
+        "operation": "professional_sprite_atlas",
+        "parts": [
+          {
+            "offset": [
+              0,
+              0
+            ],
+            "sourceSprite": {
+              "archive": "shikashi_official_free.zip",
+              "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+              "author": "Matt Firth (shikashipx); upstream game-icons.net",
+              "crop": [
+                64,
+                416,
+                96,
+                448
+              ],
+              "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+              "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+              "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+              "originalSize": [
+                512,
+                867
+              ],
+              "resampling": "NEAREST",
+              "resize": [
+                24,
+                24
+              ],
+              "source": "shikashi",
+              "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+            }
+          },
+          {
+            "offset": [
+              24,
+              0
+            ],
+            "sourceSprite": {
+              "archive": "shikashi_official_free.zip",
+              "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+              "author": "Matt Firth (shikashipx); upstream game-icons.net",
+              "crop": [
+                0,
+                416,
+                32,
+                448
+              ],
+              "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+              "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+              "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+              "originalSize": [
+                512,
+                867
+              ],
+              "resampling": "NEAREST",
+              "resize": [
+                24,
+                24
+              ],
+              "source": "shikashi",
+              "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+            }
+          },
+          {
+            "offset": [
+              48,
+              0
+            ],
+            "sourceSprite": {
+              "archive": "shikashi_official_free.zip",
+              "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+              "author": "Matt Firth (shikashipx); upstream game-icons.net",
+              "crop": [
+                96,
+                416,
+                128,
+                448
+              ],
+              "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+              "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+              "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+              "originalSize": [
+                512,
+                867
+              ],
+              "resampling": "NEAREST",
+              "resize": [
+                24,
+                24
+              ],
+              "source": "shikashi",
+              "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+            }
+          },
+          {
+            "offset": [
+              72,
+              0
+            ],
+            "sourceSprite": {
+              "archive": "shikashi_official_free.zip",
+              "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+              "author": "Matt Firth (shikashipx); upstream game-icons.net",
+              "crop": [
+                32,
+                416,
+                64,
+                448
+              ],
+              "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+              "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+              "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+              "originalSize": [
+                512,
+                867
+              ],
+              "resampling": "NEAREST",
+              "resize": [
+                24,
+                24
+              ],
+              "source": "shikashi",
+              "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+            }
+          },
+          {
+            "offset": [
+              96,
+              0
+            ],
+            "sourceSprite": {
+              "archive": "shikashi_official_free.zip",
+              "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+              "author": "Matt Firth (shikashipx); upstream game-icons.net",
+              "crop": [
+                128,
+                416,
+                160,
+                448
+              ],
+              "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+              "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+              "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+              "originalSize": [
+                512,
+                867
+              ],
+              "resampling": "NEAREST",
+              "resize": [
+                24,
+                24
+              ],
+              "source": "shikashi",
+              "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+            }
+          }
+        ]
+      },
+      "purpose": "5색 전문 책 표지를 책갈피 UI 칩으로 매핑한 atlas; 새 리본을 손으로 그리지 않음",
+      "resource": "f_rank_days:textures/gui/compendium/bookmark_tabs.png",
+      "sha256": "90bca5a8bce72e66039a186ca21c3c28b5d8d8f08241bdaf996359ff7917a037",
+      "size": [
+        120,
+        24
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/compendium_open_spread.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "6b2d77ce6c25dfc83892b391f022f92928d82b8e34487622a25956b76389751d",
+      "provenance": {
+        "archive": "antahonist_animated_pixel_ui_sampler.zip",
+        "archiveSHA256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+        "author": "Antahonist",
+        "crop": [
+          36,
+          16,
+          456,
+          317
+        ],
+        "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+        "member": "book/flip_forward/frames/flip_forward_11.png",
+        "memberSHA256": "65c8273bde38be02d9b86780df18434219e1d9fe58b696446713f04d11bb4cc0",
+        "originalSize": [
+          492,
+          336
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "sampler",
+        "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+      },
+      "purpose": "마지막 안착 프레임과 완전히 같은 본체·제본·컬러의 정지 화면",
+      "resource": "f_rank_days:textures/gui/compendium/compendium_open_spread.png",
+      "sha256": "dfdf81e83c2e94ae4f89f4c523cb015d5fef9752691c9837e981dbe09a676e6f",
+      "size": [
+        420,
+        301
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/entry_frame.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "f188fc20ee55c2702e380c4a394f9873fd94a7c8eff3f625a1d4e336de270d5c",
+      "provenance": {
+        "border": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "operation": "nine_slice_nearest",
+        "parts": [
+          {
+            "crop": [
+              0,
+              0,
+              2,
+              2
+            ],
+            "destination": [
+              0,
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "crop": [
+              2,
+              0,
+              60,
+              2
+            ],
+            "destination": [
+              2,
+              0,
+              34,
+              2
+            ]
+          },
+          {
+            "crop": [
+              60,
+              0,
+              62,
+              2
+            ],
+            "destination": [
+              34,
+              0,
+              36,
+              2
+            ]
+          },
+          {
+            "crop": [
+              0,
+              2,
+              2,
+              12
+            ],
+            "destination": [
+              0,
+              2,
+              2,
+              34
+            ]
+          },
+          {
+            "crop": [
+              2,
+              2,
+              60,
+              12
+            ],
+            "destination": [
+              2,
+              2,
+              34,
+              34
+            ]
+          },
+          {
+            "crop": [
+              60,
+              2,
+              62,
+              12
+            ],
+            "destination": [
+              34,
+              2,
+              36,
+              34
+            ]
+          },
+          {
+            "crop": [
+              0,
+              12,
+              2,
+              14
+            ],
+            "destination": [
+              0,
+              34,
+              2,
+              36
+            ]
+          },
+          {
+            "crop": [
+              2,
+              12,
+              60,
+              14
+            ],
+            "destination": [
+              2,
+              34,
+              34,
+              36
+            ]
+          },
+          {
+            "crop": [
+              60,
+              12,
+              62,
+              14
+            ],
+            "destination": [
+              34,
+              34,
+              36,
+              36
+            ]
+          }
+        ],
+        "sourceSprite": {
+          "archive": "travel_official_free.7z",
+          "archiveSHA256": "7278b830daf46f49bc5ce21e7d93dcb98879b324a1baedf99b56339ac1769760",
+          "author": "Crusenho Agus Hennihuno",
+          "crop": [
+            0,
+            0,
+            62,
+            14
+          ],
+          "license": "Travel Book Lite included license; attribution, link and changes notice",
+          "member": "Complete_UI_Book_Styles_Pack_Free_v1.0/01_TravelBookLite/Sprites/UI_TravelBook_Frame01a.png",
+          "memberSHA256": "cdc0e88b6bd801d2d36559429378652e74aa825fa2b2cbf82f97e4db5c24ae42",
+          "originalSize": [
+            62,
+            14
+          ],
+          "resampling": "none",
+          "resize": null,
+          "source": "travel",
+          "url": "https://crusenho.itch.io/complete-ui-book-styles-pack"
+        }
+      },
+      "purpose": "원본 Travel frame9slice; 새 외곽선을 그리지 않음",
+      "resource": "f_rank_days:textures/gui/compendium/entry_frame.png",
+      "sha256": "e77fd081ab7b843d764f40e620f37db30feefac03084984ccb2895421f86d896",
+      "size": [
+        36,
+        36
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_blaze.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "3f870f4cedbdde9736a0a8afb7907e0554f46b9146c58f5af36dd69bf9d07935",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          288,
+          96,
+          320,
+          128
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "불꽃 고리 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_blaze.png",
+      "sha256": "e0d2bf34c8929aa251246afb26aac62954837cad29015720ee750747474ab7c9",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_enderman.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "2249bb6cdec3034bba9422cacb1cc09cf03fa4ecc3db5ef91ea3a68e810ae4b6",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          160,
+          576,
+          192,
+          608
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "검은 공허 보주 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_enderman.png",
+      "sha256": "be419f22845a062daf1bae54dc3b4b110c17388e5a26b0c43a63822596f60045",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "88df404746137552b89d3636767b888c8dbafa189429c322afa4011a8ac39a6d",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          96,
+          224,
+          128,
+          256
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "닫힌 철제 투구 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_ferrous_wroughtnaut.png",
+      "sha256": "991dfbd1d9eb1b6eabe16ed2a464a7c36bce4c7bea5786e222fde3e956a2e96b",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_frostmaw.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "6a16b558a0ef0d31d21ebe626b2f18284b15dac9bbf2734250cee05ff40b877a",
+      "provenance": {
+        "archive": "496_RPG_icons.zip",
+        "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+        "author": "Henrique Lazarini (7Soul1)",
+        "crop": [
+          1,
+          1,
+          33,
+          33
+        ],
+        "license": "CC0-1.0",
+        "member": "S_Ice03.png",
+        "memberSHA256": "10004c859e244462fc4df105fdab245fe6d94fd9ccb9507715a6f17507d51fa6",
+        "originalSize": [
+          34,
+          34
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "496",
+        "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+      },
+      "purpose": "빙결 송곳니 모양의 얼음 파편 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_frostmaw.png",
+      "sha256": "14fad608f87a5f59a43263bd11c6b38a53538cf8cc99b0d503c5d1de11992a2b",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_gauntlet.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "b5addeafdd9815f7fdb412e5e0160303ea6b691bd0b0974a46d7a409133de354",
+      "provenance": {
+        "archive": "496_RPG_icons.zip",
+        "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+        "author": "Henrique Lazarini (7Soul1)",
+        "crop": [
+          1,
+          1,
+          33,
+          33
+        ],
+        "license": "CC0-1.0",
+        "member": "W_Fist003.png",
+        "memberSHA256": "af065301bb8c8d990f44fa783930ef8ef3fa63d9712891a06c5f6dd3e97c39e4",
+        "originalSize": [
+          34,
+          34
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "496",
+        "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+      },
+      "purpose": "금속 건틀릿 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_gauntlet.png",
+      "sha256": "b1335cb4ac2f07377881882cb52291cb78a153a78d85b54552a427c370b91a3e",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_lich.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "2c5af7e2d0199617aad9ea5bc9806311a8ec6fc0ff98c2927db3bac4b13224eb",
+      "provenance": {
+        "archive": "496_RPG_icons.zip",
+        "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+        "author": "Henrique Lazarini (7Soul1)",
+        "crop": [
+          1,
+          2,
+          33,
+          34
+        ],
+        "license": "CC0-1.0",
+        "member": "S_Shadow16.png",
+        "memberSHA256": "d6ac73345b2761bd5c69b25ce59f242c3b7d33bdfd001b35a2a62a7c83755301",
+        "originalSize": [
+          34,
+          34
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "496",
+        "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+      },
+      "purpose": "사령술사의 어두운 두건 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_lich.png",
+      "sha256": "f8373ff001b3cfeef9c946908a2c9b1d9a95f6bc5b0cae2988b3436a2213e7db",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_obsidilith.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "69249e68df7fb16eb2bc2650d80a6ccbbf338f53a65fff103a6efb859dd15d50",
+      "provenance": {
+        "archive": "496_RPG_icons.zip",
+        "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+        "author": "Henrique Lazarini (7Soul1)",
+        "crop": [
+          1,
+          1,
+          33,
+          33
+        ],
+        "license": "CC0-1.0",
+        "member": "I_Rock04.png",
+        "memberSHA256": "aa22b7d0b6f9c92403584620510a4e7c1f2cee74447ee7c92059a431f4672054",
+        "originalSize": [
+          34,
+          34
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "496",
+        "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+      },
+      "purpose": "붉은 맥이 있는 어두운 암석 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_obsidilith.png",
+      "sha256": "87ac5d3c6dda249f2e620b23d45b68cb75ea736ee7c766e11ae587f46e86601b",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_piglin_brute.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "edf29bb59ebedc75c47e78788969f1fdf760b8ceb15b35230ad9fe785317bef3",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          320,
+          160,
+          352,
+          192
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "금빛 전투도끼 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_piglin_brute.png",
+      "sha256": "d32afc7cb67990f6a4fff83ed63e6fdb0ebb6e6edec02e64101746b510d34ff1",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_pillager.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "77ba07ca02f84bf2112001424ba9e36a487f22e0cb5c516f8b1b079a0b115faa",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          128,
+          192,
+          160,
+          224
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "석궁 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_pillager.png",
+      "sha256": "920c07c035bdf4a70fc921a11bdd5ad43fe45400eb74ae844c6bda9d59103683",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_sculptor.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "5b90349e306f59fdfe1cc96f51e27a15ff165e5f54ab2133edb507270887e95a",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          128,
+          320,
+          160,
+          352
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "조각 망치 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_sculptor.png",
+      "sha256": "b118b1a8067530456cd3a91f946a446be87edf8456d8d623c5c2091001ff48af",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_skeleton.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "d14c3e0381f6b367d4856c97edbb35d56981d91a170aafb07eda6e5eb00ef120",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          0,
+          0,
+          32,
+          32
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "해골과 뼈 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_skeleton.png",
+      "sha256": "89d998862c3cfd93f6756849493106f839eff1bbadfed431ba3061d3e0dbe20d",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_slime.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "db0708560d8d3951d31616f9a581d3a2807cbdbd2d2a3a89a34fe6108242b0db",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          64,
+          576,
+          96,
+          608
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "초록 젤리 보주 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_slime.png",
+      "sha256": "a54a950d9fd3ec0c5c00e0064b194902429450a68b84ec35bdc4fa5a4ddfd0cd",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_spider.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "c8e3218647411824f3f8568c72d431758ab1f4006633bf7e16cbd5847ff323b5",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          288,
+          544,
+          320,
+          576
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "독니를 나타내는 전문 마물 발톱 상징 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_spider.png",
+      "sha256": "79bd7e0992fedbfe1fde90d25bc2b3df2de95b7a36df460a6fc2ec0a56a843dc",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_umvuthi.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "8245dd0dd026511c269c2258a352e4f603f483c6057e999bfa8b0ef5e67de68d",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          256,
+          672,
+          288,
+          704
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "태양 문장 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_umvuthi.png",
+      "sha256": "575ae9e942414d181b9308680058cb7f0571ece38ff3eb16b30519ff3b7eb2a3",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_vindicator.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "26e68f870547709d011fc5d3bd052af0e558698c221fd00ecb8b12061e1290de",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          32,
+          320,
+          64,
+          352
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "철제 도끼 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_vindicator.png",
+      "sha256": "d7d85015e99806d94758bc934ff628b7ba6a9fedf73280cbf1e6a7b4ab59f5be",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_void_blossom.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "0331ab8330cd36e951c09e6a0f6cd98600b3cfaea739755c1ef00baab34cb5f1",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          32,
+          384,
+          64,
+          416
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "보랏빛 꽃봉오리 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_void_blossom.png",
+      "sha256": "658b0cd2b7439ce84ae90c4a5999c968888c8282a2a5bc3555895fdb334b36c5",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_wither_skeleton.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "7d9b97f50d4e276549fa1f2882ef8b9bc3d60f2b654975e12f899f7db131dd5f",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          320,
+          96,
+          352,
+          128
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "흩어지는 해골 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_wither_skeleton.png",
+      "sha256": "3a608924eb8c77f4307048e417f52a44f578efa38f91fbe2ae07d5b769ea32de",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/monsters/mob_zombie.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "32c8f9020d2cadec8c81f30b4a0ddc7286d417506c5dbeb2ff955c61f86d260d",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          0,
+          96,
+          32,
+          128
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "피 묻은 칼날의 언데드 상징 — 실제 몬스터 스킨이 아닌 도감 전용 상징",
+      "resource": "f_rank_days:textures/gui/compendium/monsters/mob_zombie.png",
+      "sha256": "96400f312d30b556b3e31279aaf8cbc6fd36bf9591602549191640c498fa4b50",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/nav_arrow.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "c700f62b082efa1886a67a6b7f64e75af6793ea3c8bcc78344be1ff910db207f",
+      "provenance": {
+        "archive": "travel_official_free.7z",
+        "archiveSHA256": "7278b830daf46f49bc5ce21e7d93dcb98879b324a1baedf99b56339ac1769760",
+        "author": "Crusenho Agus Hennihuno",
+        "crop": [
+          0,
+          0,
+          16,
+          13
+        ],
+        "license": "Travel Book Lite included license; attribution, link and changes notice",
+        "member": "Complete_UI_Book_Styles_Pack_Free_v1.0/01_TravelBookLite/Sprites/UI_TravelBook_IconArrow01a.png",
+        "memberSHA256": "9eb21bd001e3d6e5706f87ab4b15ac2930d58fbc1966d712fcf089ffd3376c1d",
+        "originalSize": [
+          16,
+          13
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "travel",
+        "url": "https://crusenho.itch.io/complete-ui-book-styles-pack"
+      },
+      "purpose": "원본 오른쪽 화살표, 왼쪽은 native pose 반전",
+      "resource": "f_rank_days:textures/gui/compendium/nav_arrow.png",
+      "sha256": "071c20e83d1321d2f98df8df9cf4aae263440f5c90f787b3065b6980920b20a5",
+      "size": [
+        16,
+        13
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/npc_placeholder.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "e7679c283bcaf5c052b5b5cf96455ac3f6275469de377985f3982bf3f8df18ad",
+      "provenance": {
+        "archive": "496_RPG_icons.zip",
+        "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+        "author": "Henrique Lazarini (7Soul1)",
+        "crop": [
+          1,
+          1,
+          33,
+          33
+        ],
+        "license": "CC0-1.0",
+        "member": "S_Buff05.png",
+        "memberSHA256": "3b48a0e9994ece8aab727469782f60d0de75ea0cd934cea1954d283d45d2627a",
+        "originalSize": [
+          34,
+          34
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "496",
+        "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+      },
+      "purpose": "CC0 전문 인물 실루엣, 미확인 초상의 명시적인 임시 대체",
+      "resource": "f_rank_days:textures/gui/compendium/npc_placeholder.png",
+      "sha256": "2fe07d9b4b2eb157aff1f5add05cd06ad9d0877cfaf2cc056fae326faba44f01",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/reward_seal.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "046803b7d71be4b9883dd0beb1ba7f44935947afaf35d12f14f7c37668a6bea5",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          224,
+          384,
+          256,
+          416
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "none",
+        "resize": null,
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "전문 왕관 금화 상징, 보상 상태는 native tint/텍스트로 구분",
+      "resource": "f_rank_days:textures/gui/compendium/reward_seal.png",
+      "sha256": "523093ffffdbfe938dc492be2d0dbb83fd5bf6e157ebceddb3d26edbbac8e8f6",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_1.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "c469c2d37453311448a0e68cb9e68ad614121024c92834e4ffa918737f0c340a",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          416,
+          352,
+          448,
+          384
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          16,
+          16
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "5탭 전문 심볼 1",
+      "resource": "f_rank_days:textures/gui/compendium/tabs/tab_icon_1.png",
+      "sha256": "389a8bf930786dfa16656633671ad6e6041ff8fb62e4a36fba640f642dc9bc04",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_2.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "4d8f38b3d2b88e91fc93e5a7dfe5c88b85262557292be5595c845bad278e7d16",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          192,
+          512,
+          224,
+          544
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          16,
+          16
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "5탭 전문 심볼 2",
+      "resource": "f_rank_days:textures/gui/compendium/tabs/tab_icon_2.png",
+      "sha256": "c5817d6abcfaf5c3dd9a5e8231d4e4ee568cc7570a0b602a37b4e9e2d572040b",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_3.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "7ca53bfc47a1988fbc82d4e420f0f48ae717e769b38c18a38960bf83db400445",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          128,
+          544,
+          160,
+          576
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          16,
+          16
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "5탭 전문 심볼 3",
+      "resource": "f_rank_days:textures/gui/compendium/tabs/tab_icon_3.png",
+      "sha256": "7e1afe94e09f79f735ac2a6427143d556783908fdf4c12071a37480b1cb0142d",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_4.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "d4ac4288addd3d415c11edd5d3cd2211b8cff7d8d2efc1f2a610d773a9c5fe28",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          288,
+          160,
+          320,
+          192
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          16,
+          16
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "5탭 전문 심볼 4",
+      "resource": "f_rank_days:textures/gui/compendium/tabs/tab_icon_4.png",
+      "sha256": "4e22584f72916068480ea97322f096ea21c7bb5c1ad21f9f16bfbaa2afdd4d8e",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/compendium/tabs/tab_icon_5.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "9a49f8f0b6e2e4c1a139cdf99a6d14ff1b07f97d587573ba2632b1c35f585102",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          352,
+          416,
+          384,
+          448
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          16,
+          16
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "5탭 전문 심볼 5",
+      "resource": "f_rank_days:textures/gui/compendium/tabs/tab_icon_5.png",
+      "sha256": "be09e185a594d1582a39cc8c3ea5b9a018df326009ab89d01d493fa0fc594679",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_badge_gold.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "64b0e68bc708a43c9825ece4f7fb791ad48a3c2f3fab8451f00f0961c357c4b6",
+      "provenance": {
+        "offset": [
+          1,
+          0
+        ],
+        "operation": "transparent_padding",
+        "sourceSprite": {
+          "archive": "travel_official_free.7z",
+          "archiveSHA256": "7278b830daf46f49bc5ce21e7d93dcb98879b324a1baedf99b56339ac1769760",
+          "author": "Crusenho Agus Hennihuno",
+          "crop": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "license": "Travel Book Lite included license; attribution, link and changes notice",
+          "member": "Complete_UI_Book_Styles_Pack_Free_v1.0/01_TravelBookLite/Sprites/UI_TravelBook_Alert01a.png",
+          "memberSHA256": "5b14f7a4503915a52b28628c97abbb7255941d181efa8c80258d5be3caaab6ff",
+          "originalSize": [
+            3,
+            6
+          ],
+          "resampling": "none",
+          "resize": null,
+          "source": "travel",
+          "url": "https://crusenho.itch.io/complete-ui-book-styles-pack"
+        }
+      },
+      "purpose": "원본3×6 느낌표를 그대로 담은6×6 알림 배지",
+      "resource": "f_rank_days:textures/gui/hud/icon_hud_badge_gold.png",
+      "sha256": "0e0d12b87423ffea31180b353a622f998c46c8d8edd4d21b13f7d873541188dd",
+      "size": [
+        6,
+        6
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_codex_closed.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "9571fd045a73a48d6ec808c974dd090c370f7df01bb21d0943131f06710653ee",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          192,
+          416,
+          224,
+          448
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          24,
+          24
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "24px 실제 전문 고서 HUD",
+      "resource": "f_rank_days:textures/gui/hud/icon_hud_codex_closed.png",
+      "sha256": "917d282c77174ef76e457596e52c5548c8f48e4698d68b2d02cb51d962c94bdc",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "kubejs/assets/f_rank_days/textures/gui/hud/icon_hud_codex_open.png": {
+      "mode": "RGBA",
+      "pixelSHA256": "b0f7e6f8577da2422e3fbf36ddd3b0044c9610889c3799ea4ee2b2af53684bb5",
+      "provenance": {
+        "archive": "shikashi_official_free.zip",
+        "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+        "author": "Matt Firth (shikashipx); upstream game-icons.net",
+        "crop": [
+          256,
+          416,
+          288,
+          448
+        ],
+        "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+        "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+        "memberSHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+        "originalSize": [
+          512,
+          867
+        ],
+        "resampling": "NEAREST",
+        "resize": [
+          24,
+          24
+        ],
+        "source": "shikashi",
+        "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+      },
+      "purpose": "24px 실제 전문 고서 HUD",
+      "resource": "f_rank_days:textures/gui/hud/icon_hud_codex_open.png",
+      "sha256": "fc9604923f60a8b920853a94c8eb307ff451e61f73070657272999b7372cfe26",
+      "size": [
+        24,
+        24
+      ]
+    }
+  },
+  "professionalSpritePNGs": 37,
+  "schemaVersion": 1,
+  "sourceArchives": {
+    "496": {
+      "author": "Henrique Lazarini (7Soul1)",
+      "filename": "496_RPG_icons.zip",
+      "license": "CC0-1.0",
+      "sha256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658",
+      "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg"
+    },
+    "sampler": {
+      "author": "Antahonist",
+      "filename": "antahonist_animated_pixel_ui_sampler.zip",
+      "license": "Antahonist game-use license; standalone asset redistribution prohibited",
+      "sha256": "f608993c156e389e7d09f99788cf969e6889020942986e39203e10928f7e5d36",
+      "url": "https://antahonist.itch.io/free-animated-pixel-ui-sampler-book-cards-dialog"
+    },
+    "shikashi": {
+      "author": "Matt Firth (shikashipx); upstream game-icons.net",
+      "filename": "shikashi_official_free.zip",
+      "license": "CC BY 4.0; legacy upstream CC BY 3.0 attribution retained",
+      "sha256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e",
+      "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack"
+    },
+    "travel": {
+      "author": "Crusenho Agus Hennihuno",
+      "filename": "travel_official_free.7z",
+      "license": "Travel Book Lite included license; attribution, link and changes notice",
+      "sha256": "7278b830daf46f49bc5ce21e7d93dcb98879b324a1baedf99b56339ac1769760",
+      "url": "https://crusenho.itch.io/complete-ui-book-styles-pack"
+    }
+  },
+  "standaloneAssetPackRedistributionAllowed": false,
+  "version": "compendium_v5"
+}

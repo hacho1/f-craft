@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "chef_node_1",
+        "chef_node_2"
+      ],
+      [
+        "chef_node_2",
+        "chef_node_3"
+      ],
+      [
+        "chef_node_3",
+        "chef_node_4"
+      ],
+      [
+        "chef_node_4",
+        "chef_node_5"
+      ],
+      [
+        "chef_node_5",
+        "chef_node_6"
+      ],
+      [
+        "chef_node_6",
+        "chef_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

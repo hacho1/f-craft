@@ -1,0 +1,44 @@
+{
+  "herbalist_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "herbalist_foundation",
+    "root": true
+  },
+  "herbalist_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "herbalist_passive_2",
+    "root": false
+  },
+  "herbalist_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "herbalist_passive_3",
+    "root": false
+  },
+  "herbalist_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "herbalist_passive_4",
+    "root": false
+  },
+  "herbalist_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "herbalist_passive_5",
+    "root": false
+  },
+  "herbalist_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "herbalist_passive_6",
+    "root": false
+  },
+  "herbalist_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "herbalist_passive_7",
+    "root": false
+  }
+}

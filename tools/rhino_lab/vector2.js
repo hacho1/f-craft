@@ -1,0 +1,1 @@
+JSON.stringify({ascii:String('abc'.codePointAt(0)),korean:String('브'.codePointAt(0)),emoji:String('😀'.codePointAt(0)),prototype:typeof String.prototype.charCodeAt,escaped:typeof escape==='function'?escape('브'):'absent'})

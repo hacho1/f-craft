@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "core_principles": [
+    "플레이어의 시작 특수 능력(F급 능력 1종)과 직업별 자격 등급은 완전히 분리된 별개 시스템이다.",
+    "직업별 자격 등급은 각 직업마다 독립적으로 보유·승급할 수 있다(예: 농부 B급 + 검사 D급 동시 보유 가능).",
+    "직업 등급은 해당 분야의 숙련·공인 자격을 뜻하며 전투력의 절대 지표가 아니다.",
+    "NPC 본인의 직업 등급이 해당 등급 시험의 감독관 자격을 자동으로 의미하지 않으며, 상급 시험은 별도 심사관·기관 권한으로 분리한다.",
+    "시험 실패 시 부족한 항목(오답 문항·미달 실기 과제)을 구체적으로 안내하고 과도한 비용이나 장시간 대기 없이 재응시할 수 있다."
+  ],
+  "starter_f_abilities": [
+    {
+      "id": "seed_sense",
+      "name": "흙내음 감각 (F급)",
+      "description": "경작지 수분 상태와 작물의 성장 단계를 손끝으로 조금 더 또렷하게 파악하는 소소한 생활 감각.",
+      "playstyle_lock": false
+    },
+    {
+      "id": "steady_breath",
+      "name": "고른 숨결 (F급)",
+      "description": "장거리 걷기나 채집·검술 기초 훈련 후 숨을 고를 때 피로 회복이 미세하게 안정되는 작은 체질 특성.",
+      "playstyle_lock": false
+    },
+    {
+      "id": "keen_appraisal",
+      "name": "잔금 읽기 (F급)",
+      "description": "광물·약초·오래된 잡동사니 표면의 미세한 흠집을 남보다 조금 잘 구분하는 눈썰미.",
+      "playstyle_lock": false
+    },
+    {
+      "id": "warm_palm",
+      "name": "미온의 손바닥 (F급)",
+      "description": "찻잔이나 붕대, 약병을 쥐었을 때 온기가 조금 오래 유지되는 평범하지만 다정한 손끝 특성.",
+      "playstyle_lock": false
+    }
+  ],
+  "grade_tiers": [
+    { "grade": "F", "label": "초보·최초 등록", "method": "길드 창구 기초 등록 (무료)" },
+    { "grade": "E", "label": "견습", "method": "3단계 자격시험 (응시 자격 확인 → 필기 3문항·현장 실기 → 합격·공인 자격증 발급)" },
+    { "grade": "D", "label": "숙련 입문", "method": "3단계 자격시험" },
+    { "grade": "C", "label": "정식 전문가", "method": "3단계 자격시험 (지역 길드 공인 심사관 입회)" },
+    { "grade": "B", "label": "상급 전문가", "method": "3단계 자격시험 (벨마르·루센트 상급 심사원 심사)" },
+    { "grade": "A", "label": "최상위 전문가", "method": "3단계 자격시험 (황도 중앙 심사 기관 종합 검증)" },
+    { "grade": "S", "label": "전설급 전문가", "method": "일반 반복 시험 불가 — 제국·학계·길드 특별 업적 달성 및 특별 심사 인정" }
+  ],
+  "jobs": [
+    {
+      "id": "farmer",
+      "name": "농부",
+      "exam_focus": "토양·수분·생육 재배 지식(필기) 및 직접 경작·파종·성숙 작물 수확·납품(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "basic_training_and_mentor": "darim",
+        "examiner_note": "다림(C급 농부)은 초급 농업 훈련 및 F→E 현장 실기 검수 보조만 수행하며, 중·상급 시험은 통합 길드 공인 심사관이 별도 담당"
+      },
+      "implemented_exams": ["F_TO_E"]
+    },
+    {
+      "id": "swordsman",
+      "name": "검사",
+      "exam_focus": "무기 특성·거리 조절·안전 퇴각 수칙 지식(필기) 및 적대적 마물 5마리 직접 토벌·검 소지 확인(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "training_and_lower_exam": "ski",
+        "examiner_note": "브리온 지부는 기초 안전 브리핑 및 F→E 견습 토벌 확인만 위임받아 처리하며, 정식 중급 이상 대련 심사는 교관 스키 및 중앙 검사 심사원이 관장"
+      },
+      "implemented_exams": ["F_TO_E"]
+    },
+    {
+      "id": "alchemist",
+      "name": "연금술사",
+      "exam_focus": "기묘한 물약 베이스·약초 전처리·차광 보관 지식(필기) 및 야생 약초 4송이 채집·물약 1병·유리병 2개 제출(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "intro_and_lower_practical_guide": "roman",
+        "examiner_note": "로만(B급 연금술사) 본인도 A급 수험 준비생이므로 입문 약초 검수만 보조하며, 상위 공인 감독관은 별도 연금 학회 소속"
+      },
+      "implemented_exams": ["F_TO_E"]
+    },
+    {
+      "id": "blacksmith",
+      "name": "대장장이",
+      "exam_focus": "원석 제련·모루 피로도 점검·화덕 안전 지식(필기) 및 광석·암석 6회 채광·철 주괴 4개 납품·철제 도구 소지 확인(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "craft_education": "nau",
+        "examiner_note": "나우(B급 대장장이)는 대장간 기초 교육 및 수리 실습 지도를 담당하며 공인 상위 심사는 장인 조합 심사관이 담당"
+      },
+      "implemented_exams": ["F_TO_E"]
+    },
+    {
+      "id": "healer",
+      "name": "힐러",
+      "exam_focus": "응급 트리아지·마력 과부하 예방·압박 지혈 지식(필기) 및 응급 처치 실습 3회·양털 붕대 3개·사과 2개 제출(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "medical_education_and_exam": "hwiyeon",
+        "examiner_note": "휘연(A급 힐러)은 위임받은 기초~중급 의료 교육을 진행하되 상급 공인 심사는 제국 의료원 심사 체계와 분리"
+      },
+      "implemented_exams": ["F_TO_E"]
+    },
+    {
+      "id": "relic_researcher",
+      "name": "유물 연구자",
+      "exam_focus": "비파괴 채록·출토 좌표 기록·오감정 투명 정정 윤리(필기) 및 세르딘 고대 비석 탁본지 3장 채록·제출(실기)",
+      "npc_connections": {
+        "registration_and_guide": "hess",
+        "field_reference": "hyeophap",
+        "examiner_note": "협합(B급 유물 연구자)은 현장 조사 연계자이며 자격 심사는 학술 박물관 심사위원회에서 별도 운영"
+      },
+      "implemented_exams": ["F_TO_E"]
+    }
+  ]
+}

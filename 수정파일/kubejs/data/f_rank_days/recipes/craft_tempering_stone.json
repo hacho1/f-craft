@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "FHF",
+    " F "
+  ],
+  "key": {
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:tempering_stone",
+    "count": 4
+  }
+}

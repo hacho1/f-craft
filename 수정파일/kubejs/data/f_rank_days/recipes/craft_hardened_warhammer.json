@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HRH",
+    " S "
+  ],
+  "key": {
+    "H": {
+      "item": "f_rank_days:hardened_ingot"
+    },
+    "R": {
+      "item": "f_rank_days:wrought_relic_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:hardened_warhammer",
+    "count": 1
+  }
+}

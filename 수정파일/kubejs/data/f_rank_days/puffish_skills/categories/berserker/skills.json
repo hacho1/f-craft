@@ -1,0 +1,44 @@
+{
+  "berserker_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "berserker_foundation",
+    "root": true
+  },
+  "berserker_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "berserker_passive_2",
+    "root": false
+  },
+  "berserker_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "berserker_passive_3",
+    "root": false
+  },
+  "berserker_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "berserker_passive_4",
+    "root": false
+  },
+  "berserker_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "berserker_passive_5",
+    "root": false
+  },
+  "berserker_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "berserker_passive_6",
+    "root": false
+  },
+  "berserker_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "berserker_passive_7",
+    "root": false
+  }
+}

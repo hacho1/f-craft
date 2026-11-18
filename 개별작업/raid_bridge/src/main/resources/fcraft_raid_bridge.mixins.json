@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"fcraft.raid.mixin","compatibilityLevel":"JAVA_17","mixins":["GuardianWearMixin","WroughtWeaknessMixin","MowzieBossBarAccess","BomdBossBarAccess","MobGoalAccess","MobEffectParticleAccess","RaidPotionMaskMixin","WroughtParryMotionMixin"],"injectors":{"defaultRequire":1}}

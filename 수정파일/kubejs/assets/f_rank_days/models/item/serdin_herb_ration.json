@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "f_rank_days:item/serdin_herb_ration"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.15,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/serdin_herb_ration_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.3,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/serdin_herb_ration_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eat": 0.45,
+        "eatinganimation:eating": 1.0
+      },
+      "model": "f_rank_days:item/eating_v9_2/serdin_herb_ration_2"
+    }
+  ]
+}

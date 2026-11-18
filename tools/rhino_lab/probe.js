@@ -1,0 +1,1 @@
+JSON.stringify({pi:String(Math.PI),cos0:Math.cos(0),sample:Math.round(20)})

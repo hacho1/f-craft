@@ -1,0 +1,198 @@
+{
+  "basic_cultivation": {
+    "title": "1. 기초 재배",
+    "description": "괭이 내구 보호 · 퇴비 조합",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_1",
+          "lock_command": "tag @s remove frank_phase4_farmer_1"
+        }
+      }
+    ]
+  },
+  "soil_management": {
+    "title": "2. 토양 관리",
+    "description": "웅크려 괭이 우클릭으로 수분 · 성장 단계 진단",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_2",
+          "lock_command": "tag @s remove frank_phase4_farmer_2"
+        }
+      }
+    ]
+  },
+  "crop_research": {
+    "title": "3. 작물 연구",
+    "description": "완숙 작물 15% 추가 수확",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_3",
+          "lock_command": "tag @s remove frank_phase4_farmer_3"
+        }
+      }
+    ]
+  },
+  "advanced_cultivation": {
+    "title": "4. 고급 재배",
+    "description": "E급 이상 완숙 작물 우클릭 수확 · 자동 재파종",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_4",
+          "lock_command": "tag @s remove frank_phase4_farmer_4"
+        }
+      }
+    ]
+  },
+  "agricultural_expert": {
+    "title": "5. 넓은 경작",
+    "description": "철 괭이 이상 3×3 경작",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_5",
+          "lock_command": "tag @s remove frank_phase4_farmer_5"
+        }
+      }
+    ]
+  },
+  "farmer_passive_6": {
+    "title": "6. 풍년의 결실",
+    "description": "추가 수확 확률 35% · 20회마다 황금 당근",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_6",
+          "lock_command": "tag @s remove frank_phase4_farmer_6"
+        }
+      }
+    ]
+  },
+  "farmer_passive_7": {
+    "title": "7. 농업의 대가",
+    "description": "3×3 일괄 수확 · 작물 판매가 +20%",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_farmer_7",
+          "lock_command": "tag @s remove frank_phase4_farmer_7"
+        }
+      }
+    ]
+  }
+}

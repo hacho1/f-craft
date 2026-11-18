@@ -1,0 +1,909 @@
+{
+  "gameComponentOnly": true,
+  "generatedArt": {
+    "actualMinecraft": false,
+    "productWrites": 0,
+    "artOrigin": "AI generated via built-in image_gen; not CC0 artwork",
+    "tool": "image_gen__imagegen",
+    "transparent_background": true,
+    "prompt": "Asset: a SINGLE Minecraft RPG quest book item icon, using the attached F-Craft icon draft as the visual reference. Reproduce the FIRST top-left motif only: a pale tan upright parchment scroll/book with dark gold brown pixel outline, a vivid red wax seal and two short red ribbon ends near lower right, and a white feather quill angled out of its upper right. Do not reproduce the UI card, label, preview sheet, dark background or any other icons. Authentic low-resolution pixel art, as if drawn on an exactly 32 by 32 pixel grid, then enlarged with nearest-neighbor blocky pixels. No antialiasing, no smooth curves, no glow, no text, no external badge frame. Center the whole isolated sprite with generous transparent margin. Transparent alpha background.",
+    "reference": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\원본지시\\fcraft_quest_icons_preview_user_v110.png",
+    "originalToolOutput": "C:/Users/wooheewon/.codex/generated_images/01a1cadf-b0aa-7052-929c-cd52cd0cc7a9/exec-24c695c7-9de8-4f04-accd-34a7564bb2be.png",
+    "source": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\questbook_red_wax_quill_generated_v110.png",
+    "sourceSHA256": "d0fedd57653972d49a771469808e6ee984169198037dc67a2228580df2be5a40",
+    "sourceSize": [
+      1261,
+      1247
+    ],
+    "sourceUnchanged": true,
+    "alphaCropThresholdForBoundingBoxOnly": 2,
+    "cropBox": [
+      253,
+      285,
+      1026,
+      1023
+    ],
+    "cropSize": [
+      773,
+      738
+    ],
+    "excludedNonzeroAlphaPixels": 193,
+    "excludedAlphaValues": [
+      1
+    ],
+    "normalization": "Crop outer transparent/alpha1 noise margin; nearest-neighbor 30x29; exact RGBA paste at(1,1) on32x32 transparent canvas. No repaint/recolor/alpha quantization.",
+    "output": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated32_candidates\\questbook_red_wax_quill.png",
+    "outputSize": [
+      32,
+      32
+    ],
+    "outputMode": "RGBA",
+    "outputSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+    "outputRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+    "sampledAlphaPreservedExactly": true,
+    "intendedPathsAfterStage2GO": [
+      "assets/ftbquests/textures/item/book.png",
+      "assets/f_rank_days/textures/gui/quests/tab_01_guild_arrival.png",
+      "assets/f_rank_days/textures/gui/npc_dialog/icon_quest.png",
+      "assets/f_rank_days/textures/gui/quests/node_guild_register.png"
+    ],
+    "visualReadabilityReviewed": true,
+    "visualReadabilityReview": {
+      "reviewer": "guardian agent",
+      "diagnostic": "diagnostic_generated_book_32_readability.png",
+      "sizes": [
+        32,
+        64,
+        128
+      ],
+      "result": "upright parchment, red wax/ribbon, and white angled quill remain distinguishable at native32; no redraw"
+    }
+  },
+  "professionalSources": [
+    {
+      "author": "Henrique Lazarini (7Soul1), repack gnola14",
+      "license": "CC0-1.0",
+      "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg",
+      "archiveSHA256": "82167b463d20fdc2c0cb641e061503bb77816558087270e50eb66ad34cf75658"
+    },
+    {
+      "author": "Matt Firth (shikashipx); upstream game-icons.net",
+      "license": "CC BY 4.0; upstream CC BY 3.0 attribution retained",
+      "url": "https://shikashipx.itch.io/shikashis-fantasy-icons-pack",
+      "upstream": "https://game-icons.net/",
+      "archiveSHA256": "eb3725a63ec7afa04c8942057717758cc0a9388ceb1d4348a7e8487dfbc0492e"
+    }
+  ],
+  "geometricArt": "Original code-native circle/rsquare medallions, diamonds, question/exclamation badges and compass; integer pixel primitives, no antialiasing.",
+  "records": [
+    {
+      "path": "assets/ftbquests/textures/item/book.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "generated_book_mechanically_normalized",
+      "source": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated32_candidates\\questbook_red_wax_quill.png",
+      "expectedSourceSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "provenance": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated_book_provenance_v110.json",
+      "meaning": "붉은 봉랍·깃펜 길드 양피지: built-in image_gen 원화를 nearest32 규격 정규화",
+      "artOrigin": "AI generated; not CC0",
+      "previewSubstitution": false,
+      "sourcePNG_SHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "coreRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "sourceAvailable": true,
+      "outputSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "outputBytes": 1797,
+      "outputRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/ftb_quests_theme.txt",
+      "kind": "native_theme_config_pending",
+      "nativeVersion": "FTB Quests Forge 2001.4.18",
+      "stateColors": {
+        "quest_not_started_color": "#DCEFE4CE",
+        "quest_started_color": "#DC4CE8D0",
+        "quest_completed_color": "#DCE8B948"
+      },
+      "generated": false,
+      "outputSHA256": "962f375b04bdd15d4a6b08f3f5f1720c7d7d455371e9d92d10700982f475f42b",
+      "outputBytes": 3756
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/circle/background.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "circle background: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "994292ed1a5cf930da00cec89e2c7dc0240d978f8577110b3f4ed08b3f357623",
+      "outputBytes": 1035,
+      "outputRGBA_SHA256": "9cc41f324a6cc647066dd8402865ae42e6055329e6bbb92a91feb09dde45619f",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/circle/outline.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "circle outline: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "4731016c9ffdae7b14ccd521379a038e154b17303119e1cb55541cdcea868352",
+      "outputBytes": 664,
+      "outputRGBA_SHA256": "4628d84c2a69aca888c8d9ddafa51107281686b942ec06428ebaabcea6dc00dc",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/circle/shape.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "circle shape: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "0c1617d010357311054cc783e15c9dffd1703f5ce8fb3af9a6119ca1a3a4bab4",
+      "outputBytes": 433,
+      "outputRGBA_SHA256": "a6af9375d1a577cca0cdd0844ad5ae6f6205156cbd284be569255f5249efd03d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/rsquare/background.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "rsquare background: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "11666ceb845cd79c2a6eaade3cca1fe24e5f0ca53e106d31d967e71e743acad6",
+      "outputBytes": 513,
+      "outputRGBA_SHA256": "aa4e66869aa64a5869a50b932b1baa021caa9918674cc8e8f6ff613a58c57142",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/rsquare/outline.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "rsquare outline: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "2fcc8299d64670141b6d3ec94b5d62a68de0205d5232b7d208e9e6e8ab37ecf1",
+      "outputBytes": 349,
+      "outputRGBA_SHA256": "56ba67a1a2f2c161d99399c5d74d5e05c17e5afec9cd30c8b3122d17b62b2c75",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/ftbquests/textures/shapes/rsquare/shape.png",
+      "size": [
+        64,
+        64
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "rsquare shape: pixel-aligned medallion geometry, four diamonds, two inset edges",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "837dbdab4a93a3cbae9917ce97701109e60ceb2f538fcbce4f825f6cc45295b1",
+      "outputBytes": 257,
+      "outputRGBA_SHA256": "1eea7456639eb4a7e64586a89d3377d4aff3c2452055e295b2c7a6230bf1854f",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/tab_02_job_promotion.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "Ac_Medal01.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "황금 승급 훈장",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "49084bf84a86de7bf63169a2a13e45d73e02d519962a8ff86af5f57c440e8e48",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "7b4659b54632e6efbee676d9c63bc82ade4b393bc86f3c6a28eac8fb742a574c",
+      "sourceAvailable": true,
+      "outputSHA256": "962e32a3f3e2818b2c15e373af92f79089ecaa281a67972f9a06c9ad933e92b3",
+      "outputBytes": 3158,
+      "outputRGBA_SHA256": "7b4659b54632e6efbee676d9c63bc82ade4b393bc86f3c6a28eac8fb742a574c",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/tab_03_serdin_bosses.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "W_Gold_Sword.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "황금 토벌 대검",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "7bd786bfae169ae4d9640516cc42a579dc22dbf4e76323367fa4765094b0c2d6",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "a66237e7d5bfc0b49d6b0bbaa51d9b6ab5418a08c0e16c578164c6eaef50f522",
+      "sourceAvailable": true,
+      "outputSHA256": "63b4a89ed5f3333b8fa7f8d493d0de6232acfe9f4838ab5865d8eb6cea8ec418",
+      "outputBytes": 3548,
+      "outputRGBA_SHA256": "a66237e7d5bfc0b49d6b0bbaa51d9b6ab5418a08c0e16c578164c6eaef50f522",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/tab_04_village_bonds.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Scroll02.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "주민 의뢰 두루마리",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "48f0ffb47d7eb1ab49dd292a4c6a6abec5e28e103fba9e3c3a9bd36450559794",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "50aa6bc6b106d5cb370bddb09abae66171d0732366bf957f3b566650823a6d67",
+      "sourceAvailable": true,
+      "outputSHA256": "b08e3f8768a9705d76d014888b228e5b20ab551ce2882137390976b0cdf203ae",
+      "outputBytes": 3297,
+      "outputRGBA_SHA256": "50aa6bc6b106d5cb370bddb09abae66171d0732366bf957f3b566650823a6d67",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/tab_05_mainland_regions.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Map.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "본토 지도",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "261becfc79fb42e15aa71c4927854de1259b01564b3fa454bbd9a4a620a6b0ea",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "21e1cadcc00e43f188e8ddf2ba27f05a2208955a7dd9cf3c54d091916dc15cca",
+      "sourceAvailable": true,
+      "outputSHA256": "96c8ca68fbda9e5e31e25c68de811e10d9ecd7256605d337d308031a17ddf046",
+      "outputBytes": 3178,
+      "outputRGBA_SHA256": "21e1cadcc00e43f188e8ddf2ba27f05a2208955a7dd9cf3c54d091916dc15cca",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/tab_01_guild_arrival.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "generated_book_mechanically_normalized",
+      "source": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated32_candidates\\questbook_red_wax_quill.png",
+      "expectedSourceSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "provenance": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated_book_provenance_v110.json",
+      "meaning": "붉은 봉랍·깃펜 길드 양피지: built-in image_gen 원화를 nearest32 규격 정규화",
+      "artOrigin": "AI generated; not CC0",
+      "previewSubstitution": false,
+      "sourcePNG_SHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "coreRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "sourceAvailable": true,
+      "outputSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "outputBytes": 1797,
+      "outputRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_forest_start.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "A_Shoes03.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "탐험 장화",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "3719ee88bbaba694523256ba1a552a85a414bc6590dc16eb4037ca1da15c33d4",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "f435a638715b87e3f87847fc2808d20805161a6027a50d502b6ecdf758c7100d",
+      "sourceAvailable": true,
+      "outputSHA256": "acb35293348d280d2637af5842b91fe2f8db598705e60665e977acce9e88b014",
+      "outputBytes": 3256,
+      "outputRGBA_SHA256": "f435a638715b87e3f87847fc2808d20805161a6027a50d502b6ecdf758c7100d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_brion_plaza.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Torch02.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "광장 횃불",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "0ce2915a81e922bde4063d49acb6054da63e232beda9164535a3bf882ef8b5d2",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "9bd48215af111088a6618f0fcd51dd241fe97919085d6678c35146522b5323c1",
+      "sourceAvailable": true,
+      "outputSHA256": "8378d2a633d56b8ba6906a7fce28091c7e1fe0240fcd45a5cda846addba2280b",
+      "outputBytes": 3332,
+      "outputRGBA_SHA256": "9bd48215af111088a6618f0fcd51dd241fe97919085d6678c35146522b5323c1",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_training_dummy.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "S_Sword01.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "오라 검술 훈련 검",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "b52989e798b23ea7e759a43db3716879c23e1b716eb21a8925874b0d4f412a35",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "824b58f3019ee195bcd5963720418e783f33bfeb8e3e41daa6f6f4ab820d775f",
+      "sourceAvailable": true,
+      "outputSHA256": "1ccaeed2a0d972b5305f37dd043e464a4647ec364184334733e4ae8221444a46",
+      "outputBytes": 3415,
+      "outputRGBA_SHA256": "824b58f3019ee195bcd5963720418e783f33bfeb8e3e41daa6f6f4ab820d775f",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_monster_hunt.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Fang.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "마물 송곳니",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "5ffafcd26ec0dbe74e9b4303b047cc75acdac245d0bfa5811a6c17317e7ea241",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "09aaf2c5edd50286ed001ea61a31f3f02b3a7354845f06d751ed755f5166a14d",
+      "sourceAvailable": true,
+      "outputSHA256": "70fe94abc6c234819e12c6b6d67115587bd2a0ea48bfa26947117257fce12de8",
+      "outputBytes": 3018,
+      "outputRGBA_SHA256": "09aaf2c5edd50286ed001ea61a31f3f02b3a7354845f06d751ed755f5166a14d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_outpost_raid.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "C_Elm04.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "전초 기사단 투구",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "e2b6f7029920c6738550b51dab58e4986b99ced22fb7dc11298d6b34b1c0b677",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "b08a192b7d2f9c1f6f9bc0179375f5e16e8f032007b625826b4460256ab205b4",
+      "sourceAvailable": true,
+      "outputSHA256": "54e6d56cdd29a0f5412a5e065615401e30743056b279efaacce2c929f11094f7",
+      "outputBytes": 3310,
+      "outputRGBA_SHA256": "b08a192b7d2f9c1f6f9bc0179375f5e16e8f032007b625826b4460256ab205b4",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_boss_1_crag.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Amethist.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "보라 수정 코어: 초안 이끼 바위 문장과 다른 원화",
+      "previewSubstitution": true,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "7d31cf8433e2cbec8eb7299c15dcb80c7fc35feef66a4daadc0c263731ac6f05",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "ca1487ccc4d56182150c89368af85a3c43c58839c7092e3692ea07f6793559e7",
+      "sourceAvailable": true,
+      "outputSHA256": "d564777bf0f5fd0c319464e23ce450fd742b9624ebb863f30caa9900e78a5623",
+      "outputBytes": 3065,
+      "outputRGBA_SHA256": "ca1487ccc4d56182150c89368af85a3c43c58839c7092e3692ea07f6793559e7",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_farming_harvest.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_C_Carrot.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "농장 당근",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "d169e7518f7dfe80f09209e4eede711c0502f744911600bae20ca3f02fc8eb4c",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "ba3c4eb4a31f2185f40e439e23df6a2bd3aa0712fc5d399e91b02f7dd03c58f1",
+      "sourceAvailable": true,
+      "outputSHA256": "f47324cc446c3a0862e5bf08c410cd07445c798212a4c7782164addec7cde41b",
+      "outputBytes": 3201,
+      "outputRGBA_SHA256": "ba3c4eb4a31f2185f40e439e23df6a2bd3aa0712fc5d399e91b02f7dd03c58f1",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_cooking_hearth.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_C_Pie.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "구운 파이",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "21abce4a033e14e9ed9e49199b29ce7b4749c1a4eef17c320cabda3207a3a596",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "856e2c851f4d191206862a900805e2002b624a55d831755db449bc9a46264807",
+      "sourceAvailable": true,
+      "outputSHA256": "2000c30b43f23cc799636998600a772d6c376dd1b78b3bdc80054a33d51cf8a3",
+      "outputBytes": 3174,
+      "outputRGBA_SHA256": "856e2c851f4d191206862a900805e2002b624a55d831755db449bc9a46264807",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_alchemy_herb.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "P_Blue03.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "푸른 비약 플라스크",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "5876fdf8a3cd3b926c417ad9a42d22f12797e92cd4178aad620a41fa0b5e04f8",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "01bfc0a4c02717ea2708e1b7686df103da391bc9d6d33c51c844653b56491c9e",
+      "sourceAvailable": true,
+      "outputSHA256": "dd4accd3d76d5cd9a8c9ba6cb89a810a8fe221e4ebdffa71c9d2f20153748fc9",
+      "outputBytes": 3118,
+      "outputRGBA_SHA256": "01bfc0a4c02717ea2708e1b7686df103da391bc9d6d33c51c844653b56491c9e",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_smithing_anvil.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "W_Mace008.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "푸른 보석의 금장 단조 도구: 초안과 다른 원화",
+      "previewSubstitution": true,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "a16cf787a436fccca5352b05a236a796d6540ab5a43ca85b831505bd16aecae4",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "a96c05e41a37984e271e11cdc4078233eefc9d4e69b821c94493c3f973ff6816",
+      "sourceAvailable": true,
+      "outputSHA256": "dcab54d9611e6856b3cd7586fe90b9cdbf68f06c48bb23a610b4d2a09f8c9a09",
+      "outputBytes": 3234,
+      "outputRGBA_SHA256": "a96c05e41a37984e271e11cdc4078233eefc9d4e69b821c94493c3f973ff6816",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_cottage_trophy.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "I_Chest02.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "트로피 보물함",
+      "previewSubstitution": false,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "b25858add12f20c1c0b498440cc4fbccaf9a8aa238b780a05fce386e905feabf",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "562a473766b61ca8cfe04c3e2c2777cfb7ee6c013cc7a0318a3fbc6f6f2174d7",
+      "sourceAvailable": true,
+      "outputSHA256": "fc59b42732d8f9846a6a9d75574971e11dfeecb4070d12c615585139e70a3d0c",
+      "outputBytes": 3240,
+      "outputRGBA_SHA256": "562a473766b61ca8cfe04c3e2c2777cfb7ee6c013cc7a0318a3fbc6f6f2174d7",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_guild_register.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "generated_book_mechanically_normalized",
+      "source": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated32_candidates\\questbook_red_wax_quill.png",
+      "expectedSourceSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "provenance": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated_book_provenance_v110.json",
+      "meaning": "붉은 봉랍·깃펜 길드 양피지: built-in image_gen 원화를 nearest32 규격 정규화",
+      "artOrigin": "AI generated; not CC0",
+      "previewSubstitution": false,
+      "sourcePNG_SHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "coreRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "sourceAvailable": true,
+      "outputSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "outputBytes": 1797,
+      "outputRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_mount_whistle.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_licensed_atlas_cell",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_5차_모험가도감\\사전검토\\원본_내부보관_배포금지\\shikashi_official_free.zip",
+      "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+      "crop": [
+        256,
+        352,
+        288,
+        384
+      ],
+      "meaning": "전문 hunting/war horn: 군마 호출 호각 대안",
+      "previewSubstitution": true,
+      "license": "CC BY 4.0; upstream CC BY 3.0 attribution retained",
+      "sourcePNG_SHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+      "sourceSize": [
+        512,
+        867
+      ],
+      "coreRGBA_SHA256": "250aeebfd7d65f21eedef79af7b0c0f14e0dbeb847fff74e1b049a6bb290d1be",
+      "sourceAvailable": true,
+      "outputSHA256": "e27e01e50fb95a14ef2eb4cfee79e18688086f289bbf0344667ee71b69fa46b7",
+      "outputBytes": 3093,
+      "outputRGBA_SHA256": "250aeebfd7d65f21eedef79af7b0c0f14e0dbeb847fff74e1b049a6bb290d1be",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_boss_2_blossom.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_licensed_atlas_cell",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_5차_모험가도감\\사전검토\\원본_내부보관_배포금지\\shikashi_official_free.zip",
+      "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+      "crop": [
+        32,
+        384,
+        64,
+        416
+      ],
+      "meaning": "기존 공허의 꽃 도감에도 쓰인 분홍 꽃봉오리",
+      "previewSubstitution": true,
+      "license": "CC BY 4.0; upstream CC BY 3.0 attribution retained",
+      "sourcePNG_SHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+      "sourceSize": [
+        512,
+        867
+      ],
+      "coreRGBA_SHA256": "0331ab8330cd36e951c09e6a0f6cd98600b3cfaea739755c1ef00baab34cb5f1",
+      "sourceAvailable": true,
+      "outputSHA256": "658b0cd2b7439ce84ae90c4a5999c968888c8282a2a5bc3555895fdb334b36c5",
+      "outputBytes": 3181,
+      "outputRGBA_SHA256": "0331ab8330cd36e951c09e6a0f6cd98600b3cfaea739755c1ef00baab34cb5f1",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_boss_3_guardian.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_licensed_atlas_cell",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_5차_모험가도감\\사전검토\\원본_내부보관_배포금지\\shikashi_official_free.zip",
+      "member": "Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png",
+      "crop": [
+        96,
+        224,
+        128,
+        256
+      ],
+      "meaning": "기존 강철 수호자 도감에도 쓰인 닫힌 철 투구",
+      "previewSubstitution": true,
+      "license": "CC BY 4.0; upstream CC BY 3.0 attribution retained",
+      "sourcePNG_SHA256": "e5dced4f6e04f7f79101f189f95124a0dba93546e464d76af8af6b72f1d670e8",
+      "sourceSize": [
+        512,
+        867
+      ],
+      "coreRGBA_SHA256": "88df404746137552b89d3636767b888c8dbafa189429c322afa4011a8ac39a6d",
+      "sourceAvailable": true,
+      "outputSHA256": "991dfbd1d9eb1b6eabe16ed2a464a7c36bce4c7bea5786e222fde3e956a2e96b",
+      "outputBytes": 3262,
+      "outputRGBA_SHA256": "88df404746137552b89d3636767b888c8dbafa189429c322afa4011a8ac39a6d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/node_compass_target.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "금제 원·8방향 눈금·붉은 북침의 나침반",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "fd672d99c889b24037ffe90058e7fe48c0831035f18ba910f4c774ac733c0fab",
+      "outputBytes": 515,
+      "outputRGBA_SHA256": "ab835bd83430d660e80af7fc2e5fa5da1786b02a34feba5ea8cba31976d2173a",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/marker_quest_avail.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "붉은 원형 배지와 느낌표",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "af3f69e9b7d1416b0a5e0da997f85e57de1749e7fd139d07e52088d6c1e3e6c4",
+      "outputBytes": 399,
+      "outputRGBA_SHA256": "72f13f69e6f41a97f96c0baae91909fb7a2f2661454a24bb3fc807abd157d92f",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/quests/marker_quest_turnin.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "exact_code_native_geometry_pending",
+      "meaning": "청록 원형 배지와 물음표",
+      "previewSubstitution": false,
+      "license": "F-Craft original geometric source",
+      "generated": false,
+      "outputSHA256": "2d85043b99a38b872d177234a177def20092d70f3170d8bac70fd7c83351e700",
+      "outputBytes": 442,
+      "outputRGBA_SHA256": "7fba743b8f942fc623052dc4ca358cbee94be04600437fa567223d0027ad3b40",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/npc_dialog/icon_quest.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "generated_book_mechanically_normalized",
+      "source": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated32_candidates\\questbook_red_wax_quill.png",
+      "expectedSourceSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "provenance": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\generated_book_provenance_v110.json",
+      "meaning": "붉은 봉랍·깃펜 길드 양피지: built-in image_gen 원화를 nearest32 규격 정규화",
+      "artOrigin": "AI generated; not CC0",
+      "previewSubstitution": false,
+      "sourcePNG_SHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "coreRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "sourceAvailable": true,
+      "outputSHA256": "76286c94bd61514f1d491a15c2837e67e0515619de142489f54004c73e6bed87",
+      "outputBytes": 1797,
+      "outputRGBA_SHA256": "a9a53b6b3cbdb2783a30905119bd0b92d959257fb5c8e16cf31c9a8316aafa5d",
+      "outputMode": "RGBA"
+    },
+    {
+      "path": "assets/f_rank_days/textures/gui/npc_dialog/icon_promotion.png",
+      "size": [
+        32,
+        32
+      ],
+      "kind": "existing_cc0_core",
+      "archive": "E:\\F-Craft\\마크\\F-Craft_10차_승급HUD_아이콘_본토_v11_0\\개별작업\\assets_v110\\source\\496_RPG_icons.zip",
+      "member": "S_Holy04.png",
+      "crop": [
+        1,
+        1,
+        33,
+        33
+      ],
+      "meaning": "금빛 날개 승급 훈장",
+      "previewSubstitution": true,
+      "license": "CC0-1.0",
+      "sourcePNG_SHA256": "3613a6daadc951a91615296c39c4597d8435937dc724e58bffad91607faa0dad",
+      "sourceSize": [
+        34,
+        34
+      ],
+      "coreRGBA_SHA256": "5bb9d87db4b2ffccaa8dd0201618eca675b847d1f2a53966d6d8af6836b6e0c0",
+      "sourceAvailable": true,
+      "outputSHA256": "5566ade49bdd8d19c00f61a60b0e5c0923f391c637ca30a935dc849faea44632",
+      "outputBytes": 3226,
+      "outputRGBA_SHA256": "5bb9d87db4b2ffccaa8dd0201618eca675b847d1f2a53966d6d8af6836b6e0c0",
+      "outputMode": "RGBA"
+    }
+  ],
+  "generatorSHA256": "fe925bc50ced299d521f44c8ff824f6fc2fa1d9b9b7edfbac354f5cc4619537a",
+  "planToolSHA256": "f0631effd84bcf50f2b3cdf3ce39e633b05230f89bafa22969e0ee7315b706b8"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M",
+    "I "
+  ],
+  "key": {
+    "M": {
+      "item": "f_rank_days:refined_mana_stone"
+    },
+    "I": {
+      "item": "f_rank_days:iron_dagger"
+    }
+  },
+  "result": {
+    "item": "f_rank_days:mana_dagger",
+    "count": 1
+  }
+}

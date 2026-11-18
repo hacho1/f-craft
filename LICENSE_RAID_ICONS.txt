@@ -1,0 +1,25 @@
+F-Craft chapter 1 raid equipment icon additions
+
+496 Pixel Art Icons for Medieval/Fantasy RPG — Henrique Lazarini (7Soul1)
+https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg
+CC0-1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Changes: transparent borders cropped losslessly to32x32; no recolour.
+
+Shikashi Fantasy Icons — Matt Firth (shikashipx) and game-icons.net
+https://shikashipx.itch.io/shikashis-fantasy-icons-pack
+https://game-icons.net/
+CC BY4.0 https://creativecommons.org/licenses/by/4.0/
+Legacy included notice CC BY3.0 https://creativecommons.org/licenses/by/3.0/
+Changes: transparent32px cells extracted exactly, no redraw/recolour.
+Original sheets not distributed.
+
+All older license notices and resource bytes retained.
+User portraits and UI backgrounds have not been modified.
+
+v10.4 portal block additions use the same 496 Icons CC0-1.0 source:
+guardian_portal_pedestal: S_Magic09.png
+sanctum_escape_crystal: I_Crystal03.png
+Only transparent borders were cropped to each icon's exact alpha bounds;
+no resize, redraw, recolour, or nontransparent pixel removal was performed.
+Exact source hashes, crop bounds and output hashes are recorded in
+검증/raid_assets_v132.json.

@@ -1,0 +1,198 @@
+{
+  "prospector_foundation": {
+    "title": "1. 채굴 자세",
+    "description": "채굴 속도 +10%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_1",
+          "lock_command": "tag @s remove frank_phase4_prospector_1"
+        }
+      }
+    ]
+  },
+  "prospector_passive_2": {
+    "title": "2. 원석 선별",
+    "description": "자연 기초 원석 15% 추가 1개",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_2",
+          "lock_command": "tag @s remove frank_phase4_prospector_2"
+        }
+      }
+    ]
+  },
+  "prospector_passive_3": {
+    "title": "3. 갱도 안전",
+    "description": "폭발 · 낙석 피해 저항",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_3",
+          "lock_command": "tag @s remove frank_phase4_prospector_3"
+        }
+      }
+    ]
+  },
+  "prospector_passive_4": {
+    "title": "4. 광맥 공명",
+    "description": "곡괭이 웅크려 우클릭으로 10m 광맥 탐지",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_4",
+          "lock_command": "tag @s remove frank_phase4_prospector_4"
+        }
+      }
+    ]
+  },
+  "prospector_passive_5": {
+    "title": "5. 마력 광맥",
+    "description": "자연 마력석 · 경화광 25% 추가 1개",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_5",
+          "lock_command": "tag @s remove frank_phase4_prospector_5"
+        }
+      }
+    ]
+  },
+  "prospector_passive_6": {
+    "title": "6. 심층의 눈",
+    "description": "심층암에서 성급함 · 야간 시야",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_6",
+          "lock_command": "tag @s remove frank_phase4_prospector_6"
+        }
+      }
+    ]
+  },
+  "prospector_passive_7": {
+    "title": "7. 광맥의 달인",
+    "description": "탐지 16m · 자연 광석 추가 드롭 40%",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_prospector_7",
+          "lock_command": "tag @s remove frank_phase4_prospector_7"
+        }
+      }
+    ]
+  }
+}

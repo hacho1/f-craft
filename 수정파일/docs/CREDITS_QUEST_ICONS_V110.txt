@@ -1,0 +1,15 @@
+F-Craft v11.0 quest icons — selected game component textures only.
+
+496 RPG Icons: Henrique Lazarini (7Soul1), repack gnola14. CC0-1.0.
+https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg
+Central32px RGBA crop from original34px; excluded outer outline pixels are documented.
+
+Shikashi Fantasy Icons: Matt Firth (shikashipx). CC BY4.0; upstream game-icons.net CC BY3.0 attribution retained.
+https://shikashipx.itch.io/shikashis-fantasy-icons-pack
+https://game-icons.net/
+Unaltered32px atlas cells for horn, blossom and closed helm.
+
+Sealed parchment/quill: built-in image_gen output, mechanical transparent32px normalization. Not CC0 artwork. Exact prompt and hashes in credits_quest_icons_v110.json.
+
+Medallions/badges/compass: F-Craft original integer-coordinate geometric primitives.
+No raw professional sprite archive included in the game pack.

@@ -1,0 +1,722 @@
+{
+  "swordsman": {
+    "label": "검사",
+    "ids": [
+      "swordsman_node_1",
+      "swordsman_node_2",
+      "swordsman_node_3",
+      "swordsman_node_4",
+      "swordsman_node_5",
+      "swordsman_node_6",
+      "swordsman_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "검술의 기초",
+        "description": "근접 피해 +5%"
+      },
+      {
+        "title": "흐름 읽기",
+        "description": "패링 판정창 +0.12초"
+      },
+      {
+        "title": "단단한 보법",
+        "description": "최대 체력 +2 HP · 무기 내구 보호"
+      },
+      {
+        "title": "반격의 파문",
+        "description": "패링 성공 시 전방 물리 충격파"
+      },
+      {
+        "title": "회피 일격",
+        "description": "구르기 후 첫 타격 치명타 +25%"
+      },
+      {
+        "title": "승전의 호흡",
+        "description": "처치 시 6초간 공격 속도 +15% · 2 HP 회복"
+      },
+      {
+        "title": "검의 경지",
+        "description": "패링 대기시간 -30% · X/C 마나 -20% · 보스 피해 +15%"
+      }
+    ]
+  },
+  "berserker": {
+    "label": "도끼전사",
+    "ids": [
+      "berserker_node_1",
+      "berserker_node_2",
+      "berserker_node_3",
+      "berserker_node_4",
+      "berserker_node_5",
+      "berserker_node_6",
+      "berserker_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "도끼의 무게",
+        "description": "도끼 피해 +6%"
+      },
+      {
+        "title": "방패 파쇄",
+        "description": "도끼 강타 시 방패 무력화 · 넉백 저항 +15%"
+      },
+      {
+        "title": "강인한 육체",
+        "description": "최대 체력 +4 HP"
+      },
+      {
+        "title": "피의 투지",
+        "description": "체력 50% 이하일 때 공격력 +18% · 받는 피해 -10%"
+      },
+      {
+        "title": "전장의 포효",
+        "description": "도끼 강타 치명타 시 주변 일반 적 위축"
+      },
+      {
+        "title": "피의 수확",
+        "description": "처치 시 3 HP · 10 MP 회복"
+      },
+      {
+        "title": "불굴의 선봉장",
+        "description": "휠윈드 +1초 · 치명상 시 180초마다 5초 불사 광란"
+      }
+    ]
+  },
+  "ranger": {
+    "label": "레인저",
+    "ids": [
+      "ranger_node_1",
+      "ranger_node_2",
+      "ranger_node_3",
+      "ranger_node_4",
+      "ranger_node_5",
+      "ranger_node_6",
+      "ranger_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "가벼운 발걸음",
+        "description": "이동 속도 +4%"
+      },
+      {
+        "title": "시위 조율",
+        "description": "활 피해 +8%"
+      },
+      {
+        "title": "화살 회수",
+        "description": "화살 25% 비소모"
+      },
+      {
+        "title": "표식 사냥",
+        "description": "발광 표식 대상에게 추가 피해"
+      },
+      {
+        "title": "관통 사격",
+        "description": "원거리 공격 방어 관통 25%"
+      },
+      {
+        "title": "연속 조준",
+        "description": "명중 후 가속 · 화살 비소모 확률 50%"
+      },
+      {
+        "title": "바람의 사수",
+        "description": "15m 이상 장거리 피해 +30% · 칼날 바람 폭발"
+      }
+    ]
+  },
+  "healer": {
+    "label": "치유사",
+    "ids": [
+      "healer_node_1",
+      "healer_node_2",
+      "healer_node_3",
+      "healer_node_4",
+      "healer_node_5",
+      "healer_node_6",
+      "healer_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "생명의 기초",
+        "description": "최대 체력 +2 HP"
+      },
+      {
+        "title": "정갈한 붕대",
+        "description": "붕대 회복 +2 HP"
+      },
+      {
+        "title": "자기 돌봄",
+        "description": "자가 회복 +20%"
+      },
+      {
+        "title": "치유의 메아리",
+        "description": "붕대 회복을 주변 아군에게 전파"
+      },
+      {
+        "title": "정화의 손길",
+        "description": "붕대 치료 시 해로운 효과 1개 제거"
+      },
+      {
+        "title": "회복의 축복",
+        "description": "치유한 대상에게 저항 · 재생 부여"
+      },
+      {
+        "title": "생명의 서약",
+        "description": "180초마다 주변 파티원 치명상 구원"
+      }
+    ]
+  },
+  "farmer": {
+    "label": "농부",
+    "ids": [
+      "farmer_node_1_basic",
+      "farmer_node_2_soil",
+      "farmer_node_3_research",
+      "farmer_node_4_advanced",
+      "farmer_node_5_expert",
+      "farmer_node_6",
+      "farmer_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "기초 재배",
+        "description": "괭이 내구 보호 · 퇴비 조합"
+      },
+      {
+        "title": "토양 관리",
+        "description": "웅크려 괭이 우클릭으로 수분 · 성장 단계 진단"
+      },
+      {
+        "title": "작물 연구",
+        "description": "완숙 작물 15% 추가 수확"
+      },
+      {
+        "title": "고급 재배",
+        "description": "E급 이상 완숙 작물 우클릭 수확 · 자동 재파종"
+      },
+      {
+        "title": "넓은 경작",
+        "description": "철 괭이 이상 3×3 경작"
+      },
+      {
+        "title": "풍년의 결실",
+        "description": "추가 수확 확률 35% · 20회마다 황금 당근"
+      },
+      {
+        "title": "농업의 대가",
+        "description": "3×3 일괄 수확 · 작물 판매가 +20%"
+      }
+    ]
+  },
+  "herbalist": {
+    "label": "약초채집가",
+    "ids": [
+      "herbalist_node_1",
+      "herbalist_node_2",
+      "herbalist_node_3",
+      "herbalist_node_4",
+      "herbalist_node_5",
+      "herbalist_node_6",
+      "herbalist_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "약초 손질",
+        "description": "약초 20% 추가 채집"
+      },
+      {
+        "title": "숲의 식탁",
+        "description": "버섯 · 열매 추가 채집"
+      },
+      {
+        "title": "독의 이해",
+        "description": "독 피해 저항"
+      },
+      {
+        "title": "종근 분리",
+        "description": "채집 중 씨앗 · 뿌리 추가 추출"
+      },
+      {
+        "title": "우림의 지혜",
+        "description": "직접 마시는 약차 · 물약 지속시간 +40%"
+      },
+      {
+        "title": "영초 추출",
+        "description": "약초에서 마력석 가루 추가 추출"
+      },
+      {
+        "title": "숲의 연금술",
+        "description": "공명향 35% 추가 제작 · 독 면역"
+      }
+    ]
+  },
+  "angler": {
+    "label": "낚시꾼",
+    "ids": [
+      "angler_node_1",
+      "angler_node_2",
+      "angler_node_3",
+      "angler_node_4",
+      "angler_node_5",
+      "angler_node_6",
+      "angler_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "물결 보법",
+        "description": "수중 이동 속도 +20%"
+      },
+      {
+        "title": "낚시의 집중",
+        "description": "직접 어획 경험치 +50%"
+      },
+      {
+        "title": "낚싯줄 관리",
+        "description": "낚싯대 내구 보호"
+      },
+      {
+        "title": "쌍걸이",
+        "description": "25% 확률 추가 어획"
+      },
+      {
+        "title": "물가의 행운",
+        "description": "어획 후 30초 행운"
+      },
+      {
+        "title": "깊은 인양",
+        "description": "은화 · 보석 추가 인양"
+      },
+      {
+        "title": "폭풍의 어부",
+        "description": "쌍걸이 45% · 우천 시 단련핵 인양"
+      }
+    ]
+  },
+  "chef": {
+    "label": "요리사",
+    "ids": [
+      "chef_node_1",
+      "chef_node_2",
+      "chef_node_3",
+      "chef_node_4",
+      "chef_node_5",
+      "chef_node_6",
+      "chef_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "든든한 한 끼",
+        "description": "조리식 포만감 +15%"
+      },
+      {
+        "title": "불과 친해지기",
+        "description": "화상 피해 반감"
+      },
+      {
+        "title": "알뜰한 손질",
+        "description": "생고기 손질 부산물"
+      },
+      {
+        "title": "넉넉한 조리",
+        "description": "특식 제작 20% 추가 1그릇"
+      },
+      {
+        "title": "식후의 활력",
+        "description": "조리식 섭취 후 힘 · 신속"
+      },
+      {
+        "title": "여관의 단골",
+        "description": "여관 요리 납품가 +20%"
+      },
+      {
+        "title": "함께하는 만찬",
+        "description": "특식 섭취 시 주변 아군에게 만찬 효과 공유"
+      }
+    ]
+  },
+  "blacksmith": {
+    "label": "대장장이",
+    "ids": [
+      "blacksmith_node_1",
+      "blacksmith_node_2",
+      "blacksmith_node_3",
+      "blacksmith_node_4",
+      "blacksmith_node_5",
+      "blacksmith_node_6",
+      "blacksmith_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "연장 관리",
+        "description": "무기 · 연장 내구 보호"
+      },
+      {
+        "title": "튼튼한 앞치마",
+        "description": "방어력 +2"
+      },
+      {
+        "title": "정밀 제련",
+        "description": "직접 제련 시 추가 주괴"
+      },
+      {
+        "title": "수리의 달인",
+        "description": "대장간 수리비 -25%"
+      },
+      {
+        "title": "단조의 감각",
+        "description": "무기 강화 성공률 +8%p"
+      },
+      {
+        "title": "강철의 의지",
+        "description": "방어 강도 +2 · 강화 단계 하락 보호"
+      },
+      {
+        "title": "명장의 불꽃",
+        "description": "강화 성공률 +15%p · 유황 넥타르 효율 조합"
+      }
+    ]
+  },
+  "relic_researcher": {
+    "label": "유적연구원",
+    "ids": [
+      "relic_researcher_node_1",
+      "relic_researcher_node_2",
+      "relic_researcher_node_3",
+      "relic_researcher_node_4",
+      "relic_researcher_node_5",
+      "relic_researcher_node_6",
+      "relic_researcher_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "탐구자의 눈",
+        "description": "이동 속도 +3% · 어두운 곳 암적응"
+      },
+      {
+        "title": "정밀 탁본",
+        "description": "탁본 종이 25% 절약"
+      },
+      {
+        "title": "끈질긴 탐구",
+        "description": "최대 체력 +2 HP"
+      },
+      {
+        "title": "추가 발굴",
+        "description": "비석 · 은닉처에서 고대 파편 추가 발굴"
+      },
+      {
+        "title": "유적의 가호",
+        "description": "던전에서 받는 피해 -12%"
+      },
+      {
+        "title": "유물 감정",
+        "description": "유물 판매가 +25%"
+      },
+      {
+        "title": "고대의 결실",
+        "description": "은닉처 최초 개봉 시 25% 단련핵 발굴"
+      }
+    ]
+  },
+  "prospector": {
+    "label": "광부",
+    "ids": [
+      "prospector_node_1",
+      "prospector_node_2",
+      "prospector_node_3",
+      "prospector_node_4",
+      "prospector_node_5",
+      "prospector_node_6",
+      "prospector_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "채굴 자세",
+        "description": "채굴 속도 +10%"
+      },
+      {
+        "title": "원석 선별",
+        "description": "자연 기초 원석 15% 추가 1개"
+      },
+      {
+        "title": "갱도 안전",
+        "description": "폭발 · 낙석 피해 저항"
+      },
+      {
+        "title": "광맥 공명",
+        "description": "곡괭이 웅크려 우클릭으로 10m 광맥 탐지"
+      },
+      {
+        "title": "마력 광맥",
+        "description": "자연 마력석 · 경화광 25% 추가 1개"
+      },
+      {
+        "title": "심층의 눈",
+        "description": "심층암에서 성급함 · 야간 시야"
+      },
+      {
+        "title": "광맥의 달인",
+        "description": "탐지 16m · 자연 광석 추가 드롭 40%"
+      }
+    ]
+  },
+  "pathfinder": {
+    "label": "정찰가",
+    "ids": [
+      "pathfinder_node_1",
+      "pathfinder_node_2",
+      "pathfinder_node_3",
+      "pathfinder_node_4",
+      "pathfinder_node_5",
+      "pathfinder_node_6",
+      "pathfinder_node_7"
+    ],
+    "costs": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "requiredSpent": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8,
+      11
+    ],
+    "nodes": [
+      {
+        "title": "길잡이의 걸음",
+        "description": "이동 속도 +6%"
+      },
+      {
+        "title": "낙법",
+        "description": "낙하 피해 -25%"
+      },
+      {
+        "title": "단차 기동",
+        "description": "보폭 +0.5"
+      },
+      {
+        "title": "숨은 길 탐지",
+        "description": "나침반 우클릭으로 16m 미개봉 은닉처 감지"
+      },
+      {
+        "title": "지치지 않는 여정",
+        "description": "질주 피로도 -25%"
+      },
+      {
+        "title": "야영의 아침",
+        "description": "야영 후 기상 시 신속 · 재생"
+      },
+      {
+        "title": "대륙의 발자취",
+        "description": "이동 속도 총 +12% · 낙하 -50% · 답사 은화 2배"
+      }
+    ]
+  }
+}

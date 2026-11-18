@@ -1,0 +1,198 @@
+{
+  "chef_foundation": {
+    "title": "1. 든든한 한 끼",
+    "description": "조리식 포만감 +15%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_1",
+          "lock_command": "tag @s remove frank_phase4_chef_1"
+        }
+      }
+    ]
+  },
+  "chef_passive_2": {
+    "title": "2. 불과 친해지기",
+    "description": "화상 피해 반감",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_2",
+          "lock_command": "tag @s remove frank_phase4_chef_2"
+        }
+      }
+    ]
+  },
+  "chef_passive_3": {
+    "title": "3. 알뜰한 손질",
+    "description": "생고기 손질 부산물",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_3",
+          "lock_command": "tag @s remove frank_phase4_chef_3"
+        }
+      }
+    ]
+  },
+  "chef_passive_4": {
+    "title": "4. 넉넉한 조리",
+    "description": "특식 제작 20% 추가 1그릇",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_4",
+          "lock_command": "tag @s remove frank_phase4_chef_4"
+        }
+      }
+    ]
+  },
+  "chef_passive_5": {
+    "title": "5. 식후의 활력",
+    "description": "조리식 섭취 후 힘 · 신속",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_5",
+          "lock_command": "tag @s remove frank_phase4_chef_5"
+        }
+      }
+    ]
+  },
+  "chef_passive_6": {
+    "title": "6. 여관의 단골",
+    "description": "여관 요리 납품가 +20%",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_6",
+          "lock_command": "tag @s remove frank_phase4_chef_6"
+        }
+      }
+    ]
+  },
+  "chef_passive_7": {
+    "title": "7. 함께하는 만찬",
+    "description": "특식 섭취 시 주변 아군에게 만찬 효과 공유",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_chef_7",
+          "lock_command": "tag @s remove frank_phase4_chef_7"
+        }
+      }
+    ]
+  }
+}

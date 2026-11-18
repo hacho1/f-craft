@@ -1,0 +1,198 @@
+{
+  "blacksmith_foundation": {
+    "title": "1. 연장 관리",
+    "description": "무기 · 연장 내구 보호",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_1",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_1"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_2": {
+    "title": "2. 튼튼한 앞치마",
+    "description": "방어력 +2",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_2",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_2"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_3": {
+    "title": "3. 정밀 제련",
+    "description": "직접 제련 시 추가 주괴",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_3",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_3"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_4": {
+    "title": "4. 수리의 달인",
+    "description": "대장간 수리비 -25%",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_4",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_4"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_5": {
+    "title": "5. 단조의 감각",
+    "description": "무기 강화 성공률 +8%p",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_5",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_5"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_6": {
+    "title": "6. 강철의 의지",
+    "description": "방어 강도 +2 · 강화 단계 하락 보호",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_6",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_6"
+        }
+      }
+    ]
+  },
+  "blacksmith_passive_7": {
+    "title": "7. 명장의 불꽃",
+    "description": "강화 성공률 +15%p · 유황 넥타르 효율 조합",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_blacksmith_7",
+          "lock_command": "tag @s remove frank_phase4_blacksmith_7"
+        }
+      }
+    ]
+  }
+}

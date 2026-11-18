@@ -1,0 +1,285 @@
+{
+  "definitions": [
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFB7AE99",
+      "endColor": "#FF7D7362",
+      "bgColor": "#F01D1711",
+      "priority": -100,
+      "selectors": [
+        "f_rank_days:farmer_license_f",
+        "f_rank_days:swordsman_license_f",
+        "f_rank_days:alchemist_license_f",
+        "f_rank_days:blacksmith_license_f",
+        "f_rank_days:healer_license_f",
+        "f_rank_days:relic_researcher_license_f",
+        "f_rank_days:ranger_license_f",
+        "f_rank_days:mage_license_f",
+        "f_rank_days:herbalist_license_f",
+        "f_rank_days:angler_license_f",
+        "f_rank_days:chef_license_f",
+        "f_rank_days:prospector_license_f",
+        "f_rank_days:pathfinder_license_f",
+        "f_rank_days:berserker_license_f"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FF82B67A",
+      "endColor": "#FF3E7450",
+      "bgColor": "#F01D1711",
+      "priority": -101,
+      "selectors": [
+        "f_rank_days:farmer_license_e",
+        "f_rank_days:swordsman_license_e",
+        "f_rank_days:alchemist_license_e",
+        "f_rank_days:blacksmith_license_e",
+        "f_rank_days:healer_license_e",
+        "f_rank_days:relic_researcher_license_e",
+        "f_rank_days:ranger_license_e",
+        "f_rank_days:mage_license_e",
+        "f_rank_days:herbalist_license_e",
+        "f_rank_days:angler_license_e",
+        "f_rank_days:chef_license_e",
+        "f_rank_days:prospector_license_e",
+        "f_rank_days:pathfinder_license_e",
+        "f_rank_days:berserker_license_e"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FF77AEDD",
+      "endColor": "#FF3C608C",
+      "bgColor": "#F01D1711",
+      "priority": -102,
+      "selectors": [
+        "f_rank_days:farmer_license_d",
+        "f_rank_days:swordsman_license_d",
+        "f_rank_days:alchemist_license_d",
+        "f_rank_days:blacksmith_license_d",
+        "f_rank_days:healer_license_d",
+        "f_rank_days:relic_researcher_license_d",
+        "f_rank_days:ranger_license_d",
+        "f_rank_days:mage_license_d",
+        "f_rank_days:herbalist_license_d",
+        "f_rank_days:angler_license_d",
+        "f_rank_days:chef_license_d",
+        "f_rank_days:prospector_license_d",
+        "f_rank_days:pathfinder_license_d",
+        "f_rank_days:berserker_license_d"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFB397D9",
+      "endColor": "#FF725297",
+      "bgColor": "#F01D1711",
+      "priority": -103,
+      "selectors": [
+        "f_rank_days:farmer_license_c",
+        "f_rank_days:swordsman_license_c",
+        "f_rank_days:alchemist_license_c",
+        "f_rank_days:blacksmith_license_c",
+        "f_rank_days:healer_license_c",
+        "f_rank_days:relic_researcher_license_c",
+        "f_rank_days:ranger_license_c",
+        "f_rank_days:mage_license_c",
+        "f_rank_days:herbalist_license_c",
+        "f_rank_days:angler_license_c",
+        "f_rank_days:chef_license_c",
+        "f_rank_days:prospector_license_c",
+        "f_rank_days:pathfinder_license_c",
+        "f_rank_days:berserker_license_c"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFDA8F83",
+      "endColor": "#FF9B5149",
+      "bgColor": "#F01D1711",
+      "priority": -104,
+      "selectors": [
+        "f_rank_days:farmer_license_b",
+        "f_rank_days:swordsman_license_b",
+        "f_rank_days:alchemist_license_b",
+        "f_rank_days:blacksmith_license_b",
+        "f_rank_days:healer_license_b",
+        "f_rank_days:relic_researcher_license_b",
+        "f_rank_days:ranger_license_b",
+        "f_rank_days:mage_license_b",
+        "f_rank_days:herbalist_license_b",
+        "f_rank_days:angler_license_b",
+        "f_rank_days:chef_license_b",
+        "f_rank_days:prospector_license_b",
+        "f_rank_days:pathfinder_license_b",
+        "f_rank_days:berserker_license_b"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFE2BD70",
+      "endColor": "#FFB1792B",
+      "bgColor": "#F01D1711",
+      "priority": -105,
+      "selectors": [
+        "f_rank_days:farmer_license_a",
+        "f_rank_days:swordsman_license_a",
+        "f_rank_days:alchemist_license_a",
+        "f_rank_days:blacksmith_license_a",
+        "f_rank_days:healer_license_a",
+        "f_rank_days:relic_researcher_license_a",
+        "f_rank_days:ranger_license_a",
+        "f_rank_days:mage_license_a",
+        "f_rank_days:herbalist_license_a",
+        "f_rank_days:angler_license_a",
+        "f_rank_days:chef_license_a",
+        "f_rank_days:prospector_license_a",
+        "f_rank_days:pathfinder_license_a",
+        "f_rank_days:berserker_license_a"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "10_#FFE6D49C_#FFBCE6EC_#FFCAB9EA_#FFFFCF82",
+      "endColor": "10_#FFBCE6EC_#FFCAB9EA_#FFFFCF82_#FFE6D49C",
+      "bgColor": "#F01D1711",
+      "priority": -107,
+      "selectors": [
+        "f_rank_days:farmer_license_s",
+        "f_rank_days:swordsman_license_s",
+        "f_rank_days:alchemist_license_s",
+        "f_rank_days:blacksmith_license_s",
+        "f_rank_days:healer_license_s",
+        "f_rank_days:relic_researcher_license_s",
+        "f_rank_days:ranger_license_s",
+        "f_rank_days:mage_license_s",
+        "f_rank_days:herbalist_license_s",
+        "f_rank_days:angler_license_s",
+        "f_rank_days:chef_license_s",
+        "f_rank_days:prospector_license_s",
+        "f_rank_days:pathfinder_license_s",
+        "f_rank_days:berserker_license_s"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FF77AEDD",
+      "endColor": "#FF3C608C",
+      "bgColor": "#F01D1711",
+      "priority": -201,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>0+&visual_tier<2"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFB397D9",
+      "endColor": "#FF725297",
+      "bgColor": "#F01D1711",
+      "priority": -202,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>1+&visual_tier<3"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFDA8F83",
+      "endColor": "#FF9B5149",
+      "bgColor": "#F01D1711",
+      "priority": -203,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>2+&visual_tier<4"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFE2BD70",
+      "endColor": "#FFB1792B",
+      "bgColor": "#F01D1711",
+      "priority": -204,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>3+&visual_tier<5"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "7_#FFFFD585_#FFFFA657_#FFFFFFC4",
+      "endColor": "#FFCE8238",
+      "bgColor": "#F01D1711",
+      "priority": -205,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>4+&visual_tier<6"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "10_#FFE6D49C_#FFBCE6EC_#FFCAB9EA_#FFFFCF82",
+      "endColor": "10_#FFBCE6EC_#FFCAB9EA_#FFFFCF82_#FFE6D49C",
+      "bgColor": "#F01D1711",
+      "priority": -206,
+      "selectors": [
+        "&f_rank_enhance+&visual_tier>5+&visual_tier<7"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFB7AE99",
+      "endColor": "#FF7D7362",
+      "bgColor": "#F01D1711",
+      "priority": -90,
+      "selectors": [
+        "f_rank_days:guild_citizen_card",
+        "f_rank_days:guild_job_card_f",
+        "f_rank_days:copper_coin"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FF77AEDD",
+      "endColor": "#FF3C608C",
+      "bgColor": "#F01D1711",
+      "priority": -92,
+      "selectors": [
+        "f_rank_days:silver_coin"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "#FFE2BD70",
+      "endColor": "#FFB1792B",
+      "bgColor": "#F01D1711",
+      "priority": -95,
+      "selectors": [
+        "f_rank_days:gold_coin"
+      ]
+    },
+    {
+      "image": "legendarytooltips:textures/gui/tooltip_borders.png",
+      "index": 0,
+      "startColor": "7_#FFFFD585_#FFFFA657_#FFFFFFC4",
+      "endColor": "#FFCE8238",
+      "bgColor": "#F01D1711",
+      "priority": -96,
+      "selectors": [
+        "f_rank_days:wrought_challenge_sigil",
+        "f_rank_days:wrought_relic_shard"
+      ]
+    }
+  ]
+}

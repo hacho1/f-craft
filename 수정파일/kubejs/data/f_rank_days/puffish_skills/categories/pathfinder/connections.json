@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "pathfinder_node_1",
+        "pathfinder_node_2"
+      ],
+      [
+        "pathfinder_node_2",
+        "pathfinder_node_3"
+      ],
+      [
+        "pathfinder_node_3",
+        "pathfinder_node_4"
+      ],
+      [
+        "pathfinder_node_4",
+        "pathfinder_node_5"
+      ],
+      [
+        "pathfinder_node_5",
+        "pathfinder_node_6"
+      ],
+      [
+        "pathfinder_node_6",
+        "pathfinder_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}

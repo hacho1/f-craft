@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "f_rank_days:ore_mana_stone_placed",
+    "f_rank_days:ore_hardened_placed"
+  ],
+  "step": "underground_ores"
+}

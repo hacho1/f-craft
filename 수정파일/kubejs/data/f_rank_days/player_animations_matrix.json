@@ -1,0 +1,20 @@
+{
+  "schema_version": 7.1,
+  "design_principle": "모드 개수를 무리하게 늘리지 않고 Stage 1(Better Combat 1.9.0) -> Stage 2(Not Enough Animations 1.9.2) -> Stage 3(선택: Eating Animation 5.1.0) 순서로 계층을 분리해 팔 회전·식사 모션 중복·농작물 오타격·CustomNPCs 충돌을 원천 차단함",
+  "customnpcs_isolation_note": "playerAnimator와 Not Enough Animations는 AbstractClientPlayer(실제 플레이어 엔티티)에만 바인딩되며 CustomNPCs(EntityCustomNpc) 모델에는 자동 적용되지 않으므로 스킨·모델 깨짐 충돌이 발생하지 않음.",
+  "actions_13_support_matrix": [
+    { "action": "걷기 (Walking)", "supported": true, "provider": "Not Enough Animations 1.9.2 (보간 스무딩) + Vanilla", "first_person": "기본 흔들림 유지", "third_person": "팔·다리 전환 보간 자연화" },
+    { "action": "달리기 (Sprinting)", "supported": true, "provider": "Not Enough Animations 1.9.2 (enableAnimationSmoothing)", "first_person": "기본 시야 유지", "third_person": "질주 자세 자연 전환" },
+    { "action": "점프 및 착지 (Jump & Land)", "supported": true, "provider": "Not Enough Animations 1.9.2 (다리·팔 공중 보간, 과장된 구르기 없음)", "first_person": "시야 어지럼증 없음", "third_person": "공중·착지 사지 보간 지원 (※ 아크로바틱 구르기는 별도 회피 모드 미사용으로 비포함)" },
+    { "action": "웅크리기 (Sneaking)", "supported": true, "provider": "Not Enough Animations 1.9.2 + Vanilla", "first_person": "시선 하강 정상", "third_person": "부드러운 웅크림 전환" },
+    { "action": "수영 (Swimming)", "supported": true, "provider": "Vanilla 1.20.1 + Not Enough Animations 1.9.2", "first_person": "정상", "third_person": "수영·입수 팔 동작 보간" },
+    { "action": "사다리 오르기 (Ladder Climbing)", "supported": true, "provider": "Not Enough Animations 1.9.2 (enableLadderAnimation=true)", "first_person": "시야 방해 없음", "third_person": "사다리 단에 맞춰 양손·발 교차 등반" },
+    { "action": "음식 먹기 (Eating)", "supported": true, "provider": "Stage 2: Not Enough Animations 1.9.2 (3인칭 팔 섭취 동작) / Stage 3 선택: Eating Animation 5.1.0 (아이템 스프라이트 베어물기)", "first_person": "Stage 3 추가 시 아이템 아이콘 변화 지원", "third_person": "입으로 가져가는 자연스러운 식사 모션 (두 모드 계층이 달라 중복 깨짐 없음)" },
+    { "action": "음료 마시기 (Drinking)", "supported": true, "provider": "Not Enough Animations 1.9.2 (enableDrinkingAnimation=true) + Stage 3 선택", "first_person": "물약·우유 음용 정상", "third_person": "병을 기울여 마시는 3인칭 모션" },
+    { "action": "지도 보기 (Holding Map / Book)", "supported": true, "provider": "Not Enough Animations 1.9.2 (enableMapHoldingAnimation=true, enableBookReadingAnimation=true)", "first_person": "지도·등록증 가독성 100% 유지", "third_person": "양손으로 지도·정착 안내서·등록증 사본을 펼쳐 보는 모션" },
+    { "action": "아이템 들기 (Item Holding / Torch / Lantern)", "supported": true, "provider": "Not Enough Animations 1.9.2", "first_person": "정상", "third_person": "횃불·랜턴·보트 노젓기 자세 보정" },
+    { "action": "무기 공격 (Weapon Attack)", "supported": true, "provider": "Better Combat 1.9.0+1.20.1 (playerAnimator)", "first_person": "showingArmsInFirstPerson=false로 시야 가림 방지", "third_person": "무기 종류(검·도끼·창)별 전용 궤적 공격 모션" },
+    { "action": "검술 전투 (Swordplay Combos)", "supported": true, "provider": "Better Combat 1.9.0+1.20.1 (연속 베기·찌르기 콤보)", "first_person": "타격 판정 및 크로스헤어 하이라이트 정상", "third_person": "좌우 교차 베기 및 피니시 연속 동작 (NEA의 검 방어 개입 OFF로 팔 꼬임 차단)" },
+    { "action": "농사 및 도구 사용 (Farming & Tool Use)", "supported": true, "provider": "Vanilla + Better Combat (swingThruGrass=false) + NEA (enableHoeingAnimation=false)", "first_person": "정확한 경작·수확 타겟팅", "third_person": "기본 도구 스윙 유지 (무기 스윙이 농작물을 오타격하지 않도록 보호, 전용 경작 전신 모션은 팔 꼬임 방지를 위해 비활성화)" }
+  ]
+}

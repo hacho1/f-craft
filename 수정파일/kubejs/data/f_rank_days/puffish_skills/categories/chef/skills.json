@@ -1,0 +1,44 @@
+{
+  "chef_node_1": {
+    "x": 0,
+    "y": -144,
+    "definition": "chef_foundation",
+    "root": true
+  },
+  "chef_node_2": {
+    "x": 0,
+    "y": -96,
+    "definition": "chef_passive_2",
+    "root": false
+  },
+  "chef_node_3": {
+    "x": 0,
+    "y": -48,
+    "definition": "chef_passive_3",
+    "root": false
+  },
+  "chef_node_4": {
+    "x": 0,
+    "y": 0,
+    "definition": "chef_passive_4",
+    "root": false
+  },
+  "chef_node_5": {
+    "x": 0,
+    "y": 48,
+    "definition": "chef_passive_5",
+    "root": false
+  },
+  "chef_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "chef_passive_6",
+    "root": false
+  },
+  "chef_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "chef_passive_7",
+    "root": false
+  }
+}

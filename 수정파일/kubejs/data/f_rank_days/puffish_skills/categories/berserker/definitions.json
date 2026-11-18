@@ -1,0 +1,198 @@
+{
+  "berserker_foundation": {
+    "title": "1. 도끼의 무게",
+    "description": "도끼 피해 +6%",
+    "extra_description": "필요 포인트 1 · 누적 사용 0 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_1",
+          "lock_command": "tag @s remove frank_phase4_berserker_1"
+        }
+      }
+    ]
+  },
+  "berserker_passive_2": {
+    "title": "2. 방패 파쇄",
+    "description": "도끼 강타 시 방패 무력화 · 넉백 저항 +15%",
+    "extra_description": "필요 포인트 1 · 누적 사용 1 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "required_spent_points": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_2",
+          "lock_command": "tag @s remove frank_phase4_berserker_2"
+        }
+      }
+    ]
+  },
+  "berserker_passive_3": {
+    "title": "3. 강인한 육체",
+    "description": "최대 체력 +4 HP",
+    "extra_description": "필요 포인트 2 · 누적 사용 2 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_3",
+          "lock_command": "tag @s remove frank_phase4_berserker_3"
+        }
+      }
+    ]
+  },
+  "berserker_passive_4": {
+    "title": "4. 피의 투지",
+    "description": "체력 50% 이하일 때 공격력 +18% · 받는 피해 -10%",
+    "extra_description": "필요 포인트 2 · 누적 사용 4 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_4",
+          "lock_command": "tag @s remove frank_phase4_berserker_4"
+        }
+      }
+    ]
+  },
+  "berserker_passive_5": {
+    "title": "5. 전장의 포효",
+    "description": "도끼 강타 치명타 시 주변 일반 적 위축",
+    "extra_description": "필요 포인트 2 · 누적 사용 6 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "required_spent_points": 6,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_5",
+          "lock_command": "tag @s remove frank_phase4_berserker_5"
+        }
+      }
+    ]
+  },
+  "berserker_passive_6": {
+    "title": "6. 피의 수확",
+    "description": "처치 시 3 HP · 10 MP 회복",
+    "extra_description": "필요 포인트 3 · 누적 사용 8 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 8,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_6",
+          "lock_command": "tag @s remove frank_phase4_berserker_6"
+        }
+      }
+    ]
+  },
+  "berserker_passive_7": {
+    "title": "7. 불굴의 선봉장",
+    "description": "휠윈드 +1초 · 치명상 시 180초마다 5초 불사 광란",
+    "extra_description": "필요 포인트 3 · 누적 사용 11 이상",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "required_spent_points": 11,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_phase4_berserker_7",
+          "lock_command": "tag @s remove frank_phase4_berserker_7"
+        }
+      }
+    ]
+  }
+}

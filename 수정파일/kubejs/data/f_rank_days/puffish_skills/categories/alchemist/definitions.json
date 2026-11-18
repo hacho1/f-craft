@@ -1,0 +1,28 @@
+{
+  "alchemist_foundation": {
+    "title": "시약 전처리 기초",
+    "description": "약초 손질과 추출 온도를 익힙니다. (향후 확장 슬롯)",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brewing_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add frank_skill_alchemist_1_prep",
+          "lock_command": "tag @s remove frank_skill_alchemist_1_prep"
+        }
+      }
+    ]
+  }
+}

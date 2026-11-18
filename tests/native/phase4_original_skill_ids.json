@@ -1,0 +1,42 @@
+{
+  "farmer": [
+    "farmer_node_1_basic",
+    "farmer_node_2_soil",
+    "farmer_node_3_research",
+    "farmer_node_4_advanced",
+    "farmer_node_5_expert"
+  ],
+  "swordsman": [
+    "swordsman_node_1"
+  ],
+  "berserker": [
+    "berserker_node_1"
+  ],
+  "ranger": [
+    "ranger_node_1"
+  ],
+  "healer": [
+    "healer_node_1"
+  ],
+  "herbalist": [
+    "herbalist_node_1"
+  ],
+  "angler": [
+    "angler_node_1"
+  ],
+  "chef": [
+    "chef_node_1"
+  ],
+  "blacksmith": [
+    "blacksmith_node_1"
+  ],
+  "relic_researcher": [
+    "relic_researcher_node_1"
+  ],
+  "prospector": [
+    "prospector_node_1"
+  ],
+  "pathfinder": [
+    "pathfinder_node_1"
+  ]
+}

@@ -1,0 +1,2133 @@
+{
+  "manifest_version": "11.0.0-private",
+  "project": "《F-Craft》 승급 HUD · 메달리온 아이콘 · 본토 이동망 · 개인 군마",
+  "minecraft_version": "1.20.1",
+  "java_version": "Java 17 (OpenJDK / Temurin 17 LTS 고정)",
+  "pinned_forge_version": "1.20.1-47.4.28",
+  "loader_url": "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html",
+  "excluded_mods_explicit": [
+    {
+      "name": "Epic Fight",
+      "reason": "Better Combat + Combat Roll + 자체 제작 R키 패링 엔진 조합과 모션/타격 판정 충돌을 방지하기 위해 기본 구성에서 제외합니다."
+    },
+    {
+      "name": "OptiFine",
+      "reason": "FancyMenu v3 공식 비호환 목록에 해당하므로, 대안인 Embeddium + Oculus 조합만 사용합니다."
+    },
+    {
+      "name": "Drippy Loading Screen",
+      "reason": "기존 v9.6에서 사용자가 요청한 바닐라 로딩 화면 복원을 유지합니다. 누락된 실제 설치 항목을 다시 추가하지 않습니다."
+    }
+  ],
+  "pinned_required_mods": [
+    {
+      "category": "CORE_SCRIPTING",
+      "name": "KubeJS (Forge)",
+      "mod_id": "kubejs",
+      "pinned_file": "kubejs-forge-2001.6.5-build.26.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs/files/5853326",
+      "required_dependencies": [
+        {
+          "name": "Rhino",
+          "mod_id": "rhino",
+          "pinned_file": "rhino-forge-2001.2.3-build.10.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/rhino",
+          "observed_version": "2001.2.3-build.10"
+        },
+        {
+          "name": "Architectury API",
+          "mod_id": "architectury",
+          "pinned_file": "architectury-9.2.14-forge.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+          "observed_version": "9.2.14"
+        }
+      ],
+      "observed_version": "2001.6.5-build.26"
+    },
+    {
+      "category": "UI_MAIN_MENU",
+      "name": "FancyMenu (Forge 1.20.1)",
+      "mod_id": "fancymenu",
+      "pinned_file": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu/files/7256735",
+      "required_dependencies": [
+        {
+          "name": "Konkrete",
+          "mod_id": "konkrete",
+          "pinned_file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete/files/5028413",
+          "observed_version": "1.8.0"
+        },
+        {
+          "name": "Melody",
+          "mod_id": "melody",
+          "pinned_file": "melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/melody/files/4983991",
+          "observed_version": "1.0.1"
+        }
+      ],
+      "observed_version": "3.8.1"
+    },
+    {
+      "category": "UI_DEPENDENCY",
+      "name": "Konkrete (Forge 1.20.1)",
+      "mod_id": "konkrete",
+      "pinned_file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete/files/5028413",
+      "observed_version": "1.8.0"
+    },
+    {
+      "category": "UI_DEPENDENCY",
+      "name": "Melody (Forge 1.20.1)",
+      "mod_id": "melody",
+      "pinned_file": "melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/melody/files/4983991",
+      "observed_version": "1.0.1"
+    },
+    {
+      "category": "QUEST_AND_SKILLS",
+      "name": "FTB Quests (Forge)",
+      "mod_id": "ftbquests",
+      "pinned_file": "ftb-quests-forge-2001.4.18.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/7608804",
+      "required_dependencies": [
+        {
+          "name": "FTB Library",
+          "mod_id": "ftblibrary",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+          "pinned_file": "ftb-library-forge-2001.2.13.jar",
+          "observed_version": "2001.2.13"
+        },
+        {
+          "name": "FTB Teams",
+          "mod_id": "ftbteams",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+          "pinned_file": "ftb-teams-forge-2001.3.2.jar",
+          "observed_version": "2001.3.2"
+        },
+        {
+          "name": "Architectury API",
+          "mod_id": "architectury",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+          "pinned_file": "architectury-9.2.14-forge.jar",
+          "observed_version": "9.2.14"
+        }
+      ],
+      "observed_version": "2001.4.18"
+    },
+    {
+      "category": "QUEST_AND_SKILLS",
+      "name": "Pufferfish's Skills",
+      "mod_id": "puffish_skills",
+      "pinned_file": "puffish_skills-0.16.8-1.20-forge.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/puffish-skills",
+      "observed_version": "0.16.8"
+    },
+    {
+      "category": "NPC_WORLD",
+      "name": "CustomNPCs-Unofficial (Forge 1.20.1)",
+      "mod_id": "customnpcs",
+      "pinned_file": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/customnpcs-unofficial/files/7188795",
+      "observed_version": "1.20.1.20260711"
+    },
+    {
+      "category": "WEAPONS",
+      "name": "Simply Swords",
+      "mod_id": "simplyswords",
+      "pinned_file": "simplyswords-forge-1.56.0-1.20.1.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simply-swords/files/5639538",
+      "required_dependencies": [
+        {
+          "name": "Architectury API",
+          "mod_id": "architectury",
+          "pinned_file": "architectury-9.2.14-forge.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+          "observed_version": "9.2.14"
+        },
+        {
+          "name": "Cloth Config API",
+          "mod_id": "cloth_config",
+          "pinned_file": "cloth-config-11.1.136-forge.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+          "observed_version": "11.1.136"
+        }
+      ],
+      "observed_version": "1.56.0-1.20.1"
+    },
+    {
+      "category": "FOOD_COOKING",
+      "name": "Farmer's Delight",
+      "mod_id": "farmersdelight",
+      "pinned_file": "FarmersDelight-1.20.1-1.3.4.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight/files/6597298",
+      "observed_version": "1.20.1-1.3.4"
+    },
+    {
+      "category": "FOOD_COOKING",
+      "name": "Delightful",
+      "mod_id": "delightful",
+      "pinned_file": "Delightful-1.20.1-3.7.4.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/delightful/files/6795369",
+      "required_dependencies": [
+        "farmersdelight"
+      ],
+      "compatibility_note": "FarmersDelight-1.20.1-1.2.8.jar 와 무패치 직결 호환 고정 (만약 1.3.x 사용 시 Delightful Fixes 추가 필요)",
+      "observed_version": "3.7.4"
+    },
+    {
+      "category": "COMBAT_DODGE",
+      "name": "Better Combat",
+      "mod_id": "bettercombat",
+      "pinned_file": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus/files/7287334",
+      "required_dependencies": [
+        {
+          "name": "playerAnimator",
+          "mod_id": "playeranimator",
+          "pinned_file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/playeranimator",
+          "observed_version": "1.0.2-rc1+1.20"
+        },
+        {
+          "name": "Cloth Config API",
+          "mod_id": "cloth_config",
+          "pinned_file": "cloth-config-11.1.136-forge.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+          "observed_version": "11.1.136"
+        }
+      ],
+      "observed_version": "1.9.0+1.20.1"
+    },
+    {
+      "category": "COMBAT_DODGE",
+      "name": "Combat Roll",
+      "mod_id": "combatroll",
+      "pinned_file": "combatroll-forge-1.3.3+1.20.1.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/combat-roll/files/5625925",
+      "required_dependencies": [
+        "playeranimator",
+        "cloth_config"
+      ],
+      "verified_server_config": "config/combatroll/server.json5 (roll_cooldown: 1.5, invulnerable_ticks_upon_roll: 4 — 자체 스크립트 무적은 자동 비활성화하여 이중 무적 원천 차단)",
+      "observed_version": "1.3.3+1.20.1"
+    },
+    {
+      "category": "BOSS",
+      "name": "Mowzie's Mobs",
+      "mod_id": "mowziesmobs",
+      "pinned_file": "mowziesmobs-1.7.3.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
+      "required_dependencies": [
+        {
+          "name": "GeckoLib",
+          "mod_id": "geckolib",
+          "pinned_file": "geckolib-forge-1.20.1-4.4.9.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+          "observed_version": "4.4.9"
+        }
+      ],
+      "observed_version": "1.7.3"
+    },
+    {
+      "category": "NEW_WORLD_TEMPLATE_CLONER",
+      "name": "World Templates Reforged",
+      "mod_id": "worldtemplates",
+      "pinned_file": "worldtemplates-1.20.1-1.0.8-forge.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/world-templates-reforged/files/8915214",
+      "template_directory": "trilcera-template/",
+      "config_file": "config/worldtemplates-client.toml",
+      "observed_version": "1.0.8"
+    },
+    {
+      "category": "CLIENT_VISUAL",
+      "name": "Eating Animation",
+      "mod_id": "eatinganimation",
+      "pinned_file": "eatinganimation-1.20.1-5.1.0.jar",
+      "observed_version": "5.1.0",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/eating-animation-forge/files/5567578"
+    },
+    {
+      "category": "CLIENT_VISUAL",
+      "name": "Entity Model Features",
+      "mod_id": "entity_model_features",
+      "pinned_file": "entity_model_features-3.3.12-1.20.1-forge.jar",
+      "observed_version": "3.3.12",
+      "url": "https://modrinth.com/mod/entity-model-features"
+    },
+    {
+      "category": "CLIENT_VISUAL",
+      "name": "Entity Texture Features",
+      "mod_id": "entity_texture_features",
+      "pinned_file": "entity_texture_features-7.2.7-1.20.1-forge.jar",
+      "observed_version": "7.2.7",
+      "url": "https://modrinth.com/mod/entitytexturefeatures"
+    },
+    {
+      "category": "CLIENT_VISUAL",
+      "name": "GroovyModLoader",
+      "mod_id": "gml",
+      "pinned_file": "gml-4.0.11-all.jar",
+      "observed_version": "4.0.11",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gml/files/6434243"
+    },
+    {
+      "category": "CLIENT_VISUAL",
+      "name": "NotEnoughAnimations",
+      "mod_id": "notenoughanimations",
+      "pinned_file": "notenoughanimations-forge-1.9.2-mc1.20.1.jar",
+      "observed_version": "1.9.2",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations"
+    },
+    {
+      "category": "LAND_PROTECTION",
+      "name": "FTB Chunks (Forge 1.20.1)",
+      "mod_id": "ftbchunks",
+      "pinned_file": "ftb-chunks-forge-2001.3.8.jar",
+      "observed_version": "2001.3.8",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge/files/8216874",
+      "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02",
+      "redistribution": "external JAR excluded from first-party public patch; install from official source",
+      "required_dependencies": [
+        "architectury 9.2.14",
+        "ftblibrary 2001.2.13",
+        "ftbteams 2001.3.2",
+        "ftbxmodcompat 2.1.3"
+      ]
+    },
+    {
+      "category": "WORLD_TEMPLATE_FIX",
+      "name": "F-Craft Starter Template Bridge",
+      "mod_id": "fcraft_template_bridge",
+      "pinned_file": "fcraft-template-bridge-1.0.0-forge-1.20.1.jar",
+      "observed_version": "1.0.0",
+      "sha256": "feae27c6760c2507273e0b2aef3334f581c242f6d6aa1a1e6c1893a3359d57d9",
+      "license": "MIT",
+      "source": "개별작업/template_bridge/src",
+      "side": "client mixins; dedicated-safe container",
+      "required_dependencies": [
+        "worldtemplates 1.0.8 (client)"
+      ]
+    },
+    {
+      "category": "GLOBAL_RESOURCE_PACK_STACK",
+      "name": "Paxi (Forge)",
+      "mod_id": "paxi",
+      "pinned_file": "Paxi-1.20-Forge-4.0.jar",
+      "url": "https://modrinth.com/mod/paxi/version/C7buFh0l",
+      "observed_version": "1.20-Forge-4.0",
+      "sha256": "dd18dd9696d099137b170076676e8411e3d8385af15941f68472f21167266f1a",
+      "required_dependencies": [
+        {
+          "name": "YUNG's API (Forge)",
+          "mod_id": "yungsapi",
+          "pinned_file": "YungsApi-1.20-Forge-4.0.6.jar",
+          "observed_version": "1.20-Forge-4.0.6",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api"
+        }
+      ]
+    },
+    {
+      "category": "GLOBAL_RESOURCE_PACK_STACK",
+      "name": "YUNG's API (Forge)",
+      "mod_id": "yungsapi",
+      "pinned_file": "YungsApi-1.20-Forge-4.0.6.jar",
+      "observed_version": "1.20-Forge-4.0.6",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
+      "alreadyInstalledBeforeV98": true
+    },
+    {
+      "category": "BOSS_REQUIRED",
+      "name": "Bosses of Mass Destruction",
+      "mod_id": "bosses_of_mass_destruction",
+      "pinned_file": "BOMD-Forge-1.20.1-1.1.2.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge/files/5067728",
+      "sha256": "9d064557007fbf8a48da92034209b209edd99a16a5017ee104cdc13206390441",
+      "bytes": 1753623,
+      "required_dependencies": [
+        {
+          "modId": "forge",
+          "mandatory": true,
+          "versionRange": "[47,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "minecraft",
+          "mandatory": true,
+          "versionRange": "[1.20.1,1.21)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "cerbons_api",
+          "mandatory": true,
+          "versionRange": "[1.1.0,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "geckolib",
+          "mandatory": true,
+          "versionRange": "[4.2.3,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "cloth_config",
+          "mandatory": true,
+          "versionRange": "[11.1.106,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        }
+      ]
+    },
+    {
+      "category": "BOSS_REQUIRED",
+      "name": "Cerbons API",
+      "mod_id": "cerbons_api",
+      "pinned_file": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api/files/5050080",
+      "sha256": "54a0a20da56ab1af2d0d7f5cf1133c059a7523485d567521084f822e81505dfb",
+      "bytes": 241148,
+      "required_dependencies": [
+        {
+          "modId": "forge",
+          "mandatory": true,
+          "versionRange": "[47,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "minecraft",
+          "mandatory": true,
+          "versionRange": "[1.20.1,1.21)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        }
+      ]
+    },
+    {
+      "category": "EXPLORATION_RECOMMENDED",
+      "name": "Nature's Compass",
+      "mod_id": "naturescompass",
+      "pinned_file": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/7892948",
+      "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197",
+      "bytes": 227495,
+      "required_dependencies": [
+        {
+          "modId": "forge",
+          "mandatory": true,
+          "versionRange": "[47,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "minecraft",
+          "mandatory": true,
+          "versionRange": "[1.20.1,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        }
+      ]
+    },
+    {
+      "category": "CLIENT_BOSS_PRESENTATION",
+      "name": "Boss Intros",
+      "mod_id": "vitral_bossintros",
+      "pinned_file": "bossintros-forge-mc1.20.1-0.1.4.jar",
+      "observed_version": "0.1.4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/boss-intros-cinematic-boss-titles-entrances/files/9520539",
+      "sha256": "d4683fc9de75f8799fe124d542dc7ea838f33e3581f66323597adb74665d9fc3",
+      "side": "CLIENT",
+      "required_dependencies": []
+    },
+    {
+      "category": "CLIENT_BOSS_PRESENTATION",
+      "name": "Boss Bars",
+      "mod_id": "vitral_bossbars",
+      "pinned_file": "bossbars-forge-mc1.20.1-0.1.4.jar",
+      "observed_version": "0.1.4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/boss-bars-animated-health-bars-for-every-boss/files/9486187",
+      "sha256": "1bfd0fbbbe4ac04f4d6fb9a22b25bb503c40c0992da68739d194c091d05785d2",
+      "side": "CLIENT",
+      "required_dependencies": []
+    },
+    {
+      "category": "TRAVEL_NETWORK",
+      "name": "Waystones",
+      "mod_id": "waystones",
+      "pinned_file": "waystones-forge-1.20.1-14.1.21.jar",
+      "observed_version": "14.1.21",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waystones/files/8849482",
+      "project_id": 245755,
+      "file_id": 8849482,
+      "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+      "bytes": 536782,
+      "installation_side": "both"
+    },
+    {
+      "category": "TRAVEL_NETWORK",
+      "name": "Balm",
+      "mod_id": "balm",
+      "pinned_file": "balm-forge-1.20.1-7.3.44.jar",
+      "observed_version": "7.3.44",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/balm/files/8969708",
+      "project_id": 531761,
+      "file_id": 8969708,
+      "sha256": "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3",
+      "bytes": 561741,
+      "installation_side": "both"
+    }
+  ],
+  "optional_dev_or_future_mods": [
+    {
+      "name": "Embeddium + Oculus (권장 그래픽 최적화·셰이더 로더, FancyMenu 호환 검증 완료)",
+      "mod_id": "embeddium",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium"
+    },
+    {
+      "name": "WorldEdit (개발자 건축 점검 시에만 선택 탑재)",
+      "mod_id": "worldedit",
+      "pinned_file": "worldedit-mod-7.2.15.jar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/worldedit"
+    },
+    {
+      "mod_id": "nomadictents",
+      "name": "Nomadic Tents",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/nomadic-tents/files/6155502",
+      "installed": false,
+      "reason": "Not installed; retain verified UUID-owned9x9 camp fallback."
+    },
+    {
+      "mod_id": "dimensionfixer",
+      "name": "Dimension Fixer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dimensionfixer",
+      "installed": false,
+      "reason": "Not installed; owned native Forge portal router is used."
+    },
+    {
+      "mod_id": "dimensionlink",
+      "name": "Dimension Link",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dimensionlink",
+      "installed": false,
+      "reason": "Not installed; avoid duplicate routing with owned Forge portal router."
+    }
+  ],
+  "display_name_ko": "에프 크래프트",
+  "internal_namespace": "f_rank_days",
+  "release_channel": "private-development",
+  "verification_status": "This manifest describes package inputs, not a self-certified Minecraft execution. Exact final native/client execution and scoped construction evidence are recorded in the external verification reports referenced under phase7.verificationEvidence.",
+  "observed_installed_mods": [
+    {
+      "file": "alexsmobs-1.22.9.jar",
+      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+      "bytes": 26350793,
+      "licenseDeclaredInJar": "GNU LESSER GENERAL PUBLIC LICENSE",
+      "mods": [
+        {
+          "id": "alexsmobs",
+          "name": "Alex's Mobs",
+          "version": "1.22.9"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "bytes": 580602,
+      "licenseDeclaredInJar": "GNU LGPLv3",
+      "mods": [
+        {
+          "id": "architectury",
+          "name": "Architectury",
+          "version": "9.2.14"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1",
+      "bytes": 1054339,
+      "licenseDeclaredInJar": "GPL-3.0",
+      "mods": [
+        {
+          "id": "bettercombat",
+          "name": "Better Combat",
+          "version": "1.9.0+1.20.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "citadel-2.6.3-1.20.1.jar",
+      "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+      "bytes": 3185275,
+      "licenseDeclaredInJar": "GNU LESSER GENERAL PUBLIC LICENSE",
+      "mods": [
+        {
+          "id": "citadel",
+          "name": "Citadel",
+          "version": "2.6.3"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "bytes": 1181413,
+      "licenseDeclaredInJar": "GNU LGPLv3",
+      "mods": [
+        {
+          "id": "cloth_config",
+          "name": "Cloth Config v10 API",
+          "version": "11.1.136"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "collective-1.20.1-8.39.jar",
+      "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb",
+      "bytes": 745947,
+      "licenseDeclaredInJar": "All rights reserved",
+      "mods": [
+        {
+          "id": "collective",
+          "name": "Collective",
+          "version": "8.39"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "combatroll-forge-1.3.3+1.20.1.jar",
+      "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30",
+      "bytes": 217962,
+      "licenseDeclaredInJar": "GPL-3.0",
+      "mods": [
+        {
+          "id": "combatroll",
+          "name": "Combat Roll",
+          "version": "1.3.3+1.20.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "Continents_1.20.1_v1.1.2.jar",
+      "sha256": "6c82c47f4e55af8c039bb1863ff3095f750c653716652fbd16acd53c124e2f85",
+      "bytes": 60401,
+      "licenseDeclaredInJar": "Stardust Labs License",
+      "mods": [
+        {
+          "id": "continents",
+          "name": "Continents",
+          "version": "1.1.2"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "corpse-forge-1.20.1-1.0.23.jar",
+      "sha256": "9f639204588512abe767bb5c2ff97d41f50352af916de939ac8029c95d57ae7b",
+      "bytes": 245643,
+      "licenseDeclaredInJar": "All rights reserved",
+      "mods": [
+        {
+          "id": "corpse",
+          "name": "Corpse",
+          "version": "1.20.1-1.0.23"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar",
+      "sha256": "604916a1cd0949fd426cab5fad8f839037d7e6f74d9f18a9afbeaa7731edfc38",
+      "bytes": 10873769,
+      "licenseDeclaredInJar": "CC BY-NC",
+      "mods": [
+        {
+          "id": "customnpcs",
+          "name": "Custom NPCs",
+          "version": "1.20.1.20260711"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "Delightful-1.20.1-3.7.4.jar",
+      "sha256": "37e48bd2cc26ce4669e8148c4c932c5aec904c1c62eb0b4ae16300b13b5ef46a",
+      "bytes": 1432463,
+      "licenseDeclaredInJar": "MIT License",
+      "mods": [
+        {
+          "id": "delightful",
+          "name": "Delightful",
+          "version": "3.7.4"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "delightfulfixes-1.20.1-1.2.4a.jar",
+      "sha256": "b964e41d731d45eda16ce6e2d7ba78e98ea39a01b3ae9854f1c869650275f8cc",
+      "bytes": 37994,
+      "licenseDeclaredInJar": "LGPLv3",
+      "mods": [
+        {
+          "id": "delightfulfixes",
+          "name": "Delightful Fixes",
+          "version": "1.20.1-1.2.4a"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "eatinganimation-1.20.1-5.1.0.jar",
+      "sha256": "506ffc2e2bcc5709c8121382c5d0428ca642ceaeebe2a9169c9b0475a83c657c",
+      "bytes": 294792,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "eatinganimation",
+          "name": "Eating Animation",
+          "version": "5.1.0"
+        }
+      ],
+      "newInV92": true,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "embeddium-0.3.31+mc1.20.1.jar",
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "bytes": 1320675,
+      "licenseDeclaredInJar": "LGPL-3.0-only",
+      "mods": [
+        {
+          "id": "embeddium",
+          "name": "Embeddium",
+          "version": "0.3.31+mc1.20.1"
+        },
+        {
+          "id": "rubidium",
+          "name": "Rubidium (Embeddium)",
+          "version": "0.7.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "entity_model_features-3.3.12-1.20.1-forge.jar",
+      "sha256": "d7caedcb7c848d605a9f075c71e0d13ad5194326e55a6f45a50a97a3d8d87920",
+      "bytes": 840669,
+      "licenseDeclaredInJar": "LGPL-3.0",
+      "mods": [
+        {
+          "id": "entity_model_features",
+          "name": "Entity Model Features",
+          "version": "3.3.12"
+        }
+      ],
+      "newInV92": true,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "entity_texture_features-7.2.7-1.20.1-forge.jar",
+      "sha256": "9a1a335b50026c1a2770254cd5f89f2f5c85f35a0a8ffeb1de9663c8b356c588",
+      "bytes": 1004366,
+      "licenseDeclaredInJar": "LGPL-3.0",
+      "mods": [
+        {
+          "id": "entity_texture_features",
+          "name": "Entity Texture Features",
+          "version": "7.2.7"
+        }
+      ],
+      "newInV92": true,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+      "sha256": "ba1ddf0f61def8ea87e7757ebb45f1390e1da0f7ebce1aff299b0a169b045858",
+      "bytes": 4472193,
+      "licenseDeclaredInJar": "DSMSLv3 (DON'T SNATCH MA STUFF LICENSE v3)",
+      "mods": [
+        {
+          "id": "fancymenu",
+          "name": "FancyMenu",
+          "version": "3.8.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "FarmersDelight-1.20.1-1.3.4.jar",
+      "sha256": "34f03eb671ea1ca579b00c98e4541404cb96d1a292014aed9cc5eb45ad8afbce",
+      "bytes": 3311051,
+      "licenseDeclaredInJar": "MIT License",
+      "mods": [
+        {
+          "id": "farmersdelight",
+          "name": "Farmer's Delight",
+          "version": "1.20.1-1.3.4"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "bytes": 123034,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "ferritecore",
+          "name": "Ferrite Core",
+          "version": "6.0.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "bytes": 780558,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "ftblibrary",
+          "name": "FTB Library",
+          "version": "2001.2.13"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "ftb-quests-forge-2001.4.18.jar",
+      "sha256": "62f0229c45d5bafd9747d129f159818e513df411840744b1beb15e0c68f3b0ca",
+      "bytes": 1251902,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "ftbquests",
+          "name": "FTB Quests",
+          "version": "2001.4.18"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "bytes": 252579,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "ftbteams",
+          "name": "FTB Teams",
+          "version": "2001.3.2"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "ftb-xmod-compat-forge-2.1.3.jar",
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+      "bytes": 129725,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "ftbxmodcompat",
+          "name": "FTB XMod Compat",
+          "version": "2.1.3"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "geckolib-forge-1.20.1-4.4.9.jar",
+      "sha256": "5d5fa42a52f11a7389b3fb1739efcfc6957ff8236872a71382fb67cff58b8fa2",
+      "bytes": 991552,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "geckolib",
+          "name": "GeckoLib 4",
+          "version": "4.4.9"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "gml-4.0.11-all.jar",
+      "sha256": "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4",
+      "bytes": 11125541,
+      "licenseDeclaredInJar": "MIT (official project LICENSE; language-provider JAR)",
+      "mods": [
+        {
+          "id": "gml",
+          "name": "GroovyModLoader",
+          "version": "4.0.11"
+        }
+      ],
+      "newInV92": true,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "Jade-1.20.1-Forge-11.13.3.jar",
+      "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4",
+      "bytes": 553487,
+      "licenseDeclaredInJar": "CC BY-NC-SA 4.0",
+      "mods": [
+        {
+          "id": "jade",
+          "name": "Jade",
+          "version": "11.13.3+forge"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "jei-1.20.1-forge-15.56.0.205.jar",
+      "sha256": "6b251e60a4719c874da89d750af97aa6498f6f4475e3ae79cb1288c7bf0cb65c",
+      "bytes": 1778129,
+      "licenseDeclaredInJar": "The MIT License (MIT)",
+      "mods": [
+        {
+          "id": "jei",
+          "name": "Just Enough Items",
+          "version": "15.56.0.205"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+      "bytes": 625185,
+      "licenseDeclaredInJar": "Apache-2.0",
+      "mods": [
+        {
+          "id": "konkrete",
+          "name": "Konkrete",
+          "version": "1.8.0"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "kubejs-forge-2001.6.5-build.26.jar",
+      "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb",
+      "bytes": 1658792,
+      "licenseDeclaredInJar": "GNU LGPLv3",
+      "mods": [
+        {
+          "id": "kubejs",
+          "name": "KubeJS",
+          "version": "2001.6.5-build.26"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+      "sha256": "546b1572f83e505eccb2813b7be9f6ef65f44ba5c6fee76583eb5f8da8328a5f",
+      "bytes": 37177,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "melody",
+          "name": "Melody",
+          "version": "1.0.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "modernfix-forge-5.27.91+mc1.20.1.jar",
+      "sha256": "b42fe87fd5ffa46f7db56c6cee01b08dea362baf4cc56a70db40d928773b5000",
+      "bytes": 1012942,
+      "licenseDeclaredInJar": "GNU LGPL 3.0",
+      "mods": [
+        {
+          "id": "modernfix",
+          "name": "ModernFix",
+          "version": "5.27.91+mc1.20.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "mowziesmobs-1.7.3.jar",
+      "sha256": "4d54374808bb4c91dc2660d67a2558dd4a79eb56ae4eeeec4e4d7446973cb0ba",
+      "bytes": 35239406,
+      "licenseDeclaredInJar": "custom",
+      "mods": [
+        {
+          "id": "mowziesmobs",
+          "name": "Mowzie's Mobs",
+          "version": "1.7.3"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "notenoughanimations-forge-1.9.2-mc1.20.1.jar",
+      "sha256": "d3453b38c4cf129c192a3694ed0ac881d26839e450aee7b33610fc0af90318a8",
+      "bytes": 455945,
+      "licenseDeclaredInJar": "tr7zw Protective License",
+      "mods": [
+        {
+          "id": "notenoughanimations",
+          "name": "NotEnoughAnimations",
+          "version": "1.9.2"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "oculus-mc1.20.1-1.8.0.jar",
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "bytes": 2851119,
+      "licenseDeclaredInJar": "LGPL-3.0-only",
+      "mods": [
+        {
+          "id": "oculus",
+          "name": "Oculus",
+          "version": "1.8.0"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+      "bytes": 181437,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "playeranimator",
+          "name": "Player Animator",
+          "version": "1.0.2-rc1+1.20"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "puffish_skills-0.16.8-1.20-forge.jar",
+      "sha256": "35d4c6f33b88b6eb5b90c20d290699cc4ac212dcfa4073d76295235162f93804",
+      "bytes": 587636,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "puffish_skills",
+          "name": "Pufferfish's Skills",
+          "version": "0.16.8"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "rangedjs-1.2.5-forge.jar",
+      "sha256": "ca23ac53b8fdf04f0e51450112c4e641c9bc0655eb958367f834cbff12fc5e1c",
+      "bytes": 83236,
+      "licenseDeclaredInJar": "GNU General Public License Version 3",
+      "mods": [
+        {
+          "id": "rangedjs",
+          "name": "RangedJS",
+          "version": "1.2.5-forge"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "rhino-forge-2001.2.3-build.10.jar",
+      "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+      "bytes": 1798244,
+      "licenseDeclaredInJar": "MPL-2.0",
+      "mods": [
+        {
+          "id": "rhino",
+          "name": "Rhino",
+          "version": "2001.2.3-build.10"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "simplyswords-forge-1.56.0-1.20.1.jar",
+      "sha256": "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f",
+      "bytes": 15202091,
+      "licenseDeclaredInJar": "Timefall Development License",
+      "mods": [
+        {
+          "id": "simplyswords",
+          "name": "Simply Swords",
+          "version": "1.56.0-1.20.1"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "starterstructure-1.20.1-4.2.jar",
+      "sha256": "34680de82b6dd8c53724bdb9edcdb124bf5567faa36392412e9d5fdc9c314b3a",
+      "bytes": 57396,
+      "licenseDeclaredInJar": "All rights reserved",
+      "mods": [
+        {
+          "id": "starterstructure",
+          "name": "Starter Structure",
+          "version": "4.2"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "Terralith_1.20.x_v2.5.4.jar",
+      "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+      "bytes": 3156901,
+      "licenseDeclaredInJar": "Stardust Labs License",
+      "mods": [
+        {
+          "id": "terralith",
+          "name": "Terralith",
+          "version": "2.5.4"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "both"
+    },
+    {
+      "file": "worldtemplates-1.20.1-1.0.8-forge.jar",
+      "sha256": "5d9f90be6c14e0b725d8e74fe992f57c634e005b8e2e1a1ae39b05901b3ab8da",
+      "bytes": 6582510,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "worldtemplates",
+          "name": "World Templates Reforged",
+          "version": "1.0.8"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "xaerominimap-forge-1.20.1-26.6.0.jar",
+      "sha256": "9b39cd06094d7631c8614d172d0ba8399c71c981530af417f12a7909fcb855bd",
+      "bytes": 2196194,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "xaerominimap",
+          "name": "Xaero's Minimap",
+          "version": "26.6.0"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "sha256": "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b",
+      "bytes": 1429424,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "xaeroworldmap",
+          "name": "Xaero's World Map",
+          "version": "1.47.0"
+        }
+      ],
+      "newInV92": false,
+      "installation_side": "client_only"
+    },
+    {
+      "file": "AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+      "version": "1.6.9",
+      "sha256": "537f84f1153369d61878965846a8ead7c5eae3a6ad917b04c02521ad76182ad2",
+      "bytes": 208850,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/advancement-plaques",
+      "download_url": "https://cdn.modrinth.com/data/9NM0dXub/versions/xqigG9AR/AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+      "version": "6.3.11",
+      "sha256": "63a4ea6ea11fa63982325306ae09268080c296633b6bfbf72dbd7c8514d4f114",
+      "bytes": 53432741,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/ambientsounds",
+      "download_url": "https://cdn.modrinth.com/data/fM515JnW/versions/YOYpWGZg/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      }
+    },
+    {
+      "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "version": "2.5.1+mc1.20.1",
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+      "bytes": 47428,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/appleskin",
+      "download_url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "license": {
+        "id": "Unlicense",
+        "name": "The Unlicense",
+        "url": null
+      }
+    },
+    {
+      "file": "comforts-forge-6.3.5+1.20.1.jar",
+      "version": "6.3.5+1.20.1",
+      "sha256": "a152c28880068000445e85ac73b10c19e94c2fb7932aa90fad48654141a8ad7b",
+      "bytes": 376472,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/comforts",
+      "download_url": "https://cdn.modrinth.com/data/SaCpeal4/versions/KgzjTw3n/comforts-forge-6.3.5%2B1.20.1.jar",
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      }
+    },
+    {
+      "file": "CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
+      "version": "2.12.42",
+      "sha256": "8d90a490c590613f79e51066bd885e5d93f947ab12790740c9b7cbd4e49b2676",
+      "bytes": 1144767,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/creativecore",
+      "download_url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/HGkNDl47/CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      }
+    },
+    {
+      "file": "EquipmentCompare-1.20.1-forge-1.3.7.jar",
+      "version": "1.3.7",
+      "sha256": "21805771b6fe1a05abf7c6c87689a60e97b167179ba31a5c4c2b47fb0a3b7632",
+      "bytes": 31704,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/equipment-compare",
+      "download_url": "https://cdn.modrinth.com/data/CYSUVOdj/versions/x1lxEKIp/EquipmentCompare-1.20.1-forge-1.3.7.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "handcrafted-forge-1.20.1-3.0.6.jar",
+      "version": "3.0.6",
+      "sha256": "1da3c7c524bfb656bb370757af55f08f1678e8e1cb934e1c4c04aa773ed64a79",
+      "bytes": 7111059,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/handcrafted",
+      "download_url": "https://cdn.modrinth.com/data/pJmCFF0p/versions/N7wZwOFy/handcrafted-forge-1.20.1-3.0.6.jar",
+      "license": {
+        "id": "LicenseRef-Terrarium-Licence",
+        "name": "",
+        "url": "https://github.com/terrarium-earth/Handcrafted/blob/1.19.2/LICENSE"
+      }
+    },
+    {
+      "file": "Iceberg-1.20.1-forge-1.1.25.jar",
+      "version": "1.1.25",
+      "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3",
+      "bytes": 134551,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/iceberg",
+      "download_url": "https://cdn.modrinth.com/data/5faXoLqX/versions/BQ8rJPXV/Iceberg-1.20.1-forge-1.1.25.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "ItemBorders-1.20.1-forge-1.2.2.jar",
+      "version": "1.2.2",
+      "sha256": "23710606b68c5367ef28d2efa55d8efc4a7d1df8ac1f232e4327977cd1a16b56",
+      "bytes": 20832,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/item-borders",
+      "download_url": "https://cdn.modrinth.com/data/b1fMg6sH/versions/JUW31p4D/ItemBorders-1.20.1-forge-1.2.2.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "version": "1.4.5",
+      "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e",
+      "bytes": 55258,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/legendary-tooltips",
+      "download_url": "https://cdn.modrinth.com/data/atHH8NyV/versions/JhxD2e6J/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "lootr-forge-1.20-0.7.35.94.jar",
+      "version": "0.7.35.94",
+      "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51",
+      "bytes": 463485,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/lootr",
+      "download_url": "https://cdn.modrinth.com/data/EltpO5cN/versions/mWTXC1ZX/lootr-forge-1.20-0.7.35.94.jar",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      }
+    },
+    {
+      "file": "moonlight-1.20-2.16.39-forge.jar",
+      "version": "1.20-2.16.39-forge",
+      "sha256": "b8488c5004906c8d16f764dd121eaf1c01c7ef614a3f8d6b029f05c9bbcd7754",
+      "bytes": 1423451,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/moonlight",
+      "download_url": "https://cdn.modrinth.com/data/twkfQtEc/versions/rF6052yd/moonlight-1.20-2.16.39-forge.jar",
+      "license": {
+        "id": "LicenseRef-LGPL-with-additional-dependency-clause",
+        "name": "",
+        "url": "https://github.com/MehVahdJukaar/Moonlight/blob/1.20/license.md"
+      }
+    },
+    {
+      "file": "Prism-1.20.1-forge-1.0.5.jar",
+      "version": "1.0.5",
+      "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240",
+      "bytes": 52205,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/prism-lib",
+      "download_url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/FFyss87M/Prism-1.20.1-forge-1.0.5.jar",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      }
+    },
+    {
+      "file": "resourcefullib-forge-1.20.1-2.1.26.jar",
+      "version": "2.1.26",
+      "sha256": "b9c00b2ea837da033a24e08730c9ceed566e24e3feb27b56626a8f14c7c00b45",
+      "bytes": 430148,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/resourceful-lib",
+      "download_url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/13n9Gw3Q/resourcefullib-forge-1.20.1-2.1.26.jar",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      }
+    },
+    {
+      "file": "sophisticatedbackpacks-1.20.1-3.26.20.2248.jar",
+      "version": "1.20.1-3.26.20.2248",
+      "sha256": "2fff04563a213f49fcb8affb5e39f609d0a3a51ef18221b162c6de1ec4ff34c4",
+      "bytes": 1233477,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/sophisticated-backpacks",
+      "download_url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/xviLgqVd/sophisticatedbackpacks-1.20.1-3.26.20.2248.jar",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      }
+    },
+    {
+      "file": "sophisticatedcore-1.20.1-1.5.30.2465.jar",
+      "version": "1.20.1-1.5.30.2465",
+      "sha256": "b359c5847460bc58c360224c0f57bb72cd1d0be8a2ccf14a28d6db7e44ed177b",
+      "bytes": 1774914,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/sophisticated-core",
+      "download_url": "https://cdn.modrinth.com/data/nmoqTijg/versions/FrNTdGKb/sophisticatedcore-1.20.1-1.5.30.2465.jar",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      }
+    },
+    {
+      "file": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "version": "forge-1.20.1-1.5.1",
+      "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108",
+      "bytes": 206984,
+      "installation_side": "client_only",
+      "source": "https://modrinth.com/mod/sound-physics-remastered",
+      "download_url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/x0sJ9PeR/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "license": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": null
+      }
+    },
+    {
+      "file": "supplementaries-1.20-3.1.44-forge.jar",
+      "version": "1.20-3.1.44-forge",
+      "sha256": "13c07f2b290f9f3dc8fcab8287ad699b0af16974291ad43c7cc95f8cf235a90b",
+      "bytes": 13686603,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/supplementaries",
+      "download_url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
+      "license": {
+        "id": "LicenseRef-Supplementaries-Team-License",
+        "name": "",
+        "url": "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md"
+      }
+    },
+    {
+      "file": "TravelersTitles-1.20-Forge-4.0.2.jar",
+      "version": "1.20-Forge-4.0.2",
+      "sha256": "e72bcce5e31ab2d5f09eff53697969b32e56c35801b3014e03d558b442b9d38b",
+      "bytes": 228191,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/travelers-titles",
+      "download_url": "https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      }
+    },
+    {
+      "file": "YungsApi-1.20-Forge-4.0.6.jar",
+      "version": "1.20-Forge-4.0.6",
+      "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1",
+      "bytes": 370524,
+      "installation_side": "both",
+      "source": "https://modrinth.com/mod/yungs-api",
+      "download_url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      }
+    },
+    {
+      "file": "Paxi-1.20-Forge-4.0.jar",
+      "sha256": "dd18dd9696d099137b170076676e8411e3d8385af15941f68472f21167266f1a",
+      "bytes": 96892,
+      "licenseDeclaredInJar": "LGPLv3",
+      "mods": [
+        {
+          "id": "paxi",
+          "name": "Paxi",
+          "version": "1.20-Forge-4.0"
+        }
+      ],
+      "newInV98": true,
+      "installation_side": "both"
+    },
+    {
+      "file": "fcraft-template-bridge-1.0.0-forge-1.20.1.jar",
+      "sha256": "feae27c6760c2507273e0b2aef3334f581c242f6d6aa1a1e6c1893a3359d57d9",
+      "bytes": 8593,
+      "licenseDeclaredInJar": "MIT",
+      "mods": [
+        {
+          "id": "fcraft_template_bridge",
+          "name": "F-Craft Starter Template Bridge",
+          "version": "1.0.0"
+        }
+      ],
+      "newInV98": false,
+      "installation_side": "client"
+    },
+    {
+      "file": "ftb-chunks-forge-2001.3.8.jar",
+      "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02",
+      "bytes": 1159043,
+      "licenseDeclaredInJar": "All Rights Reserved",
+      "mods": [
+        {
+          "id": "ftbchunks",
+          "name": "FTB Chunks",
+          "version": "2001.3.8"
+        }
+      ],
+      "newInV98": false,
+      "installation_side": "both"
+    }
+  ],
+  "visual_resource_priority_high_to_low": [
+    "F-Rank Days RPG Resources.zip",
+    "MandalasGUI+Modded_Dakmode_v4.6.zip",
+    "Visual Titles 1.3.zip",
+    "EmbellishedStone-1.20.1-1.0.0.zip",
+    "EclecticTrove-noconfig-1.20.1-1.3.0.zip",
+    "Ashen + Lootr 1.1+MC1.20–1.21.zip",
+    "Ashen_16x.zip",
+    "eatinganimations_compat",
+    "file/Better_Animations.zip",
+    "file/FreshAnimations_v1.11.2_1.20+.zip"
+  ],
+  "dedicated_server_jar_allowlist": [
+    "AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+    "BOMD-Forge-1.20.1-1.1.2.jar",
+    "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+    "Continents_1.20.1_v1.1.2.jar",
+    "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar",
+    "Delightful-1.20.1-3.7.4.jar",
+    "FarmersDelight-1.20.1-1.3.4.jar",
+    "Iceberg-1.20.1-forge-1.1.25.jar",
+    "Jade-1.20.1-Forge-11.13.3.jar",
+    "NaturesCompass-1.20.1-1.12.0-forge.jar",
+    "Paxi-1.20-Forge-4.0.jar",
+    "Terralith_1.20.x_v2.5.4.jar",
+    "TravelersTitles-1.20-Forge-4.0.2.jar",
+    "YungsApi-1.20-Forge-4.0.6.jar",
+    "alexsmobs-1.22.9.jar",
+    "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "architectury-9.2.14-forge.jar",
+    "balm-forge-1.20.1-7.3.44.jar",
+    "bettercombat-forge-1.9.0+1.20.1.jar",
+    "citadel-2.6.3-1.20.1.jar",
+    "cloth-config-11.1.136-forge.jar",
+    "collective-1.20.1-8.39.jar",
+    "combatroll-forge-1.3.3+1.20.1.jar",
+    "comforts-forge-6.3.5+1.20.1.jar",
+    "corpse-forge-1.20.1-1.0.23.jar",
+    "delightfulfixes-1.20.1-1.2.4a.jar",
+    "dummmmmmy-1.20-2.0.12-forge.jar",
+    "fcraft-growth-bridge-1.0.0-forge-1.20.1.jar",
+    "fcraft-raid-bridge-1.0.0-forge-1.20.1.jar",
+    "ferritecore-6.0.1-forge.jar",
+    "ftb-chunks-forge-2001.3.8.jar",
+    "ftb-library-forge-2001.2.13.jar",
+    "ftb-quests-forge-2001.4.18.jar",
+    "ftb-teams-forge-2001.3.2.jar",
+    "ftb-xmod-compat-forge-2.1.3.jar",
+    "geckolib-forge-1.20.1-4.4.9.jar",
+    "handcrafted-forge-1.20.1-3.0.6.jar",
+    "kubejs-forge-2001.6.5-build.26.jar",
+    "lootr-forge-1.20-0.7.35.94.jar",
+    "modernfix-forge-5.27.91+mc1.20.1.jar",
+    "moonlight-1.20-2.16.39-forge.jar",
+    "mowziesmobs-1.7.3.jar",
+    "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+    "puffish_skills-0.16.8-1.20-forge.jar",
+    "rangedjs-1.2.5-forge.jar",
+    "resourcefullib-forge-1.20.1-2.1.26.jar",
+    "rhino-forge-2001.2.3-build.10.jar",
+    "simplyswords-forge-1.56.0-1.20.1.jar",
+    "sophisticatedbackpacks-1.20.1-3.26.20.2248.jar",
+    "sophisticatedcore-1.20.1-1.5.30.2465.jar",
+    "starterstructure-1.20.1-4.2.jar",
+    "supplementaries-1.20-3.1.44-forge.jar",
+    "waystones-forge-1.20.1-14.1.21.jar"
+  ],
+  "runtime_notes": [
+    "Standalone XaeroFP24.2.0 excluded: missing WorldMap1.47 APIs; modern existing map retained with cave/radar disabled.",
+    "Legendary Tooltips prioritizes lower DATA priority numbers; own negative priorities override broad external frames.",
+    "Forge mods read *-common.toml; original third-party resource archives remain unmodified.",
+    "Forge47.4.28 retained. Original 65 mods retain their hashes; only optional Drippy is backed up and disabled. FTB Chunks and the first-party template bridge are added.",
+    "Original Minecraft LoadingOverlay restored; FancyMenu main menu retained.",
+    "Legacy f_rank_days IDs and saved player progress retained. v9.4.1 spawn-ratio changes remain deferred."
+  ],
+  "world_update_v94": {
+    "newWorld": "FCraft_Start_v9_4",
+    "existingWorldsOverwritten": false,
+    "newMods": 0,
+    "worldgenModsInstalled": 0,
+    "landmarks": 14,
+    "layoutMetadata": "world root/fcraft_layout_v94.json",
+    "sourceWorldRedistribution": "unconfirmed_private_development_only",
+    "newLakeAndNorthernIsland": true,
+    "walkRouteBlocks": 310.0,
+    "worldScopedDataPacks": [
+      {
+        "id": "file/fcraft_sea106_compat_v94",
+        "noiseSettings": "f_rank_days:overworld_sea106",
+        "seaLevel": 106,
+        "topWaterBlockY": 105,
+        "scope": "new_start_world_only",
+        "derivedResources": "Terralith2.5.4_private_world_only"
+      }
+    ]
+  },
+  "world_update_v96": {
+    "resumeSave": "FCraft_v9_6_진행이어하기",
+    "starterSave": "FCraft_Start_v9_6",
+    "templateFolder": "fcraft-v96-template",
+    "originalSaveMCAsOverwritten": false,
+    "existingLevelDatChange": "two new dimension entries only; original typed Player and generator retained",
+    "islandSeaLevel": 106,
+    "mainlandSeaLevel": 63,
+    "mainlandDimension": "f_rank_days:mainland_wilds",
+    "campDimension": "f_rank_days:camp_rooms",
+    "officialCitadels": 5,
+    "claimCap": 25,
+    "forceLoadCap": 2,
+    "offlineForceLoading": "never",
+    "worldDataRedistribution": "permission unresolved; local/private development only",
+    "personalResumeWorldPublicPackage": false
+  },
+  "ui_update_v98": {
+    "baseline": "Installed F-Craft v9.7",
+    "canonicalJobs": 12,
+    "legacyLicenseFamiliesRetained": [
+      "alchemist",
+      "mage"
+    ],
+    "registeredLicenseItems": 98,
+    "coreVanillaItemTextures": 100,
+    "auxiliaryLeatherDyeOverlays": 4,
+    "paxiRequired": true,
+    "paxiOrderLastWins": true,
+    "paxiPackIdsBareFilenames": true,
+    "externalArchivesNotInsideCustomZip": true,
+    "externalArchivesExcludeFromPublicPatch": [
+      "resourcepacks/Ashen_16x.zip",
+      "config/paxi/resourcepacks/Ashen_16x.zip",
+      "resourcepacks/Ashen + Lootr 1.1+MC1.20–1.21.zip",
+      "config/paxi/resourcepacks/Ashen + Lootr 1.1+MC1.20–1.21.zip",
+      "resourcepacks/EclecticTrove-noconfig-1.20.1-1.3.0.zip",
+      "config/paxi/resourcepacks/EclecticTrove-noconfig-1.20.1-1.3.0.zip",
+      "resourcepacks/EmbellishedStone-1.20.1-1.0.0.zip",
+      "config/paxi/resourcepacks/EmbellishedStone-1.20.1-1.0.0.zip",
+      "resourcepacks/Visual Titles 1.3.zip",
+      "config/paxi/resourcepacks/Visual Titles 1.3.zip",
+      "resourcepacks/MandalasGUI+Modded_Dakmode_v4.6.zip",
+      "config/paxi/resourcepacks/MandalasGUI+Modded_Dakmode_v4.6.zip"
+    ],
+    "actualMinecraftPending": true,
+    "staleObservedEntriesRemoved": [
+      "drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar"
+    ]
+  },
+  "observed_installed_mods_snapshot": "v9.8 LIVE baseline before this update; additional v9.9 artifacts below",
+  "frontier_update_v99": {
+    "baselineObservedModCount": 67,
+    "targetModCount": 70,
+    "additionalArtifacts": [
+      {
+        "name": "BOMD-Forge-1.20.1-1.1.2.jar",
+        "modId": "bosses_of_mass_destruction",
+        "fileId": 5067728,
+        "officialPage": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge/files/5067728",
+        "downloadURL": "https://mediafilez.forgecdn.net/files/5067/728/BOMD-Forge-1.20.1-1.1.2.jar",
+        "bytes": 1753623,
+        "sha256": "9d064557007fbf8a48da92034209b209edd99a16a5017ee104cdc13206390441",
+        "zipCRCVerified": true,
+        "modsTomlVerified": true
+      },
+      {
+        "name": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+        "modId": "cerbons_api",
+        "fileId": 5050080,
+        "officialPage": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api/files/5050080",
+        "downloadURL": "https://mediafilez.forgecdn.net/files/5050/80/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+        "bytes": 241148,
+        "sha256": "54a0a20da56ab1af2d0d7f5cf1133c059a7523485d567521084f822e81505dfb",
+        "zipCRCVerified": true,
+        "modsTomlVerified": true
+      },
+      {
+        "name": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+        "modId": "naturescompass",
+        "fileId": 7892948,
+        "officialPage": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/7892948",
+        "downloadURL": "https://mediafilez.forgecdn.net/files/7892/948/NaturesCompass-1.20.1-1.12.0-forge.jar",
+        "bytes": 227495,
+        "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197",
+        "zipCRCVerified": true,
+        "modsTomlVerified": true
+      }
+    ],
+    "mainlandDimension": "f_rank_days:mainland_wilds",
+    "borders": "Vanilla59,999,968 across mainland/Nether/End; no full pregeneration",
+    "structureGeneration": "Enable WorldGenSettings.generate_features for future chunks only; existing chunks and generators preserved",
+    "deferredAmbientSpawnRatioChange": true,
+    "camp": "Existing personal9x9 fallback; no Nomadic JAR added",
+    "publicPatchIncludesThirdPartyJars": false
+  },
+  "phase4": {
+    "jobs": 12,
+    "manaSkills": 24,
+    "passiveNodes": 84,
+    "practicalPromotions": 72,
+    "namespacesPreserved": true,
+    "ambientSpawnRatioChangesDeferred": true,
+    "newMods": []
+  },
+  "phase6": {
+    "status": "candidate only; actual native/client evidence required before install",
+    "original70ModJarsMustRemainUnchanged": true,
+    "fixedThirdPartyAdditions": [
+      {
+        "pinned_file": "damagenumbers-forge-mc1.20.1-0.1.3.jar",
+        "mod_id": "vitral_damagenumbers",
+        "observed_version": "0.1.3",
+        "side": "CLIENT",
+        "project_id": 1754205,
+        "file_id": 9541522,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/damage-numbers-floating-damage-indicators-crits/files/9541522",
+        "sha256": "5f56341bd2aa0cb258e60563b227b3b9f365e3c1ce9716211d837c9b84e94fd5",
+        "bytes": 82045,
+        "license": "MIT",
+        "source": "official fixed CurseForge file; exact private preflight bytes",
+        "public_code_zip_include": false,
+        "target": "mods/damagenumbers-forge-mc1.20.1-0.1.3.jar",
+        "required_dependencies": []
+      },
+      {
+        "pinned_file": "dummmmmmy-1.20-2.0.12-forge.jar",
+        "mod_id": "dummmmmmy",
+        "observed_version": "1.20-2.0.11",
+        "side": "BOTH",
+        "project_id": 225738,
+        "file_id": 7963208,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm/files/7963208",
+        "sha256": "bd7f168ec56f14a25d36d9d0dc4d281e88f77b1ba678907b5c570e5c051a5ca4",
+        "bytes": 839685,
+        "license": "Supplementaries Team License v.1.5",
+        "source": "official fixed CurseForge file; exact private preflight bytes",
+        "public_code_zip_include": false,
+        "target": "mods/dummmmmmy-1.20-2.0.12-forge.jar",
+        "required_dependencies": [
+          {
+            "mod_id": "moonlight",
+            "minimum": "1.20-2.16.19",
+            "existing_preserved": "moonlight-1.20-2.16.39-forge.jar"
+          }
+        ]
+      },
+      {
+        "pinned_file": "lootbeams-forge-mc1.20.1-0.1.3.jar",
+        "mod_id": "vitral_beams",
+        "observed_version": "0.1.3",
+        "side": "CLIENT",
+        "project_id": 1714472,
+        "file_id": 9413318,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/loot-beams-rarity-light-beams-for-dropped-items/files/9413318",
+        "sha256": "0601ccc22a49906e0d18caf7eff9f99e1aca14e997a0b7011814e7cb460a1da9",
+        "bytes": 59153,
+        "license": "MIT",
+        "source": "official fixed CurseForge file; exact private preflight bytes",
+        "public_code_zip_include": false,
+        "target": "mods/lootbeams-forge-mc1.20.1-0.1.3.jar",
+        "required_dependencies": []
+      }
+    ],
+    "nativeBridge": "Root-owned first-party growth bridge; build receipt is authoritative",
+    "configs": [
+      "config/vitral_damagenumbers.properties",
+      "config/dummmmmmy-common.toml",
+      "config/vitral_beams.json"
+    ],
+    "visualSemantics": {
+      "damageNumbersScale": 0.95,
+      "physical": "native white",
+      "critical": "native gold",
+      "healing": "native green +HP delta",
+      "mana": "server cosmetic crit marking; no damage multiplier change",
+      "infiniteHealthDummy": "native damage/DPS numbers kept enabled",
+      "enhancedBeams": "read-only client native bridge; exact nested f_rank_enhance.level",
+      "nativeKillColourPriority": "native KILL red priority retained"
+    },
+    "distribution": "third-party JARs private installation inputs only; public manifest references official pinned files",
+    "targetDummyClientDefaults": {
+      "shippedPreset": false,
+      "reason": "All intended cosmetic values are actual native defaults; preserve existing user config. Unsupported full_bright key was removed instead of shipping an incomplete client preset.",
+      "nativeDefaults": {
+        "animation_intensity": 0.75,
+        "show_hearths": false,
+        "damage_numbers": true,
+        "full_bright_damage_numbers": true,
+        "crit_mode": "COLOR_AND_MULTIPLIER",
+        "hay_particles": true,
+        "texture": "DEFAULT"
+      }
+    }
+  },
+  "phase7": {
+    "clientBossMods": [
+      {
+        "name": "Boss Intros",
+        "mod_id": "vitral_bossintros",
+        "version": "0.1.4",
+        "file": "bossintros-forge-mc1.20.1-0.1.4.jar",
+        "bytes": 34805,
+        "sha256": "d4683fc9de75f8799fe124d542dc7ea838f33e3581f66323597adb74665d9fc3",
+        "project_id": 1715262,
+        "file_id": 9520539,
+        "official_file_page": "https://www.curseforge.com/minecraft/mc-mods/boss-intros-cinematic-boss-titles-entrances/files/9520539",
+        "official_download_url": "https://mediafilez.forgecdn.net/files/9520/539/bossintros-forge-mc1.20.1-0.1.4.jar",
+        "license": "MIT",
+        "licenseMember": "LICENSE_vitral_bossintros",
+        "licenseSHA256": "661e91ee2220076d3537ae194c80abc218c0d9bd5e64c18da54224d3f56146fa",
+        "side": "CLIENT",
+        "minecraft": "[1.20.1,1.20.2)",
+        "forge": "[47,)",
+        "extraDependencies": [],
+        "crcAllMembersValid": true,
+        "classMajorMaximum": 61,
+        "approval": "Official Forge 1.20.1 artifact, compatible version/dependencies and MIT redistribution confirmed; runtime validation remains ROOT-owned."
+      },
+      {
+        "name": "Boss Bars",
+        "mod_id": "vitral_bossbars",
+        "version": "0.1.4",
+        "file": "bossbars-forge-mc1.20.1-0.1.4.jar",
+        "bytes": 103161,
+        "sha256": "1bfd0fbbbe4ac04f4d6fb9a22b25bb503c40c0992da68739d194c091d05785d2",
+        "project_id": 1751567,
+        "file_id": 9486187,
+        "official_file_page": "https://www.curseforge.com/minecraft/mc-mods/boss-bars-animated-health-bars-for-every-boss/files/9486187",
+        "official_download_url": "https://mediafilez.forgecdn.net/files/9486/187/bossbars-forge-mc1.20.1-0.1.4.jar",
+        "license": "MIT",
+        "licenseMember": "LICENSE_vitral_bossbars",
+        "licenseSHA256": "661e91ee2220076d3537ae194c80abc218c0d9bd5e64c18da54224d3f56146fa",
+        "side": "CLIENT",
+        "minecraft": "[1.20.1,1.20.2)",
+        "forge": "[47,)",
+        "extraDependencies": [],
+        "crcAllMembersValid": true,
+        "classMajorMaximum": 61,
+        "approval": "Official Forge 1.20.1 artifact, compatible version/dependencies and MIT redistribution confirmed; runtime validation remains ROOT-owned."
+      }
+    ],
+    "notes": [
+      "Wrong NeoForge1.21.1/Fabric26.3 file links in source spec replaced by official Forge1.20.1 artifacts.",
+      "Native mod ID aliases include vitral_bossintros to suppress KubeJS duplicate intro and victory.",
+      "No server dependency on these cosmetic client mods.",
+      "Existing mods retained; user portraits/UI backgrounds untouched."
+    ],
+    "nativeBridge": {
+      "file": "fcraft-raid-bridge-1.0.0-forge-1.20.1.jar",
+      "modId": "fcraft_raid_bridge",
+      "sha256": "ea84864372176d6c17b4e757746fc301496e16b892a3adbd875a0a8ac0220d70",
+      "bytes": 11257,
+      "license": "MIT",
+      "side": "both",
+      "minecraft": "1.20.1",
+      "forge": "47.4.28",
+      "sourceDirectory": "개별작업/raid_bridge/src",
+      "functions": [
+        "nonconsumingfiniteguardianbreak",
+        "nativeWroughtfrontalgroggy",
+        "nativearmoritemattributes",
+        "rawWroughtdeathdropsfilter",
+        "actualCombatRollservercallback",
+        "optionalclientintro2500msresetpresentation"
+      ],
+      "resourcePackMetadata": {
+        "member": "pack.mcmeta",
+        "format": 15,
+        "purpose": "Native Forge resource-pack metadata; all prior JAR entries byte-identical."
+      }
+    },
+    "baselineModCount": 74,
+    "targetModCount": 77,
+    "dedicatedServerCommonModCount": 51,
+    "packageVersion": "10.4",
+    "verificationEvidence": {
+      "selfCertifiesExecution": false,
+      "aggregate": "검증/v10_4_portal_sanctum_and_boss_raid_verification.json",
+      "independentConstructionResult": "검증/native/arena_v104_06/construction_augmented_v104_controlled.json",
+      "requiresExactFinalNativeClientCandidateHashes": true,
+      "constructionReuseRequiresAuditedDependenciesAndSavedWorldInventory": true,
+      "nativeResultPattern": "검증/native/<selected-native-label>/result.json",
+      "clientResultPattern": "검증/native_client/<selected-client-label>/result.json",
+      "selectedLabelsReceipt": "검증/local_apply_phase7.json",
+      "selectedLabelFields": [
+        "nativeLabel",
+        "clientLabel"
+      ],
+      "labelResolution": "The local apply receipt selects the completed native/client labels. The fixed aggregate report records their exact result paths and SHA256 values; this manifest makes no execution-pass claim."
+    },
+    "overworldGateway": {
+      "dimension": "minecraft:overworld",
+      "floor": {
+        "x": -312,
+        "y": 116,
+        "z": -1880
+      },
+      "radius": 6,
+      "pedestal": {
+        "x": -312,
+        "y": 117,
+        "z": -1878
+      },
+      "returnPosition": {
+        "x": -311.5,
+        "y": 117,
+        "z": -1875.5
+      },
+      "openTicks": 1200,
+      "partyJoinRadius": 10
+    },
+    "guardianSanctum": {
+      "dimension": "f_rank_days:guardian_sanctum",
+      "floor": {
+        "x": 0,
+        "y": 80,
+        "z": 0
+      },
+      "flatRadius": 20,
+      "fixedTime": 18000,
+      "arrival": {
+        "x": 0.5,
+        "y": 81,
+        "z": 16.5
+      },
+      "voidRescue": {
+        "x": 0.5,
+        "y": 81,
+        "z": 15.5
+      },
+      "escapeCrystal": {
+        "x": 0,
+        "y": 81,
+        "z": 18
+      },
+      "victoryReturnTicks": 3600,
+      "emptyResetTicks": 300
+    },
+    "configurationFiles": [
+      "kubejs/config/fcraft_arena_construction_v103.json",
+      "kubejs/config/fcraft_guardian_sanctum_v104.json",
+      "kubejs/config/fcraft_guardian_portal_v104.json",
+      "kubejs/config/fcraft_chapter1_raids_v101.json"
+    ],
+    "dimensionDataFiles": [
+      "kubejs/data/f_rank_days/dimension/guardian_sanctum.json",
+      "kubejs/data/f_rank_days/dimension_type/guardian_sanctum.json"
+    ]
+  },
+  "phase8": {
+    "packageVersion": "10.5",
+    "baselinePhase": "phase7",
+    "baselineWorldVersion": "10.4",
+    "nativeBridge": {
+      "file": "fcraft-raid-bridge-1.0.0-forge-1.20.1.jar",
+      "modId": "fcraft_raid_bridge",
+      "bytes": 21184,
+      "sha256": "decd7e0f55616b9c547cd2c2c3ca663b087f421af181901dbc51bfab350e8d95",
+      "side": "both",
+      "sourceDirectory": "개별작업/raid_bridge/src",
+      "functions": [
+        "nativeAIEnabledPursuit",
+        "temporaryMovementModifier",
+        "nativeGolemAndWroughtMotion",
+        "scriptedDamageAuthority",
+        "realCombatRollIframe",
+        "reversibleParryGlow",
+        "hiddenPotionParticles",
+        "completedAnimationCleanup"
+      ],
+      "currentArtifactSupersededBy": "phase9; original v10.5 manifest preserved in backup and F8"
+    },
+    "parry": {
+      "windupMs": 950,
+      "windowMs": 320,
+      "latencyCompensationMaxMs": 80,
+      "sweetStartMs": 630,
+      "sweetEndMs": 950
+    },
+    "pursuitIntervalTicks": 5,
+    "changedScriptOwners": [
+      "kubejs/server_scripts/13_combat_parry_and_dodge_v8.js",
+      "kubejs/server_scripts/46_chapter1_three_boss_raid_engine_v10_1.js",
+      "kubejs/server_scripts/51_guardian_portal_instance_manager_v10_4.js",
+      "kubejs/client_scripts/04_fcraft_landmark_titles.js",
+      "kubejs/client_scripts/06_fcraft_inventory_hud_v96.js",
+      "kubejs/client_scripts/07_adventurer_compendium_book_ui.js",
+      "kubejs/client_scripts/08_boss_cinematic_hud_bridge.js"
+    ],
+    "verificationEvidence": {
+      "selfCertifiesExecution": false,
+      "aggregate": "검증/v10_5_active_boss_ai_and_parry_hud_verification.json",
+      "requiresCurrentCandidateHashes": true,
+      "humanPlayClaim": false
+    },
+    "installation": "수정파일 overlay + matching native bridge JAR; full restart required",
+    "existingSavesAndSurveyedArenaCoordinatesPreserved": true
+  },
+  "phase9": {
+    "packageVersion": "10.6",
+    "baselinePhase": "phase8",
+    "inputs": [
+      "f_craft_3_34.md",
+      "f_craft_4_npc.md"
+    ],
+    "workingDrive": "E:",
+    "namespacesAndSavedIdsPreserved": true,
+    "questTabs": 4,
+    "professionCount": 12,
+    "personalQuestFiltering": true,
+    "practicalWrittenExamRetired": true,
+    "nativeBridge": {
+      "file": "fcraft-raid-bridge-1.0.0-forge-1.20.1.jar",
+      "sha256": "decd7e0f55616b9c547cd2c2c3ca663b087f421af181901dbc51bfab350e8d95",
+      "bytes": 21184
+    },
+    "promotionBridge": {
+      "file": "fcraft-promotion-bridge-1.0.0-forge-1.20.1.jar",
+      "sha256": "8117d514e7f549585097e14eb31cb6d4b2a572bb1bdfca3bb3371fd23f91b080",
+      "bytes": 10957
+    },
+    "entranceTicks": {
+      "krag": 40,
+      "blossom": 44,
+      "wrought": 70
+    },
+    "guardianDrop": {
+      "spawnTick": 25,
+      "spawnY": 118,
+      "impact": "actual ground contact, once",
+      "nativeTitleTick": 46,
+      "endTick": 70
+    },
+    "verificationEvidence": {
+      "selfCertifiesExecution": false,
+      "aggregate": "검증/v10_6_integrated_verification.json",
+      "requiresCurrentCandidateHashes": true,
+      "humanPlayClaim": false
+    },
+    "clientCompatibility": {
+      "pufferfishBackgroundTextureRegistration": "client executor, before category handler",
+      "nativeIntroTopBandAfterBossBarGuiPixels": 6
+    }
+  },
+  "phase10": {
+    "packageVersion": "11.0",
+    "orderedInputs": [
+      "f_craft_4_npccc.md",
+      "f_craft_4_npcicon.md",
+      "f_craft_2_overwolrd.md"
+    ],
+    "workingDrive": "E:",
+    "namespacesAndSavedIdsPreserved": true,
+    "ambientSpawnRatioChangesDeferred": true,
+    "EDCRelaxedContracts": 36,
+    "BASPreservedContracts": 36,
+    "questTabs": {
+      "beforeMainland": 4,
+      "personalMainlandUnlocked": 5
+    },
+    "officialWaystones": 9,
+    "claimPolicy": {
+      "file": "kubejs/server_scripts/57_member_claim_limits_v110.js",
+      "sha256": "8fa516dcc4b3ecf1922098224fbca05d9ac30a73b51c52b8c266dfd0b274e904",
+      "defaultPerMember": 25,
+      "partyAggregation": "SUM",
+      "hardTeamCap": 0,
+      "runtimeConfigOnly": true,
+      "existingClaimRecordsPreserved": true
+    },
+    "keys": {
+      "promotionTracker": "O",
+      "mount": "F8",
+      "shaderSelection": "F7",
+      "dodgePreserved": "V",
+      "JEIPreserved": "Ctrl+O"
+    },
+    "requiredResourcePaths": 33,
+    "dependenciesBothSides": [
+      {
+        "category": "TRAVEL_NETWORK",
+        "name": "Waystones",
+        "mod_id": "waystones",
+        "pinned_file": "waystones-forge-1.20.1-14.1.21.jar",
+        "observed_version": "14.1.21",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waystones/files/8849482",
+        "project_id": 245755,
+        "file_id": 8849482,
+        "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+        "bytes": 536782,
+        "installation_side": "both"
+      },
+      {
+        "category": "TRAVEL_NETWORK",
+        "name": "Balm",
+        "mod_id": "balm",
+        "pinned_file": "balm-forge-1.20.1-7.3.44.jar",
+        "observed_version": "7.3.44",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/balm/files/8969708",
+        "project_id": 531761,
+        "file_id": 8969708,
+        "sha256": "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3",
+        "bytes": 561741,
+        "installation_side": "both"
+      }
+    ],
+    "promotionBridge": {
+      "file": "fcraft-promotion-bridge-1.0.0-forge-1.20.1.jar",
+      "sha256": "c5f5a5c8e2795d88e90fb143919a6e49f11832626f404a265f2da3acd2c0a153",
+      "bytes": 19501
+    },
+    "verificationEvidence": "검증/v11_0_integrated_verification.json",
+    "verificationStatus": "Exact final server/client execution must match this candidate before installation",
+    "publicRedistributionPermissionImplied": false,
+    "arenaGroundMaintenance": {
+      "file": "kubejs/server_scripts/48_serdin_three_boss_arenas_builder_v10_3.js",
+      "sha256": "02032d4b5eae50ca82814fadac7a0e2f5570af2ac89a866ce9ca8889ab6a402b",
+      "rule": "reviewed_own_bottom_slab_grass_decay_v110",
+      "originalPreimagesAndPlanPreserved": true,
+      "normalSafetyAndFullVerificationRequired": true
+    }
+  }
+}

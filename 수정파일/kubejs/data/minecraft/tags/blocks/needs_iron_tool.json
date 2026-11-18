@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "f_rank_days:hardened_ore",
+    "f_rank_days:deepslate_hardened_ore"
+  ]
+}

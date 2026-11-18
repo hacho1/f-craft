@@ -1,0 +1,4967 @@
+{
+  "id": "4000000000000000",
+  "filename": "04_village_life_and_requests",
+  "order_index": 3,
+  "title": "제4장. 주민 의뢰와 마을 정착",
+  "icon": {
+    "id": "ftbquests:custom_icon",
+    "Count": 1,
+    "tag": {
+      "Icon": "f_rank_days:textures/gui/quests/tab_04_village_bonds.png"
+    }
+  },
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "2000000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "2-1. 밀밭의 농부 다림과 만나기",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "브리온 마을 남서쪽 농장의 [다림]과 대화해 농사 기초와 수분 관리법을 배워 보세요 (`/frank talk darim`).",
+        "자격시험을 보지 않아도 기본 농사와 작물 판매는 언제나 자유입니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "2100000000000001",
+          "type": "custom",
+          "title": "다림의 농사 입문 대화 완료",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "2000000000000002",
+      "x": 3.0,
+      "y": 0.0,
+      "dependencies": [
+        "2000000000000001"
+      ],
+      "title": "2-2. 첫 작물 재배와 수확",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "괭이로 밭을 일구고 씨앗을 심어 황금빛으로 익은 밀 8다발을 수확해 보세요.",
+        "스킬 단축키(기본 `K`)를 눌러 [농부] 스킬 트리의 '1. 기초 재배'와 '2. 토양 관리'를 해금할 수 있습니다!",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "2100000000000002",
+          "type": "item",
+          "item": "minecraft:wheat",
+          "count": 8,
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "2000000000000003",
+      "x": 6.0,
+      "y": 0.0,
+      "dependencies": [
+        "2000000000000002"
+      ],
+      "title": "2-3. 따뜻한 한 끼와 식탁 제작",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "수확한 밀이나 감자로 직접 빵과 구운 감자를 만들어 생활의 여유를 챙겨 보세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "2100000000000003",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4,
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "2000000000000004",
+      "x": 9.0,
+      "y": 0.0,
+      "dependencies": [
+        "2000000000000001"
+      ],
+      "title": "2-4. 시골 생태계와 온순한 동물 돌봄",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "브리온 들판과 숲 가장자리의 평화로운 동물(소, 양, 닭 또는 Alex's Mobs의 까마귀 `alexsmobs:crow`, 라쿤 `alexsmobs:raccoon`, 플루터 `alexsmobs:flutter`, 들소 `alexsmobs:bison`)에게 씨앗·밀을 들고 다가가 생태 관찰을 기록하세요 (`/frank observe_animal` 또는 먹이 주기).",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "2100000000000004",
+          "type": "custom",
+          "title": "평화로운 동물 2종 이상 생태 관찰·돌봄 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "2000000000000005",
+      "x": 12.0,
+      "y": 0.0,
+      "dependencies": [
+        "2000000000000003",
+        "2000000000000004"
+      ],
+      "title": "2-5. 나만의 텃밭과 보금자리 발전",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퇴비통(`minecraft:composter`)과 통(`minecraft:barrel`)을 마련해 농장과 거처를 아늑하게 가꾸어 보세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "2100000000000005",
+          "type": "item",
+          "item": "minecraft:composter",
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        },
+        {
+          "id": "2100000000000006",
+          "type": "item",
+          "item": "minecraft:barrel",
+          "consume_items": false,
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "5000000000000001",
+      "x": 15.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "5-1. 농부 F급 등록과 다림의 실습 지도",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "`/frank register_job farmer`로 농부 F급을 등록하고, 다림에게 기초 오리엔테이션을 받으세요.",
+        "직업 등급은 스킬 포인트 투자로 자동 상승하지 않으며 정식 자격시험으로만 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_f",
+      "tasks": [
+        {
+          "id": "5100000000000001",
+          "type": "item",
+          "item": "f_rank_days:farmer_license_f",
+          "consume_items": false
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "5000000000000002",
+      "x": 0.0,
+      "y": 3.0,
+      "dependencies": [
+        "5000000000000001"
+      ],
+      "title": "5-2. 농부 E급(견습) 자격시험 응시",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "`/frank exam_start farmer`로 응시표를 받고 필기(3문항 중 2문항 이상 정답)와 실기(직접 경작 6·파종 6·완숙 밀 수확 6·납품 6)를 진행하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:exam_slip_farmer_e",
+      "tasks": [
+        {
+          "id": "5100000000000002",
+          "type": "item",
+          "item": "f_rank_days:exam_slip_farmer_e",
+          "consume_items": false
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "5000000000000003",
+      "x": 3.0,
+      "y": 3.0,
+      "size": 1.25,
+      "dependencies": [
+        "5000000000000002"
+      ],
+      "title": "5-3. 공인 농부 E급 자격증 취득!",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "`/frank exam_submit farmer`로 최종 합격하면 고유 시리얼이 각인된 《농부 E급 자격증》이 발급되며, KubeJS 연동을 통해 농부 스킬 포인트 +2점(계정당 1회)과 고급 재배 자동 재파종 자격이 활성화됩니다!",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_e",
+      "tasks": [
+        {
+          "id": "5100000000000003",
+          "type": "item",
+          "item": "f_rank_days:farmer_license_e",
+          "consume_items": false
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "4000000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000006",
+        "7900000000000006"
+      ],
+      "dependency_requirement": "one_completed",
+      "title": "4-1. 브리온 마을 이웃들에게 인사 건네기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "마을에 상주하는 이웃 주민 3명 이상과 대화를 나누어 보세요.",
+        "※ 멀티플레이 팀 주의: 호감도와 관계 분기(우정/연애)는 오직 각 플레이어 개인의 KubeJS 데이터로만 관리되며 팀원과 절대 공유되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "4100000000000001",
+          "type": "custom",
+          "title": "마을 주민 3명 이상과 첫 인사 나누기",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "4000000000000002",
+      "x": 3.0,
+      "y": 0.0,
+      "dependencies": [
+        "4000000000000001"
+      ],
+      "title": "4-2. 일손 돕기와 단골 친분 쌓기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "주민들의 일상 의뢰를 도우며 누군가 한 명과 친분 단계(호감도 20 이상)를 형성해 보세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "4100000000000002",
+          "type": "custom",
+          "title": "NPC 1명 이상 친분(호감도 20+) 달성",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "4000000000000003",
+      "x": 6.0,
+      "y": 0.0,
+      "dependencies": [
+        "4000000000000002"
+      ],
+      "title": "4-3. 마음의 문턱, 개인 사건 해금",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "신뢰 단계(호감도 60 이상)에 이르면 헤스·다림·로만의 깊이 숨겨 둔 개인 사건(`/frank pquest <NPC> start`)이 열립니다.",
+        "플레이어는 모든 것을 대신 해결하는 영웅이 아니라, 주민 스스로 성장하도록 곁을 지키는 조력자가 됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "4100000000000003",
+          "type": "custom",
+          "title": "1순위 주민 개인 서사 1건 이상 완주",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+            }
+          }
+        }
+      ],
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000001",
+      "title": "헤스 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 6.0,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000002",
+      "title": "헤스 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000001"
+      ],
+      "x": 3.0,
+      "y": 6.0,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000003",
+      "title": "헤스 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000002"
+      ],
+      "x": 6.0,
+      "y": 6.0,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000004",
+      "title": "헤스 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000003"
+      ],
+      "x": 9.0,
+      "y": 6.0,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000005",
+      "title": "헤스 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000004"
+      ],
+      "x": 12.0,
+      "y": 6.0,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000006",
+      "title": "다림 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 9.0,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000007",
+      "title": "다림 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000007",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000006"
+      ],
+      "x": 3.0,
+      "y": 9.0,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000008",
+      "title": "다림 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000008",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000007"
+      ],
+      "x": 6.0,
+      "y": 9.0,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000009",
+      "title": "다림 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000009",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000008"
+      ],
+      "x": 9.0,
+      "y": 9.0,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000A",
+      "title": "다림 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000A",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000009"
+      ],
+      "x": 12.0,
+      "y": 9.0,
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000B",
+      "title": "로만 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000B",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 12.0,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000C",
+      "title": "로만 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000C",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000000B"
+      ],
+      "x": 3.0,
+      "y": 12.0,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000D",
+      "title": "로만 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000D",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000000C"
+      ],
+      "x": 6.0,
+      "y": 12.0,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000E",
+      "title": "로만 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000E",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000000D"
+      ],
+      "x": 9.0,
+      "y": 12.0,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000000F",
+      "title": "로만 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연금술사 로만",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 상가 36m · 로만의 연금술 물약상&r (X:+34.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 로만 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav roman\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000000F",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000000E"
+      ],
+      "x": 12.0,
+      "y": 12.0,
+      "subtitle": "📍 담당: 연금술사 로만 (광장 동쪽 상가 36m · 로만의 연금술 물약상)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000010",
+      "title": "고리 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000010",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 15.0,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000011",
+      "title": "고리 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000011",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000010"
+      ],
+      "x": 3.0,
+      "y": 15.0,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000012",
+      "title": "고리 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000012",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000011"
+      ],
+      "x": 6.0,
+      "y": 15.0,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000013",
+      "title": "고리 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000013",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000012"
+      ],
+      "x": 9.0,
+      "y": 15.0,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000014",
+      "title": "고리 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000014",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cooking_hearth.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000013"
+      ],
+      "x": 12.0,
+      "y": 15.0,
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000015",
+      "title": "나우 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000015",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 18.0,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000016",
+      "title": "나우 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000016",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000015"
+      ],
+      "x": 3.0,
+      "y": 18.0,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000017",
+      "title": "나우 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000017",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000016"
+      ],
+      "x": 6.0,
+      "y": 18.0,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000018",
+      "title": "나우 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000018",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000017"
+      ],
+      "x": 9.0,
+      "y": 18.0,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000019",
+      "title": "나우 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 대장장이 나우",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a동쪽 끝 57m · 나우의 대장간&r (X:+56.5, Z:-7.5)",
+        "&e[🖱 진행 방법]&r 나우 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav nau\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000019",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_smithing_anvil.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000018"
+      ],
+      "x": 12.0,
+      "y": 18.0,
+      "subtitle": "📍 담당: 대장장이 나우 (광장 동쪽 끝 57m · 나우의 대장간)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001A",
+      "title": "휘연 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001A",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 21.0,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001B",
+      "title": "휘연 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001B",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000001A"
+      ],
+      "x": 3.0,
+      "y": 21.0,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001C",
+      "title": "휘연 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001C",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000001B"
+      ],
+      "x": 6.0,
+      "y": 21.0,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001D",
+      "title": "휘연 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001D",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000001C"
+      ],
+      "x": 9.0,
+      "y": 21.0,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001E",
+      "title": "휘연 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 치유사 휘연",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북서쪽 49m · 브리온 개인 의료소&r (X:-32.5, Z:-36.5)",
+        "&e[🖱 진행 방법]&r 휘연 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hwiyeon\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001E",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_alchemy_herb.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000001D"
+      ],
+      "x": 12.0,
+      "y": 21.0,
+      "subtitle": "📍 담당: 치유사 휘연 (광장 북서쪽 49m · 브리온 개인 의료소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000001F",
+      "title": "스키 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000001F",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 24.0,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000020",
+      "title": "스키 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000020",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000001F"
+      ],
+      "x": 3.0,
+      "y": 24.0,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000021",
+      "title": "스키 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000021",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000020"
+      ],
+      "x": 6.0,
+      "y": 24.0,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000022",
+      "title": "스키 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000022",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000021"
+      ],
+      "x": 9.0,
+      "y": 24.0,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000023",
+      "title": "스키 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000023",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000022"
+      ],
+      "x": 12.0,
+      "y": 24.0,
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000024",
+      "title": "하린 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000024",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 27.0,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000025",
+      "title": "하린 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000025",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000024"
+      ],
+      "x": 3.0,
+      "y": 27.0,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000026",
+      "title": "하린 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000026",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000025"
+      ],
+      "x": 6.0,
+      "y": 27.0,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000027",
+      "title": "하린 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000027",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000026"
+      ],
+      "x": 9.0,
+      "y": 27.0,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000028",
+      "title": "하린 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000028",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_monster_hunt.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000027"
+      ],
+      "x": 12.0,
+      "y": 27.0,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000029",
+      "title": "협합 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000029",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 30.0,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002A",
+      "title": "협합 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002A",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000029"
+      ],
+      "x": 3.0,
+      "y": 30.0,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002B",
+      "title": "협합 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002B",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000002A"
+      ],
+      "x": 6.0,
+      "y": 30.0,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002C",
+      "title": "협합 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002C",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000002B"
+      ],
+      "x": 9.0,
+      "y": 30.0,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002D",
+      "title": "협합 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002D",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000002C"
+      ],
+      "x": 12.0,
+      "y": 30.0,
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002E",
+      "title": "밤밤 · 첫인사",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "직접 대화해 첫 인사를 나누세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002E",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 33.0,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B0500000000002F",
+      "title": "밤밤 · 친분",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도20 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B0500010000002F",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000002E"
+      ],
+      "x": 3.0,
+      "y": 33.0,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000030",
+      "title": "밤밤 · 신뢰",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도45 이상이 필요합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000030",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B0500000000002F"
+      ],
+      "x": 6.0,
+      "y": 33.0,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000031",
+      "title": "밤밤 · 개인의 기록",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도60 이상에서 제공되는 기존 개인 사건을 마치세요. 아직 제공되지 않은 사건을 임의로 완료 처리하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000031",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000030"
+      ],
+      "x": 9.0,
+      "y": 33.0,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7B05000000000032",
+      "title": "밤밤 · 우리의 관계",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 행상인 밤밤",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 상가 33m · 브리온 장터 잡화점&r (X:+30.5, Z:+13.5)",
+        "&e[🖱 진행 방법]&r 밤밤 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "호감도80 이상에서 친구 또는 허용된 연애 관계를 직접 선택하세요. 호감도100으로 자동 연애가 시작되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav bambam\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7B05000100000032",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7B05000000000031"
+      ],
+      "x": 12.0,
+      "y": 33.0,
+      "subtitle": "📍 담당: 행상인 밤밤 (광장 남동쪽 상가 33m · 브리온 장터 잡화점)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C06000000000003",
+      "title": "6-1. 첫 번째 개인 거처",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "어느 직종이든 첫 E급에 도달하면 고리의 여관 개인 금고와 개인 야영 귀환서를 배정받습니다.",
+        "천막 모드는 추가하지 않으며, 기존 UUID별 9×9 야영실을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C06000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [],
+      "x": 0.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C06000000000004",
+      "title": "6-2. 해협을 여는 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "강철 수호자 토벌에 참여하거나 D급 생활·탐험직 공납을 완료해 본토 도항 허가를 받으세요.",
+        "공납은 헤스의 의뢰에서 선택합니다. 두 경로 중 하나만 완료하면 됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C06000100000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_guild_register.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C06000000000003"
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C06000000000005",
+      "title": "6-3. 무한한 대륙의 첫걸음",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "브리온 남항의 마르코에게 출항을 요청해 아르베른 전초 항구성에 상륙하세요.",
+        "성채 보호 반경 밖에 작업대 또는 상자를 설치해 첫 거점을 만드세요. 본토·네더·엔드의 개인 청크 소유 한도는25개입니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C06000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        },
+        {
+          "id": "7C99000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C06000000000004",
+        "7E100000000000FE"
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C06000000000007",
+      "title": "6-4. 대륙 5대 성채 순례",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "전초 항구에 이어 칼레온·잿빛 성좌·황금들판·가라앉은 아성을 모두 방문하세요.",
+        "실제 육지에 이미 세워진 성채를 보존합니다. 방문 기록에 따른 기존 200C·스킬2점 최초 보상은 반복 지급하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C06000100000007",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C06000000000005",
+        "7E100000000000FE"
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "circle"
+    },
+    {
+      "id": "7C99000000000005",
+      "title": "6-5. C급 비경의 수호수",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "본토 설원의 서리송곳니 또는 사바나의 태양조 움부티를 발견하고 토벌하세요.",
+        "맑은 약초차·산딸기 타르트·정제 마력석2개·금 주괴로 고대 각성의 공명향을 만듭니다. 발견한 성소28m 안에서 사용하며 살아 있는 같은 보스48m·재사용3분을 확인합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C99000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C06000000000007",
+        "7E100000000000FE"
+      ],
+      "progression_mode": "linear",
+      "x": 12.0,
+      "y": 0.0,
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7C99000000000006",
+      "title": "6-6. B급 심연과 고산의 시련",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "본토의 공허의 꽃·밤의 리치·조각가 통비를 공략하세요.",
+        "황금밀 보양 스튜·정제 마력석2개·경화광 주괴와 블레이즈 가루로 유황 넥타르를 만듭니다. 발광석 가루 또는 자수정 조각2개 대체 조합도 있습니다.",
+        "넥타르는 원래 성소의 제단·봉인을 복구합니다. 구조물 밖에서는 보스를 즉시 소환하지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_2_blossom.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C99000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_2_blossom.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C99000000000005",
+        "7E100000000000FE"
+      ],
+      "progression_mode": "linear",
+      "x": 15.0,
+      "y": 0.0,
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7C99000000000007",
+      "title": "6-7. A급 화염의 차원문",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "본토에서 흑요석 차원문을 개척해 네더에 진입하고 네더 건틀릿을 토벌하세요.",
+        "네더에서 돌아오면 기록된 본토 포탈로 귀환합니다. 브리온 제도에서는 네더 차원문을 점화할 수 없습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C99000100000007",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C99000000000006",
+        "7E100000000000FE"
+      ],
+      "progression_mode": "linear",
+      "x": 18.0,
+      "y": 0.0,
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7C99000000000008",
+      "title": "6-8. S급 끝없는 하늘의 정점",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "본토 엔드 유적의 차원문으로 엔드에 진입하세요. 엔더 드래곤과 외곽 섬의 옵시딜리스를 토벌하세요.",
+        "엔드 귀환은 유효한 본토 침대 또는 실제 전초 항구로 연결됩니다. 드래곤은 엔드 수정4개로 정석 부활합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+        }
+      },
+      "tasks": [
+        {
+          "id": "7C99000100000008",
+          "type": "custom",
+          "title": "현장 진행 기록 확인",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_boss_3_guardian.png"
+            }
+          }
+        }
+      ],
+      "dependencies": [
+        "7C99000000000007",
+        "7E100000000000FE"
+      ],
+      "progression_mode": "linear",
+      "x": 21.0,
+      "y": 0.0,
+      "hide_until_deps_complete": true,
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)",
+      "shape": "rsquare",
+      "size": 1.35
+    },
+    {
+      "id": "7A00020100000001",
+      "x": 15.0,
+      "y": 0.0,
+      "title": "검사 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10020100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00020100000002",
+      "x": 0.0,
+      "y": 3.0,
+      "title": "검사 D급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00020100000001"
+      ],
+      "icon": "f_rank_days:swordsman_license_d",
+      "tasks": [
+        {
+          "id": "7A30020100000001",
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 6
+        },
+        {
+          "id": "7A30020100000002",
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 4
+        },
+        {
+          "id": "7A30020100000003",
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 3
+        },
+        {
+          "id": "7A30020100000004",
+          "type": "custom",
+          "title": "접수 후 본인이 직접 토벌 완료"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20020100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:swordsman_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00020200000001",
+      "x": 3.0,
+      "y": 3.0,
+      "title": "검사 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:swordsman_license_d",
+      "dependencies": [
+        "7A00020100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10020200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00020200000002",
+      "x": 6.0,
+      "y": 3.0,
+      "title": "검사 C급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00020200000001"
+      ],
+      "icon": "f_rank_days:swordsman_license_c",
+      "tasks": [
+        {
+          "id": "7A30020200000001",
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 12
+        },
+        {
+          "id": "7A30020200000002",
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 8
+        },
+        {
+          "id": "7A30020200000003",
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 6
+        },
+        {
+          "id": "7A30020200000004",
+          "type": "custom",
+          "title": "접수 후 본인이 직접 토벌 완료"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20020200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:swordsman_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00050100000001",
+      "x": 9.0,
+      "y": 3.0,
+      "title": "힐러 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10050100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00050100000002",
+      "x": 12.0,
+      "y": 3.0,
+      "title": "힐러 D급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00050100000001"
+      ],
+      "icon": "f_rank_days:healer_license_d",
+      "tasks": [
+        {
+          "id": "7A30050100000001",
+          "type": "item",
+          "item": "f_rank_days:hearth_potato_soup",
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "7A30050100000002",
+          "type": "item",
+          "item": "minecraft:white_wool",
+          "count": 12,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20050100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:healer_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00050200000001",
+      "x": 15.0,
+      "y": 3.0,
+      "title": "힐러 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:healer_license_d",
+      "dependencies": [
+        "7A00050100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10050200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00050200000002",
+      "x": 0.0,
+      "y": 6.0,
+      "title": "힐러 C급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00050200000001"
+      ],
+      "icon": "f_rank_days:healer_license_c",
+      "tasks": [
+        {
+          "id": "7A30050200000001",
+          "type": "item",
+          "item": "f_rank_days:golden_wheat_stew",
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "7A30050200000002",
+          "type": "item",
+          "item": "minecraft:glistering_melon_slice",
+          "count": 6,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20050200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:healer_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7B02000000000001",
+      "title": "레인저 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 레인저 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_e",
+      "tasks": [
+        {
+          "id": "7B02000100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 3.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B02000000000002",
+      "title": "레인저 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 레인저 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_d",
+      "tasks": [
+        {
+          "id": "7B02000100000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B02000000000001"
+      ],
+      "x": 6.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B02000000000003",
+      "title": "레인저 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 레인저 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:ranger_license_c",
+      "tasks": [
+        {
+          "id": "7B02000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B02000000000002"
+      ],
+      "x": 9.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B02000000000004",
+      "title": "마법사 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "구형 마법사 진행 보존용 기록입니다. 기존 ID와 완료 상태는 유지됩니다. 직업은 유적연구원으로 승계합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:mage_license_e",
+      "tasks": [
+        {
+          "id": "7B02000100000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 12.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B02000000000005",
+      "title": "마법사 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "구형 마법사 진행 보존용 기록입니다. 기존 ID와 완료 상태는 유지됩니다. 직업은 유적연구원으로 승계합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:mage_license_d",
+      "tasks": [
+        {
+          "id": "7B02000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B02000000000004"
+      ],
+      "x": 15.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B02000000000006",
+      "title": "마법사 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "구형 마법사 진행 보존용 기록입니다. 기존 ID와 완료 상태는 유지됩니다. 직업은 유적연구원으로 승계합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:mage_license_c",
+      "tasks": [
+        {
+          "id": "7B02000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B02000000000005"
+      ],
+      "x": 0.0,
+      "y": 9.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00010100000001",
+      "x": 6.0,
+      "y": 3.0,
+      "title": "농부 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10010100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)"
+    },
+    {
+      "id": "7A00010100000002",
+      "x": 9.0,
+      "y": 3.0,
+      "title": "농부 D급 · 현장 실기",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "dependencies": [
+        "7A00010100000001"
+      ],
+      "icon": "f_rank_days:farmer_license_d",
+      "tasks": [
+        {
+          "id": "7A30010100000001",
+          "type": "item",
+          "item": "minecraft:wheat",
+          "count": 24,
+          "consume_items": false
+        },
+        {
+          "id": "7A30010100000002",
+          "type": "item",
+          "item": "f_rank_days:brion_barley_bread",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20010100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:farmer_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00010200000001",
+      "x": 12.0,
+      "y": 3.0,
+      "title": "농부 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "f_rank_days:farmer_license_d",
+      "dependencies": [
+        "7A00010100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10010200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)"
+    },
+    {
+      "id": "7A00010200000002",
+      "x": 15.0,
+      "y": 3.0,
+      "title": "농부 C급 · 현장 실기",
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "dependencies": [
+        "7A00010200000001"
+      ],
+      "icon": "f_rank_days:farmer_license_c",
+      "tasks": [
+        {
+          "id": "7A30010200000001",
+          "type": "item",
+          "item": "minecraft:hay_block",
+          "count": 8,
+          "consume_items": false
+        },
+        {
+          "id": "7A30010200000002",
+          "type": "item",
+          "item": "f_rank_days:harvest_berry_tart",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20010200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:farmer_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00030100000001",
+      "x": 0.0,
+      "y": 6.0,
+      "title": "약초채집가 · 이전 원부 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:alchemist_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10030100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00030100000002",
+      "x": 3.0,
+      "y": 6.0,
+      "title": "약초채집가 · 이전 원부 D급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00030100000001"
+      ],
+      "icon": "f_rank_days:alchemist_license_d",
+      "tasks": [
+        {
+          "id": "7A30030100000001",
+          "type": "item",
+          "item": "f_rank_days:alchemist_clear_tea",
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "7A30030100000002",
+          "type": "item",
+          "item": "minecraft:dandelion",
+          "count": 12,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20030100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:alchemist_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00030200000001",
+      "x": 6.0,
+      "y": 6.0,
+      "title": "약초채집가 · 이전 원부 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:alchemist_license_d",
+      "dependencies": [
+        "7A00030100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10030200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00030200000002",
+      "x": 9.0,
+      "y": 6.0,
+      "title": "약초채집가 · 이전 원부 C급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00030200000001"
+      ],
+      "icon": "f_rank_days:alchemist_license_c",
+      "tasks": [
+        {
+          "id": "7A30030200000001",
+          "type": "item",
+          "item": "f_rank_days:refined_mana_stone",
+          "count": 6,
+          "consume_items": false
+        },
+        {
+          "id": "7A30030200000002",
+          "type": "item",
+          "item": "minecraft:blaze_powder",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20030200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:alchemist_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00040100000001",
+      "x": 12.0,
+      "y": 6.0,
+      "title": "대장장이 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10040100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00040100000002",
+      "x": 15.0,
+      "y": 6.0,
+      "title": "대장장이 D급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00040100000001"
+      ],
+      "icon": "f_rank_days:blacksmith_license_d",
+      "tasks": [
+        {
+          "id": "7A30040100000001",
+          "type": "item",
+          "item": "f_rank_days:hardened_ingot",
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "7A30040100000002",
+          "type": "custom",
+          "title": "접수 후 경화 강괴 4개 직접 제련"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20040100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:blacksmith_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00040200000001",
+      "x": 0.0,
+      "y": 9.0,
+      "title": "대장장이 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:blacksmith_license_d",
+      "dependencies": [
+        "7A00040100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10040200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00040200000002",
+      "x": 3.0,
+      "y": 9.0,
+      "title": "대장장이 C급 · 현장 실기",
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "dependencies": [
+        "7A00040200000001"
+      ],
+      "icon": "f_rank_days:blacksmith_license_c",
+      "tasks": [
+        {
+          "id": "7A30040200000001",
+          "type": "item",
+          "item": "f_rank_days:tempering_stone",
+          "count": 8,
+          "consume_items": false
+        },
+        {
+          "id": "7A30040200000002",
+          "type": "item",
+          "item": "f_rank_days:hardened_warhammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20040200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:blacksmith_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7B03000000000001",
+      "title": "약초채집가 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 약초채집가 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_e",
+      "tasks": [
+        {
+          "id": "7B03000100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 6.0,
+      "y": 9.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B03000000000002",
+      "title": "약초채집가 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 약초채집가 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_d",
+      "tasks": [
+        {
+          "id": "7B03000100000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000001"
+      ],
+      "x": 9.0,
+      "y": 9.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B03000000000003",
+      "title": "약초채집가 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 약초채집가 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:herbalist_license_c",
+      "tasks": [
+        {
+          "id": "7B03000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000002"
+      ],
+      "x": 12.0,
+      "y": 9.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B03000000000004",
+      "title": "낚시꾼 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 낚시꾼 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_e",
+      "tasks": [
+        {
+          "id": "7B03000100000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 15.0,
+      "y": 9.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B03000000000005",
+      "title": "낚시꾼 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 낚시꾼 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_d",
+      "tasks": [
+        {
+          "id": "7B03000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000004"
+      ],
+      "x": 0.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B03000000000006",
+      "title": "낚시꾼 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 낚시꾼 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:angler_license_c",
+      "tasks": [
+        {
+          "id": "7B03000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000005"
+      ],
+      "x": 3.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B03000000000007",
+      "title": "요리사 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 요리사 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_e",
+      "tasks": [
+        {
+          "id": "7B03000100000007",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 6.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B03000000000008",
+      "title": "요리사 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 요리사 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_d",
+      "tasks": [
+        {
+          "id": "7B03000100000008",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000007"
+      ],
+      "x": 9.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B03000000000009",
+      "title": "요리사 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 요리사 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "f_rank_days:chef_license_c",
+      "tasks": [
+        {
+          "id": "7B03000100000009",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B03000000000008"
+      ],
+      "x": 12.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B0300000000000A",
+      "title": "첫 수확",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "icon": "minecraft:wheat",
+      "tasks": [
+        {
+          "id": "7B0300010000000A",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 15.0,
+      "y": 12.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)"
+    },
+    {
+      "id": "7B0300000000000B",
+      "title": "첫 약초 채집",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:dandelion",
+      "tasks": [
+        {
+          "id": "7B0300010000000B",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 0.0,
+      "y": 15.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B0300000000000C",
+      "title": "첫 어획",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:fishing_rod",
+      "tasks": [
+        {
+          "id": "7B0300010000000C",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 3.0,
+      "y": 15.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B0300000000000D",
+      "title": "첫 요리",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 여관주 고리",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a서쪽 41m · 브리온 화톳불 여관&r (X:-39.5, Z:-9.5)",
+        "&e[🖱 진행 방법]&r 고리 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav gori\"}}"
+      ],
+      "icon": "minecraft:campfire",
+      "tasks": [
+        {
+          "id": "7B0300010000000D",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 6.0,
+      "y": 15.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 여관주 고리 (광장 서쪽 41m · 브리온 화톳불 여관)"
+    },
+    {
+      "id": "7B0300000000000E",
+      "title": "첫 제련",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:iron_ingot",
+      "tasks": [
+        {
+          "id": "7B0300010000000E",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 9.0,
+      "y": 15.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B0300000000000F",
+      "title": "내 손으로 번 첫 거래",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제로 활동을 완료하면 개인 기록으로 표시됩니다. 지급받은 아이템을 들고 있기만 해서는 활동 기록이 되지 않습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:silver_coin",
+      "tasks": [
+        {
+          "id": "7B0300010000000F",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 12.0,
+      "y": 15.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7A00060100000001",
+      "x": 0.0,
+      "y": 0.0,
+      "title": "유물 연구자 D급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_e",
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "7A10060100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)"
+    },
+    {
+      "id": "7A00060100000002",
+      "x": 3.0,
+      "y": 0.0,
+      "title": "유물 연구자 D급 · 현장 실기",
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "dependencies": [
+        "7A00060100000001"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_d",
+      "tasks": [
+        {
+          "id": "7A30060100000001",
+          "type": "item",
+          "item": "f_rank_days:ancient_rubbing_sheet",
+          "count": 6,
+          "consume_items": false
+        },
+        {
+          "id": "7A30060100000002",
+          "type": "item",
+          "item": "f_rank_days:raw_mana_crystal",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20060100000001",
+          "type": "custom",
+          "title": "D급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:relic_researcher_license_d",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7A00060200000001",
+      "x": 6.0,
+      "y": 0.0,
+      "title": "유물 연구자 C급 · 스승의 자격 확인",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "D급 원부가 필요합니다. 담당 NPC에게 [의뢰·승급 → 승급 자격확인]을 선택하세요. 실기는 접수 이후의 개인 기록을 사용합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_d",
+      "dependencies": [
+        "7A00060100000002"
+      ],
+      "tasks": [
+        {
+          "id": "7A10060200000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)"
+    },
+    {
+      "id": "7A00060200000002",
+      "x": 9.0,
+      "y": 0.0,
+      "title": "유물 연구자 C급 · 현장 실기",
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "퀘스트북 보상 수령 즉시 개인 원부·등록증·스킬 포인트(+2)·신문이 갱신됩니다. 납품 물품은 수령 시 회수됩니다. 팀 진행이 공유되어도 본인의 접수·토벌·제련·납품 조건을 모두 충족해야 승급합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "dependencies": [
+        "7A00060200000001"
+      ],
+      "icon": "f_rank_days:relic_researcher_license_c",
+      "tasks": [
+        {
+          "id": "7A30060200000001",
+          "type": "item",
+          "item": "f_rank_days:ancient_rubbing_sheet",
+          "count": 12,
+          "consume_items": false
+        },
+        {
+          "id": "7A30060200000002",
+          "type": "item",
+          "item": "f_rank_days:refined_mana_stone",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A20060200000001",
+          "type": "custom",
+          "title": "C급 자격증 · 주화 · 스킬 포인트 +2",
+          "icon": "f_rank_days:relic_researcher_license_c",
+          "team_reward": false,
+          "auto": "disabled"
+        }
+      ],
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ]
+    },
+    {
+      "id": "7B04000000000001",
+      "title": "광부 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 광부 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_e",
+      "tasks": [
+        {
+          "id": "7B04000100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000002",
+      "title": "광부 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 광부 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_d",
+      "tasks": [
+        {
+          "id": "7B04000100000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000001"
+      ],
+      "x": 15.0,
+      "y": 0.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000003",
+      "title": "광부 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 광부 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:prospector_license_c",
+      "tasks": [
+        {
+          "id": "7B04000100000003",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000002"
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000004",
+      "title": "정찰가 E급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 정찰가 E급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_e",
+      "tasks": [
+        {
+          "id": "7B04000100000004",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 3.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000005",
+      "title": "정찰가 D급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 정찰가 D급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_d",
+      "tasks": [
+        {
+          "id": "7B04000100000005",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000004"
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000006",
+      "title": "정찰가 C급 · 수련과 자격",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "담당 스승의 의뢰에서 정찰가 C급 심사를 접수하고 개인 실기를 완료하세요. 보급과 승급 보상은 서버에서 중복 없이 정산됩니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "f_rank_days:pathfinder_license_c",
+      "tasks": [
+        {
+          "id": "7B04000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000005"
+      ],
+      "x": 9.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7B04000000000007",
+      "title": "세르딘 은닉처 도감 · 5상자",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "서로 다른 개인 보물 상자 5개를 여세요. 같은 상자 반복 개봉과 다른 플레이어는 중복 집계하지 않습니다. 이전 은닉처 도감 진행은 보존하며, 대표 상자 기준 거점14곳은 별도 도감으로 기록합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7B04000100000007",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": 12.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)"
+    },
+    {
+      "id": "7B04000000000008",
+      "title": "세르딘 은닉처 도감 · 12상자",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "서로 다른 개인 보물 상자 12개를 여세요. 같은 상자 반복 개봉과 다른 플레이어는 중복 집계하지 않습니다. 이전 은닉처 도감 진행은 보존하며, 대표 상자 기준 거점14곳은 별도 도감으로 기록합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7B04000100000008",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000007"
+      ],
+      "x": 15.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)"
+    },
+    {
+      "id": "7B04000000000009",
+      "title": "세르딘 은닉처 도감 · 24상자",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 파수꾼 하린",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북문 대교 건너 162m · 세르딘 초입 감시소&r (X:+6.5, Z:-162.5)",
+        "&e[🖱 진행 방법]&r 하린 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "서로 다른 개인 보물 상자 24개를 여세요. 같은 상자 반복 개봉과 다른 플레이어는 중복 집계하지 않습니다. 이전 은닉처 도감 진행은 보존하며, 대표 상자 기준 거점14곳은 별도 도감으로 기록합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav harin\"}}"
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7B04000100000009",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7B04000000000008"
+      ],
+      "x": 0.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 파수꾼 하린 (광장 북문 대교 건너 162m · 세르딘 초입 감시소)"
+    },
+    {
+      "id": "7C06000000000001",
+      "title": "도항 자격 · 수호자 토벌 경로",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제 수호자 토벌 공유 기록을 확인합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "7C06000100000001",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": -12.0,
+      "y": 3.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7C06000000000002",
+      "title": "도항 자격 · 개척 공납 경로",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "실제 D급 비전투직 공납 완료 기록을 확인합니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "7C06000100000002",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7900000000000005"
+      ],
+      "x": -12.0,
+      "y": 6.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7C06000000000006",
+      "title": "기존 기록 · 나만의 개척 영지",
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "본토의 공식 거점 밖에 작업대 또는 상자를 설치하세요. FTB Chunks로 자기 영지를 보호할 수 있습니다.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "icon": "minecraft:crafting_table",
+      "tasks": [
+        {
+          "id": "7C06000100000006",
+          "type": "custom",
+          "title": "현장 진행 기록 확인"
+        }
+      ],
+      "dependencies": [
+        "7C06000000000005"
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "invisible": true,
+      "tags": [
+        "fcraft_v106_hidden"
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)"
+    },
+    {
+      "id": "7E20000000000007",
+      "title": "4-1. 다림·고리·로만·나우 생활 납품",
+      "x": 21,
+      "y": -8,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 농부 다림",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남서쪽 48m · 브리온 농장 & 실습 밭&r (X:-19.5, Z:+44.5)",
+        "&e[🖱 진행 방법]&r 다림 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "다림에게 작물, 고리에게 음식과 어획물, 로만에게 약재, 나우에게 광물을 납품·판매하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav darim\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000007",
+          "type": "custom",
+          "title": "4-1. 다림·고리·로만·나우 생활 납품",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 농부 다림 (광장 남서쪽 48m · 브리온 농장 & 실습 밭)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_farming_harvest.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E20000000000008",
+      "title": "4-2. 스키의 허수아비와 5초 DPS",
+      "x": 24,
+      "y": -8,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 검술 교관 스키",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a북동쪽 49m · 길드 검술 훈련장&r (X:+31.5, Z:-37.5)",
+        "&e[🖱 진행 방법]&r 스키 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "검술 훈련장의 허수아비를 실제 타격해 방금 피해량과 5초 DPS를 확인하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav ski\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000008",
+          "type": "custom",
+          "title": "4-2. 스키의 허수아비와 5초 DPS",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 검술 교관 스키 (광장 북동쪽 49m · 길드 검술 훈련장)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_training_dummy.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E20000000000009",
+      "title": "4-3. E급의 첫 오두막 실내 꾸미기",
+      "x": 27,
+      "y": -8,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "E급을 달성하고 시작 거처를 자신의 가구로 꾸미세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E21000000000009",
+          "type": "custom",
+          "title": "4-3. E급의 첫 오두막 실내 꾸미기",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E2000000000000A",
+      "title": "4-4. 네 가지 모험 트로피 진열",
+      "x": 30,
+      "y": -8,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 접수원 헤스",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a정북쪽 34m · 통합 길드 본관 1층&r (X:+1.5, Z:-33.5)",
+        "&e[🖱 진행 방법]&r 헤스 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "전초 군기·엘프 비문·박물학 동판·수호자 투구를 오두막 실내에 진열하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hess\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E2100000000000A",
+          "type": "custom",
+          "title": "4-4. 네 가지 모험 트로피 진열",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 접수원 헤스 (광장 정북쪽 34m · 통합 길드 본관 1층)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_cottage_trophy.png"
+        }
+      },
+      "shape": "circle"
+    },
+    {
+      "id": "7E2000000000000B",
+      "title": "4-5. 모험가 도감 [J] · 20종 기록",
+      "x": 33,
+      "y": -8,
+      "dependencies": [],
+      "description": [
+        "&e[📍 찾아갈 인물]&r 연구자 협합",
+        "&e[🏛 건물 및 위치]&r 중앙 분수대 기준 &a남동쪽 끝 61m · 유물 연구 별관 창고&r (X:+59.5, Z:+14.5)",
+        "&e[🖱 진행 방법]&r 협합 우클릭 → [4. 📜 일일 의뢰] 또는 [1. 💬 대화]",
+        "",
+        "[J]로 모험가 도감을 열고 생물·광물·유물 20종 수집 이정표를 달성하세요.",
+        "{\"text\":\"🧭 길 안내 화살표 켜기\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fcraft_nav hyeophap\"}}"
+      ],
+      "tasks": [
+        {
+          "id": "7E2100000000000B",
+          "type": "custom",
+          "title": "4-5. 모험가 도감 [J] · 20종 기록",
+          "icon": {
+            "id": "ftbquests:custom_icon",
+            "Count": 1,
+            "tag": {
+              "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+            }
+          }
+        }
+      ],
+      "subtitle": "📍 담당: 연구자 협합 (광장 남동쪽 끝 61m · 유물 연구 별관 창고)",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "Count": 1,
+        "tag": {
+          "Icon": "f_rank_days:textures/gui/quests/node_compass_target.png"
+        }
+      },
+      "shape": "circle"
+    }
+  ]
+}

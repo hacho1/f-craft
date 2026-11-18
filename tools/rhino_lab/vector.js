@@ -1,0 +1,1 @@
+JSON.stringify({pi:String(Math.PI),char:String('abc'.charCodeAt(0)),num:String(Number('12')),mod:String((0*131+97)%2147483647),floor:String(Math.floor(16/16)),hex:Number(97).toString(16),fixed:Number(97).toFixed(0)})

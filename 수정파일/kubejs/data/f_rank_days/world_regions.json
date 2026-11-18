@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "project_title_tentative": "F-Craft",
+  "target_environment": {
+    "minecraft_version": "1.20.1",
+    "mod_loader": "Forge",
+    "recommended_forge_build": "47.4.28+",
+    "loader_reference_url": "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html",
+    "play_mode_priority": [
+      "singleplayer_primary",
+      "multiplayer_compatible"
+    ]
+  },
+  "worldview_principles": {
+    "empire_id": "arbern_empire",
+    "empire_name_tentative": "아르베른 제국",
+    "coexisting_races": [
+      "human",
+      "beastkin_cat",
+      "beastkin_fox",
+      "beastkin_ferret",
+      "lesser_demon"
+    ],
+    "narrative_rules": [
+      "인간, 수인, 마족은 모두 개별적인 인격, 문화, 이해관계를 가진다.",
+      "종족 간 갈등과 지역별 차별은 세계관의 현실적 일부로 존재한다.",
+      "모든 마족을 악역으로 묘사하거나 모든 인간을 정의로운 존재로 일괄 설정하지 않는다.",
+      "플레이어는 특별한 영웅이 아닌 F급 평민으로 시작하며, 생활·경제·모험·연애·역사 조사 등 어떤 방향도 강요받지 않는다."
+    ]
+  },
+  "regions": [
+    {
+      "id": "arbern_empire",
+      "name_tentative": "아르베른 제국",
+      "name_status": "tentative",
+      "type": "nation",
+      "tier": "all",
+      "summary": "인간·수인·마족 등이 공존하는 제국. 수도와 상업 도시부터 변방 마을까지 지역별 문화와 종족에 대한 시선이 다르다."
+    },
+    {
+      "id": "brion_village",
+      "name_tentative": "브리온 마을",
+      "name_status": "tentative",
+      "type": "starter_village",
+      "tier": "starter (F~D)",
+      "summary": "플레이어가 처음 시작하는 아르베른 제국 변방 마을. 농경지, 통합 길드 지부, 개인 물약가게, 대장간, 여관, 개인 의료소가 위치한다.",
+      "primary_npcs": [
+        "hess",
+        "darim",
+        "roman",
+        "nau",
+        "gori",
+        "hwiyeon"
+      ]
+    },
+    {
+      "id": "serdin_forest",
+      "name_tentative": "세르딘 숲",
+      "name_status": "tentative",
+      "type": "gathering_combat_ruins",
+      "tier": "early (F~C)",
+      "summary": "브리온 마을 인근의 초반 채집·약초 수급·기초 전투 및 소규모 고대 유적 탐험 지역.",
+      "related_jobs": [
+        "farmer",
+        "alchemist",
+        "swordsman",
+        "relic_researcher"
+      ]
+    },
+    {
+      "id": "belmar_city",
+      "name_tentative": "벨마르",
+      "name_status": "tentative",
+      "type": "trade_hub_city",
+      "tier": "mid (D~B)",
+      "summary": "상업과 교역의 중심 도시. 상단 거래, 중급 자격 심사 협력소, 박물관·유물 감정 교류가 활발하다.",
+      "primary_npcs": [
+        "bambam",
+        "hyeophap"
+      ]
+    },
+    {
+      "id": "lucent_capital",
+      "name_tentative": "황도 루센트",
+      "name_status": "tentative",
+      "type": "imperial_capital",
+      "tier": "mid_to_high (C~S)",
+      "summary": "아르베른 제국의 수도이자 중앙 통합 길드 본부, 상급 자격 심사원, 제국 행정·학술 기관이 밀집한 핵심 도시.",
+      "primary_npcs": [
+        "ski"
+      ]
+    },
+    {
+      "id": "karden_frontier",
+      "name_tentative": "카르덴 변경",
+      "name_status": "tentative",
+      "type": "endgame_frontier_ruins",
+      "tier": "high (B~S)",
+      "summary": "위험한 고대 유적과 제국·마족 역사의 단서, 고난도 전투·탐사 콘텐츠가 존재하는 변경 지대."
+    }
+  ]
+}

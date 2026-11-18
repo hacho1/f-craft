@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="fcraft_raid_bridge"
+version="1.0.0"
+displayName="F-Craft Guardian Raid Bridge"
+description='''Finite repairable guardian gear, cinematic immunity and native boss weakness access.'''
+[[dependencies.fcraft_raid_bridge]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.28,47.4.29)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fcraft_raid_bridge]]
+modId="mowziesmobs"
+mandatory=true
+versionRange="[1.7.3,1.7.4)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.fcraft_raid_bridge]]
+modId="bosses_of_mass_destruction"
+mandatory=true
+versionRange="[1.1.2,1.1.3)"
+ordering="AFTER"
+side="BOTH"

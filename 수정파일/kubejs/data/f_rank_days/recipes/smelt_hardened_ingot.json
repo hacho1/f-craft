@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "f_rank_days:raw_hardened_ore"
+  },
+  "result": "f_rank_days:hardened_ingot",
+  "experience": 0.8,
+  "cookingtime": 200
+}

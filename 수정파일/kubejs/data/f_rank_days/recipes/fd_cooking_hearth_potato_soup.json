@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "recipe_book_tab": "meals",
+        "ingredients": [
+          {
+            "item": "minecraft:potato"
+          },
+          {
+            "item": "minecraft:carrot"
+          },
+          {
+            "item": "minecraft:brown_mushroom"
+          }
+        ],
+        "result": {
+          "item": "f_rank_days:hearth_potato_soup",
+          "count": 1
+        },
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "experience": 1.0,
+        "cookingtime": 200
+      }
+    }
+  ]
+}

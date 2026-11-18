@@ -1,0 +1,1713 @@
+{
+  "project": "《F급의 나날》 v7.3",
+  "minecraft_version": "1.20.1 Forge (DataVersion 3465)",
+  "excluded_packs": [
+    {
+      "name": "Stonehill Castle",
+      "url": "https://www.planetminecraft.com/project/stonehill-castle-4407920/",
+      "reason": "사용자 지침에 따라 미다운로드·이번 작업 제외 (추후 카르덴 변경/제국 성 검토)"
+    },
+    {
+      "name": "Medieval/Fantasy Building Bundle",
+      "url": "https://www.planetminecraft.com/project/medievalfantasy-building-bundle/",
+      "creator": "lynchyinc",
+      "reason": "제작자 댓글 허락은 확인되었으나 Google Drive 및 로컬 작업공간에 압축파일 미존재, 외부 PMC 다운로드는 Cloudflare 차단 상태여서 지침 2번·5번에 따라 17 Medieval Builds 주택 개조(의료소)·풍차로 대체"
+    }
+  ],
+  "deferred_v8_systems": [
+    "무기 강화 및 계승",
+    "보스 전투",
+    "패링",
+    "회피",
+    "신문 시스템",
+    "NPC 장편 개인 서사 및 고급 연애 이벤트"
+  ],
+  "public_distributable_profile": {
+    "world_folder": "saves/Brion_Village_v7_3_Public_Starter_World",
+    "starter_spawn": {
+      "x": -16.5,
+      "y": 70,
+      "z": 30.5,
+      "yaw": 180.0,
+      "house_bbox": [
+        -26,
+        20,
+        -8,
+        39
+      ]
+    },
+    "structures": [
+      {
+        "short_id": "brion_v7_guild_hall",
+        "id": "f_rank_days:brion_v7_guild_hall",
+        "zone": "NORTH",
+        "dx": -15,
+        "dy": -1,
+        "dz": -50,
+        "w": 33,
+        "h": 25,
+        "l": 30,
+        "rotation": 0,
+        "entrance": [
+          1,
+          1,
+          -35
+        ],
+        "npc_ids": [
+          "hess"
+        ],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Inn / Large Guild Hall"
+      },
+      {
+        "short_id": "brion_v7_central_plaza",
+        "id": "f_rank_days:brion_v7_central_plaza",
+        "zone": "CENTRAL",
+        "dx": -16,
+        "dy": 0,
+        "dz": -16,
+        "w": 33,
+        "h": 36,
+        "l": 33,
+        "rotation": 0,
+        "entrance": [
+          0,
+          1,
+          0
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위) + Medieval Town Map Pack (4순위)",
+        "creator": "JayLythical & Gazamo",
+        "original_name": "Clocktower + Market Stall"
+      },
+      {
+        "short_id": "brion_v7_potion_shop",
+        "id": "f_rank_days:brion_v7_potion_shop",
+        "zone": "EAST",
+        "dx": 22,
+        "dy": -1,
+        "dz": -17,
+        "w": 14,
+        "h": 19,
+        "l": 13,
+        "rotation": 0,
+        "entrance": [
+          29,
+          1,
+          -11
+        ],
+        "npc_ids": [
+          "roman"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Alchemy Store"
+      },
+      {
+        "short_id": "brion_v7_blacksmith",
+        "id": "f_rank_days:brion_v7_blacksmith",
+        "zone": "EAST",
+        "dx": 44,
+        "dy": -1,
+        "dz": -17,
+        "w": 14,
+        "h": 13,
+        "l": 15,
+        "rotation": 0,
+        "entrance": [
+          51,
+          1,
+          -10
+        ],
+        "npc_ids": [
+          "nau"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Blacksmith"
+      },
+      {
+        "short_id": "brion_v7_inn",
+        "id": "f_rank_days:brion_v7_inn",
+        "zone": "WEST",
+        "dx": -39,
+        "dy": -1,
+        "dz": -19,
+        "w": 17,
+        "h": 18,
+        "l": 21,
+        "rotation": 0,
+        "entrance": [
+          -31,
+          1,
+          -9
+        ],
+        "npc_ids": [
+          "gori"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Tavern Or Inn"
+      },
+      {
+        "short_id": "brion_v7_clinic",
+        "id": "f_rank_days:brion_v7_clinic",
+        "zone": "NORTH",
+        "dx": -43,
+        "dy": -1,
+        "dz": -47,
+        "w": 19,
+        "h": 16,
+        "l": 23,
+        "rotation": 0,
+        "entrance": [
+          -34,
+          1,
+          -36
+        ],
+        "npc_ids": [
+          "hwiyeon"
+        ],
+        "pack_name": "17 Medieval Builds (1순위, 지침 5번 주택 개조)",
+        "creator": "JayLythical",
+        "original_name": "Upgraded Family Home 02 (의료소 개조)"
+      },
+      {
+        "short_id": "brion_v7_player_cottage",
+        "id": "f_rank_days:brion_v7_player_cottage",
+        "zone": "WEST",
+        "dx": -26,
+        "dy": -1,
+        "dz": 20,
+        "w": 19,
+        "h": 23,
+        "l": 20,
+        "rotation": 0,
+        "entrance": [
+          -17,
+          1,
+          30
+        ],
+        "npc_ids": [],
+        "pack_name": "Medieval Town Map Pack (4순위, 공개 배포용 대체)",
+        "creator": "Gazamo",
+        "original_name": "Small House 1"
+      },
+      {
+        "short_id": "brion_v7_darim_farmhouse",
+        "id": "f_rank_days:brion_v7_darim_farmhouse",
+        "zone": "SOUTH",
+        "dx": -36,
+        "dy": -1,
+        "dz": 45,
+        "w": 32,
+        "h": 12,
+        "l": 24,
+        "rotation": 0,
+        "entrance": [
+          -20,
+          1,
+          57
+        ],
+        "npc_ids": [
+          "darim"
+        ],
+        "pack_name": "17 Medieval Builds (1순위) + 농업 실습 밭 조합",
+        "creator": "JayLythical",
+        "original_name": "Farmers House + Irrigated Crop Practice Field"
+      },
+      {
+        "short_id": "brion_v7_windmill_and_stables",
+        "id": "f_rank_days:brion_v7_windmill_and_stables",
+        "zone": "SOUTH",
+        "dx": 6,
+        "dy": -1,
+        "dz": 45,
+        "w": 16,
+        "h": 33,
+        "l": 23,
+        "rotation": 0,
+        "entrance": [
+          14,
+          1,
+          56
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Windmill"
+      },
+      {
+        "short_id": "brion_v7_market_general_store",
+        "id": "f_rank_days:brion_v7_market_general_store",
+        "zone": "EAST",
+        "dx": 22,
+        "dy": -1,
+        "dz": 4,
+        "w": 14,
+        "h": 17,
+        "l": 21,
+        "rotation": 0,
+        "entrance": [
+          29,
+          1,
+          14
+        ],
+        "npc_ids": [
+          "bambam"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Bakery"
+      },
+      {
+        "short_id": "brion_v7_warehouse",
+        "id": "f_rank_days:brion_v7_warehouse",
+        "zone": "EAST",
+        "dx": 44,
+        "dy": -1,
+        "dz": 5,
+        "w": 19,
+        "h": 18,
+        "l": 18,
+        "rotation": 0,
+        "entrance": [
+          53,
+          1,
+          14
+        ],
+        "npc_ids": [
+          "hyeophap"
+        ],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Store 2 / Warehouse"
+      },
+      {
+        "short_id": "brion_v7_specialty_shop",
+        "id": "f_rank_days:brion_v7_specialty_shop",
+        "zone": "NORTH",
+        "dx": 23,
+        "dy": -1,
+        "dz": -43,
+        "w": 19,
+        "h": 20,
+        "l": 20,
+        "rotation": 0,
+        "entrance": [
+          32,
+          1,
+          -33
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Enchanter Store"
+      },
+      {
+        "short_id": "brion_v7_resident_houses",
+        "id": "f_rank_days:brion_v7_resident_houses",
+        "zone": "WEST",
+        "dx": -68,
+        "dy": -1,
+        "dz": -19,
+        "w": 19,
+        "h": 22,
+        "l": 17,
+        "rotation": 0,
+        "entrance": [
+          -59,
+          1,
+          -11
+        ],
+        "npc_ids": [],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Small House 2"
+      },
+      {
+        "short_id": "brion_v7_resident_house2",
+        "id": "f_rank_days:brion_v7_resident_house2",
+        "zone": "NORTH",
+        "dx": -79,
+        "dy": -1,
+        "dz": -47,
+        "w": 31,
+        "h": 24,
+        "l": 24,
+        "rotation": 0,
+        "entrance": [
+          -64,
+          1,
+          -35
+        ],
+        "npc_ids": [],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Medium House 1"
+      },
+      {
+        "short_id": "brion_v7_training_grounds",
+        "id": "f_rank_days:brion_v7_training_grounds",
+        "zone": "NORTH",
+        "dx": 24,
+        "dy": -1,
+        "dz": -64,
+        "w": 13,
+        "h": 33,
+        "l": 13,
+        "rotation": 0,
+        "entrance": [
+          30,
+          1,
+          -58
+        ],
+        "npc_ids": [
+          "ski"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Watchtower"
+      },
+      {
+        "short_id": "brion_v7_barn_stable",
+        "id": "f_rank_days:brion_v7_barn_stable",
+        "zone": "SOUTH",
+        "dx": 28,
+        "dy": -1,
+        "dz": 46,
+        "w": 19,
+        "h": 13,
+        "l": 17,
+        "rotation": 0,
+        "entrance": [
+          37,
+          1,
+          54
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Barn Or Stable"
+      }
+    ],
+    "npcs": [
+      {
+        "id": "hess",
+        "tag": "npc_hess",
+        "zone": "NORTH",
+        "label": "헤스 [통합 길드 접수원]",
+        "building_id": "brion_v7_guild_hall",
+        "dx": 0.5,
+        "dy": 1,
+        "dz": -37.5,
+        "yaw": 0,
+        "profession": "minecraft:librarian",
+        "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      {
+        "id": "roman",
+        "tag": "npc_roman",
+        "zone": "EAST",
+        "label": "로만 [연금술사 · 물약가게]",
+        "building_id": "brion_v7_potion_shop",
+        "dx": 29.5,
+        "dy": 1,
+        "dz": -10.5,
+        "yaw": 90,
+        "profession": "minecraft:cleric",
+        "skin": "customnpcs:textures/entity/custom/roman_skin_64x64.png"
+      },
+      {
+        "id": "darim",
+        "tag": "npc_darim",
+        "zone": "SOUTH",
+        "label": "다림 [농부 · 농업 실습장]",
+        "building_id": "brion_v7_darim_farmhouse",
+        "dx": -23.5,
+        "dy": 1,
+        "dz": 56.5,
+        "yaw": 180,
+        "profession": "minecraft:farmer",
+        "skin": "customnpcs:textures/entity/custom/placeholder_fox_farmer.png"
+      },
+      {
+        "id": "nau",
+        "tag": "npc_nau",
+        "zone": "EAST",
+        "label": "나우 [대장장이 · 대장간]",
+        "building_id": "brion_v7_blacksmith",
+        "dx": 48.5,
+        "dy": 1,
+        "dz": -7.5,
+        "yaw": 90,
+        "profession": "minecraft:weaponsmith",
+        "skin": "customnpcs:textures/entity/custom/placeholder_blacksmith.png"
+      },
+      {
+        "id": "gori",
+        "tag": "npc_gori",
+        "zone": "WEST",
+        "label": "고리 [여관 주인]",
+        "building_id": "brion_v7_inn",
+        "dx": -31.5,
+        "dy": 1,
+        "dz": -6.5,
+        "yaw": -90,
+        "profession": "minecraft:butcher",
+        "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      },
+      {
+        "id": "hwiyeon",
+        "tag": "npc_hwiyeon",
+        "zone": "WEST",
+        "label": "휘연 [힐러 · 의료소]",
+        "building_id": "brion_v7_clinic",
+        "dx": -34.5,
+        "dy": 1,
+        "dz": -30.5,
+        "yaw": -90,
+        "profession": "minecraft:cleric",
+        "skin": "customnpcs:textures/entity/custom/placeholder_healer.png"
+      },
+      {
+        "id": "ski",
+        "tag": "npc_ski",
+        "zone": "NORTH",
+        "label": "스키 [경비 교관]",
+        "building_id": "brion_v7_training_grounds",
+        "dx": 30.5,
+        "dy": 1,
+        "dz": -58.5,
+        "yaw": 0,
+        "profession": "minecraft:weaponsmith",
+        "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      {
+        "id": "hyeophap",
+        "tag": "npc_hyeophap",
+        "zone": "EAST",
+        "label": "협합 [창고·유물 관리인]",
+        "building_id": "brion_v7_warehouse",
+        "dx": 53.5,
+        "dy": 2,
+        "dz": 14.5,
+        "yaw": 90,
+        "profession": "minecraft:cartographer",
+        "skin": "customnpcs:textures/entity/custom/roman_temp_skin_64x64.png"
+      },
+      {
+        "id": "bambam",
+        "tag": "npc_bambam",
+        "zone": "EAST",
+        "label": "밤밤 [상점 주인]",
+        "building_id": "brion_v7_market_general_store",
+        "dx": 30.5,
+        "dy": 1,
+        "dz": 14.5,
+        "yaw": 90,
+        "profession": "minecraft:mason",
+        "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      }
+    ],
+    "architect_records": [
+      {
+        "slot_id": "brion_v7_guild_hall",
+        "role": "통합 길드 지부 (담당 NPC: 헤스)",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Inn / Large Guild Hall",
+        "filename": "Medieval Map Pack/tmp_inn.schematic",
+        "extract_coords": "Schematic 전체 지상부 (Y=13..37, 자동 여백 트림)",
+        "size_whl": [
+          33,
+          25,
+          30
+        ],
+        "place_coords": [
+          -15,
+          67,
+          -50
+        ],
+        "rotation_deg": 0,
+        "modifications": "외관·기둥·2층 객실·책장 114개 원본 보존, 1층 홀에 통합 길드 7대 필수 공간(접수창구·헤스 근무석·F급 능력 등록소·직업 등록소·자격시험 안내·퀘스트 게시판·대기석) 및 한글 표지판 구성",
+        "license_status": "공개 배포 가능 (PMC 원문: 'Free to anyone that wants to use... you have full permission, and you dono t have to credit')"
+      },
+      {
+        "slot_id": "brion_v7_central_plaza",
+        "role": "중앙 광장과 시계탑·노점 (공용)",
+        "pack_name": "17 Medieval Builds (1순위) + Medieval Town Map Pack (4순위)",
+        "creator": "JayLythical & Gazamo",
+        "original_name": "Clocktower + Market Stall",
+        "filename": "17MedievalBuildingsByJayLythical/region/r.0.-1.mca + tmp_stall.schematic",
+        "extract_coords": "Clocktower X:124..136, Y:8..42, Z:-91..-79 / Market Stall X:14..23, Y:14..20, Z:10..18",
+        "size_whl": [
+          33,
+          36,
+          33
+        ],
+        "place_coords": [
+          -16,
+          68,
+          -16
+        ],
+        "rotation_deg": 0,
+        "modifications": "광장 북서편 시계탑·남동편 시장 노점 배치, 중앙 석조 우물·가로등·4방향 한글 이정표 연결",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 조건 자유 사용 + Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_potion_shop",
+        "role": "물약가게 (담당 NPC: 로만)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Alchemy Store",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:251..264, Y:8..26, Z:-133..-121",
+        "size_whl": [
+          14,
+          19,
+          13
+        ],
+        "place_coords": [
+          22,
+          67,
+          -17
+        ],
+        "rotation_deg": 0,
+        "modifications": "쇼케이스 외곽 테두리 1칸 제거, 원본 양조기·가마솥·상자 6개·랜턴 11개 보존, 전면 한글 간판 부착",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_blacksmith",
+        "role": "대장간 (담당 NPC: 나우)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Blacksmith",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:251..264, Y:8..20, Z:-182..-168",
+        "size_whl": [
+          14,
+          13,
+          15
+        ],
+        "place_coords": [
+          44,
+          67,
+          -17
+        ],
+        "rotation_deg": 180,
+        "modifications": "서쪽 장인 거리 방향으로 180도 회전, 원본 모루 2개·화로 2개·연기 모닥불·통·작업대 완전 보존, 한글 간판 추가",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_inn",
+        "role": "여관 (담당 NPC: 고리)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Tavern Or Inn",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:166..182, Y:8..25, Z:-151..-131",
+        "size_whl": [
+          17,
+          18,
+          21
+        ],
+        "place_coords": [
+          -39,
+          67,
+          -19
+        ],
+        "rotation_deg": 0,
+        "modifications": "광장 서편 동향 배치, 원본 객실 침대 8개·벽난로 모닥불 3개·가마솥 5개·랜턴 22개 보존, 여관 한글 간판 부착",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_clinic",
+        "role": "의료소 (담당 NPC: 휘연)",
+        "pack_name": "17 Medieval Builds (1순위, 지침 5번 주택 개조)",
+        "creator": "JayLythical",
+        "original_name": "Upgraded Family Home 02 (의료소 개조)",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:205..223, Y:8..23, Z:-109..-87",
+        "size_whl": [
+          19,
+          16,
+          23
+        ],
+        "place_coords": [
+          -43,
+          67,
+          -47
+        ],
+        "rotation_deg": 0,
+        "modifications": "미업로드된 3순위 번들 대신 지침 5번('또는 주택 개조') 적용: 침대 블록 5칸을 백색 진료 병상(white_bed) 및 정화 수조(water_cauldron)로 교체하고 원본 양조기·독서대·책장 15개·랜턴 25개 보존",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_player_cottage",
+        "role": "플레이어 시작 거처 (플레이어 최초 스폰)",
+        "pack_name": "Medieval Town Map Pack (4순위, 공개 배포용 대체)",
+        "creator": "Gazamo",
+        "original_name": "Small House 1",
+        "filename": "Medieval Map Pack/tmp_smallhouse1.schematic",
+        "extract_coords": "지상부 Y=11..33 자동 여백 트림",
+        "size_whl": [
+          19,
+          23,
+          20
+        ],
+        "place_coords": [
+          -26,
+          67,
+          20
+        ],
+        "rotation_deg": 90,
+        "modifications": "북쪽 중앙 광장 방향으로 출입문 90도 회전, 실내 침대 2개·화로 2개·작업대·책장 보존, 실내 시작 스폰 지정",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락 — Farm House Pack 재배포 미명시에 따른 클린 대체본)"
+      },
+      {
+        "slot_id": "brion_v7_darim_farmhouse",
+        "role": "농가와 농업 실습장 (담당 NPC: 다림)",
+        "pack_name": "17 Medieval Builds (1순위) + 농업 실습 밭 조합",
+        "creator": "JayLythical",
+        "original_name": "Farmers House + Irrigated Crop Practice Field",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:208..223, Y:8..19, Z:-185..-166",
+        "size_whl": [
+          32,
+          12,
+          24
+        ],
+        "place_coords": [
+          -36,
+          67,
+          45
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 농가(침대 4·상자 7·양조기·책장 6·랜턴 10) 동편에 농부 F→E급 시험용 관개 실습 밭(성숙 밀·당근·감자·퇴비통) 연결",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_windmill_and_stables",
+        "role": "브리온 풍차 (농장 지구 랜드마크)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Windmill",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:121..136, Y:8..40, Z:-159..-137",
+        "size_whl": [
+          16,
+          33,
+          23
+        ],
+        "place_coords": [
+          6,
+          67,
+          45
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 33블록 높이 중세 풍차 날개 및 내부 목조 계단·랜턴 10개 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_market_general_store",
+        "role": "광장 제과점·잡화 상점 (보조 NPC: 밤밤)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Bakery",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:210..223, Y:8..24, Z:-212..-192",
+        "size_whl": [
+          14,
+          17,
+          21
+        ],
+        "place_coords": [
+          22,
+          67,
+          4
+        ],
+        "rotation_deg": 0,
+        "modifications": "쇼케이스 외곽선 제거, 화덕 3개·진열 상자 8개·2층 침실 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_warehouse",
+        "role": "마을 창고·보급 상점 (보조 NPC: 협합)",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Store 2 / Warehouse",
+        "filename": "Medieval Map Pack/tmp_store2.schematic",
+        "extract_coords": "지상부 Y=13..30 자동 여백 트림",
+        "size_whl": [
+          19,
+          18,
+          18
+        ],
+        "place_coords": [
+          44,
+          67,
+          5
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 과잉 암반(Y=0..12) 트림 및 지면 정렬, 원본 상점 매대·다락 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_specialty_shop",
+        "role": "북동쪽 마법·서적 전문 상점",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Enchanter Store",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:164..182, Y:8..27, Z:-180..-161",
+        "size_whl": [
+          19,
+          20,
+          20
+        ],
+        "place_coords": [
+          23,
+          67,
+          -43
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 다중 박공 지붕, 책장 49개, 상자 24개, 랜턴 17개 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_resident_houses",
+        "role": "서쪽 골목 일반 주민 주택 1",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Small House 2",
+        "filename": "Medieval Map Pack/tmp_smallhouse2.schematic",
+        "extract_coords": "지상부 Y=11..32 자동 여백 트림",
+        "size_whl": [
+          19,
+          22,
+          17
+        ],
+        "place_coords": [
+          -68,
+          67,
+          -19
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 암반 트림 및 지면 정렬, 구형 버튼·압력판·사다리·침대 100% 변환 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_resident_house2",
+        "role": "북서쪽 골목 일반 주민 주택 2",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Medium House 1",
+        "filename": "Medieval Map Pack/tmp_mediumhouse1.schematic",
+        "extract_coords": "지상부 Y=16..39 자동 여백 트림",
+        "size_whl": [
+          31,
+          24,
+          24
+        ],
+        "place_coords": [
+          -79,
+          67,
+          -47
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 암반 트림 및 지면 정렬, 원본 책장 64개·침대 4개·상자 8개 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_training_grounds",
+        "role": "북문 경비탑·기초 수련소 (보조 NPC: 스키)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Watchtower",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:124..136, Y:8..40, Z:-228..-216",
+        "size_whl": [
+          13,
+          33,
+          13
+        ],
+        "place_coords": [
+          24,
+          67,
+          -64
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 33블록 석조·목조 경비탑 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_barn_stable",
+        "role": "농장 외양간·건초 헛간",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Barn Or Stable",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:205..223, Y:8..20, Z:-158..-142",
+        "size_whl": [
+          19,
+          13,
+          17
+        ],
+        "place_coords": [
+          28,
+          67,
+          46
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 통 14개·상자 3개·랜턴 11개 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      }
+    ]
+  },
+  "development_review_profile": {
+    "world_folder": "dev_review_only_v7_3/saves/Brion_Village_v7_3_Dev_Review_World",
+    "starter_spawn": {
+      "x": -16.5,
+      "y": 69,
+      "z": 31.5,
+      "yaw": 180.0,
+      "house_bbox": [
+        -28,
+        20,
+        -9,
+        35
+      ]
+    },
+    "structures": [
+      {
+        "short_id": "brion_v7_guild_hall",
+        "id": "f_rank_days:brion_v7_guild_hall",
+        "zone": "NORTH",
+        "dx": -15,
+        "dy": -1,
+        "dz": -50,
+        "w": 33,
+        "h": 25,
+        "l": 30,
+        "rotation": 0,
+        "entrance": [
+          1,
+          1,
+          -35
+        ],
+        "npc_ids": [
+          "hess"
+        ],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Inn / Large Guild Hall"
+      },
+      {
+        "short_id": "brion_v7_central_plaza",
+        "id": "f_rank_days:brion_v7_central_plaza",
+        "zone": "CENTRAL",
+        "dx": -16,
+        "dy": 0,
+        "dz": -16,
+        "w": 33,
+        "h": 36,
+        "l": 33,
+        "rotation": 0,
+        "entrance": [
+          0,
+          1,
+          0
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위) + Medieval Town Map Pack (4순위)",
+        "creator": "JayLythical & Gazamo",
+        "original_name": "Clocktower + Market Stall"
+      },
+      {
+        "short_id": "brion_v7_potion_shop",
+        "id": "f_rank_days:brion_v7_potion_shop",
+        "zone": "EAST",
+        "dx": 22,
+        "dy": -1,
+        "dz": -17,
+        "w": 14,
+        "h": 19,
+        "l": 13,
+        "rotation": 0,
+        "entrance": [
+          29,
+          1,
+          -11
+        ],
+        "npc_ids": [
+          "roman"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Alchemy Store"
+      },
+      {
+        "short_id": "brion_v7_blacksmith",
+        "id": "f_rank_days:brion_v7_blacksmith",
+        "zone": "EAST",
+        "dx": 44,
+        "dy": -1,
+        "dz": -17,
+        "w": 14,
+        "h": 13,
+        "l": 15,
+        "rotation": 0,
+        "entrance": [
+          51,
+          1,
+          -10
+        ],
+        "npc_ids": [
+          "nau"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Blacksmith"
+      },
+      {
+        "short_id": "brion_v7_inn",
+        "id": "f_rank_days:brion_v7_inn",
+        "zone": "WEST",
+        "dx": -39,
+        "dy": -1,
+        "dz": -19,
+        "w": 17,
+        "h": 18,
+        "l": 21,
+        "rotation": 0,
+        "entrance": [
+          -31,
+          1,
+          -9
+        ],
+        "npc_ids": [
+          "gori"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Tavern Or Inn"
+      },
+      {
+        "short_id": "brion_v7_clinic",
+        "id": "f_rank_days:brion_v7_clinic",
+        "zone": "NORTH",
+        "dx": -43,
+        "dy": -1,
+        "dz": -47,
+        "w": 19,
+        "h": 16,
+        "l": 23,
+        "rotation": 0,
+        "entrance": [
+          -34,
+          1,
+          -36
+        ],
+        "npc_ids": [
+          "hwiyeon"
+        ],
+        "pack_name": "17 Medieval Builds (1순위, 지침 5번 주택 개조)",
+        "creator": "JayLythical",
+        "original_name": "Upgraded Family Home 02 (의료소 개조)"
+      },
+      {
+        "short_id": "brion_v7_player_cottage",
+        "id": "f_rank_days:brion_v7_player_cottage",
+        "zone": "WEST",
+        "dx": -28,
+        "dy": 0,
+        "dz": 20,
+        "w": 20,
+        "h": 12,
+        "l": 16,
+        "rotation": 0,
+        "entrance": [
+          -18,
+          1,
+          28
+        ],
+        "npc_ids": [],
+        "pack_name": "Farm House Pack (2순위, 개발용 검토 전용)",
+        "creator": "Tiny_Spider",
+        "original_name": "Little House"
+      },
+      {
+        "short_id": "brion_v7_darim_farmhouse",
+        "id": "f_rank_days:brion_v7_darim_farmhouse",
+        "zone": "SOUTH",
+        "dx": -34,
+        "dy": 0,
+        "dz": 45,
+        "w": 26,
+        "h": 11,
+        "l": 21,
+        "rotation": 0,
+        "entrance": [
+          -21,
+          1,
+          55
+        ],
+        "npc_ids": [
+          "darim"
+        ],
+        "pack_name": "Farm House Pack (2순위, 개발용 검토 전용)",
+        "creator": "Tiny_Spider",
+        "original_name": "Farm Shed & Wheat Practice Field"
+      },
+      {
+        "short_id": "brion_v7_windmill_and_stables",
+        "id": "f_rank_days:brion_v7_windmill_and_stables",
+        "zone": "SOUTH",
+        "dx": 6,
+        "dy": -1,
+        "dz": 45,
+        "w": 16,
+        "h": 33,
+        "l": 23,
+        "rotation": 0,
+        "entrance": [
+          14,
+          1,
+          56
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Windmill"
+      },
+      {
+        "short_id": "brion_v7_market_general_store",
+        "id": "f_rank_days:brion_v7_market_general_store",
+        "zone": "EAST",
+        "dx": 22,
+        "dy": -1,
+        "dz": 4,
+        "w": 14,
+        "h": 17,
+        "l": 21,
+        "rotation": 0,
+        "entrance": [
+          29,
+          1,
+          14
+        ],
+        "npc_ids": [
+          "bambam"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Bakery"
+      },
+      {
+        "short_id": "brion_v7_warehouse",
+        "id": "f_rank_days:brion_v7_warehouse",
+        "zone": "EAST",
+        "dx": 44,
+        "dy": -1,
+        "dz": 5,
+        "w": 19,
+        "h": 18,
+        "l": 18,
+        "rotation": 0,
+        "entrance": [
+          53,
+          1,
+          14
+        ],
+        "npc_ids": [
+          "hyeophap"
+        ],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Store 2 / Warehouse"
+      },
+      {
+        "short_id": "brion_v7_specialty_shop",
+        "id": "f_rank_days:brion_v7_specialty_shop",
+        "zone": "NORTH",
+        "dx": 23,
+        "dy": -1,
+        "dz": -43,
+        "w": 19,
+        "h": 20,
+        "l": 20,
+        "rotation": 0,
+        "entrance": [
+          32,
+          1,
+          -33
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Enchanter Store"
+      },
+      {
+        "short_id": "brion_v7_resident_houses",
+        "id": "f_rank_days:brion_v7_resident_houses",
+        "zone": "WEST",
+        "dx": -68,
+        "dy": -1,
+        "dz": -19,
+        "w": 19,
+        "h": 22,
+        "l": 17,
+        "rotation": 0,
+        "entrance": [
+          -59,
+          1,
+          -11
+        ],
+        "npc_ids": [],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Small House 2"
+      },
+      {
+        "short_id": "brion_v7_resident_house2",
+        "id": "f_rank_days:brion_v7_resident_house2",
+        "zone": "NORTH",
+        "dx": -79,
+        "dy": -1,
+        "dz": -47,
+        "w": 31,
+        "h": 24,
+        "l": 24,
+        "rotation": 0,
+        "entrance": [
+          -64,
+          1,
+          -35
+        ],
+        "npc_ids": [],
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Medium House 1"
+      },
+      {
+        "short_id": "brion_v7_training_grounds",
+        "id": "f_rank_days:brion_v7_training_grounds",
+        "zone": "NORTH",
+        "dx": 24,
+        "dy": -1,
+        "dz": -64,
+        "w": 13,
+        "h": 33,
+        "l": 13,
+        "rotation": 0,
+        "entrance": [
+          30,
+          1,
+          -58
+        ],
+        "npc_ids": [
+          "ski"
+        ],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Watchtower"
+      },
+      {
+        "short_id": "brion_v7_barn_stable",
+        "id": "f_rank_days:brion_v7_barn_stable",
+        "zone": "SOUTH",
+        "dx": 28,
+        "dy": -1,
+        "dz": 46,
+        "w": 19,
+        "h": 13,
+        "l": 17,
+        "rotation": 0,
+        "entrance": [
+          37,
+          1,
+          54
+        ],
+        "npc_ids": [],
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Barn Or Stable"
+      }
+    ],
+    "npcs": [
+      {
+        "id": "hess",
+        "tag": "npc_hess",
+        "zone": "NORTH",
+        "label": "헤스 [통합 길드 접수원]",
+        "building_id": "brion_v7_guild_hall",
+        "dx": 0.5,
+        "dy": 1,
+        "dz": -37.5,
+        "yaw": 0,
+        "profession": "minecraft:librarian",
+        "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      {
+        "id": "roman",
+        "tag": "npc_roman",
+        "zone": "EAST",
+        "label": "로만 [연금술사 · 물약가게]",
+        "building_id": "brion_v7_potion_shop",
+        "dx": 29.5,
+        "dy": 1,
+        "dz": -10.5,
+        "yaw": 90,
+        "profession": "minecraft:cleric",
+        "skin": "customnpcs:textures/entity/custom/roman_skin_64x64.png"
+      },
+      {
+        "id": "darim",
+        "tag": "npc_darim",
+        "zone": "SOUTH",
+        "label": "다림 [농부 · 농업 실습장]",
+        "building_id": "brion_v7_darim_farmhouse",
+        "dx": -22.5,
+        "dy": 1,
+        "dz": 54.5,
+        "yaw": 180,
+        "profession": "minecraft:farmer",
+        "skin": "customnpcs:textures/entity/custom/placeholder_fox_farmer.png"
+      },
+      {
+        "id": "nau",
+        "tag": "npc_nau",
+        "zone": "EAST",
+        "label": "나우 [대장장이 · 대장간]",
+        "building_id": "brion_v7_blacksmith",
+        "dx": 48.5,
+        "dy": 1,
+        "dz": -7.5,
+        "yaw": 90,
+        "profession": "minecraft:weaponsmith",
+        "skin": "customnpcs:textures/entity/custom/placeholder_blacksmith.png"
+      },
+      {
+        "id": "gori",
+        "tag": "npc_gori",
+        "zone": "WEST",
+        "label": "고리 [여관 주인]",
+        "building_id": "brion_v7_inn",
+        "dx": -31.5,
+        "dy": 1,
+        "dz": -6.5,
+        "yaw": -90,
+        "profession": "minecraft:butcher",
+        "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      },
+      {
+        "id": "hwiyeon",
+        "tag": "npc_hwiyeon",
+        "zone": "WEST",
+        "label": "휘연 [힐러 · 의료소]",
+        "building_id": "brion_v7_clinic",
+        "dx": -34.5,
+        "dy": 1,
+        "dz": -30.5,
+        "yaw": -90,
+        "profession": "minecraft:cleric",
+        "skin": "customnpcs:textures/entity/custom/placeholder_healer.png"
+      },
+      {
+        "id": "ski",
+        "tag": "npc_ski",
+        "zone": "NORTH",
+        "label": "스키 [경비 교관]",
+        "building_id": "brion_v7_training_grounds",
+        "dx": 30.5,
+        "dy": 1,
+        "dz": -58.5,
+        "yaw": 0,
+        "profession": "minecraft:weaponsmith",
+        "skin": "customnpcs:textures/entity/custom/placeholder_guild_receptionist.png"
+      },
+      {
+        "id": "hyeophap",
+        "tag": "npc_hyeophap",
+        "zone": "EAST",
+        "label": "협합 [창고·유물 관리인]",
+        "building_id": "brion_v7_warehouse",
+        "dx": 53.5,
+        "dy": 2,
+        "dz": 14.5,
+        "yaw": 90,
+        "profession": "minecraft:cartographer",
+        "skin": "customnpcs:textures/entity/custom/roman_temp_skin_64x64.png"
+      },
+      {
+        "id": "bambam",
+        "tag": "npc_bambam",
+        "zone": "EAST",
+        "label": "밤밤 [상점 주인]",
+        "building_id": "brion_v7_market_general_store",
+        "dx": 30.5,
+        "dy": 1,
+        "dz": 14.5,
+        "yaw": 90,
+        "profession": "minecraft:mason",
+        "skin": "customnpcs:textures/entity/custom/placeholder_ferret_innkeeper.png"
+      }
+    ],
+    "architect_records": [
+      {
+        "slot_id": "brion_v7_guild_hall",
+        "role": "통합 길드 지부 (담당 NPC: 헤스)",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Inn / Large Guild Hall",
+        "filename": "Medieval Map Pack/tmp_inn.schematic",
+        "extract_coords": "Schematic 전체 지상부 (Y=13..37, 자동 여백 트림)",
+        "size_whl": [
+          33,
+          25,
+          30
+        ],
+        "place_coords": [
+          -15,
+          67,
+          -50
+        ],
+        "rotation_deg": 0,
+        "modifications": "외관·기둥·2층 객실·책장 114개 원본 보존, 1층 홀에 통합 길드 7대 필수 공간(접수창구·헤스 근무석·F급 능력 등록소·직업 등록소·자격시험 안내·퀘스트 게시판·대기석) 및 한글 표지판 구성",
+        "license_status": "공개 배포 가능 (PMC 원문: 'Free to anyone that wants to use... you have full permission, and you dono t have to credit')"
+      },
+      {
+        "slot_id": "brion_v7_central_plaza",
+        "role": "중앙 광장과 시계탑·노점 (공용)",
+        "pack_name": "17 Medieval Builds (1순위) + Medieval Town Map Pack (4순위)",
+        "creator": "JayLythical & Gazamo",
+        "original_name": "Clocktower + Market Stall",
+        "filename": "17MedievalBuildingsByJayLythical/region/r.0.-1.mca + tmp_stall.schematic",
+        "extract_coords": "Clocktower X:124..136, Y:8..42, Z:-91..-79 / Market Stall X:14..23, Y:14..20, Z:10..18",
+        "size_whl": [
+          33,
+          36,
+          33
+        ],
+        "place_coords": [
+          -16,
+          68,
+          -16
+        ],
+        "rotation_deg": 0,
+        "modifications": "광장 북서편 시계탑·남동편 시장 노점 배치, 중앙 석조 우물·가로등·4방향 한글 이정표 연결",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 조건 자유 사용 + Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_potion_shop",
+        "role": "물약가게 (담당 NPC: 로만)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Alchemy Store",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:251..264, Y:8..26, Z:-133..-121",
+        "size_whl": [
+          14,
+          19,
+          13
+        ],
+        "place_coords": [
+          22,
+          67,
+          -17
+        ],
+        "rotation_deg": 0,
+        "modifications": "쇼케이스 외곽 테두리 1칸 제거, 원본 양조기·가마솥·상자 6개·랜턴 11개 보존, 전면 한글 간판 부착",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_blacksmith",
+        "role": "대장간 (담당 NPC: 나우)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Blacksmith",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:251..264, Y:8..20, Z:-182..-168",
+        "size_whl": [
+          14,
+          13,
+          15
+        ],
+        "place_coords": [
+          44,
+          67,
+          -17
+        ],
+        "rotation_deg": 180,
+        "modifications": "서쪽 장인 거리 방향으로 180도 회전, 원본 모루 2개·화로 2개·연기 모닥불·통·작업대 완전 보존, 한글 간판 추가",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_inn",
+        "role": "여관 (담당 NPC: 고리)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Tavern Or Inn",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:166..182, Y:8..25, Z:-151..-131",
+        "size_whl": [
+          17,
+          18,
+          21
+        ],
+        "place_coords": [
+          -39,
+          67,
+          -19
+        ],
+        "rotation_deg": 0,
+        "modifications": "광장 서편 동향 배치, 원본 객실 침대 8개·벽난로 모닥불 3개·가마솥 5개·랜턴 22개 보존, 여관 한글 간판 부착",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_clinic",
+        "role": "의료소 (담당 NPC: 휘연)",
+        "pack_name": "17 Medieval Builds (1순위, 지침 5번 주택 개조)",
+        "creator": "JayLythical",
+        "original_name": "Upgraded Family Home 02 (의료소 개조)",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:205..223, Y:8..23, Z:-109..-87",
+        "size_whl": [
+          19,
+          16,
+          23
+        ],
+        "place_coords": [
+          -43,
+          67,
+          -47
+        ],
+        "rotation_deg": 0,
+        "modifications": "미업로드된 3순위 번들 대신 지침 5번('또는 주택 개조') 적용: 침대 블록 5칸을 백색 진료 병상(white_bed) 및 정화 수조(water_cauldron)로 교체하고 원본 양조기·독서대·책장 15개·랜턴 25개 보존",
+        "license_status": "공개 배포 가능 (제작자 JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_player_cottage",
+        "role": "플레이어 시작 거처 (플레이어 최초 스폰)",
+        "pack_name": "Farm House Pack (2순위, 개발용 검토 전용)",
+        "creator": "Tiny_Spider",
+        "original_name": "Little House",
+        "filename": "Farmhouse-Pack---Schematics.zip -> Little House.schematic",
+        "extract_coords": "Schematic 전체 (23x12x19, GrassY=0)",
+        "size_whl": [
+          20,
+          12,
+          16
+        ],
+        "place_coords": [
+          -28,
+          68,
+          20
+        ],
+        "rotation_deg": 180,
+        "modifications": "북쪽 마을 광장을 바라보도록 180도 회전, 실내 침대·화로·상자·책장·텃밭 보존 및 작업대 1개 보강, 실내 시작 스폰 지정",
+        "license_status": "개발용 검토 전용 (PMC 원문에 공개 모드팩 재배포 명시 문구 부재 → 공개 배포본에서 제외)"
+      },
+      {
+        "slot_id": "brion_v7_darim_farmhouse",
+        "role": "농가와 농업 실습장 (담당 NPC: 다림)",
+        "pack_name": "Farm House Pack (2순위, 개발용 검토 전용)",
+        "creator": "Tiny_Spider",
+        "original_name": "Farm Shed & Wheat Practice Field",
+        "filename": "Farmhouse-Pack---Schematics.zip -> Farm Shed.schematic",
+        "extract_coords": "Schematic 전체 (26x11x21, 밀밭 205칸 포함)",
+        "size_whl": [
+          26,
+          11,
+          21
+        ],
+        "place_coords": [
+          -34,
+          68,
+          45
+        ],
+        "rotation_deg": 0,
+        "modifications": "경작지 수분(moisture=7) 및 성숙 밀(age=7) 활성화하여 농부 F→E급 자격시험 즉시 응시 가능 처리",
+        "license_status": "개발용 검토 전용 (공개 배포본에서는 Gazamo/JayLythical 농장으로 자동 전환)"
+      },
+      {
+        "slot_id": "brion_v7_windmill_and_stables",
+        "role": "브리온 풍차 (농장 지구 랜드마크)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Windmill",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:121..136, Y:8..40, Z:-159..-137",
+        "size_whl": [
+          16,
+          33,
+          23
+        ],
+        "place_coords": [
+          6,
+          67,
+          45
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 33블록 높이 중세 풍차 날개 및 내부 목조 계단·랜턴 10개 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_market_general_store",
+        "role": "광장 제과점·잡화 상점 (보조 NPC: 밤밤)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Bakery",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:210..223, Y:8..24, Z:-212..-192",
+        "size_whl": [
+          14,
+          17,
+          21
+        ],
+        "place_coords": [
+          22,
+          67,
+          4
+        ],
+        "rotation_deg": 0,
+        "modifications": "쇼케이스 외곽선 제거, 화덕 3개·진열 상자 8개·2층 침실 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_warehouse",
+        "role": "마을 창고·보급 상점 (보조 NPC: 협합)",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Store 2 / Warehouse",
+        "filename": "Medieval Map Pack/tmp_store2.schematic",
+        "extract_coords": "지상부 Y=13..30 자동 여백 트림",
+        "size_whl": [
+          19,
+          18,
+          18
+        ],
+        "place_coords": [
+          44,
+          67,
+          5
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 과잉 암반(Y=0..12) 트림 및 지면 정렬, 원본 상점 매대·다락 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_specialty_shop",
+        "role": "북동쪽 마법·서적 전문 상점",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Enchanter Store",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:164..182, Y:8..27, Z:-180..-161",
+        "size_whl": [
+          19,
+          20,
+          20
+        ],
+        "place_coords": [
+          23,
+          67,
+          -43
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 다중 박공 지붕, 책장 49개, 상자 24개, 랜턴 17개 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_resident_houses",
+        "role": "서쪽 골목 일반 주민 주택 1",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Small House 2",
+        "filename": "Medieval Map Pack/tmp_smallhouse2.schematic",
+        "extract_coords": "지상부 Y=11..32 자동 여백 트림",
+        "size_whl": [
+          19,
+          22,
+          17
+        ],
+        "place_coords": [
+          -68,
+          67,
+          -19
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 암반 트림 및 지면 정렬, 구형 버튼·압력판·사다리·침대 100% 변환 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_resident_house2",
+        "role": "북서쪽 골목 일반 주민 주택 2",
+        "pack_name": "Medieval Town Map Pack (4순위)",
+        "creator": "Gazamo",
+        "original_name": "Medium House 1",
+        "filename": "Medieval Map Pack/tmp_mediumhouse1.schematic",
+        "extract_coords": "지상부 Y=16..39 자동 여백 트림",
+        "size_whl": [
+          31,
+          24,
+          24
+        ],
+        "place_coords": [
+          -79,
+          67,
+          -47
+        ],
+        "rotation_deg": 0,
+        "modifications": "지하 암반 트림 및 지면 정렬, 원본 책장 64개·침대 4개·상자 8개 보존",
+        "license_status": "공개 배포 가능 (Gazamo 완전 자유 허락)"
+      },
+      {
+        "slot_id": "brion_v7_training_grounds",
+        "role": "북문 경비탑·기초 수련소 (보조 NPC: 스키)",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Watchtower",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:124..136, Y:8..40, Z:-228..-216",
+        "size_whl": [
+          13,
+          33,
+          13
+        ],
+        "place_coords": [
+          24,
+          67,
+          -64
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 33블록 석조·목조 경비탑 무수정 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      },
+      {
+        "slot_id": "brion_v7_barn_stable",
+        "role": "농장 외양간·건초 헛간",
+        "pack_name": "17 Medieval Builds (1순위)",
+        "creator": "JayLythical",
+        "original_name": "Barn Or Stable",
+        "filename": "17MedievalBuildingsByJayLythical.rar (region/r.0.-1.mca)",
+        "extract_coords": "X:205..223, Y:8..20, Z:-158..-142",
+        "size_whl": [
+          19,
+          13,
+          17
+        ],
+        "place_coords": [
+          28,
+          67,
+          46
+        ],
+        "rotation_deg": 0,
+        "modifications": "원본 통 14개·상자 3개·랜턴 11개 보존",
+        "license_status": "공개 배포 가능 (JayLythical 출처 표기 시 프로젝트 사용 허락)"
+      }
+    ]
+  }
+}

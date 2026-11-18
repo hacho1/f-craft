@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": false,
+  "starting_points": 1,
+  "exclusive_root": false,
+  "title": "연금술사 (Alchemist)",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "background": "f_rank_days:textures/gui/v8_2/skill_bg_alchemist.png"
+}

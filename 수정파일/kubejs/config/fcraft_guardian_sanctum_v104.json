@@ -1,0 +1,12 @@
+{
+  "version": "10.4",
+  "enabled": true,
+  "approvedVoidDimension": true,
+  "dimension": "f_rank_days:guardian_sanctum",
+  "worldGate": {
+    "layoutVersion": "9.7",
+    "markerKey": "fcraft_world_v9_validated",
+    "markerValue": "fcraft_v9_medieval_town_verified_01"
+  },
+  "batchSize": 128
+}

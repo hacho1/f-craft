@@ -1,0 +1,44 @@
+{
+  "farmer_node_1_basic": {
+    "x": 0,
+    "y": -144,
+    "definition": "basic_cultivation",
+    "root": true
+  },
+  "farmer_node_2_soil": {
+    "x": 0,
+    "y": -96,
+    "definition": "soil_management",
+    "root": false
+  },
+  "farmer_node_3_research": {
+    "x": 0,
+    "y": -48,
+    "definition": "crop_research",
+    "root": false
+  },
+  "farmer_node_4_advanced": {
+    "x": 0,
+    "y": 0,
+    "definition": "advanced_cultivation",
+    "root": false
+  },
+  "farmer_node_5_expert": {
+    "x": 0,
+    "y": 48,
+    "definition": "agricultural_expert",
+    "root": false
+  },
+  "farmer_node_6": {
+    "x": 0,
+    "y": 96,
+    "definition": "farmer_passive_6",
+    "root": false
+  },
+  "farmer_node_7": {
+    "x": 0,
+    "y": 144,
+    "definition": "farmer_passive_7",
+    "root": false
+  }
+}

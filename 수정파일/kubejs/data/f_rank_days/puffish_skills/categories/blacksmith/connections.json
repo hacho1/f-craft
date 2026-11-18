@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "blacksmith_node_1",
+        "blacksmith_node_2"
+      ],
+      [
+        "blacksmith_node_2",
+        "blacksmith_node_3"
+      ],
+      [
+        "blacksmith_node_3",
+        "blacksmith_node_4"
+      ],
+      [
+        "blacksmith_node_4",
+        "blacksmith_node_5"
+      ],
+      [
+        "blacksmith_node_5",
+        "blacksmith_node_6"
+      ],
+      [
+        "blacksmith_node_6",
+        "blacksmith_node_7"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": []
+  }
+}
